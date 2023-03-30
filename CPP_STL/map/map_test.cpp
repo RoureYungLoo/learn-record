@@ -4,7 +4,7 @@
  * @Author: luruoyang
  * @Date: 2023-03-28 21:31:30
  * @LastEditors: luruoyang
- * @LastEditTime: 2023-03-28 23:04:32
+ * @LastEditTime: 2023-03-29 17:40:44
  */
 #include <iostream>
 #include <map>
@@ -94,11 +94,83 @@ int main(int argc, char const *argv[]) {
   printIterator(it);
 
   auto pair1 = map07.equal_range("key_c");  // 返回一个pair对象，2个双向迭代器
-  std::pair<std::map<std::string,int>::iterator,std::map<std::string,int>::iterator> pair2=map07.equal_range("key_c");//返回一个pair对象，2个双向迭代器
+  std::pair<std::map<std::string, int>::iterator,
+            std::map<std::string, int>::iterator>
+      pair2 = map07.equal_range("key_c");  // 返回一个pair对象，2个双向迭代器
   printIterator(pair2.first);
   printIterator(pair2.second);
-  
+
+  if (map01.empty()) {
+    std::cout << "map empty\n";
+  } else {
+    std::cout << "map not empty\n";
+  }
+
+  map02.swap(map03);
+  map03.swap(map02);
+  print(map02);
+  print(map03);
   // map members [End]
+  std::cout << map07.size() << ", " << map07.max_size() << "\n";
+  std::cout << map07.count("key_x") << "\n";
+
+  map07["key_b"] = 128;
+  std::cout << map07["key_b"] << "\n";
+  std::cout << map07.at("key_b") << "\n";
+
+  map02.emplace(std::make_pair("key_start", 129));
+  print(map02);
+  map02.emplace_hint(map02.begin(), std::make_pair("key111", 111));
+  print(map02);
+
+  // map02.clear();
+  print(map02);
+  std::cout << "====================insert===============\n";
+  // map insert
+  // 1. map[newKey]=newValue
+
+  // 2. map.insert()
+  std::pair<std::string, int> pair3 = {"keyxxx", 100};
+  std::pair<std::map<std::string, int>::iterator, bool> ret1, ret2;
+  ret1 = map01.insert(pair3);  // 引用传参，返回一个pair对象
+  std::cout << ret1.first->first << ": " << ret1.first->second << "\n";
+  std::cout << ret1.second << "\n";
+  //
+  std::pair<std::string, int> pair4 = {"keyxxx", 200};
+  ret2 = map01.insert(
+      pair4);  // 引用传参，返回一个pair对象<map::iterator,bool>,插入失败时返回的pair对象中的迭代器指向已有key的键值对对象,bool为0
+  map01.insert({"key1", 1});
+  map01.insert(std::pair<std::string, int>{"key2", 2});
+  map01.insert(std::make_pair("key3", 3));
+
+  std::cout << ret2.first->first << ": " << ret2.first->second << "\n";
+  std::cout << ret2.second << "\n";
+
+  std::pair<std::string, int> pair5 = {"key4", 300};
+  map01.insert(map01.cbegin(), pair5);
+  map01.insert(map01.cend(), std::pair<std::string, int>("key21", 21));
+  map01.insert(map03.cbegin(), map03.cend());
+
+  map01.insert({{"a", 1}, {"b", 2}, {"c", 3}});
+  print(map01);
+  // erase
+  std::cout << "====================erase===============\n";
+
+  // get the value of a key
+  // 1. map[key]
+  std::cout << map07["key_a"] << std::endl;
+  // 2. map.at(key)
+  std::cout << map07.at("key_a") << std::endl;
+  // 3. map.find(key)
+  std::cout << map07.find("key_a")->first << ": " << map07.find("key_a")->second
+            << std::endl;
+
+  // 4. traverse your map
+  for (auto pair : map03) {
+    if (!pair.first.compare("key202")) {
+      std::cout << pair.second << std::endl;
+    }
+  }
 
   return 0;
 }

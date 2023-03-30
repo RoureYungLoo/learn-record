@@ -1,12 +1,12 @@
 #!/bin/bash
 ###
- # @Description: Description
- # @Version: 1.0
- # @Author: luruoyang
- # @Date: 2023-03-28 08:27:33
- # @LastEditors: luruoyang
- # @LastEditTime: 2023-03-28 08:47:34
-### 
+# @Description: Description
+# @Version: 1.0
+# @Author: luruoyang
+# @Date: 2023-03-28 08:27:33
+# @LastEditors: luruoyang
+# @LastEditTime: 2023-03-29 00:24:35
+###
 # -d 目录是否存在
 # -e 文件（）是否存在
 # -f 文件（）是否存在
@@ -21,18 +21,15 @@
 
 jump_dir=/home/ruoyang
 file=code.desktop
-if [ -e $jump_dir ]
-then
+if [ -e $jump_dir ]; then
     echo "The dir $jump_dir exists."
-    if [ -e $jump_dir ]
-    then
+    if [ -e $jump_dir ]; then
         echo "the file $jump_dir  exists."
-        if [ -e $file ]
-        then
+        if [ -e $file ]; then
             echo "the file $file exists."
         else
             echo "the file $file does not exist."
-            ls  -al $jump_dir/$file
+            ls -al $jump_dir/$file
         fi
     else
         echo "The file $jump_dir does not exists"

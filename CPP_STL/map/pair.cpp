@@ -4,7 +4,7 @@
  * @Author: luruoyang
  * @Date: 2023-03-27 15:21:59
  * @LastEditors: luruoyang
- * @LastEditTime: 2023-03-27 15:40:46
+ * @LastEditTime: 2023-03-29 17:42:20
  */
 #include <iostream>
 #include <string>
@@ -12,7 +12,8 @@
 int main(int argc, char const *argv[]) {
   /* code */
 
-  std::pair<std::string, double> pair1;
+  std::pair<std::string, double> pair0;
+  std::pair<std::string, double> pair1{"key",12.34};
   std::pair<std::string, std::string> pair2("keyone", "value one");
   std::pair<std::string, std::string> pair2_copy(pair2);
   std::pair<std::string, std::string> pair3(std::make_pair("key3", "value3"));
