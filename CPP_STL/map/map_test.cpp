@@ -4,7 +4,7 @@
  * @Author: luruoyang
  * @Date: 2023-03-28 21:31:30
  * @LastEditors: luruoyang
- * @LastEditTime: 2023-03-29 17:40:44
+ * @LastEditTime: 2023-04-12 21:56:08
  */
 #include <iostream>
 #include <map>
@@ -152,10 +152,27 @@ int main(int argc, char const *argv[]) {
   map01.insert(map03.cbegin(), map03.cend());
 
   map01.insert({{"a", 1}, {"b", 2}, {"c", 3}});
+
+  //3. map.emplace()
+  std::pair<std::map<std::string,int>::iterator,bool>ret3;
+  ret3 = map01.emplace("b",2);
+  printIterator(ret3.first);
+  std::cout<<ret3.second<<std::endl;
+  
+  //4. map.emplace_hint()
+  std::map<std::string ,int >::iterator ret4;
+  ret4=map01.emplace_hint(map01.begin(),"d",4);
+  printIterator(ret4);
+
   print(map01);
   // erase
   std::cout << "====================erase===============\n";
+  map01.erase(map01.cbegin());
+  map01.erase("key301");
+  map01.erase(map01.begin(),map01.end());
 
+  print(map01);
+  std::cout << "====================get value===============\n";
   // get the value of a key
   // 1. map[key]
   std::cout << map07["key_a"] << std::endl;
