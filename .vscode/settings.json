@@ -59,5 +59,6 @@
         "stdio.h": "c",
         "condition_variable": "cpp",
         "mutex": "cpp"
-    }
+    },
+    "C_Cpp.default.compilerPath": ""
 }
