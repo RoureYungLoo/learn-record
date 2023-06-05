@@ -24,10 +24,10 @@ set(CMAKE_CXX_STANDARD 17)
 # 方式二：cmake .. -DCMAKE_CXX_STANDARD=11 -DCMAKE_CXX_STANDARD=14 -DCMAKE_CXX_STANDARD=17
 
 # 指定可执行文件输出路径，路径不存在则自动创建
-# set(EXECUTABLE_OUTPUT_PATH /home/ruoyang/output)
+set(EXECUTABLE_OUTPUT_PATH /home/ruoyang/output)
 
 # 指定库文件输出路径，路径不存在则自动创建
-set(LIBRARY_OUTPUT_PATH /home/ruoyang/lib)
+# set(LIBRARY_OUTPUT_PATH /home/ruoyang/lib)
 
 # 包含头文件
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
@@ -35,7 +35,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 # 搜索源文件
 # aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
 
-file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
+file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 
 # 输出文件
 # add_executable(calculator add.cpp div.cpp multi.cpp sub.cpp main.cpp)
@@ -43,12 +43,20 @@ file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 # add_executable(calculator ${SRC_LIST})
 
 # 制作动态库
-add_library(cal SHARED ${SRC_LIST})
+# add_library(cal SHARED ${SRC_LIST})
 
 # 制作静态库
-add_library(calc STATIC ${SRC_LIST})
+# add_library(calc STATIC ${SRC_LIST})
 
 
+# 指定库文件路径
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/liba)
+
+# 链接静态库
+link_libraries(calc)
+
+# 输出可执行文件
+add_executable(calculator ${SRC_LIST})
 
 
 #[[ 搜索文件
@@ -73,8 +81,20 @@ libxxx.so linux动态库
 libxxx.dll windows动态库
 libxxx.lib windows静态库
 libxxx.a linux静态库
+
+tips: 静态库文件会被打包到可执行文件中，而动态库则不会被打包到可执行文件中
+
 ]]
 
 #[[ 指定库文件输出路径
   set(LIBRARY_OUTPUT_PATH 你的路径)
+]]
+
+#[[ 指定库文件路径
+  link_directories(库文件路径)
+]]
+
+#[[ 链接静态库
+  link_libraries(<xxx1> <xxx2> ...)
+
 ]]
