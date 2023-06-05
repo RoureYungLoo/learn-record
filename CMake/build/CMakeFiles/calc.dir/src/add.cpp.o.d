@@ -1,5 +1,5 @@
-CMakeFiles/calculator.dir/src/div.cpp.o: \
- /home/ruoyang/document/github/programming-exercise-record/CMake/src/div.cpp \
+CMakeFiles/calc.dir/src/add.cpp.o: \
+ /home/ruoyang/document/github/programming-exercise-record/CMake/src/add.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/ruoyang/lib/libcalc.a CMakeFiles/calc.dir/src/add.cpp.o CMakeFiles/calc.dir/src/div.cpp.o CMakeFiles/calc.dir/src/multi.cpp.o CMakeFiles/calc.dir/src/sub.cpp.o
+/usr/bin/ranlib /home/ruoyang/lib/libcalc.a
