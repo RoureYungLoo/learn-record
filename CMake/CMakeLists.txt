@@ -50,14 +50,16 @@ file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 
 
 # 指定库文件路径
-link_directories(${CMAKE_CURRENT_SOURCE_DIR}/liba)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/libso)
 
 # 链接静态库
-link_libraries(calc)
+# link_libraries(calc)
 
 # 输出可执行文件
 add_executable(calculator ${SRC_LIST})
 
+# 链接动态库 (一般放在CMakeLists.txt文件的最后)
+target_link_libraries(calculator cal)
 
 #[[ 搜索文件
 aux_source_directory(路径 变量)
@@ -97,4 +99,15 @@ tips: 静态库文件会被打包到可执行文件中，而动态库则不会�
 #[[ 链接静态库
   link_libraries(<xxx1> <xxx2> ...)
 
+]]
+
+#[[ 链接动态库
+  target_link_libraries(target xxx1 xxx2 ...)
+
+  target_link_libraries(target
+    PRIVATE/PUBLIC/INTERFACE XXX1
+    PRIVATE/PUBLIC/INTERFACE XXX2
+    ...
+  )
+  传递性：PUBLIC > PRIVATE > INTERFACE
 ]]
