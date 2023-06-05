@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -shared -Wl,-soname,libcal.so -o /home/ruoyang/lib/libcal.so CMakeFiles/cal.dir/src/add.cpp.o CMakeFiles/cal.dir/src/div.cpp.o CMakeFiles/cal.dir/src/multi.cpp.o CMakeFiles/cal.dir/src/sub.cpp.o 

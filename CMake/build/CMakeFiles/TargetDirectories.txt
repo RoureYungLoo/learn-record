@@ -1,4 +1,0 @@
-/home/ruoyang/document/github/programming-exercise-record/CMake/build/CMakeFiles/cal.dir
-/home/ruoyang/document/github/programming-exercise-record/CMake/build/CMakeFiles/calc.dir
-/home/ruoyang/document/github/programming-exercise-record/CMake/build/CMakeFiles/edit_cache.dir
-/home/ruoyang/document/github/programming-exercise-record/CMake/build/CMakeFiles/rebuild_cache.dir
