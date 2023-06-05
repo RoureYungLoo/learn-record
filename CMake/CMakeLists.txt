@@ -61,6 +61,18 @@ add_executable(calculator ${SRC_LIST})
 # 链接动态库 (一般放在CMakeLists.txt文件的最后)
 target_link_libraries(calculator cal)
 
+message("日记级别为空代表重要消息")
+
+message(STATUS "STATUS, 非重要消息")
+
+message(WARNING "WARNING CMake告警，继续执行")
+
+message(AUTHOR_WARNING "CMake告警(dev)，继续执行")
+
+message(SEND_ERROR "CMake错误，继续执行，跳过生成步骤")
+
+message(FATAL_ERROR "CMake错误，终止所有处理过程")
+
 #[[ 搜索文件
 aux_source_directory(路径 变量)
 
@@ -110,4 +122,13 @@ tips: 静态库文件会被打包到可执行文件中，而动态库则不会�
     ...
   )
   传递性：PUBLIC > PRIVATE > INTERFACE
+]]
+
+#[[ 日志
+  message(日志级别 "日志内容")
+  STATUS,
+  WARNING,
+  AUTHOR_WARNING,
+  SEND_ERROR,
+  FATAL_ERROR,
 ]]
