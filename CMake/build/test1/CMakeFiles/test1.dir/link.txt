@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test1.dir/calc.cpp.o -o ../../bin/test1   -L/home/ruoyang/document/github/programming-exercise-record/CMake/lib/liba  -Wl,-rpath,/home/ruoyang/document/github/programming-exercise-record/CMake/lib/liba ../../lib/liba/libcalc.a 
