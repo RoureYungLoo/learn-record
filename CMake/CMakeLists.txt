@@ -5,6 +5,7 @@ project(my_project)
 
 # 生成库的路径
 set(LIB_A_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lib/liba)
+set(LIB_SO_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lib/libso)
 
 # 生成可执行文件路径
 set(EXEC_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin)

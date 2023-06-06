@@ -9,7 +9,7 @@ aux_source_directory(./ SRC_TEST2)
 # 头文件
 include_directories(${HEADER_PATH})
 
-# 从哪里找静态库文件
+# 从哪个目录找静态库文件
 link_directories(${LIB_A_PATH})
 
 # 链接哪个静态库文件

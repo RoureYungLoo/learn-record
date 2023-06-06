@@ -9,8 +9,8 @@ aux_source_directory(./ SRC_CAL)
 # 头文件
 include_directories(${HEADER_PATH})
 
-# 静态库生成的路径
-set(LIBRARY_OUTPUT_PATH ${LIB_A_PATH})
+# 动态库生成的路径
+set(LIBRARY_OUTPUT_PATH ${LIB_SO_PATH})
 
-# 生成静态库
-add_library(${LIB_CALC} STATIC ${SRC_CAL})
+# 生成动态库
+add_library(${LIB_CALC} SHARED ${SRC_CAL})
