@@ -2,12 +2,12 @@
  * @Description: Description
  * @Version: 1.0
  * @Author: luruoyang
- * @Date: 2023-06-05 17:12:23
+ * @Date: 2023-06-06 10:01:55
  * @LastEditors: luruoyang
- * @LastEditTime: 2023-06-05 18:23:32
+ * @LastEditTime: 2023-06-06 10:22:08
  */
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef CALC_H
+#define CALC_H
 #endif
 
 double my_add(double a, double b);

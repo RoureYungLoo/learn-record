@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test2.dir/sort.cpp.o -o ../../bin/test2   -L/home/ruoyang/document/github/programming-exercise-record/CMake/lib/liba  -Wl,-rpath,/home/ruoyang/document/github/programming-exercise-record/CMake/lib/liba ../../lib/liba/libsort.a 
