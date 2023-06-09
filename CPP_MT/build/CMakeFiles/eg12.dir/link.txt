@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/eg12.dir/eg12.cpp.o -o eg12 
