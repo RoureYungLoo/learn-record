@@ -1,6 +1,7 @@
 {
     "cmake.sourceDirectory": "/home/ruoyang/document/github/programming-exercise-record/CMake",
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "*.in": "cpp"
     }
 }

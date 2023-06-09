@@ -1,0 +1,4 @@
+/home/ruoyang/installdir/lib/libMathFunctions.a
+/home/ruoyang/installdir/include/MathFunctions.h
+/home/ruoyang/installdir/bin/Tutorial
+/home/ruoyang/installdir/include/TutorialConfig.h
