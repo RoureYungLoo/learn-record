@@ -10,12 +10,28 @@ target_include_directories(MathFunctions
 target_link_libraries(MathFunctions tutorial_compiler_flags)
 
 # TODO 1: Include CheckCXXSourceCompiles
-
+include(CheckCXXSourceCompiles)
+check_cxx_source_compiles("
+#include <cmath>
+int main() {
+  std::log(1.0);
+  return 0;
+ }
+" HAVE_LOG)
+check_cxx_source_complies("
+#include <cmath>
+int main() {
+  std::exp(1.0);
+  return 0;
+}
+" HAVE_EXP)
 # TODO 2: Use check_cxx_source_compiles with simple C++ code to verify
 # availability of:
 # * std::log
 # * std::exp
 # Store the results in HAVE_LOG and HAVE_EXP respectively.
+
+
 
 # Hint: Sample C++ code which uses log:
 # #include <cmath>
@@ -27,7 +43,17 @@ target_link_libraries(MathFunctions tutorial_compiler_flags)
 # TODO 3: Conditionally on HAVE_LOG and HAVE_EXP, add private compile
 # definitions "HAVE_LOG" and "HAVE_EXP" to the MathFunctions target.
 
+if(HAVE_LOG AND HAVE_EXP)
+target_compile_definitions(
+    SqrtLibrary 
+    PRIVATE "HAVE_LOG" "HAVE_EXP"
+)
+target_link_libraries(MathFunctions PRIVATE SqrtLibrary)
+endif()
+
+
 #Hint: Use target_compile_definitions()
+
 
 # install libs
 set(installable_libs MathFunctions tutorial_compiler_flags)
