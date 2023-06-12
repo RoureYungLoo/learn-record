@@ -15,7 +15,7 @@ const int THREAD_POOL_SIZE = 4;
 
 std::mutex mtx;
 
-void handleEvent(int clientSocket) {
+void processEvent(int clientSocket) {//
   char buffer[BUFFER_SIZE];
 
   // 处理连接的事件
@@ -38,7 +38,7 @@ void handleEvent(int clientSocket) {
   close(clientSocket);
 }
 
-void workerThread(int epollFd) {
+void handlerThread(int epollFd) {
   epoll_event events[MAX_EVENTS];
 
   while (true) {
@@ -50,7 +50,7 @@ void workerThread(int epollFd) {
 
     for (int i = 0; i < readyFdCount; ++i) {
       int fd = events[i].data.fd;
-      handleEvent(fd);
+      processEvent(fd);
     }
   }
 }
@@ -106,7 +106,7 @@ int main() {
   // 创建线程池
   std::vector<std::thread> threadPool;
   for (int i = 0; i < THREAD_POOL_SIZE; ++i) {
-    threadPool.emplace_back(workerThread, epollFd);
+    threadPool.emplace_back(handlerThread, epollFd);
   }
 
   epoll_event events[MAX_EVENTS];

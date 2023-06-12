@@ -1,11 +1,3 @@
-/*
- * @Description: Description
- * @Version: 1.0
- * @Author: luruoyang
- * @Date: 2023-06-09 10:40:37
- * @LastEditors: luruoyang
- * @LastEditTime: 2023-06-09 13:16:52
- */
 
 #include <arpa/inet.h>
 #include <stdio.h>
@@ -38,7 +30,6 @@ int main(int argc, char const *argv[]) {
     perror("socket error");
     exit(-1);
   }
-
 
   if (bind(srv_fd, (struct sockaddr *)&srv_addr, sizeof(srv_addr)) < 0) {
     perror("bind error");
@@ -79,11 +70,11 @@ int main(int argc, char const *argv[]) {
           exit(-1);
         }
 
-        ev.events = EPOLLIN;
+        ev.events = EPOLLIN ||EPOLL;
         ev.data.fd = clnt_fd;
         if (epoll_ctl(epfd, EPOLL_CTL_ADD, clnt_fd, &ev) < 0) {
           perror("epoll_ctl:clnt_fd register failed");
-          exit(EXIT_FAILURE);
+          exit(-1);
         }
 
         printf("client %s has connected.\n", inet_ntoa(clnt_addr.sin_addr));
