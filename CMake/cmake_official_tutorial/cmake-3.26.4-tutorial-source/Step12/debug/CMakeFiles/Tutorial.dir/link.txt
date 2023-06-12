@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Tutorial.dir/tutorial.cxx.o -o Tutoriald  -Wl,-rpath,/home/ruoyang/document/github/programming-exercise-record/CMake/cmake_official_tutorial/cmake-3.26.4-tutorial-source/Step12/debug: libMathFunctionsd.so.1.0.0 
