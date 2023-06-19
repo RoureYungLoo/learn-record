@@ -1,0 +1,6 @@
+ls: cannot access 'badtest': No such file or directory
+-rw-rw-r-- 1 ruoyang ruoyang  55 Jun 19 14:19 test3
+-rw-rw-r-- 1 ruoyang ruoyang 108 Jun 19 14:21 test5
+-rw-rw-r-- 1 ruoyang ruoyang 108 Jun 19 14:22 test6
+-rw-rw-r-- 1 ruoyang ruoyang   0 Jun 19 14:24 test7
+-rw-rw-r-- 1 ruoyang ruoyang 385 Jun 19 14:15 testfile
