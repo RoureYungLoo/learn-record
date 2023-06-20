@@ -1,0 +1,9 @@
+#!/bin/bash
+tmpfile=$(mktemp -t test20.XXXXXX)
+
+echo "This is a test file." >$tmpfile
+echo "This is the second line of the test." >>$tmpfile
+echo "The temp file is located at: $tmpfile" >>$tmpfile
+
+cat $tmpfile
+# rm -rf $tmpfile 2>/dev/null

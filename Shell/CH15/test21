@@ -1,0 +1,12 @@
+#!/bin/bash
+tmpdir=$(mktemp -d -t dir.XXXXXX)
+cd $tmpdir
+tmpfile1=$(mktemp tmp.XXXXXX)
+tmpfile2=$(mktemp tmp.XXXXXX)
+
+exec 7>$tmpfile1
+exec 8>$tmpfile2
+
+echo "Sending data to directory $tmpdir"
+echo "This is a test line of data for $tmpfile1" >&7
+echo "This is a test line of data for $tmpfile2" >&8

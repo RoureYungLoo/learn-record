@@ -1,0 +1,6 @@
+#!/bin/bash
+tmpfile=test22file
+
+echo "This is the start of the test" | tee $tmpfile
+echo "This is the second line of the test" | tee -a $tmpfile
+echo "This is the end of the test" | tee -a $tmpfile

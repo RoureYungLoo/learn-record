@@ -1,7 +1,32 @@
 #!/usr/local/bin/lua
 
----[[ table
+---[[ 
+function testFunc(tab,func)
+for k,v in pairs(tab) do
+	print(func(k,v));
+end
+end
+tbl={key1="val1",key2="val2"};
 
+testFunc(tbl,function(k,v)
+return k.."="..v;
+end);
+--]]
+
+--[[function
+function func1(n)
+if n==0 then
+	return 1
+else
+	return n*func1(n-1)
+end
+end
+print(func1(5))
+func2=func1
+print(func2(5))
+--]]
+
+--[[ table
 local tbl1={}
 local tbl2={"apple","pear","orange","grape"}
 for k,v in pairs(tbl2) do
@@ -19,9 +44,6 @@ taba[key]=taba[key]+11
 for k,v in pairs(taba) do
 	print(k .. ":" .. v)
 end
-
-
-
 --]]
 
 --[[ string
