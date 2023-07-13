@@ -81,9 +81,19 @@ end
 -- print(errno)
 -- assert(io.open("/12.txt","r"))
 
-local f=assert(io.open("/etc/passwd","r"))
-local t=f:read("L")
-f:close()
-print(t)
-io.stderr:write(t)
+-- local f=assert(io.open("/etc/passwd","r"))
+-- local t=f:read("L")
+-- f:close()
+-- print(t)
+-- io.stderr:write(t)
+
+local temp=io.input()
+io.input("/etc/passwd")
+print(io.read("L"))
+io.input():close()
+io.input(temp)
+-- ]]
+
+---[[
+
 -- ]]
