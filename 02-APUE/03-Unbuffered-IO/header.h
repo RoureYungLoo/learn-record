@@ -5,5 +5,4 @@
 #include <fcntl.h>
 #include "apue.h"
 #include <unistd.h>
-#include <errno.h>
 #endif
