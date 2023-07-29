@@ -100,3 +100,32 @@ print(new_counter()())  --> 1
 -- 一个闭包就是【一个函数】外加能够使该函数正确【访问非局部变量】所需
 -- 的其他【机制】
 -- ]]
+---[[ 重新定义函数
+do
+    local old_sin=math.sin
+    local k=math.pi/180
+    math.sin=function(x)
+        return old_sin(x*k)
+end
+end
+
+do
+    local old_open=io.open
+    local access_OK=function(filename,mode)
+        -- check access
+    end
+    io.open =function (filename,mode)
+        if access_OK(filename,mode) then
+            return old_open(filename,mode)
+        else
+            return nil,"access denied"
+        end
+    end
+end
+
+function disk(x,y)
+    return (x-1.0)^2+(y-3.0)^2<=4.5^2
+end
+print(disk())
+
+-- ]]
