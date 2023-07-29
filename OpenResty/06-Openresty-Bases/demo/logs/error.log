@@ -1,0 +1,25 @@
+2023/07/29 06:12:21 [alert] 16402#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/06-Openresty-Bases/demo/conf/nginx.conf:21
+2023/07/29 06:12:21 [notice] 16402#0: signal process started
+2023/07/29 06:12:26 [alert] 16416#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/06-Openresty-Bases/demo/conf/nginx.conf:21
+2023/07/29 06:12:26 [notice] 16416#0: using the "epoll" event method
+2023/07/29 06:12:26 [notice] 16416#0: openresty/1.21.4.2
+2023/07/29 06:12:26 [notice] 16416#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2023/07/29 06:12:26 [notice] 16416#0: OS: Linux 3.10.0-1160.71.1.el7.x86_64
+2023/07/29 06:12:26 [notice] 16416#0: getrlimit(RLIMIT_NOFILE): 4096:4096
+2023/07/29 06:12:26 [notice] 16417#0: start worker processes
+2023/07/29 06:12:26 [notice] 16417#0: start worker process 16418
+2023/07/29 06:12:39 [info] 16418#0: *1 [lua] hi.lua:12: 日志级别 INFO, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:81"
+2023/07/29 06:12:39 [notice] 16418#0: *1 [lua] hi.lua:13: 日志级别 NOTICE, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:81"
+2023/07/29 06:12:39 [info] 16418#0: *1 client 127.0.0.1 closed keepalive connection
+2023/07/29 06:14:01 [alert] 16472#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/06-Openresty-Bases/demo/conf/nginx.conf:23
+2023/07/29 06:14:01 [notice] 16472#0: signal process started
+2023/07/29 06:14:01 [notice] 16417#0: signal 15 (SIGTERM) received from 16472, exiting
+2023/07/29 06:14:01 [notice] 16418#0: exiting
+2023/07/29 06:14:01 [notice] 16418#0: exit
+2023/07/29 06:14:01 [notice] 16417#0: signal 17 (SIGCHLD) received from 16418
+2023/07/29 06:14:01 [notice] 16417#0: worker process 16418 exited with code 0
+2023/07/29 06:14:01 [notice] 16417#0: exit
+2023/07/29 06:14:06 [alert] 16492#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/06-Openresty-Bases/demo/conf/nginx.conf:23
+2023/07/29 06:17:02 [alert] 16616#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 06:17:02 [notice] 16616#0: signal process started
+2023/07/29 06:17:06 [alert] 16627#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/06-Openresty-Bases/demo/conf/nginx.conf:26

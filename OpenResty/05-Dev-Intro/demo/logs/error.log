@@ -1,0 +1,57 @@
+2023/07/29 04:51:54 [emerg] 13410#0: the closing bracket in "logs" variable is missing in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:14
+2023/07/29 04:52:23 [alert] 13427#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:15
+2023/07/29 04:52:23 [emerg] 13427#0: unexpected ";" in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 04:52:34 [alert] 13458#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:15
+2023/07/29 04:54:54 [alert] 13565#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:16
+2023/07/29 04:54:54 [notice] 13565#0: signal process started
+2023/07/29 04:54:58 [alert] 13579#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:16
+2023/07/29 05:38:02 [alert] 14656#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:38:02 [emerg] 14656#0: invalid number of arguments in "set_by_lua_file" directive in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:23
+2023/07/29 05:38:09 [alert] 14674#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:38:09 [emerg] 14674#0: invalid number of arguments in "set_by_lua_file" directive in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:23
+2023/07/29 05:38:56 [alert] 14697#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:38:56 [emerg] 14697#0: invalid number of arguments in "set_by_lua" directive in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:24
+2023/07/29 05:45:05 [alert] 14783#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:45:05 [emerg] 14783#0: no ssl configured for the server
+2023/07/29 05:45:39 [alert] 14814#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:45:39 [error] 14814#0: [lua] init.lua:1: init
+2023/07/29 05:45:39 [emerg] 14814#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/07/29 05:45:39 [emerg] 14814#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/07/29 05:45:39 [emerg] 14814#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/07/29 05:45:39 [emerg] 14814#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/07/29 05:45:39 [emerg] 14814#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/07/29 05:45:45 [alert] 14831#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:45:45 [notice] 14831#0: signal process started
+2023/07/29 05:45:47 [alert] 14842#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:45:47 [notice] 14842#0: signal process started
+2023/07/29 05:45:47 [error] 14842#0: open() "/root/03-notes/openresty/05-Dev-Intro/demo/logs/nginx.pid" failed (2: No such file or directory)
+2023/07/29 05:45:49 [alert] 14864#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:45:49 [notice] 14864#0: signal process started
+2023/07/29 05:45:49 [error] 14864#0: open() "/root/03-notes/openresty/05-Dev-Intro/demo/logs/nginx.pid" failed (2: No such file or directory)
+2023/07/29 05:45:52 [alert] 14869#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:45:52 [error] 14869#0: [lua] init.lua:1: init
+2023/07/29 05:45:52 [error] 14871#0: *1 [lua] init_worker.lua:1: init_worker, context: init_worker_by_lua*
+2023/07/29 05:46:30 [error] 14871#0: [lua] init.lua:1: init
+2023/07/29 05:46:30 [error] 14871#0: *2 failed to load external Lua file "/root/03-notes/openresty/05-Dev-Intro/demo/service/rewrite/rewirte.lua": cannot open /root/03-notes/openresty/05-Dev-Intro/demo/service/rewrite/rewirte.lua: No such file or directory, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:46:30 [error] 14871#0: *2 [lua] filter.lua:1: body_filter, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:46:30 [error] 14871#0: *2 [lua] log.lua:1: log while logging request, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:47:30 [alert] 14966#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:47:30 [notice] 14966#0: signal process started
+2023/07/29 05:47:32 [alert] 14980#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:47:32 [notice] 14980#0: signal process started
+2023/07/29 05:47:32 [error] 14980#0: open() "/root/03-notes/openresty/05-Dev-Intro/demo/logs/nginx.pid" failed (2: No such file or directory)
+2023/07/29 05:47:37 [alert] 14991#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/05-Dev-Intro/demo/conf/nginx.conf:21
+2023/07/29 05:47:37 [error] 14991#0: [lua] init.lua:1: init
+2023/07/29 05:47:37 [error] 14993#0: *1 [lua] init_worker.lua:1: init_worker, context: init_worker_by_lua*
+2023/07/29 05:47:49 [error] 14993#0: [lua] init.lua:1: init
+2023/07/29 05:47:49 [error] 14993#0: *2 [lua] rewrite.lua:1: rewrite, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:47:49 [error] 14993#0: *2 [lua] access.lua:1: access, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:47:49 [error] 14993#0: *2 [lua] filter.lua:1: body_filter, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:47:49 [error] 14993#0: *2 [lua] filter.lua:1: body_filter, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:47:49 [error] 14993#0: *2 [lua] log.lua:1: log while logging request, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:53:53 [error] 14993#0: [lua] init.lua:1: init
+2023/07/29 05:53:53 [error] 14993#0: *3 [lua] rewrite.lua:1: rewrite, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:53:53 [error] 14993#0: *3 [lua] access.lua:1: access, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:53:53 [error] 14993#0: *3 [lua] filter.lua:1: body_filter, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:53:53 [error] 14993#0: *3 [lua] filter.lua:1: body_filter, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/07/29 05:53:53 [error] 14993#0: *3 [lua] log.lua:1: log while logging request, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1"
