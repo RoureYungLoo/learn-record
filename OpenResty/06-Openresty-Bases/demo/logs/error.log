@@ -23,3 +23,17 @@
 2023/07/29 06:17:02 [alert] 16616#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/06-Openresty-Bases/demo/conf/nginx.conf:26
 2023/07/29 06:17:02 [notice] 16616#0: signal process started
 2023/07/29 06:17:06 [alert] 16627#0: lua_code_cache is off; this will hurt performance in /root/03-notes/openresty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 21:16:47 [alert] 22914#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 21:17:56 [alert] 23137#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 21:17:56 [notice] 23137#0: signal process started
+2023/07/29 21:18:00 [alert] 23156#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 21:19:37 [alert] 23275#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 21:19:37 [notice] 23275#0: signal process started
+2023/07/29 21:19:40 [alert] 23303#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 22:37:53 [alert] 26681#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 22:37:53 [notice] 26681#0: signal process started
+2023/07/29 22:37:54 [alert] 26692#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 22:37:54 [notice] 26692#0: signal process started
+2023/07/29 22:37:54 [error] 26692#0: open() "/root/learn-record/OpenResty/06-Openresty-Bases/demo/logs/nginx.pid" failed (2: No such file or directory)
+2023/07/29 22:37:57 [alert] 26704#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
+2023/07/29 22:44:07 [alert] 26920#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/06-Openresty-Bases/demo/conf/nginx.conf:26
