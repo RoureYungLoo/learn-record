@@ -1948,3 +1948,15 @@ coroutine 0:
 2023/07/29 22:47:36 [error] 26706#0: *16 [lua] hi.lua:21: 日志级别 ERR, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:81"
 2023/07/29 22:47:36 [warn] 26706#0: *16 [lua] hi.lua:22: 日志级别 WARN, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:81"
 2023/07/29 22:47:36 [notice] 26706#0: *16 [lua] hi.lua:23: 日志级别 NOTICE, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:81"
+2023/07/30 09:21:59 [notice] 26706#0: signal 15 (SIGTERM) received from 1, exiting
+2023/07/30 09:21:59 [notice] 26706#0: exiting
+2023/07/30 09:21:59 [notice] 26705#0: signal 1 (SIGHUP) received from 1, reconfiguring
+2023/07/30 09:21:59 [notice] 26705#0: signal 15 (SIGTERM) received from 1, exiting
+2023/07/30 09:22:00 [notice] 26705#0: signal 14 (SIGALRM) received
+2023/07/30 09:22:00 [notice] 26705#0: signal 14 (SIGALRM) received
+2023/07/30 09:22:00 [notice] 26705#0: signal 14 (SIGALRM) received
+2023/07/30 09:22:01 [notice] 26705#0: signal 14 (SIGALRM) received
+2023/07/30 09:22:02 [notice] 26705#0: signal 14 (SIGALRM) received
+2023/07/30 09:22:02 [notice] 26705#0: signal 17 (SIGCHLD) received from 26706
+2023/07/30 09:22:02 [notice] 26705#0: worker process 26706 exited with code 0
+2023/07/30 09:22:02 [notice] 26705#0: exit
