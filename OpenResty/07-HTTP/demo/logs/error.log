@@ -1,0 +1,127 @@
+2023/08/04 10:08:53 [error] 6994#0: *7 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:08:53 [error] 6994#0: *7 [lua] access.lua:5: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:08:53 [error] 6994#0: *7 [lua] content.lua:14: xxx, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:08:53 [error] 6994#0: *7 [lua] content.lua:14: xxx, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:08:53 [error] 6994#0: *7 failed to run body_filter_by_lua*: .../learn-record/OpenResty/07-HTTP/demo/service/content.lua:15: API disabled in the context of body_filter_by_lua*
+stack traceback:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/core/exit.lua:60: in function 'exit'
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:15: in function <.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:7>
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:25: in main chunk, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:09:25 [error] 6994#0: *8 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:09:25 [error] 6994#0: *8 [lua] access.lua:5: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:09:25 [error] 6994#0: *8 [lua] content.lua:14: xxx, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:09:25 [error] 6994#0: *8 lua entry thread aborted: runtime error: .../learn-record/OpenResty/07-HTTP/demo/service/content.lua:17: number argument only
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/core/time.lua:150: in function 'http_time'
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:17: in function <.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:7>
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:25: in main chunk, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:09:25 [error] 6994#0: *8 [lua] content.lua:14: xxx, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:09:25 [error] 6994#0: *8 failed to run body_filter_by_lua*: .../learn-record/OpenResty/07-HTTP/demo/service/content.lua:17: number argument only
+stack traceback:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/core/time.lua:150: in function 'http_time'
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:17: in function <.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:7>
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:25: in main chunk, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:12:59 [alert] 8554#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/07-HTTP/demo/conf/nginx.conf:20
+2023/08/04 10:12:59 [notice] 8554#0: signal process started
+2023/08/04 10:13:02 [alert] 8564#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/07-HTTP/demo/conf/nginx.conf:20
+2023/08/04 10:13:22 [error] 8567#0: *1 [lua] rewrite.lua:13: ngx.var.arg_need_encode: nil, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:22 [error] 8567#0: *1 [lua] access.lua:5: 127.0.0.1, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:22 [error] 8567#0: *1 [lua] access.lua:7: 127.0.0.1 is blocked, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:37 [error] 8567#0: *2 [lua] rewrite.lua:13: ngx.var.arg_need_encode: nil, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:37 [error] 8567#0: *2 [lua] access.lua:6: 127.0.0.1, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:37 [error] 8567#0: *2 failed to run body_filter_by_lua*: .../learn-record/OpenResty/07-HTTP/demo/service/content.lua:4: API disabled in the context of body_filter_by_lua*
+stack traceback:
+	[C]: in function 'say'
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:4: in function <.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:1>
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:26: in main chunk, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:37 [error] 8567#0: *2 failed to run body_filter_by_lua*: .../learn-record/OpenResty/07-HTTP/demo/service/content.lua:4: API disabled in the context of body_filter_by_lua*
+stack traceback:
+	[C]: in function 'say'
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:4: in function <.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:1>
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:26: in main chunk, client: 127.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:57 [error] 8567#0: *3 [lua] rewrite.lua:13: ngx.var.arg_need_encode: nil, client: 127.0.0.1, server: *.*, request: "POST / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:57 [error] 8567#0: *3 [lua] access.lua:6: 127.0.0.1, client: 127.0.0.1, server: *.*, request: "POST / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:57 [error] 8567#0: *3 [lua] content.lua:11: data: 1516765407, client: 127.0.0.1, server: *.*, request: "POST / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:57 [error] 8567#0: *3 failed to run body_filter_by_lua*: .../learn-record/OpenResty/07-HTTP/demo/service/content.lua:8: API disabled in the context of body_filter_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:8: in function <.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:7>
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:26: in main chunk, client: 127.0.0.1, server: *.*, request: "POST / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:13:57 [error] 8567#0: *3 failed to run body_filter_by_lua*: .../learn-record/OpenResty/07-HTTP/demo/service/content.lua:8: API disabled in the context of body_filter_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:8: in function <.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:7>
+	.../learn-record/OpenResty/07-HTTP/demo/service/content.lua:26: in main chunk, client: 127.0.0.1, server: *.*, request: "POST / HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:14:29 [error] 8567#0: *5 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 127.0.0.1, server: *.*, request: "GET /?need_encode=1 HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:14:29 [error] 8567#0: *5 [lua] access.lua:6: 127.0.0.1, client: 127.0.0.1, server: *.*, request: "GET /?need_encode=1 HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:14:29 [error] 8567#0: *5 [lua] access.lua:6: 127.0.0.1, client: 127.0.0.1, server: *.*, request: "GET /?need_encode=1 HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:14:29 [error] 8567#0: *5 [lua] access.lua:6: 127.0.0.1, client: 127.0.0.1, server: *.*, request: "GET /?need_encode=1 HTTP/1.1", host: "127.0.0.1:83"
+2023/08/04 10:38:15 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:15 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:15 [error] 8567#0: *6 [lua] content.lua:11: data: 1516768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:15 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:15 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:18 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:18 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:18 [error] 8567#0: *6 [lua] content.lua:11: data: 1516768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:18 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:18 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:19 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:19 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:19 [error] 8567#0: *6 [lua] content.lua:11: data: 1516768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:19 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:19 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:20 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:20 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:20 [error] 8567#0: *6 [lua] content.lua:11: data: 1516768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:20 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:20 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:21 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:21 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:21 [error] 8567#0: *6 [lua] content.lua:11: data: 1516768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:21 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:21 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:22 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:22 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:22 [error] 8567#0: *6 [lua] content.lua:11: data: 1516768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:22 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:22 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:23 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:23 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:23 [error] 8567#0: *6 [lua] content.lua:11: data: 1516768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:23 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:23 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:26 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:26 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:26 [error] 8567#0: *6 [lua] content.lua:11: data: 1516768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:26 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:26 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:42 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:42 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:42 [error] 8567#0: *6 [lua] content.lua:11: data: 1518768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:42 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:42 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:43 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:43 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:43 [error] 8567#0: *6 [lua] content.lua:11: data: 1518768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:43 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:43 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:48 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:48 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:48 [error] 8567#0: *6 [lua] content.lua:11: data: 1718768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:48 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:48 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:53 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:53 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:53 [error] 8567#0: *6 [lua] content.lua:11: data: 1618768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:53 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:38:53 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:39:00 [error] 8567#0: *6 [lua] rewrite.lua:13: ngx.var.arg_need_encode: 1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:39:00 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:39:00 [error] 8567#0: *6 [lua] content.lua:11: data: 1688768407, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:39:00 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"
+2023/08/04 10:39:00 [error] 8567#0: *6 [lua] access.lua:6: 10.0.0.1, client: 10.0.0.1, server: *.*, request: "POST /?need_encode=1 HTTP/1.1", host: "10.0.0.3:83"

@@ -1,27 +1,59 @@
 local say=ngx.say
 local util=require'util'
---响应体
---发送响应体
-local data={'one','two','three'}
-for i, v in ipairs(data) do
-    ngx.print(v)
-    ngx.flush(true)
+
+--检测断连
+
+local function cleanup()
+    ngx.log(ngx.ERR,"客户端连接断开")
 end
+ngx.on_abort(cleanup)
+ngx.sleep(10)
+
+
+--流程控制
+-- ngx.redirect('https://www.baidu.com', ngx.HTTP_MOVED_TEMPORARILY)
+-- ngx.exec('/hi-control',{a='hi1',b='hi2'})
+-- ngx.exit(ngx.HTTP_BAD_REQUEST)
+
+-- -- 手动收发数据
+-- local sock,err= ngx.req.socket() --> nil
+-- assert(sock)
+-- local len=tonumber(ngx.var.http_content_length)
+-- local data=sock:receive(len)
+-- -- ngx.log(ngx.ERR,'手动读取len的数据',data)
+-- ngx.log(ngx.ERR,'len: ',len)
+
+-- ngx.header.content_lenth=len
+-- ngx.send_headers()
+-- ngx.flush(true)
+-- local sock,err= ngx.req.socket(true)
+-- sock:send(data)
+-- -- ngx.flush()
 
 
 
+-- --响应体
+-- --发送响应体
+-- local data={'one','two','three'}
+-- for i, v in ipairs(data) do
+--     ngx.print(v)
+--     ngx.flush(true)
+-- end
+-- -- 过滤数据 body_filter_by_lua* 
 
---响应头
-ngx.status=ngx.HTTP_ACCEPTED
-ngx.header['Server']='test server'
-ngx.header.new_field='new value'
-ngx.header.data_size=1025
-ngx.header['You-Can']='you up'
 
-local ngx_resp=require'ngx.resp'
-ngx_resp.add_header('Add-Attr','add value')
-ngx.send_headers() --会在ngx.say ngx.print之前自动调用
----[==[
+
+-- --响应头
+-- ngx.status=ngx.HTTP_ACCEPTED
+-- ngx.header['Server']='test server'
+-- ngx.header.new_field='new value'
+-- ngx.header.data_size=1025
+-- ngx.header['You-Can']='you up'
+
+-- local ngx_resp=require'ngx.resp'
+-- ngx_resp.add_header('Add-Attr','add value')
+-- ngx.send_headers() --会在ngx.say ngx.print之前自动调用
+--[==[
 say('response header: ',util.table_2_string(ngx.resp.get_headers()))
 ngx.say('响应头是否已经发送到客户端: ',ngx.headers_sent)
 
@@ -160,4 +192,5 @@ say('ngx.req.get_method(): ',ngx.req.get_method())
 
 --参数 ↑
 -- ]==]
+
 
