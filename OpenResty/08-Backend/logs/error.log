@@ -1,1 +1,74 @@
-2023/08/04 23:28:46 [alert] 2669#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/08-Backend/conf/nginx.conf:20
+2023/08/05 02:58:11 [error] 106912#0: *1 attempt to send data on a closed socket: u:00007FA9DDC6E050, c:0000000000000000, ft:0 eof:0, client: 10.0.0.1, server: *.*, request: "GET /websocket HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 02:58:11 [error] 106912#0: *1 [lua] websocket.lua:43: failed to recvfatal error already happened, client: 10.0.0.1, server: *.*, request: "GET /websocket HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 02:58:54 [error] 106912#0: *1 attempt to send data on a closed socket: u:00007FA9DDC86C48, c:0000000000000000, ft:0 eof:0, client: 10.0.0.1, server: *.*, request: "GET /websocket HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 02:58:54 [error] 106912#0: *1 [lua] websocket.lua:43: failed to recvfatal error already happened, client: 10.0.0.1, server: *.*, request: "GET /websocket HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 03:54:24 [alert] 119240#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/08-Backend/conf/nginx.conf:20
+2023/08/05 03:54:24 [notice] 119240#0: signal process started
+2023/08/05 03:54:24 [alert] 119243#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/08-Backend/conf/nginx.conf:20
+2023/08/05 03:57:47 [error] 119245#0: *2 lua entry thread aborted: runtime error: /root/learn-record/OpenResty/08-Backend/service/redis.lua:10: bad argument #1 host: string expected, got number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/redis.lua:118: in function 'connect'
+	/root/learn-record/OpenResty/08-Backend/service/redis.lua:10: in main chunk, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 03:58:00 [error] 119246#0: *3 lua entry thread aborted: runtime error: /root/learn-record/OpenResty/08-Backend/service/redis.lua:9: bad argument #1 host: string expected, got number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/redis.lua:118: in function 'connect'
+	/root/learn-record/OpenResty/08-Backend/service/redis.lua:9: in main chunk, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 03:58:52 [error] 119245#0: *4 lua entry thread aborted: runtime error: /root/learn-record/OpenResty/08-Backend/service/redis.lua:9: bad argument #1 host: string expected, got number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/redis.lua:118: in function 'connect'
+	/root/learn-record/OpenResty/08-Backend/service/redis.lua:9: in main chunk, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:01:09 [error] 119246#0: *8 lua entry thread aborted: runtime error: /root/learn-record/OpenResty/08-Backend/service/redis.lua:17: attempt to index global 'red' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/learn-record/OpenResty/08-Backend/service/redis.lua: in main chunk, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:01:11 [error] 119246#0: *10 lua entry thread aborted: runtime error: /root/learn-record/OpenResty/08-Backend/service/redis.lua:17: attempt to index global 'red' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/learn-record/OpenResty/08-Backend/service/redis.lua: in main chunk, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:04:08 [error] 119245#0: *15 attempt to send data on a closed socket: u:00007F12DBBA5198, c:0000000000000000, ft:0 eof:0, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:05:52 [error] 119245#0: *15 [lua] redis.lua:22: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:05:53 [error] 119245#0: *15 [lua] redis.lua:22: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:05:56 [error] 119245#0: *15 [lua] redis.lua:22: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:05:57 [error] 119245#0: *15 [lua] redis.lua:22: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:05:58 [error] 119245#0: *15 [lua] redis.lua:22: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:06:57 [error] 119245#0: *15 [lua] redis.lua:22: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:06:59 [error] 119245#0: *15 [lua] redis.lua:22: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:07:28 [error] 119245#0: *15 [lua] redis.lua:22: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:09:29 [error] 119245#0: *27 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:10:08 [error] 119245#0: *27 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:10:08 [error] 119245#0: *27 [lua] redis.lua:28: hset: false, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:10:33 [error] 119245#0: *27 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:10:33 [error] 119245#0: *27 [lua] redis.lua:28: hset: false ERR wrong number of arguments for HMSET, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:12:00 [error] 119245#0: *31 failed to load external Lua file "/root/learn-record/OpenResty/08-Backend/service/redis.lua": /root/learn-record/OpenResty/08-Backend/service/redis.lua:27: unexpected symbol near ',', client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:12:06 [error] 119245#0: *32 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:12:06 [error] 119245#0: *32 [lua] redis.lua:28: hset: false WRONGTYPE Operation against a key holding the wrong kind of value, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:12:49 [error] 119245#0: *32 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:12:49 [error] 119245#0: *32 [lua] redis.lua:28: hset: 1 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:21:08 [error] 119246#0: *35 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:21:08 [error] 119246#0: *35 [lua] redis.lua:28: hset: 1 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:24:00 [error] 119245#0: *37 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:24:00 [error] 119245#0: *37 [lua] redis.lua:28: hset: 0 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:25:22 [error] 119246#0: *39 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:25:22 [error] 119246#0: *39 [lua] redis.lua:28: hset: 0 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:25:23 [error] 119246#0: *39 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:25:23 [error] 119246#0: *39 [lua] redis.lua:28: hset: 0 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:27:01 [error] 119245#0: *42 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:27:01 [error] 119245#0: *42 [lua] redis.lua:28: hset: 0 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:27:01 [error] 119245#0: *42 lua entry thread aborted: runtime error: /root/learn-record/OpenResty/08-Backend/service/redis.lua:38: attempt to index global 'red' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/learn-record/OpenResty/08-Backend/service/redis.lua: in main chunk, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:27:24 [error] 119245#0: *44 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:27:24 [error] 119245#0: *44 [lua] redis.lua:28: hset: 0 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:28:47 [error] 119246#0: *46 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:28:47 [error] 119246#0: *46 [lua] redis.lua:28: hset: 0 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:29:21 [error] 119246#0: *46 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:29:21 [error] 119246#0: *46 [lua] redis.lua:28: hset: 0 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:39:19 [error] 119246#0: *49 [lua] redis.lua:23: redis:set() OK, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"
+2023/08/05 04:39:19 [error] 119246#0: *49 [lua] redis.lua:28: hset: 0 nil, client: 10.0.0.1, server: *.*, request: "GET /redis HTTP/1.1", host: "10.0.0.8:8081"

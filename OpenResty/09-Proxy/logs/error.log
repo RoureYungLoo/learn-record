@@ -1,0 +1,69 @@
+2023/08/05 22:43:45 [alert] 18822#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:20
+2023/08/05 22:43:45 [notice] 18822#0: signal process started
+2023/08/05 22:43:45 [error] 18822#0: open() "/root/learn-record/OpenResty/09-Proxy/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/05 22:43:45 [alert] 18825#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:20
+2023/08/05 23:00:28 [emerg] 19281#0: "upstream" directive is not allowed here in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:15
+2023/08/05 23:00:28 [emerg] 19284#0: "upstream" directive is not allowed here in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:15
+2023/08/05 23:01:56 [alert] 19358#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:24
+2023/08/05 23:01:56 [emerg] 19358#0: "upstream" directive is not allowed here in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:26
+2023/08/05 23:01:56 [alert] 19361#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:24
+2023/08/05 23:01:56 [emerg] 19361#0: "upstream" directive is not allowed here in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:26
+2023/08/05 23:02:01 [alert] 19381#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:24
+2023/08/05 23:02:01 [emerg] 19381#0: "upstream" directive is not allowed here in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:26
+2023/08/05 23:02:01 [alert] 19384#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:24
+2023/08/05 23:02:01 [emerg] 19384#0: "upstream" directive is not allowed here in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:26
+2023/08/05 23:03:05 [emerg] 19428#0: host not found in upstream "www.baidu.net" in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:30
+2023/08/05 23:03:07 [emerg] 19447#0: host not found in upstream "www.baidu.net" in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:30
+2023/08/05 23:03:26 [emerg] 19473#0: host not found in upstream "www.baidu.net" in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:30
+2023/08/05 23:03:27 [emerg] 19481#0: host not found in upstream "www.baidu.net" in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:30
+2023/08/05 23:03:42 [alert] 19527#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:03:42 [notice] 19527#0: signal process started
+2023/08/05 23:03:42 [alert] 19530#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:16:03 [alert] 22397#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:16:03 [notice] 22397#0: signal process started
+2023/08/05 23:16:07 [alert] 22427#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:19:57 [emerg] 23723#0: invalid parameter "weigt=13" in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:34
+2023/08/05 23:19:57 [emerg] 23726#0: invalid parameter "weigt=13" in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:34
+2023/08/05 23:20:12 [alert] 23773#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:20:12 [notice] 23773#0: signal process started
+2023/08/05 23:20:12 [alert] 23776#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:29:39 [alert] 26057#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:29:39 [notice] 26057#0: signal process started
+2023/08/05 23:29:39 [alert] 26060#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:34:58 [alert] 26446#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:34:58 [emerg] 26446#0: unexpected end of file, expecting "}" in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:85
+2023/08/05 23:34:58 [alert] 26449#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:34:58 [emerg] 26449#0: unexpected end of file, expecting "}" in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:85
+2023/08/05 23:35:07 [alert] 26492#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:35:07 [notice] 26492#0: signal process started
+2023/08/05 23:35:07 [alert] 26495#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:37:03 [error] 26497#0: *3 "/root/learn-record/OpenResty/09-Proxy/html/index.html" is not found (2: No such file or directory), client: 10.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "10.0.0.8:8090"
+2023/08/05 23:37:06 [error] 26497#0: *3 "/root/learn-record/OpenResty/09-Proxy/html/index.html" is not found (2: No such file or directory), client: 10.0.0.1, server: *.*, request: "GET / HTTP/1.1", host: "10.0.0.8:8090"
+2023/08/05 23:38:34 [alert] 26587#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:38:34 [notice] 26587#0: signal process started
+2023/08/05 23:38:34 [alert] 26590#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:40:32 [error] 26593#0: *34 open() "/root/learn-record/OpenResty/09-Proxy/html/test-server" failed (2: No such file or directory), client: 10.0.0.1, server: *.*, request: "GET /test-server HTTP/1.1", host: "10.0.0.8:8090"
+2023/08/05 23:40:35 [alert] 26670#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:40:35 [notice] 26670#0: signal process started
+2023/08/05 23:40:35 [alert] 26673#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:41:31 [alert] 26777#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:41:31 [notice] 26777#0: signal process started
+2023/08/05 23:41:31 [alert] 26780#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:42
+2023/08/05 23:57:29 [alert] 28625#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:44
+2023/08/05 23:57:29 [notice] 28625#0: signal process started
+2023/08/05 23:57:30 [alert] 28628#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:44
+2023/08/05 23:58:03 [alert] 28665#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:45
+2023/08/05 23:58:03 [notice] 28665#0: signal process started
+2023/08/05 23:58:03 [alert] 28668#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:45
+2023/08/06 02:00:17 [error] 28671#0: *267 no live upstreams while connecting to upstream, client: 10.0.0.1, server: *.*, request: "GET /test-server HTTP/1.1", upstream: "http://backend4/test-server", host: "10.0.0.8:8090"
+2023/08/06 02:00:19 [error] 28671#0: *267 no live upstreams while connecting to upstream, client: 10.0.0.1, server: *.*, request: "GET /test-server HTTP/1.1", upstream: "http://backend4/test-server", host: "10.0.0.8:8090"
+2023/08/06 02:07:12 [alert] 37600#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:45
+2023/08/06 02:07:12 [notice] 37600#0: signal process started
+2023/08/06 02:07:14 [alert] 37624#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:45
+2023/08/06 02:08:12 [alert] 37747#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:45
+2023/08/06 02:08:12 [notice] 37747#0: signal process started
+2023/08/06 02:08:12 [alert] 37750#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:45
+2023/08/06 02:20:14 [alert] 41328#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:52
+2023/08/06 02:20:14 [notice] 41328#0: signal process started
+2023/08/06 02:20:14 [alert] 41331#0: lua_code_cache is off; this will hurt performance in /root/learn-record/OpenResty/09-Proxy/conf/nginx.conf:52
+2023/08/06 02:20:19 [error] 41334#0: *1 failed to load external Lua file "/root/learn-record/OpenResty/09-Proxy/service/dynamic-server.lua": ...arn-record/OpenResty/09-Proxy/service/dynamic-server.lua:5: unexpected symbol near '`', client: 10.0.0.1, server: *.*, request: "GET /dynamic-server HTTP/1.1", host: "10.0.0.8:8090"
