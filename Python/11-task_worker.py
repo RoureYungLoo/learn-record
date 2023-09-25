@@ -1,0 +1,68 @@
+#!/usr/bin/python
+
+import time, sys, queue
+from multiprocessing.managers import BaseManager
+
+class QueueManager(BaseManager):
+    pass
+
+if __name__ == '__main__':
+    QueueManager.register("get_task_queue")
+    QueueManager.register("get_result_queue")
+
+    server_addr='127.0.0.1'
+    print("Connecting to server %s..."%server_addr)
+    m=QueueManager(address=(server_addr,5000),authkey=b'abc')
+    m.connect()
+
+    task=m.get_task_queue()
+    result = m.get_result_queue()
+
+    for i in range(10):
+        try:
+            n=task.get(timeout=1)
+            print('run task %d * %d'%(n,n))
+            r='%d * %d =%d'%(n,n,n*n)
+            time.sleep(1)
+            result.put(r)
+        except queue.Empty:
+            print('task queue is empty.')
+            
+    print('worker exit.')
+
+# 以下部分是v2
+#!/usr/bin/env python3
+# task_worker.py
+
+# distributed multi process, task wroker
+import time, sys, queue
+from multiprocessing.managers import BaseManager
+
+class QueueManager(BaseManager):
+    pass
+
+if __name__ == '__main__':
+    QueueManager.register('get_task_queue')
+    QueueManager.register('get_result_queue')
+    server_addr = "127.0.0.1"
+    print(f"Connect to server {server_addr}...")
+    m = QueueManager(address=(server_addr, 5000), authkey=b'abc')
+    # connect to server
+    m.connect()
+    # get Queue from network
+    task = m.get_task_queue()
+    result = m.get_result_queue()
+    # get task from task queue, calculate and put result to result queue
+    for i in range(10):
+        try:
+            n = task.get(timeout=1)
+            print(f"Run task {n} * {n}...")
+            r = f"{n} * {n} = {n * n}"
+            time.sleep(1)
+            result.put(r)
+        except queue.Empty:
+            print("task queue is empty.")
+    
+    # end wrok process
+    print("Worker exit.")
+
