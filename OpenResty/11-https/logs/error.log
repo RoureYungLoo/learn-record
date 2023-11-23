@@ -1,0 +1,180 @@
+2023/08/09 05:30:45 [error] 64450#0: *8 [lua] ssl.lua:3: ssl_certificate_by_lua_file, context: ssl_certificate_by_lua*, client: 127.0.0.1, server: 0.0.0.0:8011
+2023/08/09 05:30:45 [error] 64450#0: *8 [lua] ssl.lua:43: 证书清除, context: ssl_certificate_by_lua*, client: 127.0.0.1, server: 0.0.0.0:8011
+2023/08/09 05:30:45 [error] 64450#0: *8 [lua] ssl.lua:46:  {
+  [www.metroid.net] =  {
+                         [cert] = "-----BEGIN CERTIFICATE-----
+MIIC9zCCAd+gAwIBAgIJAJRFnjVh7QuHMA0GCSqGSIb3DQEBCwUAMBoxGDAWBgNV
+BAMTD3d3dy5tZXRyb2lkLm5ldDAeFw0xOTA1MDYwNzEyNTBaFw0yOTA1MDMwNzEy
+NTBaMBoxGDAWBgNVBAMTD3d3dy5tZXRyb2lkLm5ldDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAM4OK915oNupMyA0ymCZtVdz4xX7daXzFpAL+dpkzfGG
+RxLSpw2Qe525wBcI3qr+HiTJvyBcmuc2UhZAdbRY3/LcCYCq9KRjr8aq9rB9uqwB
+kjcA8q49fLYKrZ1j3mtkqHIBlwrMZbR0XMsXUnvcliE2wTq7Unl5+VoskN9JKfR5
+d/sQbOb+w8LZlLbB4aRuj+EoEr6kluoj0a1zzztNLdu9pqrLAEb0EFvSYw4mRKEY
+S4/4uinRRcOAusobsNy8OmnKtuGdbeATVcYOVx3ZDRer/Diz39onF9Lr0UwvwZEE
+VHLa87SwLfJOvegkL239jlBcrYTTh2cBrgF/VVdN2LkCAwEAAaNAMD4wGgYDVR0R
+BBMwEYIPd3d3Lm1ldHJvaWQubmV0MAsGA1UdDwQEAwIHgDATBgNVHSUEDDAKBggr
+BgEFBQcDATANBgkqhkiG9w0BAQsFAAOCAQEAeuNYxqLhVGmShvE6G0C/467ZBd2w
+mdhmSiJI1jpYpADJitRAb/qCwostyl7nwNfNm63TIkExZRqPcM1QY3xQ1y+d+HA0
+1ZTXXP+pTPVjGe0fC4jWeqHkmkpPp6LTipDNYvgnWafwt/wd8I9XrZBEED9Ew2KK
+YVrvi40K4aL1qVx0bsK+/+gmoQxEz/5+7Fx8JBfb+/ulCdUJUlhWpwwi3ClI4btb
+a4qbbVEReEq66b5KxEgjqjdWA2A/j4qucqJrqRGJg6QkmqmfbcAvjVI0zI7pCuk4
+jR0vAmIQHu/NPny6da48jQXfvo+shcJh4kIqd/i1nMUXNoPHzOTvbp246Q==
+-----END CERTIFICATE-----
+"
+                         [name] = "metroid"
+                         [key] = "-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDODivdeaDbqTMg
+NMpgmbVXc+MV+3Wl8xaQC/naZM3xhkcS0qcNkHuducAXCN6q/h4kyb8gXJrnNlIW
+QHW0WN/y3AmAqvSkY6/GqvawfbqsAZI3APKuPXy2Cq2dY95rZKhyAZcKzGW0dFzL
+F1J73JYhNsE6u1J5eflaLJDfSSn0eXf7EGzm/sPC2ZS2weGkbo/hKBK+pJbqI9Gt
+c887TS3bvaaqywBG9BBb0mMOJkShGEuP+Lop0UXDgLrKG7DcvDppyrbhnW3gE1XG
+Dlcd2Q0Xq/w4s9/aJxfS69FML8GRBFRy2vO0sC3yTr3oJC9t/Y5QXK2E04dnAa4B
+f1VXTdi5AgMBAAECggEAPBPdrkFcKS93/JfnuaqXONxNBYe/kZcCqRUU0Bw7/4OL
+DW3lzwqlQCN8Yjrv0SMuXsODukfF0kwAOwSoTODsyr5k9uLhWVzHT0Fhk6vU1XnP
+y8G3AB5lUh5i6FTJ8L30bukPxNI7hRW4SG6QWhTCoQR56knbjheGIEiGJNQMK38J
+C2X59XRUbKfRIHvRhigmEZqYcEu0lhH4b1/SFpVRSTlYcFLlXvXrMCd/YahAhO4H
+Khi2HrFSdtxs3mBnDuUcqYyumTQpUGRY3wwK3r6glpecnLzCIst7NGKQRY93tJdH
+m+gfw/fQtuGfZcRuq8E5M3yfXCQ0Mifwn8Rc3utYAQKBgQDqWlQ7pMCOWr3vof+A
+DuOOC7a1PI8qIfL1mfwUkDLVij8xZOF79wRyGybEZwesvC8FOOVbonh/ogRlOve2
+xU59jUqJ+w9aBrFwR2ChCiqtuO7Wi71Aldd5nI6VON84pzkQ4w9O+fRXBowAn2JI
+mKAxFM1D9iu6fl/zeZy33OgLeQKBgQDhFrM5hO6aJJTJyUqwA3zNgZ519chnc+m2
+Ruko7LSGiFXCy66ZPbmSD1TdEeA9JniuP+0oFtCjuTbU2grgpUeIrrd6eU0la1by
+eMV6xNR76tIcj4YmzV90MxJOj/f8qskeHPSXOTZIqBlBxGRhjWUDx/7Xddld5Fe8
+racs11+nQQKBgQCVoglIb+B2xF+kAwa1SExpJPeK7tjmaPjNcn1uz8d1aykAK86B
+LW6MQOPW4YYX96v6JKLliG5x6Avwat9Btudv6OggA8qAi+d9rkV3bZtkgsEVAfJb
+q5ECWED97GsyrCsWqjPbFGO7sTVxLFM/0RvvWr3ZV/QBxrETL6IuD4Gl2QKBgCbN
+pQQLeJ62I7hNrUR+tWswJ0Mqpeu/vdCglN1rQQvYQQCd4HGmhHE7l2OtCz0/fpp7
+hsTcegdfjKZRGIL1u0lC5XqFotkKkiimzVSGziK2rpYh3/ycdxIvI77LbvLt9lHs
+p/XR9Ru9bu05kByJJZrrRXGbbWeUT9PFFAbU8jaBAoGBAKOCi0i+IEza2YV9aJdp
+wRUm3xsecXVcfpgc/HTjmwL9Vrc36osyTpSIW+UsAtDyqeOJbhFhTzwXpZQpR3al
+i6JdcQlm5Un3/xx0yGxiYTqkfo99kU3uSKRCk19ckYSehLu9GRUTdaQJaJ8UpOWN
+hJG3VknwB/6JLxr0nmBBNGfa
+-----END PRIVATE KEY-----
+"
+                       }
+  [www.chrono.com] =  {
+                        [cert] = "-----BEGIN CERTIFICATE-----
+MIIC9DCCAdygAwIBAgIJAPqcWyegwTaNMA0GCSqGSIb3DQEBCwUAMBkxFzAVBgNV
+BAMTDnd3dy5jaHJvbm8uY29tMB4XDTE5MDUwNjA3MDQwMVoXDTI5MDUwMzA3MDQw
+MVowGTEXMBUGA1UEAxMOd3d3LmNocm9uby5jb20wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDY3FLcfliiSuqlvRGQjJrzfMHezUxUI9wsnLv2hcppsDIA
+IQ3nTeXOersw23umIhMMOHAB0s+8H2k3aclir9ALinhcfeMyDVEwYCLf3VP9eFqY
+onBgzPQ6pbOsy4pKVW7EMXQRKEQisV74v+FplqYukloRmO3p4oyxlA2nwl5oxR6K
+RlZBXm49wmutvljDeOKdDjyX515PrFhBjh2mydzg3Lc3O4xGfE7abRGsBMOqhR5w
+mpnQoKoI8JQKK+S+xb9iibPDmiJ9l/hzOX2I9/vGyUT17Xc2n/GryYfMin7BwPxW
+/e0UV6+KBlBzJvE0nMLY9UhRPT+YwIOwYhlgKlzHAgMBAAGjPzA9MBkGA1UdEQQS
+MBCCDnd3dy5jaHJvbm8uY29tMAsGA1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDATANBgkqhkiG9w0BAQsFAAOCAQEAbdkDGOR9G0FyjwSAKoXu3KAKYV/u16Z/
+Dx4FtUysIz97p/c+jzJd+KLpMM7pVu7P1SgLSMFxYzfeea9iPViyi9XZqUwkjVfR
+iBj9FxeRrnNaI4GEUYezfpU+PV3kdvMlag5GOW3DOX2CEpM3KPETYwizHQ9FEFoa
+NOwJy8GPvMxNJdQBm0/R6dj2Nz+yYuA8KKqoxz0Bj1aVHrd4XGioM162f6sCzj24
+4DGM/hWHCkpLV4e3E6uXuofQpMU8LxLfiFbCGsDq5+Dx5oCztEIjIsyiJmOiVWxy
+jqOw3NqgrNCl
+2023/08/09 22:25:49 [alert] 5000#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:25:49 [notice] 5000#0: signal process started
+2023/08/09 22:25:49 [alert] 5000#0: kill(64447, 15) failed (3: No such process)
+2023/08/09 22:25:50 [alert] 5005#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:25:51 [alert] 5025#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:25:51 [notice] 5025#0: signal process started
+2023/08/09 22:25:52 [alert] 5037#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:26:36 [error] 5040#0: *2 [lua] ssl.lua:3: ssl_certificate_by_lua_file, context: ssl_certificate_by_lua*, client: 192.168.100.1, server: 0.0.0.0:8011
+2023/08/09 22:26:36 [error] 5040#0: *2 [lua] ssl.lua:35: no SNI found: nil, context: ssl_certificate_by_lua*, client: 192.168.100.1, server: 0.0.0.0:8011
+2023/08/09 22:26:36 [error] 5040#0: *2 [lua] ssl.lua:38: not supported SNI, context: ssl_certificate_by_lua*, client: 192.168.100.1, server: 0.0.0.0:8011
+2023/08/09 22:26:36 [error] 5040#0: *2 [lua] ssl.lua:43: 证书清除, context: ssl_certificate_by_lua*, client: 192.168.100.1, server: 0.0.0.0:8011
+2023/08/09 22:26:36 [error] 5040#0: *2 [lua] ssl.lua:46:  {
+  [www.chrono.com] =  {
+                        [cert] = "-----BEGIN CERTIFICATE-----
+MIIC9DCCAdygAwIBAgIJAPqcWyegwTaNMA0GCSqGSIb3DQEBCwUAMBkxFzAVBgNV
+BAMTDnd3dy5jaHJvbm8uY29tMB4XDTE5MDUwNjA3MDQwMVoXDTI5MDUwMzA3MDQw
+MVowGTEXMBUGA1UEAxMOd3d3LmNocm9uby5jb20wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDY3FLcfliiSuqlvRGQjJrzfMHezUxUI9wsnLv2hcppsDIA
+IQ3nTeXOersw23umIhMMOHAB0s+8H2k3aclir9ALinhcfeMyDVEwYCLf3VP9eFqY
+onBgzPQ6pbOsy4pKVW7EMXQRKEQisV74v+FplqYukloRmO3p4oyxlA2nwl5oxR6K
+RlZBXm49wmutvljDeOKdDjyX515PrFhBjh2mydzg3Lc3O4xGfE7abRGsBMOqhR5w
+mpnQoKoI8JQKK+S+xb9iibPDmiJ9l/hzOX2I9/vGyUT17Xc2n/GryYfMin7BwPxW
+/e0UV6+KBlBzJvE0nMLY9UhRPT+YwIOwYhlgKlzHAgMBAAGjPzA9MBkGA1UdEQQS
+MBCCDnd3dy5jaHJvbm8uY29tMAsGA1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDATANBgkqhkiG9w0BAQsFAAOCAQEAbdkDGOR9G0FyjwSAKoXu3KAKYV/u16Z/
+Dx4FtUysIz97p/c+jzJd+KLpMM7pVu7P1SgLSMFxYzfeea9iPViyi9XZqUwkjVfR
+iBj9FxeRrnNaI4GEUYezfpU+PV3kdvMlag5GOW3DOX2CEpM3KPETYwizHQ9FEFoa
+NOwJy8GPvMxNJdQBm0/R6dj2Nz+yYuA8KKqoxz0Bj1aVHrd4XGioM162f6sCzj24
+4DGM/hWHCkpLV4e3E6uXuofQpMU8LxLfiFbCGsDq5+Dx5oCztEIjIsyiJmOiVWxy
+jqOw3NqgrNClfK0i9Zcv/796fvjEitT4iomZPI4OQVaFH82Nd3SWYA==
+-----END CERTIFICATE-----
+"
+                        [key] = "-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDY3FLcfliiSuql
+vRGQjJrzfMHezUxUI9wsnLv2hcppsDIAIQ3nTeXOersw23umIhMMOHAB0s+8H2k3
+aclir9ALinhcfeMyDVEwYCLf3VP9eFqYonBgzPQ6pbOsy4pKVW7EMXQRKEQisV74
+v+FplqYukloRmO3p4oyxlA2nwl5oxR6KRlZBXm49wmutvljDeOKdDjyX515PrFhB
+jh2mydzg3Lc3O4xGfE7abRGsBMOqhR5wmpnQoKoI8JQKK+S+xb9iibPDmiJ9l/hz
+OX2I9/vGyUT17Xc2n/GryYfMin7BwPxW/e0UV6+KBlBzJvE0nMLY9UhRPT+YwIOw
+YhlgKlzHAgMBAAECggEBAMLSpQp746rhvQ5q3iXLe8V1dkJwk7sfgEUABglCRwdO
+CI1/JJuBqwwlzJfnBp3JDO20okOxHXl3irICsq6bHj/QBbOqUPr9ZcwdAhe2Iiec
+AWAQxv7gAiXSCaoaLcH8IIfXmdt0HkpAqP62e469jcxXJN2cU1kEc7txNBdbki9y
+CB8m78kcyXs2mv9w+kFd3/s/YFwCPVCA6JhU0pb/ob11JcfUaoue9/om5A4EtY7S
+uQo1Q5+Lx2TR0D0G6yGtPossBH3la/VE9JiQFuNx/oAaxHysewg98toEUQ7VY/nD
+Ix9gKIuY2tQgGxUNoDS3JUsSI5Mu5wyZG96I5hetz0kCgYEA8xCsHfzngx2jcn3T
+5zNdkn5do7li68vmV+QZRWKr4teWspmWpLSplfOTiwcs0tYUJI1lmnEmNtjF3mLs
+MOAH5D9ECMUPIbRMpzqt6WjfUh7ewc81X/FtWmhuvv8tTgPhrhkkMwtbKldRpSXj
+k3EKw7kLrD98R26Y1nBErAW0zUUCgYEA5GapfYtval3idwzGZS/XITVQxbEJ3aJl
+UVwFDoxCSdOs9P9p20BecbXtEcyaZEFRzjmIJn0jkmZya/ND29E+X+hvr0F6KelW
+9kDMl89o/j4OrUKacEEaEmMNGPUy6kfp4ormqZigc/DVRjWBtjgZza+46trFSTbl
+/1oRx8XZBJsCgYEAyxWCCWg2cvl/h/iT5Veode65BEOv3/20DnlZl/ySSu0AT2c+
+U41TKCOkggPTsrEFkWjGnJyvZiIGaQHUAB4e2dj2WjFzrCB97zd6+UsTVATQ77PW
+D7yjNmeNKG4Ch2180T7WXQO+/wiIAek/VQCdEtz4YMmGaBSDBKA28FewMdUCgYAy
+ABN8q2ixpWntW/uWrTlwSKatEIuzXFjHzdhBjgz48oD7hWqcF+RVClmiuuLVrcMF
+3Wxj2KNP6mOEJFYnqg/4mP7SJAhlYnKqKBdh6IL4nYdDAMCkcGwPuGVmoE8MIMAf
+2v6SBBqkJwXZf98sj+1+LMjTiR8FXyJMm2AnFrXinwKBgBvcDjUNEIKInwHjlJ7G
+s6ZfRBFVoHDpo/XplF8fiE8wt+8S1LZdvFois14SDq7D/acHHgYAyoignD4a0veM
+1acmTRcBxixKptxgIa+2sJ9O3wADWREEChhA1puu9s8oushFAKvg3w7gGuWO9/Xs
+1yJQGZ3XH3NBNTfHKEfXq3zl
+-----END PRIVATE KEY-----
+"
+                        [name] = "chrono"
+                      }
+  [www.metroid.net] =  {
+                         [cert] = "-----BEGIN CERTIFICATE-----
+MIIC9zCCAd+gAwIBAgIJAJRFnjVh7QuHMA0GCSqGSIb3DQEBCwUAMBoxGDAWBgNV
+BAMTD3d3dy5tZXRyb2lkLm5ldDAeFw0xOTA1MDYwNzEyNTBaFw0yOTA1MDMwNzEy
+NTBaMBoxGDAWBgNVBAMTD3d3dy5tZXRyb2lkLm5ldDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAM4OK915oNupMyA0ymCZtVdz4xX7daXzFpAL+dpkzfGG
+RxLSpw2Qe525wBcI3qr+HiTJvyBcmuc2UhZAdbRY3/LcCYCq9KRjr8aq9rB9uqwB
+kjcA8q49fLYKrZ1j3mtkqHIBlwrMZbR0XMsXUnvcliE2wTq7Unl5+VoskN9JKfR5
+d/sQbOb+w8LZlLbB4aRuj+EoEr6kluoj0a1zzztNLdu9pqrLAEb0EFvSYw4mRKEY
+S4/4uinRRcOAusobsNy8OmnKtuGdbeATVcYOVx3ZDRer/Diz39onF9Lr0UwvwZEE
+VHLa87SwLfJOvegkL239jlBcrYTTh2cBrgF/VVdN2LkCAwEAAaNAMD4wGgYDVR0R
+BBMwEYIPd3d3Lm1ldHJvaWQubmV0MAsGA1UdDwQEAwIHgDATBgNVHSUEDDAKBggr
+BgEFBQcDATANBgkqhkiG9w0BAQsFAAOCAQEAeuNYxqLhVGmShvE6G0C/467ZBd2w
+mdhmSiJI1jpYpADJitRAb/qCwostyl7nwNfNm63TIkExZRqPcM1QY3xQ1y+d+HA0
+1ZTXXP+pTPVjGe0fC4jWeqHkmkpPp6LTipDNYvgnWafwt/wd8I9XrZBEED9Ew2KK
+YVrvi40K4aL1qVx0bsK+/+gmoQxEz/5+7Fx8JBfb+/ulCdUJUlhWpwwi3ClI4btb
+a4qbbVEReEq66b5KxEgjqjdWA2A/j4qucqJrqRGJg6QkmqmfbcAvjVI0zI7pCuk4
+jR0vAmIQHu/NPny6da48j
+2023/08/09 22:26:36 [error] 5040#0: *2 lua entry thread aborted: runtime error: /root/02-notes/02-openresty/11-https/lua/ssl.lua:47: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/02-notes/02-openresty/11-https/lua/ssl.lua: in main chunk, context: ssl_certificate_by_lua*, client: 192.168.100.1, server: 0.0.0.0:8011
+2023/08/09 22:26:45 [alert] 5073#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:26:45 [notice] 5073#0: signal process started
+2023/08/09 22:26:46 [alert] 5085#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:27:05 [alert] 5128#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:27:05 [notice] 5128#0: signal process started
+2023/08/09 22:27:06 [alert] 5140#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:42:49 [alert] 11557#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:42:49 [warn] 11557#0: "ssl_stapling" ignored, issuer certificate not found for certificate "/root/02-notes/02-openresty/11-https/conf/ssl/chrono.crt"
+2023/08/09 22:42:49 [notice] 11557#0: signal process started
+2023/08/09 22:42:50 [alert] 11565#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:42:50 [warn] 11565#0: "ssl_stapling" ignored, issuer certificate not found for certificate "/root/02-notes/02-openresty/11-https/conf/ssl/chrono.crt"
+2023/08/09 22:44:36 [alert] 11618#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:44:36 [emerg] 11618#0: invalid number of arguments in "ssl_trusted_certificate" directive in /root/02-notes/02-openresty/11-https/conf/nginx.conf:38
+2023/08/09 22:44:37 [alert] 11627#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:44:37 [emerg] 11627#0: invalid number of arguments in "ssl_trusted_certificate" directive in /root/02-notes/02-openresty/11-https/conf/nginx.conf:38
+2023/08/09 22:45:21 [alert] 11660#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:45:21 [warn] 11660#0: "ssl_stapling" ignored, issuer certificate not found for certificate "/root/02-notes/02-openresty/11-https/conf/ssl/chrono.crt"
+2023/08/09 22:45:21 [notice] 11660#0: signal process started
+2023/08/09 22:45:22 [alert] 11667#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:45:22 [warn] 11667#0: "ssl_stapling" ignored, issuer certificate not found for certificate "/root/02-notes/02-openresty/11-https/conf/ssl/chrono.crt"
+2023/08/09 22:50:16 [alert] 11777#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25
+2023/08/09 22:50:16 [notice] 11777#0: signal process started
+2023/08/09 22:50:17 [alert] 11789#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/11-https/conf/nginx.conf:25

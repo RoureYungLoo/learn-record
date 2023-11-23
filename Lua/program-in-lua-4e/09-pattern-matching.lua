@@ -21,3 +21,45 @@ end
 print(words)
 
 -- ]]
+
+-- POSIX模式匹配
+-- Perl模式匹配
+-- PCRE 正则库
+
+--模式
+local str="dead li%?ne is 30/0?5_/2023,firm"
+date="%d%d/%d%d/%d%d%d%d"
+-- print(string.match(str,"%w_"))
+-- local newstr, novw=string.gsub(str,"[AEIOUaeiou]","")
+-- print(novw)
+-- print(str)
+-- print(newstr)
+local str="dead li%?ne is 30/0?5_/2023,firm"
+print(string.match(str,"[0-9]+"))
+
+print((string.gsub("one, and two; and three","%a+","word")))
+local iter=string.gmatch("dead li%?ne is 30456/0?5_/2023,firm","%d+")
+print(iter())
+print(iter())
+print(iter())
+print(iter())
+local str="this is a ( ) test."
+print(string.match(str,"%(%s*%)"))--'(' 需要转义 ')'需要转义
+local str="var_a _M __VERSION"
+local iter=string.gmatch(str,"[_%a][_%w]*")
+print(iter())
+print(iter())
+print(iter())
+
+local s="a (enclosed (in) pare[nth]eses) line"
+-- subs=string.match(s,"%b()")
+-- print(subs)
+-- print(string.match(subs,"%b()"))
+
+print((string.gsub(s,"%b[]","")))
+local pair="name = Anna"
+local key,value=string.match(pair,"(%a+)%s*=%s*(%a+)")
+print(key,value)
+local date="Today is 23/7/2023"
+local d,m,y=string.match(date,"(%d+)/(%d+)/(%d+)")
+print(d,m,y)

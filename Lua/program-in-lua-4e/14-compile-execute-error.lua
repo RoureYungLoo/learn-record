@@ -30,3 +30,42 @@ print ("the value of your exp ession is " .. func())
 for i = 1, 5 do
     
 end
+
+-- #!/usr/bin/lua
+
+-- error 抛出异常
+-- pcall xpcall 捕获异常
+
+local function error_test()
+    -- error("error 信息测试")
+    -- print("error 信息测试")
+    error(
+        {
+            msg = "error_test msg",
+            code = 500,
+            status = 200
+        }
+    )
+end
+local function traceback()
+    print(debug.traceback())
+    -- print(debug.debug())
+end
+local ret = print(xpcall(error_test, traceback))
+assert(1, "xpcall调用失败")
+
+-- local file, msg
+-- repeat
+--     print "enter a file name: "
+--     local name = io.read()
+--     if not name then
+--         return
+--     end
+--     -- file, msg = io.open(name, "r")
+--     -- if not file then
+--     --     print(msg)
+--     -- end
+--     -- file=assert(io.open("r"))
+-- until file
+
+-- print(pcall(error_test))

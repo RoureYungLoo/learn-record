@@ -1,0 +1,123 @@
+{
+    "app": {
+        "version": "",
+        "bundle": "",
+        "name": ""
+    },
+    "id": 1.2345532415312e+14,
+    "device": {
+        "ppi": "",
+        "latitude": "",
+        "os": "",
+        "longitude": "",
+        "device_type": "",
+        "osv": "",
+        "mac_md5": "",
+        "mac": "",
+        "android_id_md5": "",
+        "imei_md5": "",
+        "idfa": "",
+        "connection_type": "",
+        "oaid": "",
+        "oaid_md5": "",
+        "imei": "",
+        "ua": "",
+        "ip": "",
+        "idfa_md5": "",
+        "android_id": "",
+        "make": "",
+        "model": "",
+        "carrier": "",
+        "screen_width": "",
+        "screen_height": ""
+    },
+    "imp": [
+        {
+            "bid_floor": "1",
+            "is_support_deeplink": "1",
+            "template": [
+                {
+                    "element": [
+                        {
+                            "is_required": "1",
+                            "width": "1",
+                            "height": "1",
+                            "text_length_min": "1",
+                            "text_length_max": "1",
+                            "duration_min": "1",
+                            "duration_max": "1",
+                            "file_size_max": "1",
+                            "mime": [
+                                "jpg",
+                                "png",
+                                "svg",
+                                "mp4",
+                                "avi"
+                            ],
+                            "type": "1"
+                        },
+                        {
+                            "is_required": "1",
+                            "width": "1",
+                            "height": "1",
+                            "text_length_min": "1",
+                            "text_length_max": "1",
+                            "duration_min": "1",
+                            "duration_max": "1",
+                            "file_size_max": "1",
+                            "mime": [
+                                "jpg",
+                                "png",
+                                "svg",
+                                "mp4",
+                                "avi"
+                            ],
+                            "type": "1"
+                        }
+                    ]
+                },
+                {
+                    "element": [
+                        {
+                            "is_required": "1",
+                            "width": "1",
+                            "height": "1",
+                            "text_length_min": "1",
+                            "text_length_max": "1",
+                            "duration_min": "1",
+                            "duration_max": "1",
+                            "file_size_max": "1",
+                            "mime": [
+                                "jpg",
+                                "png",
+                                "svg",
+                                "mkv"
+                            ],
+                            "type": "1"
+                        },
+                        {
+                            "is_required": "1",
+                            "width": "1",
+                            "height": "1",
+                            "text_length_min": "1",
+                            "text_length_max": "1",
+                            "duration_min": "1",
+                            "duration_max": "1",
+                            "file_size_max": "1",
+                            "mime": [
+                                "jpg",
+                                "png",
+                                "svg",
+                                "mov"
+                            ],
+                            "type": "1"
+                        }
+                    ]
+                }
+            ],
+            "tag_id": "2",
+            "id": "1",
+            "ad_type": "1"
+        }
+    ]
+}

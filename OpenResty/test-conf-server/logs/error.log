@@ -1,0 +1,384 @@
+2023/08/04 01:36:09 [alert] 72707#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:27
+2023/08/04 01:36:28 [error] 72711#0: *1 "/root/02-notes/02-openresty/test-conf-server/html/index.html" is not found (2: No such file or directory), client: 192.168.100.130, server: , request: "GET / HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/04 01:36:41 [error] 72711#0: *2 open() "/root/02-notes/02-openresty/test-conf-server/html/test-ssp-conf.json" failed (2: No such file or directory), client: 192.168.100.130, server: , request: "GET /test-ssp-conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:50:49 [error] 72710#0: *7 open() "/root/02-notes/02-openresty/test-conf-server/html/test_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.130, server: , request: "GET /test_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:51:09 [error] 72711#0: *8 open() "/root/02-notes/02-openresty/test-conf-server/html/test_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.130, server: , request: "GET /test_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:51:52 [error] 72710#0: *9 directory index of "/root/02-notes/02-openresty/test-conf-server/html/" is forbidden, client: 192.168.100.1, server: , request: "GET / HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:51:52 [error] 72710#0: *9 open() "/root/02-notes/02-openresty/test-conf-server/html/favicon.ico" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.100.130:8061", referrer: "http://192.168.100.130:8061/"
+2023/08/08 03:52:07 [error] 72710#0: *9 open() "/root/02-notes/02-openresty/test-conf-server/html/test_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /test_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:52:09 [error] 72710#0: *9 open() "/root/02-notes/02-openresty/test-conf-server/html/test_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /test_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:52:52 [alert] 12469#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:27
+2023/08/08 03:52:52 [notice] 12469#0: signal process started
+2023/08/08 03:52:52 [alert] 12472#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:27
+2023/08/08 03:52:52 [emerg] 12472#0: bind() to 0.0.0.0:8061 failed (98: Address already in use)
+2023/08/08 03:52:55 [alert] 12490#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:27
+2023/08/08 03:52:55 [notice] 12490#0: signal process started
+2023/08/08 03:52:55 [alert] 12495#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:27
+2023/08/08 03:52:56 [alert] 12508#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:27
+2023/08/08 03:52:56 [notice] 12508#0: signal process started
+2023/08/08 03:52:57 [alert] 12511#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:27
+2023/08/08 03:53:00 [error] 12514#0: *1 open() "/root/02-notes/02-openresty/test-conf-server/html/test_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /test_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:53:02 [error] 12514#0: *1 open() "/root/02-notes/02-openresty/test-conf-server/html/test_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /test_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:54:00 [alert] 12628#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:00 [notice] 12628#0: signal process started
+2023/08/08 03:54:00 [error] 12628#0: open() "/root/02-notes/02-openresty/test-conf-server/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/08 03:54:00 [alert] 12631#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:02 [alert] 12648#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:02 [notice] 12648#0: signal process started
+2023/08/08 03:54:02 [alert] 12653#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:02 [emerg] 12653#0: bind() to 0.0.0.0:8061 failed (98: Address already in use)
+2023/08/08 03:54:05 [alert] 12672#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:05 [notice] 12672#0: signal process started
+2023/08/08 03:54:05 [alert] 12675#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:05 [emerg] 12675#0: bind() to 0.0.0.0:8061 failed (98: Address already in use)
+2023/08/08 03:54:07 [alert] 12693#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:07 [notice] 12693#0: signal process started
+2023/08/08 03:54:07 [alert] 12696#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:07 [emerg] 12696#0: bind() to 0.0.0.0:8061 failed (98: Address already in use)
+2023/08/08 03:54:48 [alert] 12812#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:48 [notice] 12812#0: signal process started
+2023/08/08 03:54:48 [error] 12812#0: open() "/root/02-notes/02-openresty/test-conf-server/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/08 03:54:53 [alert] 12830#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/08 03:54:58 [error] 12833#0: *1 open() "/root/02-notes/02-openresty/test-conf-server/html/test_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /test_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 03:54:59 [error] 12833#0: *1 open() "/root/02-notes/02-openresty/test-conf-server/html/test_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /test_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/08 04:09:34 [error] 12832#0: *13 open() "/root/02-notes/02-openresty/test-conf-server/html/test-ssp-conf.json" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /test-ssp-conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/09 21:52:32 [alert] 3380#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/09 21:52:32 [notice] 3380#0: signal process started
+2023/08/09 21:52:32 [alert] 3380#0: kill(12831, 15) failed (3: No such process)
+2023/08/09 21:52:32 [alert] 3383#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/09 21:52:36 [alert] 3412#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/09 21:52:36 [notice] 3412#0: signal process started
+2023/08/09 21:52:36 [alert] 3415#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/11 10:35:53 [alert] 52066#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/11 10:35:53 [notice] 52066#0: signal process started
+2023/08/11 10:35:53 [alert] 52069#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/11 10:35:53 [emerg] 52069#0: bind() to 0.0.0.0:8061 failed (98: Address already in use)
+2023/08/11 10:35:55 [alert] 52084#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/11 10:35:55 [notice] 52084#0: signal process started
+2023/08/11 10:35:55 [alert] 52087#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 15:54:31 [alert] 80694#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 15:54:31 [notice] 80694#0: signal process started
+2023/08/15 15:54:31 [error] 80694#0: open() "/root/02-notes/02-openresty/test-conf-server/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/15 15:54:31 [alert] 80697#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 15:54:33 [alert] 80713#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 15:54:33 [notice] 80713#0: signal process started
+2023/08/15 15:54:33 [alert] 80716#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 15:54:33 [emerg] 80716#0: bind() to 0.0.0.0:8061 failed (98: Address already in use)
+2023/08/15 15:54:50 [alert] 80783#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 15:54:50 [notice] 80783#0: signal process started
+2023/08/15 15:54:52 [alert] 80800#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 16:51:08 [error] 80807#0: *7 open() "/root/02-notes/02-openresty/test-conf-server/html/capture_multi_test" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "POST /capture_multi_test HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/15 16:52:29 [alert] 88182#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 16:52:29 [notice] 88182#0: signal process started
+2023/08/15 16:52:31 [alert] 88198#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 16:52:33 [alert] 88218#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 16:52:33 [notice] 88218#0: signal process started
+2023/08/15 16:52:35 [alert] 88237#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 17:02:03 [alert] 90795#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 17:02:03 [emerg] 90795#0: unexpected "}" in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:46
+2023/08/15 17:02:05 [alert] 90807#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 17:02:05 [emerg] 90807#0: unexpected "}" in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:46
+2023/08/15 17:02:20 [alert] 90850#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 17:02:20 [notice] 90850#0: signal process started
+2023/08/15 17:02:22 [alert] 90862#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 17:02:27 [error] 90870#0: *1 [lua] capture_multi_test.lua:10:  {
+  [1] =  {
+           [status] = 200
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [truncated] = false
+           [body] = "api1
+"
+         }
+  [2] =  {
+           [status] = 200
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [truncated] = false
+           [body] = "api2
+"
+         }
+  [3] =  {
+           [status] = 200
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [truncated] = false
+           [body] = "api3
+"
+         }
+}
+
+, client: 192.168.100.1, server: , request: "POST /capture_multi_test HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/15 17:03:15 [alert] 91146#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 17:03:15 [notice] 91146#0: signal process started
+2023/08/15 17:03:17 [alert] 91158#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/15 17:03:22 [error] 91162#0: *1 [lua] capture_multi_test.lua:10:  {
+  [1] =  {
+           [body] = "api1"
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [status] = 200
+           [truncated] = false
+         }
+  [2] =  {
+           [body] = "api2"
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [status] = 200
+           [truncated] = false
+         }
+  [3] =  {
+           [body] = "api3"
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [status] = 200
+           [truncated] = false
+         }
+}
+
+, client: 192.168.100.1, server: , request: "POST /capture_multi_test HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/15 17:04:31 [error] 91162#0: *2 [lua] capture_multi_test.lua:10:  {
+  [1] =  {
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [body] = "api1"
+           [truncated] = false
+           [status] = 200
+         }
+  [2] =  {
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [body] = "api2"
+           [truncated] = false
+           [status] = 200
+         }
+  [3] =  {
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [body] = "api3"
+           [truncated] = false
+           [status] = 200
+         }
+}
+
+, client: 192.168.100.1, server: , request: "POST /capture_multi_test HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/15 17:58:38 [error] 91163#0: *3 [lua] capture_multi_test.lua:10:  {
+  [1] =  {
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [status] = 200
+           [body] = "api1"
+           [truncated] = false
+         }
+  [2] =  {
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [status] = 200
+           [body] = "api2"
+           [truncated] = false
+         }
+  [3] =  {
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+           [status] = 200
+           [body] = "api3"
+           [truncated] = false
+         }
+}
+
+, client: 192.168.100.1, server: , request: "POST /capture_multi_test HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 11:40:49 [alert] 47576#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:40:49 [emerg] 47576#0: duplicate location "/api_3" in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:55
+2023/08/16 11:40:51 [alert] 47588#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:40:51 [emerg] 47588#0: duplicate location "/api_3" in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:55
+2023/08/16 11:41:19 [alert] 47648#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:41:19 [notice] 47648#0: signal process started
+2023/08/16 11:41:21 [alert] 47664#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:41:24 [alert] 47678#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:41:24 [notice] 47678#0: signal process started
+2023/08/16 11:41:26 [alert] 47693#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:41:51 [alert] 47757#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:41:51 [notice] 47757#0: signal process started
+2023/08/16 11:41:53 [alert] 47779#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:42:28 [alert] 47902#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:42:28 [notice] 47902#0: signal process started
+2023/08/16 11:42:30 [alert] 47920#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:42:31 [alert] 47939#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:42:31 [notice] 47939#0: signal process started
+2023/08/16 11:42:33 [alert] 47954#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:43:30 [alert] 48137#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:43:30 [notice] 48137#0: signal process started
+2023/08/16 11:43:32 [alert] 48156#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:44:01 [error] 48158#0: *5 [lua] test_obj_array.lua:79:  {
+  [1] =  {
+           [ad_type] = "3"
+           [id] = "1"
+           [bid_floor] = "4"
+           [is_support_deeplink] = "5"
+           [template] =  {
+                           [element] =  {
+                                          [1] =  {
+                                                   [text_length_min] = "10"
+                                                   [text_length_max] = "11"
+                                                   [duration_min] = "12"
+                                                   [duration_max] = "13"
+                                                   [file_size_max] = "14"
+                                                   [is_required] = "6"
+                                                   [mime] =  {
+                                                               [1] = "jpg"
+                                                               [2] = "png"
+                                                               [3] = "svg"
+                                                               [4] = "jpeg"
+                                                               [5] = "mp4"
+                                                               [6] = "avi"
+                                                             }
+                                                   [width] = "8"
+                                                   [height] = "9"
+                                                   [type] = "7"
+                                                 }
+                                          [2] =  {
+                                                   [text_length_min] = "10"
+                                                   [text_length_max] = "11"
+                                                   [duration_min] = "12"
+                                                   [duration_max] = "13"
+                                                   [file_size_max] = "14"
+                                                   [is_required] = "6"
+                                                   [mime] =  {
+                                                               [1] = "jpg"
+                                                               [2] = "png"
+                                                               [3] = "svg"
+                                                               [4] = "jpeg"
+                                                               [5] = "mp4"
+                                                               [6] = "avi"
+                                                             }
+                                                   [width] = "8"
+                                                   [height] = "9"
+                                                   [type] = "7"
+                                                 }
+                                        }
+                         }
+           [tag_id] = "2"
+         }
+}
+
+, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 11:45:08 [alert] 48896#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:45:08 [notice] 48896#0: signal process started
+2023/08/16 11:45:10 [alert] 48916#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 11:45:12 [error] 48919#0: *1 [lua] test_obj_array.lua:81: [{"bid_floor":"4","is_support_deeplink":"5","id":"1","tag_id":"2","ad_type":"3","template":{"element":[{"width":"8","height":"9","text_length_min":"10","text_length_max":"11","duration_min":"12","duration_max":"13","type":"7","file_size_max":"14","is_required":"6","mime":["jpg","png","svg","jpeg","mp4","avi"]},{"width":"8","height":"9","text_length_min":"10","text_length_max":"11","duration_min":"12","duration_max":"13","type":"7","file_size_max":"14","is_required":"6","mime":["jpg","png","svg","jpeg","mp4","avi"]}]}}], client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:13:35 [error] 48918#0: *2 [lua] test_obj_array.lua:103: null, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:13:35 [error] 48919#0: *3 [lua] test_obj_array.lua:103: null, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:14:19 [alert] 53867#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 13:14:19 [notice] 53867#0: signal process started
+2023/08/16 13:14:21 [alert] 53885#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 13:14:23 [error] 53887#0: *1 [lua] test_obj_array.lua:103: {"device":{"ua":"","ip":"","device_type":"","osv":"","make":"","model":"","carrier":"","connection_type":"","oaid":"","oaid_md5":"","imei":"","imei_md5":"","idfa":"","idfa_md5":"","android_id":"","android_id_md5":"","mac":"","mac_md5":"","screen_width":"","screen_height":"","os":"","latitude":"","longitude":"","ppi":""},"imp":[{"tag_id":"","ad_type":"","bid_floor":"","is_support_deeplink":"","template":{"element":[{"mime":{},"height":"","is_required":"","width":"","type":"","text_length_min":"","text_length_max":"","duration_min":"","duration_max":"","file_size_max":""}]},"id":""}],"app":{"name":"","bundle":"","version":""},"id":12345}, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:14:29 [error] 53887#0: *2 [lua] test_obj_array.lua:103: {"imp":[{"is_support_deeplink":"","template":{"element":[{"file_size_max":"","mime":{},"is_required":"","width":"","type":"","height":"","text_length_min":"","text_length_max":"","duration_min":"","duration_max":""}]},"id":"","tag_id":"","ad_type":"","bid_floor":""}],"device":{"mac":"","mac_md5":"","screen_width":"","screen_height":"","ppi":"","ua":"","ip":"","device_type":"","os":"","longitude":"","latitude":"","osv":"","make":"","model":"","carrier":"","connection_type":"","oaid":"","oaid_md5":"","imei":"","imei_md5":"","idfa":"","idfa_md5":"","android_id":"","android_id_md5":""},"app":{"name":"","version":"","bundle":""},"id":12345}, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:15:58 [error] 53887#0: *3 [lua] test_obj_array.lua:127: {"id":12345,"device":{"ua":"","ip":"","device_type":"","osv":"","make":"","model":"","carrier":"","connection_type":"","oaid":"","oaid_md5":"","imei":"","imei_md5":"","idfa":"","idfa_md5":"","android_id":"","android_id_md5":"","mac":"","mac_md5":"","screen_width":"","screen_height":"","ppi":"","latitude":"","longitude":"","os":""},"imp":[{"is_support_deeplink":"1","template":{"element":[{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","type":"1","file_size_max":"1","mime":["jpg","png","svg"],"duration_max":"1"},{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","type":"1","file_size_max":"1","mime":["jpg","png","svg"],"duration_max":"1"},{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","type":"1","file_size_max":"1","mime":["jpg","png","svg"],"duration_max":"1"}]},"id":"1","tag_id":"2","ad_type":"1","bid_floor":"1"}],"app":{"bundle":"","version":"","name":""}}, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:17:30 [alert] 54674#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 13:17:30 [notice] 54674#0: signal process started
+2023/08/16 13:17:32 [alert] 54693#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 13:17:38 [error] 54695#0: *1 [lua] test_obj_array.lua:129: {"id":1.2345532415312e+14,"app":{"version":"","bundle":"","name":""},"device":{"ua":"","ip":"","device_type":"","osv":"","make":"","model":"","carrier":"","connection_type":"","oaid":"","os":"","imei":"","imei_md5":"","idfa":"","idfa_md5":"","android_id":"","android_id_md5":"","mac":"","mac_md5":"","screen_width":"","screen_height":"","ppi":"","latitude":"","longitude":"","oaid_md5":""},"imp":[{"id":"1","tag_id":"2","ad_type":"1","bid_floor":"1","is_support_deeplink":"1","template":[{"element":[{"mime":["jpg","png","svg"],"type":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1"},{"mime":["jpg","png","svg"],"type":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1"},{"mime":["jpg","png","svg"],"type":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1"}]}]}]}, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:17:48 [error] 54695#0: *2 [lua] test_obj_array.lua:129: {"imp":[{"is_support_deeplink":"1","template":[{"element":[{"type":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg"]},{"type":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg"]},{"type":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg"]}]}],"id":"1","tag_id":"2","ad_type":"1","bid_floor":"1"}],"device":{"ua":"","ip":"","device_type":"","osv":"","make":"","model":"","carrier":"","connection_type":"","oaid":"","oaid_md5":"","imei":"","imei_md5":"","idfa":"","idfa_md5":"","android_id":"","android_id_md5":"","mac":"","mac_md5":"","screen_width":"","screen_height":"","ppi":"","latitude":"","longitude":"","os":""},"id":1.2345532415312e+14,"app":{"name":"","version":"","bundle":""}}, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:20:56 [alert] 55466#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 13:20:56 [notice] 55466#0: signal process started
+2023/08/16 13:20:58 [alert] 55485#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/16 13:21:06 [error] 55487#0: *1 [lua] test_obj_array.lua:145: {"device":{"android_id_md5":"","mac":"","mac_md5":"","screen_width":"","screen_height":"","ppi":"","latitude":"","longitude":"","os":"","ua":"","ip":"","device_type":"","osv":"","make":"","model":"","carrier":"","connection_type":"","oaid":"","oaid_md5":"","imei":"","imei_md5":"","idfa":"","idfa_md5":"","android_id":""},"id":1.2345532415312e+14,"imp":[{"tag_id":"2","id":"1","ad_type":"1","bid_floor":"1","is_support_deeplink":"1","template":[{"element":[{"duration_max":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","type":"1","file_size_max":"1","mime":["jpg","png","svg","mp4","avi"]},{"duration_max":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","type":"1","file_size_max":"1","mime":["jpg","png","svg","mp4","avi"]}]},{"element":[{"duration_max":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","type":"1","file_size_max":"1","mime":["jpg","png","svg","mkv"]},{"duration_max":"1","is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","type":"1","file_size_max":"1","mime":["jpg","png","svg","mov"]}]}]}],"app":{"version":"","name":"","bundle":""}}, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:21:15 [error] 55487#0: *2 [lua] test_obj_array.lua:145: {"device":{"imei":"","imei_md5":"","idfa":"","idfa_md5":"","android_id":"","android_id_md5":"","mac":"","mac_md5":"","screen_width":"","screen_height":"","ppi":"","latitude":"","longitude":"","os":"","ua":"","ip":"","device_type":"","osv":"","make":"","model":"","carrier":"","connection_type":"","oaid":"","oaid_md5":""},"id":1.2345532415312e+14,"app":{"name":"","version":"","bundle":""},"imp":[{"tag_id":"2","ad_type":"1","bid_floor":"1","id":"1","template":[{"element":[{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg","mp4","avi"],"type":"1"},{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg","mp4","avi"],"type":"1"}]},{"element":[{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg","mkv"],"type":"1"},{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg","mov"],"type":"1"}]}],"is_support_deeplink":"1"}]}, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/16 13:21:15 [error] 55487#0: *3 [lua] test_obj_array.lua:145: {"app":{"version":"","bundle":"","name":""},"id":1.2345532415312e+14,"device":{"ppi":"","latitude":"","os":"","longitude":"","device_type":"","osv":"","mac_md5":"","mac":"","android_id_md5":"","imei_md5":"","idfa":"","connection_type":"","oaid":"","oaid_md5":"","imei":"","ua":"","ip":"","idfa_md5":"","android_id":"","make":"","model":"","carrier":"","screen_width":"","screen_height":""},"imp":[{"bid_floor":"1","is_support_deeplink":"1","template":[{"element":[{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg","mp4","avi"],"type":"1"},{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg","mp4","avi"],"type":"1"}]},{"element":[{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg","mkv"],"type":"1"},{"is_required":"1","width":"1","height":"1","text_length_min":"1","text_length_max":"1","duration_min":"1","duration_max":"1","file_size_max":"1","mime":["jpg","png","svg","mov"],"type":"1"}]}],"tag_id":"2","id":"1","ad_type":"1"}]}, client: 192.168.100.1, server: , request: "GET /test_obj_array HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/18 10:48:41 [alert] 16321#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/18 10:48:41 [notice] 16321#0: signal process started
+2023/08/18 10:48:43 [alert] 16337#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 09:59:46 [alert] 96973#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 09:59:46 [notice] 96973#0: signal process started
+2023/08/21 09:59:48 [alert] 96990#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:01:22 [alert] 97119#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:01:22 [notice] 97119#0: signal process started
+2023/08/21 10:01:24 [alert] 97138#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:03:35 [alert] 97393#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:03:35 [notice] 97393#0: signal process started
+2023/08/21 10:03:37 [alert] 97405#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:08:27 [alert] 97792#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:08:27 [notice] 97792#0: signal process started
+2023/08/21 10:08:29 [alert] 97806#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:13:02 [alert] 98114#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:13:02 [notice] 98114#0: signal process started
+2023/08/21 10:13:04 [alert] 98136#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:39:56 [alert] 100400#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:39:56 [notice] 100400#0: signal process started
+2023/08/21 10:39:58 [alert] 100422#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:52:31 [alert] 101126#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 10:52:31 [notice] 101126#0: signal process started
+2023/08/21 10:52:33 [alert] 101145#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 11:00:48 [alert] 102263#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 11:00:48 [notice] 102263#0: signal process started
+2023/08/21 11:00:50 [alert] 102282#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 11:06:48 [alert] 102667#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 11:06:48 [notice] 102667#0: signal process started
+2023/08/21 11:06:50 [alert] 102682#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 11:26:33 [alert] 103963#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 11:26:33 [notice] 103963#0: signal process started
+2023/08/21 11:26:35 [alert] 103975#0: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/21 11:30:19 [error] 103977#0: *4 open() "/root/02-notes/02-openresty/test-conf-server/html/qiu_ssp_conf.json" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /qiu_ssp_conf.json HTTP/1.1", host: "192.168.100.130:8061"
+2023/08/22 16:22:24 [alert] 11537#11537: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/22 16:22:24 [notice] 11537#11537: signal process started
+2023/08/22 16:22:24 [error] 11537#11537: open() "/root/02-notes/02-openresty/test-conf-server/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/22 16:22:27 [alert] 11562#11562: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/22 16:22:30 [alert] 11609#11609: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/22 16:22:30 [notice] 11609#11609: signal process started
+2023/08/22 16:22:32 [alert] 11621#11621: lua_code_cache is off; this will hurt performance in /root/02-notes/02-openresty/test-conf-server/conf/nginx.conf:25
+2023/08/22 16:22:58 [notice] 11714#11714: signal process started
+2023/08/22 16:58:13 [notice] 19352#19352: signal process started
+2023/08/22 17:20:25 [notice] 24780#24780: signal process started
+2023/08/22 17:20:55 [notice] 24893#24893: signal process started
+2023/08/22 17:22:08 [notice] 25069#25069: signal process started
+2023/08/29 16:26:44 [notice] 111224#111224: signal process started
+2023/09/01 16:55:15 [notice] 9978#0: signal process started
+2023/09/01 16:55:15 [error] 9978#0: open() "/root/02-notes/02-openresty/test-conf-server/logs/nginx.pid" failed (2: No such file or directory)
+2023/09/01 16:55:19 [notice] 10007#0: signal process started
+2023/09/01 16:55:52 [error] 10013#0: *1 open() "/root/02-notes/02-openresty/test-conf-server/html/api_1" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /capture_multi_test HTTP/1.1", subrequest: "/api_1", host: "192.168.100.130:8061"
+2023/09/01 16:55:52 [error] 10013#0: *1 open() "/root/02-notes/02-openresty/test-conf-server/html/api_2" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /capture_multi_test HTTP/1.1", subrequest: "/api_2", host: "192.168.100.130:8061"
+2023/09/01 16:55:52 [error] 10013#0: *1 open() "/root/02-notes/02-openresty/test-conf-server/html/api_3" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /capture_multi_test HTTP/1.1", subrequest: "/api_3", host: "192.168.100.130:8061"
+2023/09/01 16:55:52 [error] 10013#0: *1 [lua] capture_multi_test.lua:10:  {
+  [1] =  {
+           [status] = 404
+           [body] = ""
+           [truncated] = true
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+         }
+  [2] =  {
+           [status] = 404
+           [body] = ""
+           [truncated] = true
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+         }
+  [3] =  {
+           [status] = 404
+           [body] = ""
+           [truncated] = true
+           [header] =  {
+                         [Content-Type] = "text/plain"
+                       }
+         }
+}
+
+, client: 192.168.100.1, server: , request: "GET /capture_multi_test HTTP/1.1", host: "192.168.100.130:8061"
+2023/09/01 16:57:15 [error] 10014#0: *2 open() "/root/02-notes/02-openresty/test-conf-server/html/api_1" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /capture_multi_test HTTP/1.1", subrequest: "/api_1", host: "192.168.100.130:8061"
+2023/09/01 16:57:15 [error] 10014#0: *2 open() "/root/02-notes/02-openresty/test-conf-server/html/api_2" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /capture_multi_test HTTP/1.1", subrequest: "/api_2", host: "192.168.100.130:8061"
+2023/09/01 16:57:15 [error] 10014#0: *2 open() "/root/02-notes/02-openresty/test-conf-server/html/api_3" failed (2: No such file or directory), client: 192.168.100.1, server: , request: "GET /capture_multi_test HTTP/1.1", subrequest: "/api_3", host: "192.168.100.130:8061"
+2023/09/01 16:58:29 [notice] 10132#0: signal process started

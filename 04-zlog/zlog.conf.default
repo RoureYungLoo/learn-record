@@ -1,0 +1,28 @@
+# global-levels-formats-rules
+[global]
+strict init = true
+buffer min = 1024
+buffer max = 2MB
+rotate lock file = /tmp/zlog.lock
+# default format = "%d.%us %-6V (%c:%F:%L) - %m%n"
+default format = "%d(%F %T) %V [%p:%F:%L] %m%n"
+file perms = 644
+
+[levels]
+TRACE = 10
+CRIT = 130, LOG_CRIT
+
+[formats]
+# "%d %V [%p:%F:%L] %m%n"
+simple = "%m%n"
+normal = "%d %m%n"
+
+[rules]
+# (category).(level)    (output), (options, optional); (format name, optional)
+#  my_cat.DEBUG意味着任何大于等于DEBUG级别的日志会被输出
+default.* >stdout; simple
+*.* "%12.2E(HOME)/log/%c.log", 1MB*12; simple
+my_.INFO >stderr;
+my_cat.!ERROR "/var/log/aa.log"
+my_dog.=DEBUG >syslog, LOG_LOCAL0; simple
+my_mice.* $user_define;

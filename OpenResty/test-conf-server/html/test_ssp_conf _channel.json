@@ -1,0 +1,736 @@
+{//测channel
+    "dsp": [
+        {
+            "dspid": "1",
+            "bid_url": "http://test.vlion.cn:8027/vlion_bid",
+            "e_key": "mBviVB67nbvuIVVZUqNJYvbNfnUafUb2",
+            "i_key": "ibbfAejAj3eEBYrUN2ZnRbZnnjBArfBy"
+        },
+        {
+            "dspid": "14",
+            "bid_url": "http://sx.rtb.fastapi.net/?pid=17089",
+            "e_key": "b8459ad37b619125b7125026d8005f5a",
+            "i_key": "77c589c81cd026c8170bbf7c1a16c857"
+        },
+        {
+            "dspid": "19999",
+            "bid_url": "http://t.adapi.rytad.com/v1/ruishiAdx",
+            "e_key": "b8459ad37b619125b7125026d8005f5a",
+            "i_key": "77c589c81cd026c8170bbf7c1a16c857"
+        },
+        {
+            "dspid": "801",
+            "bid_url": "http://t.adapi.rytad.com/v1/ruishiAdx",
+            "e_key": "0123456789syabcd",
+            "i_key": "0123456789syabcd"
+        }
+    ],
+    "channel": [
+        {
+            "chnid": "1",
+            "chnname": "捷云",
+            "bid_url": "http://cmarket.kejet.net/adr"
+        },
+        {
+            "chnid": "2",
+            "chnname": "猎鹰",
+            "bid_url": "http://as.lieying.cn/v2/sts/ch/69"
+        },
+        {
+            "chnid": "3",
+            "chnname": "一点通",
+            "bid_url": "http://test.vlion.cn:8027/ydt_bid"
+        },
+        {
+            "chnid": "5",
+            "chnname": "旺脉",
+            "bid_url": "http://test.vlion.cn:8027/wangmai_bid"
+        },
+        {
+            "chnid": "8",
+            "chnname": "腾讯",
+            "bid_url": "http://test.vlion.cn:8027/tencent_bid"
+        },
+        {
+            "chnid": "6",
+            "chnname": "天市",
+            "bid_url": "https://api.tiisi.com/v10/getad"
+        },
+        {
+            "chnid": "7",
+            "chnname": "PubNative",
+            "bid_url": "https://api.pubnative.net/api/v3/native"
+        },
+        {
+            "chnid": "9",
+            "chnname": "玩转",
+            "bid_url": "http://api.uniplayad.com/phone/agent.php"
+        },
+        {
+            "chnid": "10",
+            "chnname": "hoaad",
+            "bid_url": "http://api.haoad.org/mobads/v1/getad"
+        },
+        {
+            "chnid": "11",
+            "chnname": "洛米",
+            "bid_url": "http://sdk.cferw.com/api.php"
+        },
+        {
+            "chnid": "12",
+            "chnname": "内容联盟",
+            "bid_url": "http://47.93.218.102:8080/ydt-server/cu/list"
+        },
+        {
+            "chnid": "13",
+            "chnname": "Adview",
+            "bid_url": "https://test.s.ads.sohu.com/as"
+        },
+        {
+            "chnid": "16",
+            "chnname": "Hzeng",
+            "bid_url": "http://sx.g.fastapi.net/s2s"
+        },
+        {
+            "chnid": "18",
+            "chnname": "点冠",
+            "bid_url": "http://180.169.165.34:8898/v3/json"
+        },
+        {
+            "chnid": "268",
+            "chnname": "深圳青山",
+            "bid_url": "http://control.ssp.lionmobo.com/api"
+        },
+        {
+            "bid_url": "http://adx.spin-view.com/api/bid/v3/156cc71ca70a492ca1ead8d854bcccfc",
+            "chnid": "253",
+            "chnname": "自旋"
+        },
+        {
+            "bid_url": "http://api.xcultur.com/api/v4/ad",
+            "chnid": "265",
+            "chnname": "轩辰"
+        }
+    ],
+    "media": [
+        {
+            "id": "60",
+            "appname": "猫扑吧",
+            "pkgname": "maopu8.com",
+            "ratio": "1.0",
+            "traffic": "4"
+        },
+        {
+            "id": "1001",
+            "appname": "MyGame",
+            "pkgname": "com.mygame.abc",
+            "ratio": "1.0"
+        },
+        {
+            "id": "fa0d2a5d",
+            "appname": "壁纸咖",
+            "pkgname": "com.vivo.adnet.demo.app",
+            "ratio": "1.0",
+            "traffic": "1",
+            "appid_map": {
+                "268": "03ad601d82b64f8e9b4939259b47c26e"
+            }
+        },
+        {
+            "id": "80",
+            "appname": "网上厨房",
+            "pkgname": "en.ecook",
+            "ratio": "1.0",
+            "traffic": "1",
+            "appid_map": {
+                "5": "icas9bjugr",
+                "6": "BF6B7452C5574D63A3932CA81C3F0205",
+                "7": "7b479d404369403395277b9e171c3a10"
+            }
+        },
+        {
+            "id": "81",
+            "appname": "网上厨房ios",
+            "pkgname": "",
+            "ratio": "1.0",
+            "traffic": "2",
+            "appid_map": {
+                "7": "77535b9cac4945a3bcc48c763163ccc2"
+            }
+        },
+        {
+            "id": "82",
+            "appname": "小知",
+            "pkgname": "com.inveno.xiaozhi",
+            "ratio": "1.0",
+            "traffic": "1",
+            "appid_map": {
+                "8": "1104241296",
+                "9": "1104241296",
+                "11": "aafd0df8ed2e8c2c34b8c2ff24d43532",
+                "10": "5aedaa560d29ecf307bce9ee64afbfb6",
+                "12": "d2284ef31e88302b1e9e1976cf47eae5",
+                "13": "SDK201714310210560h4saf8syv136lb"
+            }
+        },
+        {
+            "id": "83",
+            "appname": "腾讯测试app",
+            "pkgname": "com.test.ios",
+            "ratio": "1.0",
+            "traffic": "2",
+            "appid_map": {
+                "8": "1104238667"
+            }
+        },
+        {
+            "id": "84",
+            "appname": "测试app",
+            "pkgname": "com.test.an",
+            "ratio": "1.0",
+            "traffic": "1",
+            "appid_map": {
+                "12": "5e56f1de"
+            }
+        },
+        {
+            "id": "85",
+            "appname": "手机电影",
+            "pkgname": "com.cnlive.movie",
+            "ratio": "1.0",
+            "traffic": "1"
+        }
+    ],
+    "adslot": [
+        {
+            "id": "10000",
+            "adt": "0",
+            "bidf": "1",
+            "media": "60",
+            "banner": {
+                "w": "320",
+                "h": "50"
+            },
+            "default_code": [
+                "<iframe frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" padding=\"0\" style=\"width:300px;height: 250px;\" src=\"http://v.vlion.cn/a.do?tid=2&tempid=9888&channel=&encode=1&lion_clickurl=&pid=&type=s&s=d\"></iframe> <div id=\"div_id\" style='z-index:1005000'></div><script>var adChoiceObj = {adWidth: 300,adHeight: 250,adChoiceIconPos:\"UR\".toLowerCase(),adChoiceIconDir:\"http://m.kejet.net/ms/tj/dsp/cornermark/bule/\",adChoiceOptOutPage:\"http://www.vlion.cn\",adChoiceDivId:\"div_id\",adChoiceIconVisibility:\"true\",rnd:1};</script><script src=\"http://m.kejet.net/ms/tj/dsp/js/rs_icon_ad.js\"> </script>"
+            ],
+            "ratio": 0.1
+        },
+        {
+            "chn_id_map": [
+                {
+                    "1": "66666"
+                },
+                {
+                    "3": "99999"
+                },
+                {
+                    "6": "99999"
+                },
+                {
+                    "7": "2"
+                }
+            ],
+            "id": "10001",
+            "adt": "0",
+            "bidf": "2",
+            "media": "81",
+            "banner": {
+                "w": "320",
+                "h": "50"
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "chn",
+                        "id": "7",
+                        "weight": "10"
+                    }
+                ]
+            },
+            "ratio": 0.1
+        },
+        {
+            "chn_id_map": [
+                {
+                    "1": "Q4XBLKKDMQI5LDOIBE9B"
+                },
+                {
+                    "2": "28888"
+                },
+                {
+                    "3": "77777"
+                },
+                {
+                    "4": "4"
+                },
+                {
+                    "8": "5"
+                },
+                {
+                    "7": "1"
+                },
+                {
+                    "11": "28889"
+                }
+            ],
+            "id": "10002",
+            "adt": "3",
+            "bidf": "3",
+            "media": "80",
+            "native": {
+                "type": "1",
+                "title": {
+                    "len": "10"
+                },
+                "desc": {
+                    "len": "30"
+                },
+                "img": [
+                    {
+                        "w": "320",
+                        "h": "480"
+                    }
+                ]
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "chn",
+                        "id": "8",
+                        "weight": "10"
+                    }
+                ]
+            },
+            "ratio": 0.1
+        },
+        {
+            "chn_id_map": [
+                {
+                    "6": "913B8C5122694CEA9B70DA0FFE5DE20C"
+                }
+            ],
+            "id": "10003",
+            "adt": "3",
+            "bidf": "3",
+            "media": "80",
+            "native": {
+                "type": "1",
+                "title": {
+                    "len": "10"
+                },
+                "desc": {
+                    "len": "30"
+                },
+                "img": [
+                    {
+                        "w": "960",
+                        "h": "640"
+                    }
+                ]
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "chn",
+                        "id": "6",
+                        "weight": "1"
+                    }
+                ]
+            },
+            "ratio": 0.1
+        },
+        {
+            "chn_id_map": [
+                {
+                    "2": "1347",
+                    "7": "1"
+                }
+            ],
+            "id": "10004",
+            "adt": "3",
+            "bidf": "3",
+            "media": "80",
+            "native": {
+                "type": "1",
+                "title": {
+                    "len": "10"
+                },
+                "desc": {
+                    "len": "30"
+                },
+                "img": [
+                    {
+                        "w": "1200",
+                        "h": "627"
+                    }
+                ]
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "chn",
+                        "id": "7",
+                        "weight": "1"
+                    }
+                ]
+            },
+            "ratio": 0.1
+        },
+        {
+            "chn_id_map": [
+                {
+                    "8": "5060504124524896"
+                }
+            ],
+            "id": "10005",
+            "adt": "0",
+            "bidf": "3",
+            "media": "82",
+            "banner": {
+                "w": "640",
+                "h": "100"
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "chn",
+                        "id": "8",
+                        "weight": "1"
+                    }
+                ]
+            },
+            "ratio": 0.1
+        },
+        {
+            "chn_id_map": [
+                {
+                    "10": "1710180003",
+                    "12": "2041",
+                    "13": "POSIDzzdr5bufsl6t"
+                }
+            ],
+            "id": "10006",
+            "adt": "0",
+            "bidf": "1",
+            "media": "82",
+            "banner": {
+                "w": "320",
+                "h": "50"
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "dsp",
+                        "id": "14",
+                        "weight": "1"
+                    }
+                ]
+            },
+            "ratio": 0.1
+        },
+        {
+            "chn_id_map": [
+                {
+                    "9": "1710190010",
+                    "11": "2082",
+                    "10": "3778589",
+                    "13": "POSIDnhdtcd2yw4k8"
+                }
+            ],
+            "id": "10007",
+            "adt": "3",
+            "bidf": "1",
+            "media": "82",
+            "native": {
+                "type": "1",
+                "title": {
+                    "len": "10"
+                },
+                "desc": {
+                    "len": "30"
+                },
+                "img": [
+                    {
+                        "w": "320",
+                        "h": "568"
+                    }
+                ]
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "dsp",
+                        "id": "14",
+                        "weight": "1"
+                    }
+                ]
+            },
+            "ratio": 0.1
+        },
+        {
+            "id": "10008",
+            "adt": "0",
+            "bidf": "3",
+            "media": "84",
+            "banner": {
+                "w": "320",
+                "h": "50"
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "chn",
+                        "id": "3",
+                        "weight": "100"
+                    }
+                ],
+                "second": [
+                    {
+                        "t": "chn",
+                        "id": "3",
+                        "weight": "100"
+                    }
+                ]
+            },
+            "chn_id_map": [
+                {
+                    "chnid": "2",
+                    "map": [
+                        {
+                            "appid": "appid_11111",
+                            "pkgname": "pkgname_11111",
+                            "slotid": "1111111",
+                            "weight": "50",
+                            "proirity": "1"
+                        },
+                        {
+                            "appid": "appid_11111",
+                            "pkgname": "pkgname_11111",
+                            "slotid": "1111111",
+                            "weight": "50",
+                            "proirity": "2"
+                        }
+                    ]
+                },
+                {
+                    "chnid": "3",
+                    "map": [
+                        {
+                            "appid": "appid_31111",
+                            "pkgname": "pkgname_31111",
+                            "slotid": "3111111",
+                            "weight": "50",
+                            "proirity": "1"
+                        },
+                        {
+                            "appid": "appid_32222",
+                            "pkgname": "pkgname_32222",
+                            "slotid": "3222222",
+                            "weight": "50",
+                            "proirity": "1"
+                        },
+                        {
+                            "appid": "appid_33333",
+                            "pkgname": "pkgname_33333",
+                            "slotid": "3333333",
+                            "weight": "50",
+                            "proirity": "2"
+                        },
+                        {
+                            "appid": "appid_34444",
+                            "pkgname": "pkgname_34444",
+                            "slotid": "3444444",
+                            "weight": "50",
+                            "proirity": "2"
+                        }
+                    ]
+                },
+                {
+                    "chnid": "8",
+                    "map": [
+                        {
+                            "appid": "appid_55555",
+                            "pkgname": "pkgname_55555",
+                            "slotid": "5555555",
+                            "weight": "100",
+                            "proirity": "1"
+                        }
+                    ]
+                }
+            ],
+            "ratio": 0.1
+        },
+        {
+            "chn_id_map": [
+                {
+                    "18": "100090"
+                }
+            ],
+            "id": "10010",
+            "adt": "0",
+            "bidf": "1",
+            "media": "85",
+            "banner": {
+                "w": "640",
+                "h": "100"
+            },
+            "send": {
+                "first": [
+                    {
+                        "t": "chn",
+                        "id": "18",
+                        "weight": "1"
+                    }
+                ]
+            },
+            "ratio": 0.1
+        },
+        {
+            "id": "28888",
+            "adt": "2",
+            "bidf": "3.0",
+            "media": "fa0d2a5d",
+            "native": {
+                "type": 1,
+                "title": {
+                    "len": 15
+                },
+                "desc": {
+                    "len": 20
+                },
+                "icon": [
+                    {
+                        "w": "75",
+                        "h": "75"
+                    }
+                ],
+                "img": [
+                    {
+                        "w": "300",
+                        "h": "300"
+                    }
+                ]
+            },
+            "banner": {
+                "w": "960",
+                "h": "1560",
+                "ctype": "2"
+            },
+            "chn_id_map": [
+                {
+                    "chnid": "268",
+                    "map": [
+                        {
+                            "slotid": "e896e852",
+                            "appid": "2258a59f",
+                            "weight": "10000",
+                            "proirity": "1"
+                        }
+                    ]
+                }
+            ],
+            "send": {
+                "_1": [
+                    {
+                        "t": "statistics",
+                        "weight": "10000",
+                        "is_js": false,
+                        "ssp": {
+                            "choose": "weight",
+                            "list": [
+                                {
+                                    "id": "268",
+                                    "weight": "10000",
+                                    "target": {}
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ratio": "0.1",
+            "support_deeplink": "1",
+            "support_clk_macro": "1",
+            "mode": "api",
+            "reverse_id_map": {
+                "id": "59",
+                "slotid": "4684684646848"
+            }
+        },
+        {
+            "ratio": "0.2",
+            "id": "28889",
+            "adt": "3",
+            "bidf": "0.3",
+            "mode": "api",
+            "support_deeplink": "1",
+            "support_clk_macro": "1",
+            "timeout": 800,
+            "chn_anti_spam": "0",
+            "media": "32210",
+            "bid_type": {
+                "typ": 1,
+                "bidfloor": 0.3
+            },
+            "native": {
+                "type": "3",
+                "style": "1",
+                "desc": {
+                    "len": 20
+                },
+                "title": {
+                    "len": 20
+                },
+                "img": [
+                    {
+                        "w": "1280",
+                        "h": "720"
+                    }
+                ]
+            },
+            "send": {
+                "_1": [
+                    {
+                        "weight": "10000",
+                        "t": "rtb",
+                        "is_js": false,
+                        "dsp": [
+                            {
+                                "id": "801"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "chn_id_map": [
+                {
+                    "chnid": "253",
+                    "map": [
+                        {
+                            "appname": "手机遥控器",
+                            "pkgname": "com.flybbj.remotecontrol",
+                            "appid": "32210",
+                            "slotid": "1345460276",
+                            "weight": "2000",
+                            "proirity": "1"
+                        }
+                    ]
+                },
+                {
+                    "chnid": "265",
+                    "map": [
+                        {
+                            "appname": "手机遥控器",
+                            "pkgname": "com.flybbj.remotecontrol",
+                            "appid": "20338",
+                            "slotid": "30571",
+                            "weight": "7500",
+                            "proirity": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
