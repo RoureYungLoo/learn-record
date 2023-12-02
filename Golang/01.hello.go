@@ -30,8 +30,13 @@ func main() {
 	// golang_condition()
 
 	// 7-循环语句.go
-	golang_loop()
+	// golang_loop()
 
+	// 8-函数.go
+	go_function()
+
+	// 9-变量作用域.go
+	// go_var_scope()
 }
 
 /* 关键字
