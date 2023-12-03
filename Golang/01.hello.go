@@ -33,10 +33,13 @@ func main() {
 	// golang_loop()
 
 	// 8-函数.go
-	go_function()
+	// go_function()
 
 	// 9-变量作用域.go
 	// go_var_scope()
+
+	// 10-go-array.go
+	go_array()
 }
 
 /* 关键字
