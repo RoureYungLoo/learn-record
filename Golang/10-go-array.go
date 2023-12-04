@@ -109,5 +109,66 @@ func go_array() {
 		fmt.Println(v)
 	}
 
-	// 数组参数, 向函数传递数组
+	var balance2 = [5]int{1000, 23, 43, 15, 60}
+	average := get_average(balance2, 5)
+	println(average)
+
+	test1()
+	test2()
+
+	days := [5]int{1, 2, 3, 4, 5}
+	fmt.Println("原始days: ", days)
+	mod_arr(days)
+	fmt.Println("值传递修改后days: ", days)
+	mod_arr2(&days)
+	fmt.Println("引用传递修改days: ", days)
+
+}
+
+// 数组参数, 向函数传递数组。Golang中数组是值传递
+func func1(arr [10]int) { //指定数组大小
+
+}
+func func2(arr []int) { //不指定数组大小
+
+}
+
+// 计算平均值
+func get_average(arr [5]int, size int) float64 {
+	sum := 0
+	for i := 0; i < size; i++ {
+		sum += arr[i]
+	}
+	return float64(sum) / float64(size)
+}
+
+// 测试精度
+func test1() {
+	a := 1.69
+	b := 1.7
+	c := a * b
+	fmt.Println(c)
+}
+
+// 测试精度
+func test2() {
+	a := 1690
+	b := 1700
+	c := a * b
+	fmt.Println(c)
+	fmt.Println(float64(c) / 1000000)
+}
+
+// 值传递
+func mod_arr(arr [5]int) {
+	for i := 0; i < len(arr); i++ {
+		arr[i] = arr[i] * 2
+	}
+}
+
+// 引用传递
+func mod_arr2(arr *[5]int) {
+	for i := 0; i < len(arr); i++ {
+		(*arr)[i] = (*arr)[i] * 2
+	}
 }

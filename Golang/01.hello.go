@@ -39,7 +39,10 @@ func main() {
 	// go_var_scope()
 
 	// 10-go-array.go
-	go_array()
+	// go_array()
+
+	// 11-go-pointer.go
+	go_pointer()
 }
 
 /* 关键字
