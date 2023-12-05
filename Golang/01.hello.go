@@ -42,7 +42,10 @@ func main() {
 	// go_array()
 
 	// 11-go-pointer.go
-	go_pointer()
+	// go_pointer()
+
+	// 12-go-struct.go
+	go_struct()
 }
 
 /* 关键字

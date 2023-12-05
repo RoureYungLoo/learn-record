@@ -45,8 +45,33 @@ func go_pointer() {
 		fmt.Printf("\n*ptr_w[%d] = %d", i, *ptr_w[i])
 	}
 
-	// 二级指针
+	// 二级指针：指向另外一个指针的指针
+	var ptr_ptr_age **int
+	ptr_ptr_age = &ptr_age
+	fmt.Printf("\n变量age: %d\n", age)
+	fmt.Printf("一级指针 ptr_age: %x, *ptr_age = %d\n", ptr_age, *ptr_age)
+	fmt.Printf("二级指针 ptr_ptr_age: %x, *ptr_ptr_age = %x\n", ptr_ptr_age, *ptr_ptr_age)
+
 	// 多级指针
+	var ppp_age ***int = &ptr_ptr_age
+	fmt.Printf("三级指针 ppp_age: %x, *ppp_age = %x\n", ppp_age, *ppp_age)
+
+	var pppp_age ****int = &ppp_age
+	fmt.Printf("四级指针 pppp_age: %x, *pppp_age = %x\n", pppp_age, *pppp_age)
 
 	// 指针作为形参，地址作为实参（这里以一级指针为例子）
+	var date1 = 16999999
+	var date2 = 17000000
+	println(date1, date2)
+	swap2(&date1, &date2)
+	println(date1, date2)
+
+}
+
+func swap2(n1 *int, n2 *int) {
+	// *n1, *n2 = *n2, *n1
+	var temp int
+	temp = *n1 /* 保存 n1 地址的值 */
+	*n1 = *n2  /* 将 n2 赋值给 n1 */
+	*n2 = temp /* 将 temp 赋值给 n2 */
 }
