@@ -45,7 +45,10 @@ func main() {
 	// go_pointer()
 
 	// 12-go-struct.go
-	go_struct()
+	// go_struct()
+
+	// 13-go-slice.go
+	go_slice()
 }
 
 /* 关键字
