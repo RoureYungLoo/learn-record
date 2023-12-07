@@ -37,6 +37,23 @@ func go_slice() {
 	}
 
 	// 切片截取 new_slice = slice[start:end]  !!!左闭右开！！！
+	var days = [7]string{"Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"}
+	var day_slice = days[1:4]
+	fmt.Println(day_slice)
+	fmt.Println(days[:])
+	fmt.Println(days[3:])
+	fmt.Println(days[:5])
+
+	// append()  and  copy()
+	var new_clice []string
+	fmt.Println(append(new_clice, "周一"))
+	fmt.Println(new_clice)
+	new_clice = append(new_clice, "周二", "周三")
+	fmt.Println(new_clice)
+	// 异地扩容
+	new_slice := make([]string, len(new_clice), cap(new_clice)*2)
+	copy(new_slice, new_clice)
+	fmt.Println(new_slice, len(new_slice), cap(new_slice))
 
 }
 func print_slice(s []int) {

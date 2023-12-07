@@ -48,7 +48,13 @@ func main() {
 	// go_struct()
 
 	// 13-go-slice.go
-	go_slice()
+	// go_slice()
+
+	// 14-go-range.go
+	// go_range()
+
+	// 15-go-map.go
+	go_map()
 }
 
 /* 关键字
