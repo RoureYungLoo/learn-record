@@ -54,7 +54,14 @@ func main() {
 	// go_range()
 
 	// 15-go-map.go
-	go_map()
+	// go_map()
+
+	// 16-go-recursion.go
+	// go_recursion()
+
+	// 17-go-type-cast.go
+	go_type_cast()
+
 }
 
 /* 关键字

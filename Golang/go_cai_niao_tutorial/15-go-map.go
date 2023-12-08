@@ -45,4 +45,30 @@ func go_map() {
 		fmt.Println(key, " : ", value)
 	}
 
+	var sites map[string]string
+	sites = make(map[string]string)
+
+	sites["c"] = "https://www.c.url"
+	sites["java"] = "https://www.java.url"
+	sites["baidu"] = "https://www.baidu.com"
+
+	for k, v := range sites {
+		fmt.Println(k, v)
+	}
+	site, ok := sites["java"]
+	if ok {
+		fmt.Println(site)
+	} else {
+		fmt.Println("key not exists")
+	}
+
+	country := map[string]string{"France": "Paris", "Italy": "Rome", "Japan": "Tokyo", "India": "New Delhi"}
+	for k, v := range country {
+		fmt.Println("country: ", k, ", capital: ", v)
+	}
+
+	delete(country, "France")
+	for k, v := range country {
+		fmt.Println("country: ", k, ", capital: ", v)
+	}
 }
