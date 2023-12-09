@@ -60,8 +60,19 @@ func main() {
 	// go_recursion()
 
 	// 17-go-type-cast.go
-	go_type_cast()
+	// go_type_cast()
 
+	// 18-go-interface.go
+	// go_interface()
+
+	// 19-go-error-handle.go
+	// go_error_handle()
+
+	// 20-go-concurrency.go
+	go_concurrency()
+
+	// 21-go-dev-tools.go
+	// go_dev_tools()
 }
 
 /* 关键字
