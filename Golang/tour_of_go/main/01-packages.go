@@ -10,7 +10,6 @@ import (
 	"fmt"
 	"math"
 	"math/cmplx"
-	"math/rand"
 )
 
 /*
@@ -24,22 +23,35 @@ import (
 任何"未导出"的名字在该包外均无法访问。
 */
 func main() {
-	fmt.Println("My favorite number is", rand.Intn(10))
-	// fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
-	fmt.Println(math.Pi)
+	// fmt.Println("My favorite number is", rand.Intn(10))
+	// // fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
+	// fmt.Println(math.Pi)
 
-	fmt.Println(func1(1, 2, 3))
-	fmt.Println(func1(11, 22, 33))
+	// fmt.Println(func1(1, 2, 3))
+	// fmt.Println(func1(11, 22, 33))
 
-	fmt.Println(swap("hello", "world"))
+	// fmt.Println(swap("hello", "world"))
 
-	fmt.Println(split(23))
+	// fmt.Println(split(23))
 
-	var_test()
+	// var_test()
 
-	shor_var_test()
+	// shor_var_test()
 
-	test_base_data_type()
+	// test_base_data_type()
+
+	// test_zero_value()
+
+	// test_type_cast()
+
+	// test_auto_infer()
+
+	// test_const()
+
+	// test_numerical_const()
+
+	// test_flow_control()
+
 }
 
 /*
@@ -119,3 +131,55 @@ func test_base_data_type() {
 	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
 	fmt.Printf("Type: %T Value: %v\n", z, z)
 }
+
+// 零值  没有明确初始值的变量会被赋予他们的零值
+func test_zero_value() {
+	var i int
+	var f float64
+	var b bool
+	var s string
+	var arr [5]int
+	var mapp map[string]int
+	fmt.Printf("%v %v %v %q %v %v", i, f, b, s, arr, mapp)
+}
+
+// 类型转换 表达式 T(v) 将值 v 转换为类型 T
+func test_type_cast() {
+	var x, y int = 3, 4
+	var f float64 = math.Sqrt(float64(x*x + y*y))
+	var z uint = uint(f)
+	fmt.Println(x, x, z)
+}
+
+// 类型推导 声明一个变量而不指定其类型,变量的类型由右值推导得出
+func test_auto_infer() {
+	// v := 4.3 + 3i
+	// v := make(chan int)
+	// v := make(map[int]string)
+	v := test_type_cast
+	fmt.Printf("%v 的类型是 %T\n", v, v)
+}
+
+// 常量 常量可以是字符、字符串、布尔值或数值;常量不能用 := 语法声明
+const Pi = 3.1415926
+const H = "你好 "
+const W = " 世界！"
+
+func test_const() {
+	fmt.Println(H + W)
+}
+
+// 数值常量
+const (
+	Big   = 1 << 100
+	Small = Big >> 99
+)
+
+func test_numerical_const() {
+	fmt.Println(need_int(Small))
+	fmt.Println(need_float(Small))
+	fmt.Println(need_float(Big))
+}
+
+func need_int(x int) int           { return x*10 + 1 }
+func need_float(x float64) float64 { return x * 0.1 }
