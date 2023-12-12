@@ -22,6 +22,20 @@ func go_method() {
 	var score MyFloat
 	score = -93.5
 	fmt.Println(score.Abs3())
+
+	i.Scale(2.5)         // Golang会自动将语句 i.Scale(5) 解释为 (&i).Scale(5)
+	fmt.Println(i.Abs()) // 12.5
+	Scale(&i, 2)
+	fmt.Println(i.Abs()) // 25
+	p := &i
+	p.Scale(3)
+	fmt.Println(p.Abs()) // Golang会自动将语句 p.Abs() 解释为 （*p).Abs()
+
+	vtx := &Vertex{3, 4}
+	fmt.Printf("1 %+v, Abs: %v\n", vtx, vtx.Abs3())
+	vtx.Scale(5)
+	fmt.Printf("1 %+v, Abs: %v\n", vtx, vtx.Abs3())
+
 }
 
 type Vertex struct {
@@ -47,4 +61,19 @@ func (r MyFloat) Abs3() float64 {
 		return float64(-r)
 	}
 	return float64(r)
+}
+
+// 指针接收者
+// 以指针为接收者的方法被调用时，接收者既能为值又能为指针
+func (ptr *Vertex /*指针接收者, 不能是内建类型的指针*/) Scale(f float64) {
+	ptr.X = ptr.X * f
+	ptr.Y = ptr.Y * f
+}
+
+func (ptr *Vertex) Abs3() float64 {
+	return math.Sqrt(ptr.X*ptr.X + ptr.Y*ptr.Y)
+}
+func Scale(v *Vertex, f float64) {
+	v.X = v.X * f
+	v.Y = v.Y * f
 }
