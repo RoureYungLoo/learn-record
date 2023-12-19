@@ -2,8 +2,27 @@ package main
 
 import (
 	"fmt"
+	"sync"
 	"time"
 )
+
+type SafeCounter struct {
+	v   map[string]int
+	mux sync.Mutex
+}
+
+func (c *SafeCounter) Inc(key string) {
+	c.mux.Lock()
+	c.v[key]++
+	c.mux.Unlock()
+	//去掉lock unlock会报错： fatal error: concurrent map writes
+}
+
+func (c *SafeCounter) Value(key string) int {
+	c.mux.Lock()
+	defer c.mux.Unlock()
+	return c.v[key]
+}
 
 func sum(a, b, c int) int {
 	fmt.Println(a + b + c)
@@ -71,20 +90,28 @@ func go_goroutine() {
 	fibonacci2(chn, quit)
 
 	// select default分支：当 select 中的其它分支都没有准备好时，default 分支就会执行。
-	tick := time.Tick(100 * time.Millisecond)
-	boom := time.After(5000 * time.Millisecond)
-	for {
-		select {
-		case <-tick:
-			fmt.Println("tick.")
-		case <-boom:
-			fmt.Println("BOOM!")
-			return
-		default:
-			fmt.Println("      .")
-			time.Sleep(1000 * time.Millisecond)
-		}
+	// tick := time.Tick(100 * time.Millisecond)
+	// boom := time.After(5000 * time.Millisecond)
+	// for {
+	// 	select {
+	// 	case <-tick:
+	// 		fmt.Println("tick.")
+	// 	case <-boom:
+	// 		fmt.Println("BOOM!")
+	// 		return
+	// 	default:
+	// 		fmt.Println("      .")
+	// 		time.Sleep(1000 * time.Millisecond)
+	// 	}
+	// }
+
+	// 互斥锁
+	counter := SafeCounter{v: make(map[string]int)}
+	for i := 0; i < 1000; i++ {
+		go counter.Inc("somekey")
 	}
+	time.Sleep(time.Second)
+	fmt.Println(counter.Value("somekey"))
 
 }
 
