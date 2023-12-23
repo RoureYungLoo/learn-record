@@ -111,7 +111,6 @@ func main() { // 无任何参数，无任何返回
 
 	// 类型转换
 	fmt.Println(int32(integer16) + integer32)
-
 	i, _ := strconv.Atoi("-42") // _ ：只写变量，不能读取
 	S := strconv.Itoa(-42)
 	fmt.Println(i, S)
