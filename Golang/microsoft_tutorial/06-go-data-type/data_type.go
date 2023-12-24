@@ -2,10 +2,15 @@ package main
 
 import "fmt"
 
+var key = ""
+var value = 0
+
 func main() {
 	println("====== datatype ======")
 	// test_array()
-	test_slice()
+	// test_slice()
+	// test_map()
+	test_struct()
 }
 
 func test_array() {
@@ -124,5 +129,132 @@ func test_slice() {
 	fmt.Println("修改切片slice1之后：", number)
 	fmt.Println(slice1)
 	fmt.Println(slice2)
+}
+func test_map() {
+	// golang中的map是hashtable, 所有的key类型相同，所有的value类型相同，key和value类型可以不同
+	var sites map[string]string
+	sites = map[string]string{
+		"baidu":  "https://www.baidu.com",
+		"google": "https://www.google.com.cn",
+	}
+	fmt.Println(sites)
 
+	var empty_map map[string]int     // nil map
+	empty_map = make(map[string]int) // 空map //panic: assignment to entry in nil map
+	fmt.Println(empty_map)
+
+	// 增 向nil map中尝试添加entry会导致panic
+	empty_map["age"] = 12
+	empty_map["rate"] = 5
+	fmt.Println(empty_map)
+
+	// 查
+	fmt.Println(empty_map["age"])
+	fmt.Println(empty_map["rate"])
+	fmt.Println(empty_map["name"])
+	// weight, exist := empty_map["weight"]
+	weight, exist := empty_map["rate"]
+	if exist {
+		fmt.Println("empty_map[\"weight\"]: ", weight)
+
+	} else {
+		fmt.Println("key weight is not exist")
+	}
+
+	// 删 尝试删除map的不存在的key，不会报错
+	delete(empty_map, "rate")
+	delete(empty_map, "name")
+	fmt.Println(empty_map)
+
+	// 改
+	empty_map["age"] = 99
+	fmt.Println(empty_map)
+
+	empty_map["key1"] = 11
+	empty_map["date"] = 12
+	empty_map["time"] = 34
+
+	// 迭代
+	// for key, value := range empty_map {
+	for key, _ := range empty_map {
+		// for _, value := range empty_map {
+		fmt.Println(key, ": ", value)
+	}
+
+}
+
+// 声明结构体类型
+type Employee struct {
+	id         string
+	name       string
+	age        int
+	gender     bool
+	birth      string
+	department []string
+	rate       []string
+}
+
+// 结构体嵌套
+type Person struct {
+	id    int
+	name  string
+	hobby []string
+}
+
+// 结构体嵌套
+type Emp struct {
+	// info Person //这是结构体Emp嵌套结构体Person
+	Person //这是结构体Emp组合结构体Person
+	m_id   int
+}
+
+type Contractor struct {
+	Person
+	c_id int
+}
+
+func test_struct() {
+	// 不同数据类型的的组合
+	var john Employee
+	// john.id = "1001"
+	// john.name = "John"
+	// john.age = 23
+	// john.gender = true
+	// john.birth = "1999/3/14"
+	// john.department = []string{"市场部", "销售部"}
+	// john.rate = []string{"三级", "四级"}
+	john = Employee{"1001", "John", 23, true, "1999/3/14", []string{"市场部", "销售部"}, []string{"三级", "四级"}}
+
+	tom := Employee{name: "Tom", rate: []string{"一级"}}
+	fmt.Println(john)
+	fmt.Println(tom)
+	var ptr *Employee = &tom
+	fmt.Println(ptr.name, ptr.rate)
+
+	var emp Emp
+	emp.m_id = 2001
+
+	// emp.info.id = 1001
+	// emp.info.name = "name"
+	// emp.info.hobby = []string{"跑步", "打球"}
+
+	emp.Person.id = 1001
+	emp.Person.name = "name"
+	emp.Person.hobby = []string{"跑步", "打球"}
+
+	fmt.Println(emp)
+
+	emp2 := Emp{
+		m_id: 1234,
+		Person: Person{
+			name: "lilei",
+		},
+	}
+	emp2.id = 1999
+	emp2.hobby = []string{
+		"爱好1",
+		"爱好2",
+		"爱好3",
+	}
+	fmt.Println(emp2)
 }
