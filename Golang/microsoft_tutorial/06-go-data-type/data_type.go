@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var key = ""
 var value = 0
@@ -10,7 +13,8 @@ func main() {
 	// test_array()
 	// test_slice()
 	// test_map()
-	test_struct()
+	// test_struct()
+	test_JSON()
 }
 
 func test_array() {
@@ -257,4 +261,39 @@ func test_struct() {
 		"爱好3",
 	}
 	fmt.Println(emp2)
+}
+
+func test_JSON() {
+	type Person2 struct {
+		ID        int
+		FirstName string `json:"name"`
+		LastName  string
+		Address   string `json:"address,omitempty"`
+	}
+	type Employee2 struct {
+		Person2
+		ManaerID int
+	}
+	type Contractor2 struct {
+		Person2
+		CompanyID int
+	}
+	emps := []Employee2{
+		Employee2{
+			Person2: Person2{
+				LastName: "Doe", FirstName: "John", Address: "henan",
+			},
+		},
+		Employee2{
+			Person2: Person2{
+				LastName: "Campbell", FirstName: "David",
+			},
+		},
+	}
+	data, _ := json.Marshal(emps)
+	fmt.Printf("%s\n", data)
+
+	var decoded []Employee2
+	json.Unmarshal(data, &decoded)
+	fmt.Printf("%v", decoded)
 }
