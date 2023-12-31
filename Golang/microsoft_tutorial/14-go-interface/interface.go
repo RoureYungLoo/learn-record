@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"hellowrold/shop"
 	"io"
 	"log"
 	"math"
@@ -16,7 +17,8 @@ func main() {
 	// test_interface()
 	// test_string()
 	// test_extend()
-	test_http()
+	// test_http()
+	test_shop()
 
 }
 
@@ -143,4 +145,22 @@ func (db database) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 func test_http() {
 	db := database{"Go T-shirt": 25, "Go Jacket": 55}
 	log.Fatal(http.ListenAndServe("localhost:8080", db))
+}
+
+func test_shop() {
+
+	account := shop.Account{FirstName: "John", LastName: "Sam"}
+	emp := shop.Employee{Account: account}
+
+	emp.ChangeName("ruoyang", "lu")
+
+	fmt.Println(emp.String())
+	emp.CheckCredits()
+
+	emp.AddCredits(7000.5)
+	emp.CheckCredits()
+
+	emp.RemoveCredits(1500.55)
+	emp.CheckCredits()
+
 }
