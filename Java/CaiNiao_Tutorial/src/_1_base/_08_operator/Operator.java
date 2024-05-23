@@ -9,7 +9,7 @@ public class Operator {
         /* 位运算符 */
         // test3();
         /* 逻辑运算符 */
-        // test4();
+        //test4();
         /* 赋值运算符 */
         // test5();
         /* 条件运算符 */
@@ -18,6 +18,9 @@ public class Operator {
         // test7();
         /* 运算符优先级 */
         // 适当使用括号
+        double a = 10;
+        double b = 1, c = 2, d = 0.5;
+        System.out.println(a /= b /= c /= 0.5);
     }
 
 
@@ -102,9 +105,28 @@ public class Operator {
     public static void test4() {
         boolean a = true;
         boolean b = false;
-        System.out.println("a && b = " + (a && b));
-        System.out.println("a || b = " + (a || b));
-        System.out.println("!(a && b) = " + !(a && b));
+//        System.out.println("a && b = " + (a && b));
+//        System.out.println("a || b = " + (a || b));
+//        System.out.println("!(a && b) = " + !(a && b));
+
+        /* 逻辑与 */
+//        if (logical_AND(false) & logical_AND(true)) {
+//
+//        }
+
+        /* 短路与 */
+        if (conditional_AND(false) && conditional_AND(true)) {
+
+        }
+
+        /* 逻辑或 */
+//        if (logical_OR(false) | logical_OR(true)) {
+//        }
+
+        /* 短路或 */
+//        if (conditional_OR(false) || conditional_OR(false)) {
+//        }
+
     }
 
     public static void test5() {
@@ -153,12 +175,53 @@ public class Operator {
         System.out.println("Value of b is : " + b);
     }
 
-    public static void test7(){
+    public static void test7() {
         Vehicle a = new Car();
-        boolean result =  a instanceof Car;
-        System.out.println( result);
+        boolean result = a instanceof Car;
+        System.out.println(result);
         System.out.println(new Vehicle() instanceof Car);
     }
+
+    public static boolean logical_AND(boolean b) {
+        System.out.println("计算【逻辑与】");
+        return b;
+    }
+
+    public static boolean logical_OR(boolean b) {
+        System.out.println("计算【逻辑或】");
+        return b;
+    }
+
+    public static boolean conditional_AND(boolean b) {
+        System.out.println("计算【短路与】");
+        return b;
+    }
+
+    public static boolean conditional_OR(boolean b) {
+        System.out.println("计算【短路或】");
+        return b;
+    }
+
+    public static int fa(int a) {
+        System.out.println("a");
+        return a;
+    }
+
+    public static int fb(int b) {
+        System.out.println("b");
+        return b;
+
+    }
+
+    public static int fc(int c) {
+        System.out.println("c");
+        return c;
+
+    }
 }
-class Vehicle{}
-class Car extends Vehicle{}
+
+class Vehicle {
+}
+
+class Car extends Vehicle {
+}

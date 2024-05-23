@@ -127,5 +127,13 @@ class Test {
         float score2 = 95.5F;
         double money1 = 125.34d;
         double money2 = 125.34D;
+
+        /* 表达式类型提升 */
+        byte aa = 40;
+        byte bb = 50;
+        //byte cc = a + b;             // 编译错误
+        //cc = (byte) (a + b);          // 正确
+        int ii = a + b;
+
     }
 }
