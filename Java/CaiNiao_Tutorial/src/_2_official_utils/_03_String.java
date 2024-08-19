@@ -1,5 +1,7 @@
 package _2_official_utils;
 
+import java.sql.DriverManager;
+
 // https://blog.csdn.net/qq_45798556/article/details/117924203
 public class _03_String {
     public static void main(String[] args) {
@@ -43,6 +45,15 @@ public class _03_String {
         System.out.printf("- %f - %d - %s", 12.3F, 343, "pf");
 
         // String类的其他方法参考API文档
+
+        String str = "Hello, world";
+        str.replace('o','A');
+        System.out.println(str.hashCode());
+        str = str.substring(0,6).concat("Java");
+        System.out.println(str.hashCode());
+        System.out.println(str.toUpperCase());
+        System.out.println(str);
+        DriverManager
     }
 
 }

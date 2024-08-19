@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>03-盒子模型</title>
+		<style type="text/css">
+			body {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				border-radius: 0;
+				background-color: antiquewhite;
+			}
+
+			div {
+				width: 200px;
+				border-width: 3px;
+				border-color: slategrey;
+				background-color: lightblue;
+			}
+
+			.wh {
+				width: 200px;
+				height: 150px;
+				margin: 0px;
+				padding: 0px;
+
+			}
+
+			.bs-bb {
+				width: 200px;
+				height: 150px;
+				box-sizing: border-box;
+
+			}
+
+			.bs-cb {
+				width: 200px;
+				height: 150px;
+				box-sizing: content-box;
+
+			}
+
+			.bs-none {
+				border-style: none;
+			}
+			.bs-hidded {
+				border-style: hidden;
+			}
+			.bs-dotted {
+				border-style: dotted;
+			}
+			.bs-dashed {
+				border-style: dashed;
+			}
+			.bs-solid {
+				border-style: solid;
+			}
+			.bs-double {
+				border-style: double;
+			}
+			.bs-groove {
+				border-style: groove;
+			}
+			.bs-ridge {
+				border-style: ridge;
+			}
+			.bs-inset {
+				border-style: inset;
+			}
+			.bs-outset {
+				border-style: outset;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wh">
+			CSS盒子模型
+		</div>
+		<div class="bs-bb">
+			border-box
+		</div>
+		<div class="bs-cb">
+			content-box
+		</div><br>
+		<div class="bs-none">
+			border-style: none;
+		</div><br>
+		<div class="bs-hidded">
+			border-style: hidden;
+		</div><br>
+		<div class="bs-dotted">
+			border-style: dotted;
+		</div><br>
+		<div class="bs-dashed">
+			border-style: dashed;
+		</div><br>
+		<div class="bs-solid">
+			border-style: solid;
+		</div><br>
+		<div class="bs-double">
+			border-style: double;
+		</div><br>
+		<div class="bs-groove">
+			border-style: groove;
+		</div><br>
+		<div class="bs-ridge">
+			border-style: ridge;
+		</div><br>
+		<div class="bs-inset">
+			border-style: inset;
+		</div><br>
+		<div class="bs-outset">
+			border-style: outset;
+		</div><br>
+	</body>
+</html>
