@@ -53,7 +53,7 @@ public class _03_String {
         System.out.println(str.hashCode());
         System.out.println(str.toUpperCase());
         System.out.println(str);
-        DriverManager
+//        DriverManager
     }
 
 }
