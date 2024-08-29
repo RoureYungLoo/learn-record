@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="newHello" class="com.xxx.entity.Hello">
+        <property name="name" value="World"/>
+    </bean>
+
+    <!--1. 常量注入 -->
+    <bean id="student" class="com.xxx.entity.Student">
+        <property name="name" value="张三"/>
+    </bean>
+
+    <!-- 2. Bean 注入 -->
+    <bean id="addr" class="com.xxx.entity.Address">
+        <property name="address" value="上海"/>
+    </bean>
+
+    <bean id="lisi" class="com.xxx.entity.Student">
+        <property name="name" value="李四"/>
+        <property name="address" ref="addr"/>
+
+        <!-- 3. 数组注入 -->
+        <property name="books">
+            <array>
+                <value>西游记</value>
+                <value>红楼梦</value>
+                <value>水浒传</value>
+            </array>
+        </property>
+
+        <!-- 4. List注入-->
+        <property name="hobbies">
+            <list>
+                <value>音乐</value>
+                <value>钓鱼</value>
+                <value>骑行</value>
+            </list>
+        </property>
+
+        <!-- 5. Map注入 -->
+        <property name="card">
+            <map>
+                <entry key="邮储银行" value="5478054380958097"/>
+                <entry key="中国银行" value="4923405775029308"/>
+            </map>
+        </property>
+
+        <!--  6. Set注入 -->
+        <property name="games">
+            <set>
+                <value>黑悟空</value>
+                <value>LOL</value>
+                <value>PUBG</value>
+            </set>
+        </property>
+
+        <!-- 7. Null注入 -->
+        <property name="wife">
+            <null></null>
+        </property>
+
+        <!-- 8. Properties注入 -->
+        <property name="info">
+            <props>
+                <prop key="学号">2024001</prop>
+                <prop key="性别">男</prop>
+                <prop key="姓名">李四
+                </prop>
+            </props>
+        </property>
+    </bean>
+
+
+</beans>

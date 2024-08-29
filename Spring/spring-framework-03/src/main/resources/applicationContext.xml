@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--bean就是java对象 , 由Spring创建和管理-->
+    <bean id="hello" class="com.xxx.entity.Hello">
+        <property name="name" value="Spring"/>
+    </bean>
+
+    <bean id="MysqlImpl" class="com.xxx.dao.UserDaoMysqlImpl"/>
+    <bean id="OracleImpl" class="com.xxx.dao.UserDaoOracleImpl"/>
+
+    <bean id="ServiceImpl" class="com.xxx.service.UserServiceImpl">
+        <!--        <property name="userDao" ref="OracleImpl"/>-->
+        <property name="userDao" ref="MysqlImpl"/>
+    </bean>
+
+    <!--ioc创建对象的方式-->
+    <!-- 1. 通过无参构造方法创建 -->
+    <bean id="lisi" class="com.xxx.entity.User">
+        <property name="address" value="shanghai"/>
+        <property name="hobby" value="music"/>
+    </bean>
+
+    <!-- 2. 通过有参构造方法创建 -->
+    <bean id="u1001" class="com.xxx.entity.User">
+        <!-- 通过参数下标索引设置-->
+        <constructor-arg index="0" value="beijing"/>
+        <constructor-arg index="1" value="music"/>
+    </bean>
+
+    <bean id="u1002" class="com.xxx.entity.User">
+        <!-- 通过参数名字设置 -->
+        <constructor-arg name="address" value="beijing"/>
+        <constructor-arg name="hobby" value="music"/>
+    </bean>
+
+    <bean id="u1003" class="com.xxx.entity.User">
+        <!-- 通过参数类型设置 -->
+        <constructor-arg type="java.lang.String" value="zhengzhou"/>
+        <constructor-arg type="java.lang.String" value="fish"/>
+    </bean>
+
+    <!-- 别名 -->
+    <alias name="u1003" alias="brother"/>
+
+    <!--
+   id 是bean的标识符,要唯一,如果没有配置id,name就是默认标识符
+   如果配置id,又配置了name,那么name是别名
+   name可以设置多个别名,可以用逗号,分号,空格隔开
+   如果不配置id和name,可以根据applicationContext.getBean(.class)获取对象;-->
+    <bean id="myId" name="myAlias" class="com.xxx.entity.User">
+        <property name="hobby" value="ping pang"/>
+        <property name="address" value="shanghai"/>
+    </bean>
+
+    <!-- 没有配置 id 和 name 属性时要通过 getBean(.class) 来获取对象 -->
+    <bean class="com.xxx.entity.Cat">
+        <property name="category" value="bo si"/>
+    </bean>
+
+    <!-- 导入 beans.xml -->
+    <import resource="beans.xml"/>
+
+    <!-- 导入 person.xml -->
+    <import resource="person.xml"/>
+
+    <import resource="hunter.xml"/>
+
+</beans>

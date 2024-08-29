@@ -1,0 +1,30 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.randolflu.mapper.BookMapper">
+
+    <insert id="save">
+        insert into tb_book (name,type,description) values(#{name},#{type},#{description});
+    </insert>
+
+    <update id="update">
+        update tb_book set
+        name = #{name},
+        type = #{type},
+        description = #{description}
+        where id = #{id}
+    </update>
+
+    <delete id="delete">
+        delete from tb_book where id = #{id};
+    </delete>
+
+    <select id="getAll" resultType="book">
+        select * from tb_book;
+    </select>
+
+    <select id="getById" resultType="book">
+        select * from tb_book where id = #{id};
+    </select>
+
+</mapper>

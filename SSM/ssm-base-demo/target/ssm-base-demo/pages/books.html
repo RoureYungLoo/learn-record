@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图书列表</title>
+    <script src="../js/jquery-3.7.1.js"></script>
+    <style>
+        .popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 200px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+<h1>图书列表</h1>
+<input id="addBook" type="button" value="添加图书" onclick="addBook()">
+<div id="popup" class="popup">
+    <h3>添加图书</h3>
+    <form id="myForm" action="#" method="post">
+        <p><input type="hidden" id="id" name="id"></p>
+        <p><label>书名:</label><input name="name" type="text" id="name" value=""></p>
+        <p><label>类别:</label><input name="type" type="text" id="type" value=""></p>
+        <p><label>描述:</label><input name="description" type="text" id="description" value=""></p>
+        <input id="confirm" type="button" value="确认" onclick="confirmOPT()">
+        <input id="cancel" type="button" value="取消" onclick="cancelOPT()">
+        <input id="reset" type="button" value="重置" onclick="resetOPT()">
+    </form>
+</div>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>类别</th>
+        <th>书名</th>
+        <th>描述</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="bookTable">
+    <td>序号</td>
+    <td>类别</td>
+    <td>书名</td>
+    <td>描述</td>
+    <td>
+        <input id='delete' type='button' value='删除'/>
+    </td>
+    </tbody>
+</table>
+<script>
+
+    function refresh() {
+        $.ajax({
+            url: "http://localhost:8080/books",
+            method: "get",
+            type: "post",
+            dataType: "json",
+            success: function (data) {
+                // console.log(data)
+                $("#bookTable").empty()
+                $.each(data.data, function (index, item) {
+                    var row = "<tr>" +
+                        "<td>" + item.id + "</td>" +
+                        "<td>" + item.name + "</td>" +
+                        "<td>" + item.description + "</td>" +
+                        "<td>" + item.type + "</td>" +
+                        "<td>" +
+                        '<input id="delete" type="button" value="删除"  onclick="deleteBook(\'' + item.id + '\',\'' + item.name + '\')" >' +
+                        '<input id="edit" type="button" value="编辑" onclick="editBook(\'' + item.id + '\')"/>' +
+                        "</td>"
+                    $("#bookTable").append(row);
+                })
+            }
+        })
+    }
+
+    $(document).ready(function () {
+        refresh()
+    })
+
+    $(function () {
+        $("#myForm").submit(function () {
+            var data = $(this).serialize();
+
+        })
+    })
+
+    function deleteBook(id, name) {
+        if (confirm("是否删除《" + name + "》?")) {
+            $.ajax(({
+                url: "http://localhost:8080/books/" + id,
+                type: "DELETE",
+                dataType: "json", // 期待返回的类型
+                contentType: "application/json", // 提交json必须有
+                async: false, // 防止页面先刷新
+                success: function (res) {
+                    console.log(res)
+                    if (res.data) {
+                        alert("code: " + res.code + " 删除成功")
+                    } else {
+                        alert("删除失败: " + res.msg)
+                    }
+                },
+            }))
+        } else {
+            console.log("用户取消删除操作")
+        }
+
+        refresh(); // 页面刷新
+
+    }
+
+    function editBook(id) {
+
+        console.log(id)
+        $.ajax(({
+            url: "http://localhost:8080/books/" + id,
+            type: "GET",
+            dataType: "json", // 期待返回的类型
+            contentType: "application/json", // 提交json必须有
+            success: function (res) {
+                console.log(res)
+                if (res.code == 20041) {
+                    document.getElementById("popup").style.display = "block";
+                    var book = res.data
+                    $("#id").val(book.id)
+                    $("#name").val(book.name)
+                    $("#description").val(book.name)
+                    $("#type").val(book.type)
+                } else {
+                    alert("出错了：" + res.msg)
+                }
+
+            },
+            error: function (res) {
+                console.log(res)
+            }
+
+        }))
+        refresh();
+    }
+
+    function addBook() {
+        document.getElementById("popup").style.display = "block";
+
+    }
+
+    function cancelOPT() {
+        document.getElementById("popup").style.display = "none";
+
+    }
+
+    // 确认保存
+    function confirmOPT() {
+        var post_body_data = JSON.stringify({
+            id: $("#id").val(),
+            name: $("#name").val(),
+            type: $("#type").val(),
+            description: $("#description").val()
+        })
+
+        console.log(post_body_data)
+        var book_id = $("#id").val();
+        var method = "GET"
+        if (parseInt(book_id) > 0) {
+            console.log("book_id: " + book_id)
+            method = "PUT"
+        }
+
+        $.ajax(({
+            async: false,
+            url: "http://localhost:8080/books/",
+            type: method,
+            dataType: "json", // 期待返回的类型
+            contentType: "application/json", // 提交json必须有
+            data: post_body_data,
+            success: function (res) {
+                console.log(res)
+                if (res.code == 20011) {
+                    alert("添加成功")
+                } else {
+                    alert("添加失败")
+                }
+            },
+        }))
+
+        refresh()
+
+        document.getElementById("popup").style.display = "none";
+
+    }
+
+    function resetOPT() {
+
+    }
+
+</script>
+</body>
+</html>

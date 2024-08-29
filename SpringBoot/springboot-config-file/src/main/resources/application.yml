@@ -1,0 +1,14 @@
+#spring.application.name=springboot-config-file
+
+# ?????
+email:
+  user: 694306515@qq.com
+  code: blegxquoodfhbccg
+  host: smtp.qq.com
+  auth: true
+
+# ??
+hobbies:
+  - ???
+  - ??
+  - ???

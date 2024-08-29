@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springmvc_06_restful:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7f7b826-cbbc-420b-ade6-5ed93865f364" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java/CaiNiao_Tutorial/src/_3_oop/_09_Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/CGLIB/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/CGLIB/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/CGLIB/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/CGLIB/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/CGLIB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/CGLIB/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/CGLIB/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/CGLIB/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/Proxy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/Proxy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/Proxy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/Proxy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/Proxy/Proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/Proxy/out/production/Proxy/_static_/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/Proxy/src/_static_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/DesignPattern/Proxy/src/dynamic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/java/com/xxx/entity/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/java/com/xxx/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/java/com/xxx/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/java/com/xxx/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/resources/com/xxx/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/resources/com/xxx/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/main/resources/tb_brand.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/test/java/BrandMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-base/src/test/java/com/xxx/mapper/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/src/main/java/com/xxx/MybatisDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/src/main/java/com/xxx/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/src/main/java/com/xxx/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/src/main/java/com/xxx/pojo/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/src/main/resources/com/xxx/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/src/main/resources/mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mybatis/tutorial/mybatis-demo/target/classes/com/xxx/MybatisDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/config/Config2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/config/Config3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/config/Config4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/config/Config5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/CatDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/CatDaoImplA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/CatDaoImplB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/DogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/OtherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/PenDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/PenDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/entity/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/entity/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/service/PenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/service/PenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/java/com/xxx/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/test/java/com/BallTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/test/java/com/BookDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/test/java/com/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/test/java/com/CatDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/test/java/com/DogDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/test/java/com/OtherDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/test/java/com/PenServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-01-ioc/src/test/java/com/PropertyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo01/MyAspect01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo01/SpringConfig01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo01/TestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo01/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo02/MyAspect02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo02/SpringConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo02/TestB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo02/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo02/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo03/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo03/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo03/TestDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo03/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo03/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo03/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo03/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/main/java/com/xxx/demo03/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-02-aop/src/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/dao/UserDaoMysqlImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/dao/UserDaoOracleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Hunter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Pig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/java/com/xxx/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/resources/hunter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/main/resources/person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/test/java/com/xxx/service/HunterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/test/java/com/xxx/service/TeacherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-03/src/test/java/com/xxx/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/main/java/com/xxx/config/MySpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/main/java/com/xxx/config/config2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/main/java/com/xxx/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/main/java/com/xxx/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/main/java/com/xxx/entity/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/main/java/com/xxx/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/main/java/com/xxx/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/src/test/java/com/xxx/entity/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/target/classes/com/xxx/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/target/classes/com/xxx/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/target/classes/com/xxx/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-framework-04/target/test-classes/com/xxx/entity/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-mvc-00/spring-mvc-00.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-mvc-00/src/main/java/com/xxx/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-mvc-00/src/main/java/com/xxx/enrity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-mvc-00/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-mvc-00/src/main/webapp/WEB-INF/view/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-mvc-00/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring-mvc-00/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/src/main/java/com/xxx/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/src/main/java/com/xxx/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/src/main/java/com/xxx/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_01_quickstart/target/springmvc_01_quickstart/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/java/com/xxx/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/java/com/xxx/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/java/com/xxx/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/java/com/xxx/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/java/com/xxx/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/java/com/xxx/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/java/com/xxx/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/java/com/xxx/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_02_bean_load/target/springmvc_01_quickstart/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/src/main/java/com/xxx/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/src/main/java/com/xxx/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/src/main/java/com/xxx/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/src/main/java/com/xxx/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/classes/com/xxx/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/mybatis-3.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_03_request_mapping/target/springmvc_01_quickstart/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/src/main/java/com/xxx/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/src/main/java/com/xxx/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/src/main/java/com/xxx/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/src/main/java/com/xxx/domain/Addr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/src/main/java/com/xxx/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/classes/com/xxx/domain/Addr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/classes/com/xxx/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/domain/Addr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/jackson-core-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/jackson-databind-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/mybatis-3.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_04_request_param/target/springmvc_01_quickstart/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxx/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxx/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxx/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxx/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxx/domain/Addr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxx/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxx/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xxx/domain/Addr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xxx/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/ServletContainersInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/config/SpringMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/domain/Addr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/classes/com/xxx/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/jackson-core-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/jackson-databind-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/mybatis-3.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springmvc_01_quickstart/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/CaiNiao_Tutorial/out/production/Java/_3_oop/_08_Package.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/CaiNiao_Tutorial/out/production/Java/_3_oop/_08_Package.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/apache-maven-3.9.9" />
+        <option name="showDialogWithAdvancedSettings" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2lCIiplrBsvA5A3xRwmJNXUG3Ki" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springmvc_07_restful_demo" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxx.controller" />
+      <recent name="com.xxx.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="springmvc_06_restful:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b2f5f8a5-1b4c-4ea1-b2a3-96bfef853670" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="12810" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springmvc_01_quickstart:war" />
+          <artifact name="springmvc_03_request_mapping:war" />
+          <artifact name="springmvc_04_request_param:war" />
+          <artifact name="springmvc_06_restful:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7f7b826-cbbc-420b-ade6-5ed93865f364" name="Changes" comment="" />
+      <created>1724677763327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724677763327</updated>
+      <workItem from="1724677764564" duration="3030000" />
+      <workItem from="1724681018333" duration="1876000" />
+      <workItem from="1724683380052" duration="322000" />
+      <workItem from="1724684153597" duration="8279000" />
+      <workItem from="1724738190437" duration="3264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

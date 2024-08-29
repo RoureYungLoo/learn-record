@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图书列表</title>
+    <script src="../js/jquery-3.7.1.js"></script>
+
+</head>
+<body>
+<h1>图书列表</h1>
+<table id="bookTable" border="1">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>书名</th>
+        <th>描述</th>
+        <th>类别</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="bookTableBody">
+    <!--动态加载数据-->
+    </tbody>
+</table>
+<script>
+    $(document).ready(function () {
+        function refresh() {
+            $.ajax({
+                url: "http://localhost:8080/books",
+                method: "get",
+                dataType: "json",
+                success: function (data) {
+                    $("#bookTableBody").empty();
+                    $.each(data, function (index, item) {
+                        var row = "<tr>" +
+                            "<td>" + item.id + "</td>" +
+                            "<td>" + item.name + "</td>" +
+                            "<td>" + item.description + "</td>" +
+                            "<td>" + item.type + "</td>" +
+                            "<td>" +
+                            "<input  type='button' value='删除'/>" +
+                            "<input  type='button' value='编辑'/>" +
+                            "</td>"
+                        $("#bookTable").append(row);
+
+                    })
+                }
+            })
+        }
+
+        // 页面加载时刷新
+        refresh();
+        // 每隔5秒刷新表格
+        // setInterval(refresh, 5000);
+    })
+</script>
+</body>
+</html>
