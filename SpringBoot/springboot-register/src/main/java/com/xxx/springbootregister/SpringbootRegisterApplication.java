@@ -1,6 +1,7 @@
 package com.xxx.springbootregister;
 
 import com.xxx.pojo.Country;
+import com.xxx.pojo.Province;
 import com.xxx.springbootregister.annotation.EnableCommonConfig;
 import config.CommonConfig;
 import config.CommonImportSelector;
@@ -27,15 +28,17 @@ public class SpringbootRegisterApplication {
         ConfigurableApplicationContext context = SpringApplication.run(SpringbootRegisterApplication.class, args);
 
         // 通过类名获取
-        // Country country = context.getBean(Country.class);
+//        Country country = context.getBean(Country.class);
+//        System.out.println(country);
 
         // 通过对象名获取
-        System.out.println(context.getBean("yindu"));
-        System.out.println(context.getBean("henan"));
+        // System.out.println(context.getBean("yindu"));
+        // System.out.println(context.getBean("henan"));
 
-        // System.out.println(country);
+
+        Province province = context.getBean(Province.class);
+        System.out.println(province);
     }
-
 
 
 }

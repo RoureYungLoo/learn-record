@@ -1,1 +1,10 @@
-spring.application.name=springboot-register
+#spring.application.name=springboot-register
+
+
+country:
+  name: yindu
+  system: zibenzhuyi
+
+province:
+  name: henan
+  direction:  zhengzho

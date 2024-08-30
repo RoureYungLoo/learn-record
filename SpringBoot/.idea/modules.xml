@@ -3,11 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmybatis-spring-boot-autoconfigure/dmybatis-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/dmybatis-spring-boot-autoconfigure/dmybatis-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmybatis-spring-boot-starter/dmybatis-spring-boot-starter.iml" filepath="$PROJECT_DIR$/dmybatis-spring-boot-starter/dmybatis-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-config-file/springboot-config-file.iml" filepath="$PROJECT_DIR$/springboot-config-file/springboot-config-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-create-manual/springboot-create-manual.iml" filepath="$PROJECT_DIR$/springboot-create-manual/springboot-create-manual.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quick-start/springboot-quick-start.iml" filepath="$PROJECT_DIR$/springboot-quick-start/springboot-quick-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-register/springboot-register.iml" filepath="$PROJECT_DIR$/springboot-register/springboot-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbooto-auto-config/springbooto-auto-config.iml" filepath="$PROJECT_DIR$/springbooto-auto-config/springbooto-auto-config.iml" />
     </modules>
   </component>
 </project>

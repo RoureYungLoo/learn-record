@@ -1,1 +1,5 @@
-spring.application.name=springbooto-auto-config
+#spring.application.name=springbooto-auto-config
+
+country:
+  name: yindu
+  system: ziben

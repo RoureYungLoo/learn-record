@@ -1,7 +1,9 @@
 package com.xxx.pojo;
 
 public class Province {
+    // 省份
     private String name;
+    // 方位
     private String direction;
 
     @Override

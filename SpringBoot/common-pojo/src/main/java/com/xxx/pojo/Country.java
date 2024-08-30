@@ -1,7 +1,9 @@
 package com.xxx.pojo;
 
 public class Country {
+    // 国家名字
     private String name;
+    // 国家制度
     private String system;
 
     @Override

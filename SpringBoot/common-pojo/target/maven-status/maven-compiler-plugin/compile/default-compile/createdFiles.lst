@@ -1,0 +1,5 @@
+com\xxx\pojo\Country.class
+com\xxx\pojo\Province.class
+com\xxx\pojo\User.class
+com\xxx\config\CommonAutoConfig.class
+com\xxx\config\CommonConfig.class

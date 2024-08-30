@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>响应式基础</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
 </head>
+
 <body>
-$END$
+    <div id="app">
+        <button v-on:click="increment">count: {{count}}</button>
+        <p v-on:click="deepmutate">{{obj}}</p>
+        <p @click="click">click me</p>
+    </div>
+    <script>
+        const { createApp } = Vue
+        const { debounce } = 'lodash-es'
+        const app = createApp({
+            data() {
+                return {
+                    count: 1,
+                    name: "",
+                    age: -1,
+
+                    someObject: {},
+
+                    obj: {
+                        nested: {
+                            count: 0,
+                        },
+                        arr: [
+                            "foo",
+                            "bar",
+                        ]
+                    }
+                }
+            },
+            mounted() {
+                console.log(this.count)
+                console.log(this.name)
+                console.log(this.age)
+
+                this.count = 2
+
+                this.gender = "男" // 这个属性不是响应式的
+
+                const newObject = {}
+                this.someObject = newObject
+                console.log(newObject === this.someObject) // false
+
+                this.increment()
+
+                // console.log(this)
+            },
+            methods: {
+                increment() {
+                    console.log(this.count)
+                    this.count++
+                },
+                deepmutate() {
+                    this.obj.nested.count++
+                    this.obj.arr.push("baz")
+                },
+
+                async incre() {
+                    this.count++
+                    await nextTick() // 等待nextTick() 更新
+                    // 现在 DOM 已经更新了
+                    // 使用场景有哪些？
+                },
+                // click: debounce(function(){
+                //     // ... 对点击的响应 ...
+                // },500)
+                click() {
+                    // ... 对点击的响应 ...
+                }
+            },
+            created() {
+                this.debouncedClick = _.debounce(this.click, 500)
+            },
+            umounted() {
+                this.debouncedClick.cancel()
+            },
+        })
+
+        app.mount("#app")
+    </script>
 </body>
+
 </html>

@@ -5,13 +5,16 @@ import com.randolflu.constants.Msg;
 import com.randolflu.pojo.Result;
 import com.randolflu.pojo.User;
 import com.randolflu.service.UserService;
+import jakarta.validation.constraints.Pattern;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/user")
+@Validated // Validation校验
 public class UserController {
 
     @Autowired
@@ -19,7 +22,17 @@ public class UserController {
 
     /*用户注册*/
     @RequestMapping(value = "/register", method = {RequestMethod.POST})
-    public Result register(String username, String password) {
+    public Result register(@Pattern(regexp = "^\\S{5,18}$") String username,
+                           @Pattern(regexp = "^\\S{5,18}$") String password) {
+
+        /* // 手动校验
+        if (username != null && username.length() < 5 || username.length() > 18) {
+            return Result.error(Code.OPTION_FAILED, Msg.REG_ERR);
+        }
+        if (password != null && password.length() < 5 || password.length() > 18) {
+            return Result.error(Code.OPTION_FAILED, Msg.REG_ERR);
+        } */
+
         // 用户名是否已被占用
         User user = userService.findByUserName(username);
         if (user == null) {

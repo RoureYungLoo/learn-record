@@ -14,8 +14,9 @@
   <button @click="count++">{{ count }}</button>
 </div>
 <script>
-  import {createApp} from "vue";
+  // import {createApp} from "vue";
 
+  const {createApp} = Vue
   const app = createApp({
     /* 根组件选项 */
     data() {
