@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03a96bf6-66c8-4bef-8b02-300db6af55d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_xxx_common_pojo_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_0_alpha1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/BigEventApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/EncryptUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-pojo/src/main/java/com/xxx/config/CommonAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-pojo/src/main/java/com/xxx/config/CommonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-pojo/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-autoconfigure/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-autoconfigure/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-autoconfigure/dmybatis-spring-boot-autoconfigure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-autoconfigure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-autoconfigure/src/main/java/org/xxx/config/DMyBatisAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-autoconfigure/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-starter/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-starter/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-starter/dmybatis-spring-boot-starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmybatis-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbooto-auto-config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbooto-auto-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbooto-auto-config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbooto-auto-config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbooto-auto-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbooto-auto-config/src/main/java/com/xxx/springbootoautoconfig/SpringbootoAutoConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbooto-auto-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbooto-auto-config/src/test/java/com/xxx/springbootoautoconfig/SpringbootoAutoConfigApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/.idea/Vue3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/01-vue-start-intro/intro-01.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/01-vue-start-intro/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/TheWelcome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/WelcomeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconCommunity.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconDocumentation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconEcosystem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconSupport.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconTooling.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/03-vue-create-app/App.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/03-vue-create-app/App2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/04-vue-template-syntax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/05-响应式基础.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../common-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/src/main/java/com/xxx/pojo/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common-pojo/src/main/java/com/xxx/pojo/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/src/main/java/com/xxx/pojo/Province.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common-pojo/src/main/java/com/xxx/pojo/Province.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/classes/com/xxx/pojo/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/classes/com/xxx/pojo/Province.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/classes/com/xxx/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/common-pojo-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/jvm.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/maven.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-register/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-register/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-register/src/main/java/com/xxx/springbootregister/SpringbootRegisterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-register/src/main/java/com/xxx/springbootregister/SpringbootRegisterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-register/src/main/java/config/CommonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-register/src/main/java/config/CommonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-register/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-register/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/apache-maven-3.9.9" />
+        <option name="showDialogWithAdvancedSettings" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2lKy1pOUNXKbn1LvQkTLndJ57QK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.randolflu.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BigEventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="big-event" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.randolflu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.randolflu.BigEventApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BigEventApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03a96bf6-66c8-4bef-8b02-300db6af55d9" name="Changes" comment="" />
+      <created>1724942851611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724942851611</updated>
+      <workItem from="1724942852851" duration="6218000" />
+      <workItem from="1725002725335" duration="1707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

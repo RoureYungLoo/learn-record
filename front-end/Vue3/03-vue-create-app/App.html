@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>创建一个应用</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+
+<div id="app">
+  <button @click="count++">{{ count }}</button>
+</div>
+<script>
+  import {createApp} from "vue";
+
+  const app = createApp({
+    /* 根组件选项 */
+    data() {
+      return {
+        count: 0
+      }
+    }
+  })
+
+  app.mount("#app")
+
+
+  app.config.errorHandler = (err) => {
+    /* 处理错误 */
+  }
+
+  // app.component("组件名",组件)
+
+  const app1=createApp({
+    /**/
+  })
+  const app2=createApp({
+    /**/
+  })
+  app1.mount("");
+  app2.mount("");
+</script>
+</body>
+</html>
