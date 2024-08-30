@@ -7,10 +7,9 @@ import com.randolflu.pojo.User;
 import com.randolflu.service.UserService;
 import jakarta.validation.constraints.Pattern;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.StringUtils;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
@@ -51,4 +50,27 @@ public class UserController {
     /*private <T> Result wrapResult(Integer code, String msg, T data) {
         return new Result<>(code, msg, data);
     }*/
+
+    // @PostMapping("/login")
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    public Result login(@Pattern(regexp = "^\\S{5,18}$") String username,
+                                @Pattern(regexp = "^\\S{5,18}$") String password) {
+        String token = userService.login(username, password);
+        if (StringUtils.hasText(token)) {
+            return Result.success(Code.OPTION_SUCCESS, Msg.OPTION_SUCCESS, token);
+        }
+
+        return Result.error(Code.OPTION_FAILED, Msg.LOGIN_ERR);
+    }
+
+    /* 获取用户详细信息 */
+    @GetMapping("/info")
+    public Result<User> UserInfo( @RequestHeader("Authorization") String token){
+        assert token!=null:"no token";
+        User user = userService.getUserInfo(token);
+        return Result.success(user);
+    }
+
+
+
 }

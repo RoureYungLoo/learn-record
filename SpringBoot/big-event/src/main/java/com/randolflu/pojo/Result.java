@@ -8,6 +8,10 @@ public class Result<T> {
     private String msg;
     private T data;
 
+    public Result(Integer code, String success) {
+        this.code = code;
+        this.msg = success;
+    }
 
     public Integer getCode() {
         return code;
@@ -52,8 +56,24 @@ public class Result<T> {
         return new Result(code, msg, null);
     }
 
+    public static Result success() {
+        return new Result(0, "success");
+    }
+
+    public static <E> Result<E> success(E data) {
+        return new Result(0, "success", data);
+    }
+
     /* 操作失败 */
     public static Result error(Integer errCode, String errMsg) {
         return new Result(errCode, errMsg, null);
+    }
+
+    public static Result error() {
+        return new Result(1, "failed");
+    }
+
+    public static Result error(String msg) {
+        return new Result(1, msg);
     }
 }

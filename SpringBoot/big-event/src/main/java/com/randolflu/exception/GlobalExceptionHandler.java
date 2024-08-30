@@ -12,6 +12,6 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public Result handleException(Exception e) {
         e.printStackTrace();
-        return Result.error(Code.OPTION_FAILED, Msg.REG_ERR);
+        return Result.error(Code.OPTION_FAILED, e.getMessage());
     }
 }

@@ -1,10 +1,13 @@
 package com.randolflu.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.Date;
 
 public class User {
     private Integer id;
     private String username;
+    @JsonIgnore // 转成json时忽略password字段
     private String password;
     private String nickname;
     private String email;
