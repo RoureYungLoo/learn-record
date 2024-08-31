@@ -5,37 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a96bf6-66c8-4bef-8b02-300db6af55d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/concurrency.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/out/production/concurrency/com/xxx/MyThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/out/production/concurrency/com/xxx/Thread1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/src/com/xxx/MyThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/src/com/xxx/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/src/com/xxx/Thread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/src/com/xxx/Thread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/src/com/xxx/Thread4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Java SE/concurrency/src/com/xxx/Thread5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Expiration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/security/Keys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/JwtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/src/main/java/com/xxx/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/src/main/resources/tinylog.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/ThreadLocalUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Msg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/EncryptUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/EncryptUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/randolflu/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/interceptors/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/interceptors/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +76,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/randolflu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -140,6 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalTest.ThreadLocalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="big-event" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.randolflu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.randolflu" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.ThreadLocalTest" />
+      <option name="METHOD_NAME" value="ThreadLocalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BigEventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="big-event" />
       <extension name="coverage">
@@ -159,11 +168,13 @@
       <item itemvalue="JUnit.JwtTest.getToken" />
       <item itemvalue="JUnit.JwtTest.parseToken" />
       <item itemvalue="JUnit.JwtTest.testJWT" />
+      <item itemvalue="JUnit.ThreadLocalTest.ThreadLocalTest" />
       <item itemvalue="Spring Boot.BigEventApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BigEventApplication" />
+        <item itemvalue="JUnit.ThreadLocalTest.ThreadLocalTest" />
         <item itemvalue="JUnit.JwtTest.parseToken" />
         <item itemvalue="JUnit.JwtTest.getToken" />
         <item itemvalue="JUnit.JwtTest.testJWT" />
@@ -180,7 +191,12 @@
       <updated>1724942851611</updated>
       <workItem from="1724942852851" duration="6218000" />
       <workItem from="1725002725335" duration="9002000" />
-      <workItem from="1725014512236" duration="8547000" />
+      <workItem from="1725014512236" duration="9681000" />
+      <workItem from="1725039205998" duration="2000" />
+      <workItem from="1725090199204" duration="36000" />
+      <workItem from="1725090239343" duration="270000" />
+      <workItem from="1725090525430" duration="397000" />
+      <workItem from="1725090937298" duration="2513000" />
     </task>
     <servers />
   </component>

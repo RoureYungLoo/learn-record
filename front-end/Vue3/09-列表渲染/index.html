@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>列表渲染</title>
+		<script src="../vue3-global.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<li v-for="(item,index) in items">
+				{{parentMsg}}=={{index}}--{{item.name}}: {{item.age}}
+			</li>
+
+			<!-- 对象解构赋值 -->
+			<!-- <li v-for="{name} in items"> -->
+			<li v-for="{name} of items">
+				{{name}}
+			</li>
+			<!-- <li v-for="{age} in items"> -->
+			<li v-for="{age} of items">
+				{{age}}
+			</li>
+
+			<!-- 存在索引 -->
+			<!-- <li v-for="({name},index) in items"> -->
+			<li v-for="({name},index) of items">
+				{{index}}-{{name}}
+			</li>
+
+			<!-- v-for 嵌套 -->
+			<li v-for="person in persons">
+				<span>{{person.name}}, {{person.age}},
+					<span v-for="hobby in person.hobbies">
+						{{hobby}}，
+					</span>
+				</span>
+			</li>
+
+			<!-- v-for 对象 -->
+			<ul>
+				<li v-for="value in myObject">
+					{{value}}
+				</li>
+				<li v-for="(v,k) in myObject">
+					{{k}}: {{v}}
+				</li>
+				<li v-for="(value,key,index) in myObject">
+					{{index}} - {{key}} - {{value}}
+				</li>
+			</ul>
+
+			<!-- v-for 整数范围 -->
+			<span v-for="n in 5">{{n}} - </span>
+
+			<!-- v-for 作用于 template标签 -->
+			<ul>
+				<template v-for="person in persons">
+					<li>{{person.name}}</li>
+					<li>{{person.age}}</li>
+					<ol>
+						<li v-for="hobby in person.hobbies">
+							{{hobby}}
+						</li>
+					</ol>
+				</template>
+			</ul>
+
+			<!-- v-if 和 v-for 优先级 -->
+			<!-- <li v-for="todo in todos" v-if="!todo.isComplete"> -->
+			<!-- 报错Property "todo" was accessed during render but is not defined on instance.-->
+			<!-- {{todo.name}} -->
+			<!-- </li> -->
+
+			<!-- v-if 和 v-for 优先级 -->
+			备忘录：
+			<div>
+				<ol>
+					<div v-for="todo in todos" v-bind:key="todo.tid">
+						<li v-if="!todo.isComplete">
+							{{todo.name}}
+						</li>
+					</div>
+				</ol>
+
+			</div>
+
+			<li v-for="n in eventNumbers">{{ n }}</li>
+			<ol v-for="numbers in sets">
+				<li v-for="n in even(numbers)">{{ n }}</li>
+			</ol>
+
+		</div>
+
+		<script>
+			const {
+				createApp
+			} = Vue
+			const app = createApp({
+				data() {
+					return {
+						parentMsg: "父作用域的属性和变量",
+						items: [{
+								name: "曹操",
+								age: 24,
+							},
+							{
+								name: "赵云",
+								age: 24,
+							},
+							{
+								name: "周瑜",
+								age: 24,
+							},
+						],
+						persons: [{
+								name: "曹操",
+								age: 24,
+								hobbies: [
+									"煮酒",
+									"美女",
+									"论英雄",
+								]
+							},
+							{
+								name: "赵云",
+								age: 24,
+								hobbies: [
+									"爱好2",
+									"爱好2",
+									"爱好2",
+									"爱好2",
+								]
+							},
+							{
+								name: "周瑜",
+								age: 24,
+								hobbies: [
+									"爱好3",
+									"爱好3",
+								]
+							},
+						],
+						myObject: {
+							title: "文字标题",
+							author: "文章作者",
+							date: "发布时间",
+						},
+						todos: [{
+								name: "写作业",
+								isComplete: false,
+								tid: 1,
+							},
+							{
+								name: "看电影",
+								isComplete: false,
+								tid: 2,
+							},
+							{
+								name: "打篮球",
+								isComplete: false,
+								tid: 3,
+							},
+							{
+								name: "打游戏",
+								isComplete: false,
+								tid: 4,
+							},
+						],
+						numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+						sets: [
+							[1, 2, 3, 4, 5, 6],
+							[6, 7, 8, 9, 10],
+						]
+					}
+				},
+				computed: {
+					eventNumbers() {
+						return this.numbers.filter(n => n % 2 == 0)
+					}
+
+				},
+				methods: {
+					even(numbers) {
+						return numbers.filter(number => number % 2 == 0)
+					}
+				}
+			})
+			app.mount("#app")
+		</script>
+	</body>
+</html>

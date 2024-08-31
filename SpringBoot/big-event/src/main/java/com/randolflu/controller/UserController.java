@@ -6,6 +6,7 @@ import com.randolflu.pojo.Result;
 import com.randolflu.pojo.User;
 import com.randolflu.service.UserService;
 import jakarta.validation.constraints.Pattern;
+import org.hibernate.validator.constraints.URL;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.annotation.Validated;
@@ -69,6 +70,21 @@ public class UserController {
         assert token!=null:"no token";
         User user = userService.getUserInfo(token);
         return Result.success(user);
+    }
+
+    /* 更新用户信息 */
+    @PutMapping("/update")
+    public Result update(@RequestBody @Validated User user){
+        System.out.println(user);
+        userService.update(user);
+        return Result.success();
+    }
+
+    /* 更新用户头像 */
+    @PatchMapping("/updateAvatar")
+    public Result updateAvatar(@RequestParam @URL String avatarUrl){
+        userService.updateAvatar(avatarUrl);
+        return Result.success();
     }
 
 

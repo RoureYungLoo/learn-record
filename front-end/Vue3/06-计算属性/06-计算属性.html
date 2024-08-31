@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>计算属性</title>
+</head>
+
+<body>
+    <div id="app">
+        <p>Books:</p>
+        <span>{{author.books.length >0?'Yes':'No'}}</span><br>
+        <span>{{publishedBookMessages}}</span>
+        <p>{{gender}}</p>
+        <H3 @click="changename">{{fullName}}</H3>
+    </div>
+    <script>
+        const { createApp } = Vue
+        const app = createApp({
+            data() {
+                return {
+                    gender: "12",
+                    author: {
+                        name: "John Doe",
+                        books: [
+                            "Vue 2",
+                            "Vue 3",
+                            "Vue 4"
+                        ]
+                    },
+                    firstName: "AA",
+                    lastName: "BB",
+                }
+            },
+            computed: {
+                publishedBookMessages() {
+                    return this.author.books.length > 0 ? 'Yes' : 'No'
+                },
+                fullName: {
+                    get() {
+                        return this.firstName + ' ' + this.lastName
+                    },
+                    set(newValue) {
+                        [this.lastName, this.firstName] = newValue.split(' ')
+                    },
+                }
+
+
+            },
+            methods: {
+                calculateBookMessages() {
+                    return this.author.books.length > 0 ? 'Yes' : 'No'
+
+                },
+
+            }
+
+        })
+        app.mount("#app")
+
+
+    </script>
+
+</body>
+
+</html>
+
+<!-- 在控制台中提供 app._instance.data 访问 -->

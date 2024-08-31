@@ -5,6 +5,7 @@ import com.randolflu.pojo.User;
 import com.randolflu.security.Keys;
 import com.randolflu.service.UserService;
 import com.randolflu.utils.EncryptUtils;
+import com.randolflu.utils.ThreadLocalUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
@@ -35,7 +36,7 @@ public class UserServiceImpl implements UserService {
         User loginUser = userMapper.findByUserName(username);
         if (EncryptUtils.MD5(password).equals(loginUser.getPassword())) {
             Map<String, Object> claims = new HashMap<>();
-            claims.put("id", loginUser.getId());
+            claims.put("id", loginUser.getId());    // 用户ID存入ThreadLocal
             claims.put("username", loginUser.getUsername());
             String token = EncryptUtils.JWTEncode(claims, Keys.JwtTestKey);  // 重复登录问题？
             return token;
@@ -45,9 +46,25 @@ public class UserServiceImpl implements UserService {
 
     /* 获取用户信息 */
     public User getUserInfo(String token) {
-        Map<String, Object> map = EncryptUtils.JWTDecode(token, Keys.JwtTestKey);
+        // Map<String, Object> map = EncryptUtils.JWTDecode(token, Keys.JwtTestKey);
+        // String username = (String) map.get("username");
+        Map<String, Object> map = ThreadLocalUtil.get();
         String username = (String) map.get("username");
         User user = userMapper.findByUserName(username);
         return user;
+    }
+
+    /* 更新用户信息 */
+    @Override
+    public void update(User user) {
+        userMapper.update(user);
+    }
+
+    @Override
+    public void updateAvatar(String avatarUrl) {
+        // 从ThreadLocal获取 用户id
+        Map<String,Object> claims = ThreadLocalUtil.get();
+        Integer id = (Integer) claims.get("id");
+        userMapper.updateAvatar(avatarUrl, id);
     }
 }

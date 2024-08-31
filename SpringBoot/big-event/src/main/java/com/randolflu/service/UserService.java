@@ -10,4 +10,8 @@ public interface UserService {
     String login(String username, String password);
 
     User getUserInfo(String token);
+
+    void update(User user);
+
+    void updateAvatar(String avatarUrl);
 }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>类和样式绑定</title>
+    <script src="../vue3-global.js"></script>
+
+</head>
+
+<body>
+    <div id="app" v-bind:class="{active: isActive}">
+        <div :class="{active: isActive,'text-danger':hasError}">样式绑定</div>
+        <p>{{isActive}}</p>
+        <p>{{hasError}}</p>
+        <button @click="clickhandler">按钮</button>
+        <p :class="classObject">样式绑定</p>
+        <p>{{count}}</p>
+        <p :class="classObject2">绑定计算属性</p>
+        <p :class="[activeClass,errorClass]">绑定数组</p>
+        <p :class="[isActive?activeClass:'',errorClass]">绑定数组</p>
+        <p :class="[{[activeClass]:isActive},errorClass]">绑定数组</p>
+        <p :style="{color:activeColor,fontSize: fontSize+'px'}">绑定内联样式</p>
+        <p :style="{color:activeColor,'font-size': fontSize+'px'}">绑定内联样式</p>
+        <p :style="styleObject">绑定内联样式</p>
+        <p :style="[styleObj1,styleObj2]">绑定内联样式</p>
+
+
+    </div>
+
+    <script>
+        const { createApp } = Vue
+        const app = createApp({
+            data() {
+                return {
+                    count: 0,
+                    isActive: true,
+                    hasError: true,
+                    classObject: {
+                        active: true,
+                        'text-danger': false
+                    },
+                    error: null,
+                    activeClass: "active",
+                    errorClass: "text-dagner",
+
+                    activeColor: 'red',
+                    fontSize: 30,
+
+                    styleObject: {
+                        color: 'blue',
+                        'font-size': '23px',
+                    },
+                    styleObj1: {
+                        color: "pink"
+                    },
+                    styleObj2: {
+                        fontSize: '33px',
+                        display: [
+                            '-webkit-box',
+                            '-ms-flexbox',
+                            'flex',
+                        ]
+                    }
+
+                }
+            },
+            methods: {
+                clickhandler() {
+                    this.count++
+                    this.isActive = !this.isActive
+                    this.hasError = !this.hasError
+                    this.classObject['text-dagner'] = !this.classObject['text-dagner']
+                    this.error = 'fatal'
+                }
+            },
+            computed: {
+                classObject2() {
+                    return {
+                        active: this.isActive && this.error,
+                        'text-dagner': this.error && this.error === 'fatal'
+                    }
+                }
+            }
+        })
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

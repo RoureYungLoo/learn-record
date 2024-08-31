@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>条件渲染</title>
+		<script src="../vue3-global.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<button @click="awesome=!awesome">click me</button>
+			<button @click="changeawesome">click me</button>
+			<h1 v-if="awesome">标题1</h1>
+			<h2 v-else v-on:click="chageType">标题2</h2>
+
+			<h2 v-if="type ==='A'">A</h2>
+			<h2 v-else-if="type ==='B'">B</h2>
+			<h2 v-else-if="type==='C'">C</h2>
+			<h2 v-else>other</h2>
+			
+			<!-- 包装器元素 -->
+			<template v-if="ok">
+				<h1>title</h1>
+				<p>p1</p>
+				<p>p2</p>
+			</template>
+			<div v-show="ok">
+				<h1>标题</h1>
+				<p>段落1</p>
+				<p>段落2</p>
+			</div>
+
+
+		</div>
+
+		<script>
+			const {
+				createApp
+			} = Vue
+			const app = createApp({
+				data() {
+					return {
+						awesome: true,
+						type: "A",
+						ok:true
+
+					}
+				},
+				methods: {
+					changeawesome() {
+						this.awesome = !this.awesome
+						this.ok=!this.ok
+					},
+					chageType() {
+						var randomInt = Math.round(Math.random() * 10)
+						if (randomInt > 0 && randomInt <= 2) {
+							this.type = "A"
+						} else if (randomInt <= 5) {
+							this.type = "B"
+						} else if (randomInt <= 7) {
+							this.type = "C"
+						} else {
+							this.type = "D"
+						}
+
+					}
+				}
+			})
+			app.mount("#app")
+		</script>
+	</body>
+</html>

@@ -1,15 +1,24 @@
 package com.randolflu.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
 
 import java.util.Date;
 
 public class User {
+    @NotNull
     private Integer id;
     private String username;
     @JsonIgnore // 转成json时忽略password字段
     private String password;
+
+    @NotEmpty
+    @Pattern(regexp = "^\\S{1,10}$")
     private String nickname;
+    @Email
     private String email;
     private String userPic;
     private Date createdTime;
