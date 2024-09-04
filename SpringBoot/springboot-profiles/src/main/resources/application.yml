@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    group:
+      "dev": devDB,devServer,devSelf # 分组定义
+      "test": testDB,testServer,testSelf # 分组定义
+      "pro": proDB,proServer,proSelf # 分组定义
+    active: pro # 激活哪个分组

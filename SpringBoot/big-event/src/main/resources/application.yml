@@ -1,11 +1,19 @@
 
 
 spring:
-  datasource:
+  datasource: # 数据源配置
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.254.133:3306/big_event
     username: root
     password: mysql123456
+  servlet:
+    multipart: # 文件上传大小
+      max-file-size: 50MB
+      max-request-size: 50MB
+  data:
+    redis: # redis 配置
+      host: 192.168.254.133
+      port: 6379
 server:
   port: 80
   servlet:

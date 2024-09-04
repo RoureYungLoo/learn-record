@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模板引用</title>
+    <script src="../vue3-global.js"></script>
+</head>
+<body>
+    <div id="app">
+		<div>
+			<input type="text" ref="input">
+		</div>
+		<div>
+			<ul>
+				<li v-for="i in list" ref="items">
+					{{i}}
+				</li>
+			</ul>
+		</div>
+		<div>
+			<!-- <input type="text" value="123456" :ref="(el) => {console.log(el.value)}"> -->
+			<input type="text" value="4444" :ref="show">
+		</div>
+    </div>
+
+    <script>
+        const {createApp} = Vue
+		const app = createApp({
+			mounted(){
+				this.$refs.input.focus()
+				// console.log(this.$refs.items)
+			},
+			data(){
+				return{
+						list:[
+							"A","B","C","D","E"
+						],
+				}
+			},
+			methods:{
+				show(param){
+					console.log(param)
+				}
+			}
+		})
+		app.mount("#app")
+    </script>
+</body>
+</html>

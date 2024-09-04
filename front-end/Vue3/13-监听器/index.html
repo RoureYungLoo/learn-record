@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>监听器</title>
+		<script src="../vue3-global.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div>
+				<p>
+					问我一个问题：
+					<input type="text" v-model="question" :disabled="loading">
+				</p>
+				<p>{{answer}}</p>
+			</div>
+			<div>
+				<input type="text" v-model="some.nested.key" placeholder="请输入key" />
+			</div>
+			<div>
+				<input type="text" v-model="people.color" placeholder="输入皮肤色" />
+			</div>
+			<div>
+				<input type="text" v-model="root" />
+			</div>
+			<div><input type="text" v-model="gender"></div>
+			<div><input type="text" v-model="text"></div>
+		</div>
+
+		<script>
+			const {
+				createApp
+			} = Vue
+			const app = createApp({
+				data() {
+					return {
+						question: "",
+						answer: "问句通常包含问号(?)",
+						loading: false,
+						some: {
+							nested: {
+								key: ""
+							},
+						},
+						people: {
+							person: {
+								name: "",
+								age: 23,
+								address: {
+									country: {
+										cname: "",
+									},
+									province: {
+										pname: "",
+									}
+								}
+							},
+							color: "古铜色"
+						},
+						root: "no",
+						gender: false,
+						text: "这是一段文本",
+
+					}
+				},
+				watch: {
+					// 监听器，监听 question
+					question(newQuestion, oldQuestion) {
+						if (newQuestion.includes('?')) {
+							this.getAnswer()
+						}
+					},
+					'some.nested.key'(newKey, oldKey) {
+						console.log("newKey: " + newKey);
+						console.log("oldKey: " + oldKey)
+					},
+
+					// 深层监听器
+					people: {
+						handler(newValue, oldValue) {
+							console.log(newValue.color)
+						},
+						deep: true, // 深层监听开关
+						immediate: true // 立即回调监听开关
+					},
+
+					root: {
+						handler(newValue, oldValue) {
+							console.log("一次性监听器")
+							console.log("newValue=" + newValue, "oldValue=" + oldValue)
+						},
+						once: true, // 一次性监听器 开关
+						// flush:"post" , //  POST监听器
+						// flush:"sync",  // 同步监听器
+
+					},
+					gender: {
+						handler(newValue, oldValue) {
+							console.log("newValue=" + newValue, "oldValue=" + oldValue)
+						},
+						flush: "sync", // 同步监听器
+					}
+
+				},
+				methods: {
+					async getAnswer() {
+						this.loading = true
+						this.answer = "正在思考..."
+						try {
+							const res = await fetch("https://yesno.wtf/api")
+							this.answer = (await res.json()).answer
+						} catch (e) {
+							//TODO handle the exception
+							this.answer = "我想不出来: " + e
+						} finally {
+							this.loading = false
+						}
+					}
+				},
+				created() {
+					// 创建监听器
+					this.$watch('text', (newValue, oldValue) => {
+						console.log(newValue + "  " + oldValue)
+					})
+					
+					
+				},
+			})
+			app.mount("#app")
+		</script>
+	</body>
+</html>

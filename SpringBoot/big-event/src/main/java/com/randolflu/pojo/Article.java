@@ -1,16 +1,42 @@
 package com.randolflu.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.randolflu.annotation.State;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import org.hibernate.validator.constraints.URL;
+
 import java.util.Date;
 
 public class Article {
     private Integer id;
-    private String title;
+
+    @NotEmpty
+    @Pattern(regexp = "^\\S{1,10}$")
+    private String title; // 标题
+
+    @NotEmpty
     private String content;
-    private String coverImg;
-    private String state;
-    private Integer categoryId;
+
+    @NotEmpty
+    @URL
+    private String coverImg; // 封面图
+
+
+    /*自定义validate校验*/
+    @State
+    private String state; // "已发布"、"草稿"
+
+    @NotNull
+    private Integer categoryId; //
+
     private Integer createdUser;
+
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date createdTime;
+
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date updatedTime;
 
     @Override

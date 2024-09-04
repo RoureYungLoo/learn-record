@@ -2,6 +2,8 @@ package com.randolflu.service;
 
 import com.randolflu.pojo.User;
 
+import java.util.Map;
+
 public interface UserService {
     User findByUserName(String username);
 
@@ -14,4 +16,6 @@ public interface UserService {
     void update(User user);
 
     void updateAvatar(String avatarUrl);
+
+    boolean updatePwd(Map<String, String> newPwd);
 }

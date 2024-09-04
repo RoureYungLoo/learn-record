@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="app">
+			<button v-on:click="handler1">按钮1</button>
+			<button v-on:click="handler2">按钮2</button>
+		</div>
+		
+		<script type="module">
+			import {createApp} from './vue3.js'
+			
+			const app = createApp({
+				
+				data(){
+					return{
+						money: 100,
+						
+					}
+				},
+				methods: {
+					handler1() {
+						confirm("奖励"+this.money)
+					},
+					handler2(param) {
+						confirm("奖励"+param)
+					}
+				},
+			})
+			
+			app.mount("#app")
+		</script>
+	</body>
+</html>

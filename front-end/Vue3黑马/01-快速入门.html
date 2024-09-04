@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="app">
+			<h1>{{msg}}</h1>
+		</div>
+
+		<!-- 引入Vue模块 -->
+		<script type="module">
+			import {
+				createApp
+			} from './vue3.js'
+			// } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+			// 创建vue实例
+			createApp({
+				data() {
+					return {
+						// 定义数据
+						msg: "hello vue 3"
+					}
+				}
+			}).mount("#app") // 
+		</script>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>生命周期</title>
+		<script src="../vue3-global.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<button @click="counter++">点击：{{counter}}</button>
+		</div>
+
+		<script>
+			const {
+				createApp
+			} = Vue
+			const app = createApp({
+				data() {
+					return {
+						counter: 0
+					}
+				},
+				setup() {
+					console.log("setup: " + this.counter)
+				},
+				beforeCreate() {
+					console.log("beforeCreate: " + this.counter)
+				},
+				created() {
+					console.log("created: " + this.counter)
+				},
+				beforeMount() {
+					console.log("beforeMount: " + this.counter)
+				},
+
+				mounted() {
+					console.log("mounted: " + this.counter)
+				},
+				beforeUpdate() {
+					console.log("beforeUpdate: " + this.counter)
+				},
+				beforeUnmount() {
+					console.log("beforeUnmount: " + this.counter)
+				},
+				unmounted() {
+					console.log("unmounted: " + this.counter)
+				},
+				updated() {
+					console.log("updated: " + this.counter)
+				},
+			})
+			app.mount("#app")
+		</script>
+	</body>
+</html>

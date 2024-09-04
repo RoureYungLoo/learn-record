@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>表单输入绑定</title>
+		<script src="../vue3-global.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<!-- <input type="text" v-bind:value="text" v-on:input="event => text=event.target.value"> -->
+
+			<!-- 双向数据绑定 v-model-->
+			<input type="text" :value="text" @input="inputHandler($event)">
+			<p>{{text}}</p>
+
+			<input type="text" v-model="name" value="name" />
+			<input type="text" v-model="name" />
+			<h3>{{name}}</h3>
+
+			<!-- 文本 -->
+			<input type="text" v-model="message" :placeholder="prompts">
+			<!-- 监听IME语言输入(中文、日文、韩文等等) -->
+			<input type="text" :placeholder="prompts" @input="handler($event)">
+			<p>{{message}}</p>
+
+			<!-- 多行文本 -->
+			<p>输入多行文本：</p>
+			<textarea v-model="msgs" :placeholder="msgs" cols="30" rows="10"></textarea>
+			<p style="white-space: pre-line;">{{msgs}}</p>
+			<textarea cols="30" rows="10">{{poetry}}</textarea>
+			<textarea cols="30" rows="10" v-model="poetry"></textarea><br>
+
+			<!-- 复选框 -->
+			<p>爱好：</p>
+			<input type="checkbox" id="hobbies" v-model="check" />
+			<label for="hobbies">象棋</label><br>
+
+			爱好：{{aihao}}<br>
+			<input type="checkbox" id="hobbies" v-model="aihao" value="swimming" />
+			<label for="hobbies">游泳</label>
+			<input type="checkbox" id="hobbies" v-model="aihao" value="running" />
+			<label for="hobbies">跑步</label>
+
+			<div>
+				<!-- 单选按钮 -->
+				<input type="radio" id="city" value="zhengzhou" v-model="city_radio" />
+				<label for="city">郑州</label>
+				<input type="radio" id="city" value="suzhou" v-model="city_radio" />
+				<label for="city">苏州</label>
+				<input type="radio" id="city" value="xvzhou" v-model="city_radio" />
+				<label for="city">徐州</label>
+				<p>你选择的城市：{{city_radio}}</p>
+			</div>
+			<!-- 单项选择器 -->
+			<div>已选择：{{selected}}</div>
+			<select v-model="selected">
+				<option value="1">A</option>
+				<option value="第二项">B</option>
+				<option value="third">C</option>
+			</select>
+
+			<!-- iOS 单项选择器 -->
+			<div>已选择：{{iosSelected}}</div>
+			<select v-model="iosSelected">
+				<option disabled value="">请选择</option>
+				<option value="1">A</option>
+				<option value="第二项">B</option>
+				<option value="third">C</option>
+			</select>
+			<br>
+			<!-- 多项选择器 -->
+			<div>已选择：{{langs}}</div>
+			<select name="" id="" multiple v-model="langs">
+				<option>JAVA</option>
+				<option>C</option>
+				<option>PYTHON</option>
+			</select>
+			<br>
+			<div>
+				<select v-model="lang_selected" multiple>
+					<!-- <select v-model="lang_selected" > -->
+					<option v-for="option in options" :value="option.value">
+						{{option.text}}
+					</option>
+				</select>
+				<div>selected: {{lang_selected}}</div>
+			</div>
+
+			<!-- 值绑定 -->
+			<div>
+				<div>
+					<!-- <input type="radio" v-model="picked" value="a"> -->
+					<input type="radio" v-model="picked" :value="opt1">
+					<input type="radio" v-model="picked" :value="opt2"><br>
+					<input type="checkbox" v-model="toggle" :value="checker1" />
+					<input type="checkbox" v-model="toggle" :value="checker2" />
+					<div>{{picked}}</div>
+					<div>{{toggle}}</div>
+					<div @click="getvalue">点击查看</div>
+				</div>
+				<div> <!-- 复选框-->
+					<input id="city1" type="checkbox" v-model="city_checkbox" true-value="是" false-value="否" />
+					<label for="city1">城市1</label>
+
+					<!-- 					<input id="city2" type="checkbox" v-model="city_checkbox" :value="checker2" true-value="是1" false-value="否1"/>
+					<label for="city2">城市2</label>
+					
+					<input id="city3" type="checkbox" v-model="city_checkbox" :value="checker3" true-value="是2" false-value="否2"/>
+					<label for="city3">城市3</label> -->
+					<p>{{city_checkbox}}</p>
+
+					<input type="checkbox" v-model="cates" :value="checker4" />
+					<p>{{cates}}</p>
+				</div>
+
+				<div>
+					<p>已选{{direction}}</p>
+					<input id="e" type="radio" v-model="direction" :value="east" /><label for="e">东</label>
+					<input id="w" type="radio" v-model="direction" :value="west" /><label for="w">西</label>
+					<input id="n" type="radio" v-model="direction" :value="north" /><label for="n">北</label>
+					<input id="" type="radio" v-model="direction" :value="south" /><label for="s">南</label>
+				</div>
+
+				<div>
+					<!-- <input type="text" v-model.lazy="mymsg" ><br> -->
+					<!-- <input type="text" v-model.number="mymsg"/> -->
+					<input type="text" v-model.trim="mymsg"/>
+					<p>{{typeof mymsg}}</p>
+					<p>{{ mymsg}}</p>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const {
+				createApp
+			} = Vue
+			const app = createApp({
+				data() {
+					return {
+						text: "123",
+						name: "初始值",
+						prompts: "这是提示信息",
+						message: "",
+						msgs: "",
+						poetry: "你好\n我是\n风",
+						check: true,
+						aihao: [],
+						selected: "",
+						iosSelected: "",
+						langs: [],
+						lang_selected: [],
+						options: [{
+								text: 'One',
+								value: 'A'
+							},
+							{
+								text: 'Two',
+								value: 'B'
+							},
+							{
+								text: 'Three',
+								value: 'C'
+							}
+						],
+						picked: "",
+						picker: "",
+						checker: "已选择",
+						toggle: "",
+						opt1: "单选1",
+						opt2: "单选2",
+						checker1: "复选1",
+						checker2: "复选2",
+						checker3: "复选3",
+						checker4: "复选4",
+						city_radio: "",
+						city_checkbox: [],
+						cates: "",
+						direction: "{占位}",
+						east: "东方",
+						west: "西方",
+						north: "北方",
+						south: "南方",
+						mymsg:"",
+
+					}
+				},
+				methods: {
+					inputHandler(event) {
+						this.text = event.target.value
+						console.log(this.text)
+					},
+					handler(event) {
+						console.log("正在输入" + event.target.value)
+					},
+					getvalue() {
+						console.log(this.picker)
+						console.log(this.checker)
+					}
+				},
+				computed: {
+
+				}
+
+			});
+			app.mount("#app")
+		</script>
+	</body>
+</html>

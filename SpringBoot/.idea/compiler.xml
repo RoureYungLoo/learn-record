@@ -12,6 +12,7 @@
         <module name="springboot-create-manual" />
         <module name="springboot-mybatis" />
         <module name="springboot-quick-start" />
+        <module name="springboot-profiles" />
         <module name="springboot-register" />
         <module name="dmybatis-spring-boot-starter" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="springboot-config-file" target="17" />
       <module name="springboot-create-manual" target="17" />
       <module name="springboot-mybatis" target="17" />
+      <module name="springboot-profiles" target="17" />
       <module name="springboot-quick-start" target="17" />
       <module name="springboot-register" target="17" />
       <module name="springbooto-auto-config" target="17" />
@@ -32,6 +34,7 @@
       <module name="springboot-config-file" options="-parameters" />
       <module name="springboot-create-manual" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-profiles" options="-parameters" />
       <module name="springboot-quick-start" options="-parameters" />
       <module name="springboot-register" options="-parameters" />
       <module name="springbooto-auto-config" options="-parameters" />

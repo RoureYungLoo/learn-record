@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<div id="app">
+			<a v-bind:href="url">百度</a>
+			<a :href="url">百度</a>
+		</div>
+
+		<script type="module">
+			import {
+				createApp
+			} from './vue3.js'
+
+			createApp({
+				data(){
+					return{
+						url:"https://www.baidu.com"
+					}
+				}
+			}).mount("#app")
+		</script>
+	</body>
+</html>

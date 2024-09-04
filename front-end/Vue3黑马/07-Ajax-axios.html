@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- 引入 axios -->
+		<!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+	</head>
+	<body>
+
+
+		<script src="./axios.min.js"></script>
+		<script>
+			let article = {
+				title: '明天会更好',
+				category: '生活',
+				time: '2024-09-02',
+				state: '草稿'
+			}
+			/* 发送请求 */
+			/* axios({
+				method: 'get',
+				url: 'http://localhost:80/article/getAll',
+			}).then(result => {
+				console.log(result.data)
+			}).catch(err => {
+				console.log(err)
+			}) */
+
+			// axios({
+			// 	method: 'post',
+			// 	url: 'http://localhost:80/article/add',
+			// 	data: article
+			// }).then(result => {
+			// 	console.log(result.data)
+			// }).catch(err => {
+			// 	console.log(err)
+			// })
+
+			axios.get('http://localhost:80/article/getAll').then(
+				result => {
+					console.log(result.data)
+				}
+			).catch(
+				err =>{
+
+				}
+			)
+
+
+
+			// axios.post('http://localhost:80/article/add', article).then(
+			// 	result => {
+			// 		console.log(result.data)
+			// 	}
+			// ).catch(
+			// 	err => {
+
+			// 	}
+			// )
+		</script>
+	</body>
+</html>

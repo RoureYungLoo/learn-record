@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.articleTable,
+			th,
+			td {
+				padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app">
+			<table border="1" class="articleTable">
+				<tr>
+					<th>标题</th>
+					<th>分类</th>
+					<th>时间</th>
+					<th>状态</th>
+					<th>操作</th>
+				</tr>
+				<tr v-for="(article,index) in articleList" :key="index">
+					<td>{{article.title}}</td>
+					<td>{{article.category}}</td>
+					<td>{{article.time}}</td>
+					<td>{{article.state}}</td>
+					<td>
+						<button>编辑</button>
+						<button>删除</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- 引入Vue模块 -->
+		<script type="module">
+			import {
+				createApp
+			} from './vue3.js'
+			// } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+			/* 创建vue实例 */
+			createApp({
+				data() {
+					return {
+						/* 定义数据 */
+						articleList: [{
+								title: "文章标题1",
+								category: "军事",
+								time: "2023-09-05",
+								state: "已发布"
+							},
+							{
+								title: "文章标题2",
+								category: "小说",
+								time: "2023-09-05",
+								state: "已发布"
+							},
+							{
+								title: "文章标题3",
+								category: "数码",
+								time: "2023-09-05",
+								state: "已发布"
+							},
+							{
+								title: "文章标题4",
+								category: "时事",
+								time: "2023-09-05",
+								state: "已发布"
+							}
+						]
+
+					}
+				}
+			}).mount("#app") /* 挂载到模板上 */
+		</script>
+	</body>
+</html>

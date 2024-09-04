@@ -1,13 +1,31 @@
 package com.randolflu.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+
 import java.util.Date;
 
 public class Category {
+    /* 分组校验 */
+    @NotNull(groups = {Update.class})
     private Integer id;
+
+    /* 分组校验 */
+    @NotEmpty(groups = {Add.class, Update.class})
+    @Pattern(regexp = "^\\S{1,10}$", groups = {Add.class, Update.class})
     private String categoryName;
+
+    /* 分组校验 */
+    @NotEmpty(groups = {Add.class,Update.class})
+    @Pattern(regexp = "^\\S{1,10}$", groups = {Add.class, Update.class})
     private String categoryAlias;
+
     private Integer createdUser;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date createdTime;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date updatedTime;
 
     @Override
@@ -81,4 +99,14 @@ public class Category {
 
     public Category() {
     }
+
+    /* 分组 */
+    public interface Add {
+    }
+
+    /* 分组 */
+    public interface Update {
+    }
+
+
 }

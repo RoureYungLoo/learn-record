@@ -5,29 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a96bf6-66c8-4bef-8b02-300db6af55d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/src/main/java/com/xxx/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/awesome-java/logging/tinylog-demo/src/main/resources/tinylog.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/ThreadLocalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/JavaSwing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/src/com/xxx/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/annotation/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/config/AliOSSConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/EditState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Schema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/filter/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/AliOSSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/validation/StateValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/randolflu/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/OSSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/java/com/xxx/springbootprofiles/SpringbootProfilesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-dveDB.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-dveSelf.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-dveServer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-proDB.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-proSelf.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-proServer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-testDB.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-testSelf.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-testServer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/test/java/com/xxx/springbootprofiles/SpringbootProfilesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/AxiosDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/test/java/com/xxx/axiosdemo/AxiosDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/security/Keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/security/Keys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/randolflu/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/ThreadLocalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/ThreadLocalUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/randolflu/JwtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/JwtTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/CategoryController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/interceptors/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/interceptors/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/ArticleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/ArticleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/CategoryMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/security/Keys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/security/Keys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/CategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/CategoryServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/utils/ThreadLocalUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/utils/ThreadLocalUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/randolflu/JwtTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/randolflu/JwtTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +108,21 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,6 +145,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -77,6 +156,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/randolflu" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -85,7 +165,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BigEventApplication">
-    <configuration name="JwtTest.getToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OSSTest.testUpload (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="big-event" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +174,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.randolflu" />
-      <option name="MAIN_CLASS_NAME" value="com.randolflu.JwtTest" />
-      <option name="METHOD_NAME" value="getToken" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.OSSTest" />
+      <option name="METHOD_NAME" value="testUpload" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JwtTest.parseToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OSSTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="big-event" />
       <extension name="coverage">
         <pattern>
@@ -110,14 +190,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.randolflu" />
-      <option name="MAIN_CLASS_NAME" value="com.randolflu.JwtTest" />
-      <option name="METHOD_NAME" value="parseToken" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.OSSTest" />
+      <option name="METHOD_NAME" value="testUpload([Ljava.lang.String;)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JwtTest.testJWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="big-event" />
       <extension name="coverage">
         <pattern>
@@ -126,14 +206,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.randolflu" />
-      <option name="MAIN_CLASS_NAME" value="com.randolflu.JwtTest" />
-      <option name="METHOD_NAME" value="testJWT" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.RedisTest" />
+      <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalTest.ThreadLocalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisTest.set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="big-event" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +222,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.randolflu" />
-      <option name="MAIN_CLASS_NAME" value="com.randolflu.ThreadLocalTest" />
-      <option name="METHOD_NAME" value="ThreadLocalTest" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.RedisTest" />
+      <option name="METHOD_NAME" value="set" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,19 +245,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JwtTest.getToken" />
-      <item itemvalue="JUnit.JwtTest.parseToken" />
-      <item itemvalue="JUnit.JwtTest.testJWT" />
-      <item itemvalue="JUnit.ThreadLocalTest.ThreadLocalTest" />
+      <item itemvalue="JUnit.OSSTest.testUpload" />
+      <item itemvalue="JUnit.OSSTest.testUpload (1)" />
+      <item itemvalue="JUnit.RedisTest.set" />
+      <item itemvalue="JUnit.RedisTest.get" />
       <item itemvalue="Spring Boot.BigEventApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BigEventApplication" />
-        <item itemvalue="JUnit.ThreadLocalTest.ThreadLocalTest" />
-        <item itemvalue="JUnit.JwtTest.parseToken" />
-        <item itemvalue="JUnit.JwtTest.getToken" />
-        <item itemvalue="JUnit.JwtTest.testJWT" />
+        <item itemvalue="JUnit.RedisTest.set" />
+        <item itemvalue="JUnit.RedisTest.get" />
+        <item itemvalue="JUnit.OSSTest.testUpload (1)" />
+        <item itemvalue="JUnit.OSSTest.testUpload" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +277,11 @@
       <workItem from="1725090239343" duration="270000" />
       <workItem from="1725090525430" duration="397000" />
       <workItem from="1725090937298" duration="2513000" />
+      <workItem from="1725194183612" duration="8581000" />
+      <workItem from="1725208245532" duration="3000" />
+      <workItem from="1725257030241" duration="20984000" />
+      <workItem from="1725337841030" duration="7580000" />
+      <workItem from="1725362838210" duration="5915000" />
     </task>
     <servers />
   </component>
@@ -222,5 +307,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/10.1.28/tomcat-embed-core-10.1.28.jar!/org/apache/catalina/connector/Request.class</url>
+          <line>1345</line>
+          <properties class="org.apache.catalina.connector.Request" method="getHeaderNames">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

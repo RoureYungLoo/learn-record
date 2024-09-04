@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- <script src="showMsg.js"></script> -->
+	</head>
+	<body>
+		<button id="btn">点击我</button>
+		<button id="cpx">点击我</button>
+<!-- 		<script type="module">
+			import {
+				simpleMessage as sm,
+				complexMessage as cm
+			} from './showMsg.js'
+
+			document.getElementById("btn").onclick = function() {
+				// simpleMessage()
+				sm()
+			}
+			document.getElementById("cpx").onclick = function(){
+				// complexMessage()
+				cm()
+			}
+		</script> -->
+		
+				<script type="module">
+					/* import {
+						simpleMessage as cm ,
+						complexMessage as cm
+					} from './showMsg.js' */
+					
+					import showMsg from './showMsg.js'
+
+		
+					document.getElementById("btn").onclick = function() {
+						// simpleMessage()
+						// sm()
+						showMsg.simpleMessage()
+					}
+					document.getElementById("cpx").onclick = function(){
+						// complexMessage()
+						// cm()
+						showMsg.complexMessage()
+					}
+				</script>
+	</body>
+</html>

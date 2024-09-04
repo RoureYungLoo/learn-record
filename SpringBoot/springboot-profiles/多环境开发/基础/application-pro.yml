@@ -1,0 +1,11 @@
+
+# 生产环境
+spring:
+  config:
+    activate:
+      on-profile: production
+server:
+  port: 80
+  servlet:
+    context-path: /event-pro
+

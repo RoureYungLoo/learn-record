@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-config-file/springboot-config-file.iml" filepath="$PROJECT_DIR$/springboot-config-file/springboot-config-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-create-manual/springboot-create-manual.iml" filepath="$PROJECT_DIR$/springboot-create-manual/springboot-create-manual.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-profiles/springboot-profiles.iml" filepath="$PROJECT_DIR$/springboot-profiles/springboot-profiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quick-start/springboot-quick-start.iml" filepath="$PROJECT_DIR$/springboot-quick-start/springboot-quick-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-register/springboot-register.iml" filepath="$PROJECT_DIR$/springboot-register/springboot-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbooto-auto-config/springbooto-auto-config.iml" filepath="$PROJECT_DIR$/springbooto-auto-config/springbooto-auto-config.iml" />

@@ -1,0 +1,10 @@
+
+# 测试环境
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 8082
+  servlet:
+    context-path: /event-test

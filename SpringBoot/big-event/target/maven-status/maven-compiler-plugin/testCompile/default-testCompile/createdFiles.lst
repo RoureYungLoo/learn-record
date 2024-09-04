@@ -1,0 +1,7 @@
+com\randolflu\ThreadLocalTest.class
+com\randolflu\RedisTest.class
+com\randolflu\controller\UserControllerTest.class
+com\randolflu\mapper\UserMapperTest.class
+com\randolflu\service\UserServiceTest.class
+com\randolflu\JwtTest.class
+com\randolflu\OSSTest.class
