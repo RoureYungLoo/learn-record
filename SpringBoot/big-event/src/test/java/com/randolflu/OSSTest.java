@@ -18,12 +18,12 @@ public class OSSTest {
 
     @Test
     public void testUpload() throws Exception {
-        String endpoint = "https://oss-cn-shanghai.aliyuncs.com";
+        String endpoint = "";
 
-        String bucketName = "randolflu";
+        String bucketName = "";
 
         // 填写Object完整路径
-        String objectName = "q34v9o8nty-q394vmu.jpg";
+        String objectName = "";
 
         String filePath = "C:\\Users\\RuoYang\\Desktop\\images\\34d54a40-7f9e-4a1c-8728-f9689ce23e77.jpg";
 

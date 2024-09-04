@@ -5,98 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a96bf6-66c8-4bef-8b02-300db6af55d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/JavaSwing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/javaSwing/src/com/xxx/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/annotation/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/config/AliOSSConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/EditState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Schema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/filter/CorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/AliOSSUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/validation/StateValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/randolflu/mapper/ArticleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/OSSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/java/com/xxx/springbootprofiles/SpringbootProfilesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-dveDB.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-dveSelf.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-dveServer.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-proDB.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-proSelf.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-proServer.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-testDB.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-testSelf.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application-testServer.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-profiles/src/test/java/com/xxx/springbootprofiles/SpringbootProfilesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/AxiosDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/test/java/com/xxx/axiosdemo/AxiosDemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/pojo/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/security/Keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/security/Keys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/ThreadLocalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/utils/ThreadLocalUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/randolflu/JwtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/JwtTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/interceptors/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/interceptors/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/ArticleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/ArticleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/security/Keys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/security/Keys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/utils/ThreadLocalUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/utils/ThreadLocalUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/randolflu/JwtTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/randolflu/JwtTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/randolflu/OSSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/randolflu/OSSTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,6 +192,7 @@
       <workItem from="1725257030241" duration="20984000" />
       <workItem from="1725337841030" duration="7580000" />
       <workItem from="1725362838210" duration="5915000" />
+      <workItem from="1725456705391" duration="36000" />
     </task>
     <servers />
   </component>
