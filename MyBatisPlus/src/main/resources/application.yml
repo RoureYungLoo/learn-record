@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: mysql123456
+    url: jdbc:mysql://192.168.154.133/test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations:
+#    - "classpath*:mappers/**/*.xml"
