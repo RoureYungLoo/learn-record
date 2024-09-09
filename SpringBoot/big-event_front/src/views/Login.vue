@@ -1,6 +1,8 @@
 <script setup>
 import { ref, reactive } from "vue";
 import { User, Lock, Right, Back } from "@element-plus/icons-vue";
+import { userRegisterService, userLoginService } from "@/api/user.js";
+import { ElMessage } from 'element-plus'
 
 const isRegister = ref(false);
 const registerData = ref({
@@ -57,19 +59,47 @@ const rules = reactive({
   //   repassword: [{ validator: validatePass2, trigger: "change" }],
 });
 
-const registerHandler = () => {
-  console.log(registerData.value);
+const registerHandler = async () => {
+  // console.log(registerData.value);
+  let res = await userRegisterService(registerData.value);
+  ElMessage.success(res.msg ? res.msg : "success")
+  // console.log(res);
+  // if (res.code === 0) {
+  // alert(res.msg ? res.msg : "success");
+  // } else {
+  // alert(res.msg);
+  // }
+
 };
 
-const loginHandler = () => {
-  console.log(registerData.value);
+const loginHandler = async () => {
+  // console.log(registerData.value);
+  let res = await userLoginService(registerData.value);
+  ElMessage.success(res.msg ? res.msg : "登录成功")
+
+  // console.log(res);
+
+  // if (res.code === 0) {
+  // alert(res.msg ? res.msg : "登录成功");
+  // } else {
+  // alert(res.msg);
+  // }
 };
 
+const resetData = () => {
+  registerData.value = {
+    username: "",
+    password: "",
+    repassword: "",
+  };
+};
+const toLogin = () => {
+  isRegister.value = false;
+  resetData();
+};
 const toRegister = () => {
   isRegister.value = true;
-  registerData.value.username = "";
-  registerData.value.password = "";
-  registerData.value.repassword = "";
+  resetData();
 };
 </script>
 
@@ -122,7 +152,7 @@ const toRegister = () => {
               </el-form-item>
               <el-form-item>
                 <div>
-                  <el-link :underline="false" @click="isRegister = false">
+                  <el-link :underline="false" @click="toLogin">
                     <el-icon><Back /></el-icon>返回
                   </el-link>
                 </div>

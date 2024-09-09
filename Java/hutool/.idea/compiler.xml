@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hutool" />
+        <module name="hutool-01-core-clone" />
+        <module name="hutool-02-core-convert" />
       </profile>
     </annotationProcessing>
   </component>

@@ -4,8 +4,10 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+import com.xxx.mybatisplus.enums.UserStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,7 +17,7 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-//@TableName("tb_user")
+@TableName(value = "tb_user",autoResultMap = true) // 开启自动resultMap映射
 //@TableName(value = "tb_user",keepGlobalPrefix = false)
 public class User {
     @TableId(value = "id", type = IdType.AUTO)
@@ -26,8 +28,13 @@ public class User {
 
     private String password;
     private String phone;
-    private String info;
-    private Integer status;
+    //private String info;
+    @TableField(typeHandler = JacksonTypeHandler.class) // 指定typeHandler
+    private UserInfo info;
+
+    // private Integer status;
+    private UserStatus status;
+
     private Integer balance;
 //    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createTime;

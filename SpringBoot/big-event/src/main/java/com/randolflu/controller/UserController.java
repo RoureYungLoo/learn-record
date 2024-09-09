@@ -19,7 +19,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/user")
 @Validated // Validation校验
-@CrossOrigin
+//@CrossOrigin
 
 public class UserController {
 
@@ -60,11 +60,12 @@ public class UserController {
 
     // @PostMapping("/login")
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public Result login(@Pattern(regexp = "^\\S{5,18}$") String username,
-                        @Pattern(regexp = "^\\S{5,18}$") String password) {
+    public Result login(@Pattern(regexp = "^\\S{5,18}$",message = "用户名不合法") String username,
+                        @Pattern(regexp = "^\\S{5,18}$",message = "密码输入不合法") String password) {
         String token = userService.login(username, password);
+
         if (StringUtils.hasText(token)) {
-            return Result.success(Code.OPTION_SUCCESS, Msg.OPTION_SUCCESS, token);
+            return Result.success(Code.OPTION_SUCCESS, Msg.LOGIN_OK, token);
         }
 
         return Result.error(Code.OPTION_FAILED, Msg.LOGIN_ERR);
@@ -89,7 +90,7 @@ public class UserController {
     /* 更新密码 */
     @PatchMapping("/updatePwd")
     public Result updatePwd(@RequestBody Map<String, String> params) {
-        if (userService.updatePwd(params)){
+        if (userService.updatePwd(params)) {
             return Result.success();
         }
         return Result.error();

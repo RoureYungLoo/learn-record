@@ -2,6 +2,7 @@ package com.xxx.mybatisplus.controller;
 
 
 import cn.hutool.core.bean.BeanUtil;
+import com.xxx.mybatisplus.domain.dto.PageDTO;
 import com.xxx.mybatisplus.domain.dto.UserFormDTO;
 import com.xxx.mybatisplus.domain.po.User;
 import com.xxx.mybatisplus.domain.query.UserQuery;
@@ -16,14 +17,15 @@ import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
+import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/users")
-//@Api(tags = "用户管理接口")
-@Tag(name = "用户管理接口")
+//@Api(tags = "用户模块")
+@Tag(name = "用户模块")
 @RequiredArgsConstructor
 public class UserController {
 
@@ -48,16 +50,21 @@ public class UserController {
     @Operation(summary = "查询用户")
     @GetMapping("/{id}")
     public UserVO getById(@PathVariable("id") String id) {
-        User user = iUserService.getById(id);
-        return BeanUtil.copyProperties(user, UserVO.class); // PO->VO
+        // User user = iUserService.getById(id);
+        // return BeanUtil.copyProperties(user, UserVO.class); // PO->VO
+        /* 接口改造 */
+        return iUserService.getUserInfoById(id);
     }
 
     //    @ApiOperation("查询用户列表")
     @Operation(summary = "查询用户列表")
     @GetMapping()
     public List<UserVO> getListByIds(@RequestParam("ids") List<Long> ids) {
-        List<User> users = iUserService.listByIds(ids);
-        return BeanUtil.copyToList(users, UserVO.class); // PO->VO
+        // List<User> users = iUserService.listByIds(ids);
+        // return BeanUtil.copyToList(users, UserVO.class); // PO->VO
+
+        // 接口升级
+        return iUserService.getUserInfoByIds(ids);
     }
 
     //    @ApiOperation("查询所有用户")
@@ -107,6 +114,13 @@ public class UserController {
     ) {
         iUserService.updateByLambda(id,money);
     }
+
+    @Operation(summary = "分页条件查询用户")
+    @GetMapping("/page")
+    public PageDTO<UserVO> getUsersByPage2(@ParameterObject UserQuery userQuery){
+        return iUserService.getUsersByPage(userQuery);
+    }
+
 
 
 }

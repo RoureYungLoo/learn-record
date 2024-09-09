@@ -5,7 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a96bf6-66c8-4bef-8b02-300db6af55d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java/CaiNiao_Tutorial/src/_4_advanced/_09_Generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/src/main/java/com/learn/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/src/main/java/com/learn/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/src/main/java/com/learn/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/src/main/java/com/learn/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/src/test/java/com/learn/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/src/test/java/com/learn/CatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-01-core-clone/src/test/java/com/learn/DogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-02-core-convert/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-02-core-convert/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-02-core-convert/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-02-core-convert/src/main/java/com/learn/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/hutool/hutool-02-core-convert/src/test/java/com/learn/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/dto/PageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/po/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/po/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/query/PageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/vo/AddressVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/test/java/com/xxx/mybatisplus/service/IAddressServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/hutool/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/hutool/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/hutool/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/hutool/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/hutool/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/hutool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/hutool/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/po/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/query/UserQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/query/UserQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/domain/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/service/impl/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/java/com/xxx/mybatisplus/service/impl/IUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/src/test/java/com/xxx/mybatisplus/service/IUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/src/test/java/com/xxx/mybatisplus/service/IUserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/config/AliOSSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/config/AliOSSConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Code.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/constants/Msg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/FileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randolflu/security/Keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/security/Keys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/config/AliOSSConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/config/AliOSSConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/constants/Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/constants/Code.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/constants/Msg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/constants/Msg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/FileUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/FileUpload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/interceptors/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/interceptors/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/security/Keys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/security/Keys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/randolflu/utils/AliOSSUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/randolflu/utils/AliOSSUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/randolflu/JwtTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/randolflu/JwtTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/randolflu/OSSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/randolflu/OSSTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event_front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../big-event_front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event_front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../big-event_front/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event_front/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/../big-event_front/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event_front/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../big-event_front/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event_front/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../big-event_front/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-config-file/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-config-file/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +260,7 @@
       <workItem from="1725616236006" duration="612000" />
       <workItem from="1725633555764" duration="292000" />
       <workItem from="1725633862974" duration="315000" />
+      <workItem from="1725858699800" duration="7201000" />
     </task>
     <servers />
   </component>
