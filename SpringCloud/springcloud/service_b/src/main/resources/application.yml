@@ -1,0 +1,6 @@
+#spring.application.name=service_a
+spring:
+  application:
+    name: service_b
+server:
+  port: 8082
