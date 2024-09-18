@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: moduleA
+
+server:
+  port: 8021
