@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CainiaojcTutorialApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CainiaojcTutorialApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CainiaojcTutorialApplication.class, args);
+    }
 
 }

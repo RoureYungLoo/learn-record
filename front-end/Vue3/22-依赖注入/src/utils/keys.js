@@ -1,0 +1,6 @@
+export const key1 = Symbol()
+export const key2 = Symbol()
+export const key3 = Symbol()
+export const key4 = Symbol()
+export const key5 = Symbol()
+export const key6 = Symbol()

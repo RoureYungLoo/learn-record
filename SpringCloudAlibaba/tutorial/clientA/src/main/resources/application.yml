@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: clientA
+  cloud:
+    nacos:
+      server-addr: 192.168.42.133:8848

@@ -18,8 +18,8 @@ public interface UserMapper {
             "values(#{username},#{password},now(),now())")
     int add(String username, String password);
 
-    @Update("update user set username = #{username}, email=#{email},updated_time=now() where id = #{id}")
-    void update(User user);
+    @Update("update user set nickname = #{nickname}, email=#{email},updated_time=now() where id = #{id}")
+    int update(User user);
 
     @Update("update user set user_pic=#{avatarUrl}, updated_time=now() where id=#{id} ")
     void updateAvatar(String avatarUrl, Integer id);

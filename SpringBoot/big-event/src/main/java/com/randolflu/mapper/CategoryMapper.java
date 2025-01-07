@@ -1,10 +1,7 @@
 package com.randolflu.mapper;
 
 import com.randolflu.pojo.Category;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -31,4 +28,7 @@ public interface CategoryMapper {
             "updated_time=#{updatedTime} " +
             "where id= #{id} and created_user=#{createdUser}")
     int update(Category category);
+
+    @Delete("delete from category where id=#{categoryId} and created_user=#{userId}")
+    int delete(Integer userId, Integer categoryId);
 }

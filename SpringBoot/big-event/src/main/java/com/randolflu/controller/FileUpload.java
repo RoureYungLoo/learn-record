@@ -28,7 +28,8 @@ public class FileUpload {
 
         file.transferTo(new File(fullPath));
 
-        return Result.success(fullPath);
+        // return Result.success(fullPath);
+        return Result.success("http://localhost:85/"+filename);
     }
 
     @PostMapping("/uploadoss")

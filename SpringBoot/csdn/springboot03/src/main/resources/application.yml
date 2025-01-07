@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: springboot03
+  profiles:
+#    active: test
+    active: '@env@'
+logging:
+  config: classpath:logback.xml
+  level:
+    com.xxx.springboot03.dao: trace
+#server:
+#  port: 8083
+
+#---
+#
+#server:
+#  port: 8084
+#spring:
+#  config:
+#    activate:
+#      on-profile: dev
+#
+#---
+#server:
+#  port: 8085
+#spring:
+#  config:
+#    activate:
+#      on-profile: test

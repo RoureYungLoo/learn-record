@@ -60,8 +60,8 @@ public class UserController {
 
     // @PostMapping("/login")
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public Result login(@Pattern(regexp = "^\\S{5,18}$",message = "用户名不合法") String username,
-                        @Pattern(regexp = "^\\S{5,18}$",message = "密码输入不合法") String password) {
+    public Result login(@Pattern(regexp = "^\\S{5,18}$", message = "用户名不合法") String username,
+                        @Pattern(regexp = "^\\S{5,18}$", message = "密码输入不合法") String password) {
         String token = userService.login(username, password);
 
         if (StringUtils.hasText(token)) {
@@ -72,7 +72,7 @@ public class UserController {
     }
 
     /* 获取用户详细信息 */
-    @GetMapping("/info")
+    @GetMapping()
     public Result<User> UserInfo(@RequestHeader("Authorization") String token) {
         assert token != null : "no token";
         User user = userService.getUserInfo(token);
@@ -80,11 +80,13 @@ public class UserController {
     }
 
     /* 更新用户信息 */
-    @PutMapping("/update")
+    @PutMapping
     public Result update(@RequestBody @Validated User user) {
-        System.out.println(user);
-        userService.update(user);
-        return Result.success();
+        if (userService.update(user)) {
+            return Result.success(Msg.UPDATE_OK);
+        } else {
+            return Result.success(Msg.UPDATE_ERR);
+        }
     }
 
     /* 更新密码 */

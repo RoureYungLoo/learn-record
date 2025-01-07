@@ -1,5 +1,6 @@
 package com.randolflu.controller;
 
+import com.randolflu.constants.Msg;
 import com.randolflu.pojo.Category;
 import com.randolflu.pojo.Result;
 import com.randolflu.service.CategoryService;
@@ -19,12 +20,12 @@ public class CategoryController {
 
     /* 新增文章分类 */
     @PostMapping()
-    public Result save(@RequestBody @Validated(Category.Add.class) Category category) {
+    public Result save(@RequestBody @Validated({Category.Add.class}) Category category) {
         System.out.println(category);
         if (categoryService.add(category)) {
-            return Result.success();
+            return Result.success(Msg.ADD_OK);
         } else {
-            return Result.error();
+            return Result.error(Msg.ADD_ERR);
         }
     }
 
@@ -52,5 +53,10 @@ public class CategoryController {
             return Result.error();
         }
     }
+
+
+
+
+
 
 }

@@ -1,5 +1,7 @@
 <script>
 	// import MyHello from './components/MyHello.vue';
+
+	// 这是一个父组件，它导入了子组件
 	import ButtonCounter from './components/ButtonCounter.vue'
 	import Blog from './components/Blog.vue'
 	import AlertBox from './components/AlertBox.vue'
@@ -8,7 +10,7 @@
 	import Tab3 from './components/Tab3.vue'
 
 	export default {
-		components: {
+		components: { // 注册已经导入的组件，以便模板使用
 			ButtonCounter,
 			Blog,
 			AlertBox,

@@ -23,8 +23,8 @@ export default {
 </script>
 
 <template>
-	<MyComponent></MyComponent>
-	<ComponentA></ComponentA>
+	<MyComponent></MyComponent>  <!-- 这个在main.js中全局注册过了 -->
+	<ComponentA></ComponentA> <!-- 这个在main.js中全局注册过了 -->
 	<!-- <ComponentB></ComponentB> -->
 	<CPB></CPB>
 	<!-- <ComponentC></ComponentC> -->

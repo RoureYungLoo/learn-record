@@ -60,6 +60,10 @@ public class Result<T> {
         return new Result(0, "success");
     }
 
+    public static Result success(String msg) {
+        return new Result(0, msg);
+    }
+
     public static <E> Result<E> success(E data) {
         return new Result(0, "success", data);
     }

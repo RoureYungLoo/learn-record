@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PieChart {
+public class PieChart {
+    public void display() {
+        System.out.println("绘制饼状图");
+    }
 }

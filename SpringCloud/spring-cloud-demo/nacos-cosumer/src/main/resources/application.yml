@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nacos-cosumer
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.10.10.112:8848
+server:
+  port: 8099

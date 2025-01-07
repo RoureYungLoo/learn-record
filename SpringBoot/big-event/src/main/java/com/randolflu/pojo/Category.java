@@ -13,12 +13,12 @@ public class Category {
     private Integer id;
 
     /* 分组校验 */
-    @NotEmpty(groups = {Add.class, Update.class})
+    @NotEmpty(groups = {Add.class, Update.class},message = "分类名称不合法")
     @Pattern(regexp = "^\\S{1,10}$", groups = {Add.class, Update.class})
     private String categoryName;
 
     /* 分组校验 */
-    @NotEmpty(groups = {Add.class,Update.class})
+    @NotEmpty(groups = {Add.class,Update.class},message = "分类别名不合法")
     @Pattern(regexp = "^\\S{1,10}$", groups = {Add.class, Update.class})
     private String categoryAlias;
 

@@ -1,7 +1,7 @@
 package com.xxx.springboot01.exception;
 
-public class BookNotFoundException extends RuntimeException{
-    public BookNotFoundException(String message,Throwable cause){
+public class BookIdMismatchException extends RuntimeException{
+    public BookIdMismatchException(String message, Throwable cause){
         super(message, cause);
     }
 }

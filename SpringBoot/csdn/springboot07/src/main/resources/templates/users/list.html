@@ -1,0 +1,36 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户</title>
+</head>
+<body>
+<h1>user list</h1>
+<form action="" th:object="${user}">
+    用户ID：<input readonly th:value="${user.id}"/>
+    用户名：<input readonly th:value="${user.username}"/>
+    密码：<input readonly th:value="${user.password}"/>
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>用户名</th>
+        <th>密码</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="item:${list}">
+        <td th:text="${item.id}"></td>
+        <td th:text="${item.username}"></td>
+        <td th:text="${item.password}"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

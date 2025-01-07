@@ -60,10 +60,17 @@ public class CategoryServiceImpl implements CategoryService {
         /* 不能更新别人的数据：根据前端传递过来的categoryId 和当前登录的用户id查询*/
         Category byIds = categoryMapper.getById(category.getId(), userId);
         if (byIds != null) {
+            category.setCreatedUser(userId);
             category.setUpdatedTime(new Date());
             return categoryMapper.update(category) > 0;
-        }else{
+        } else {
             return false;
         }
+    }
+
+    /* 删除文章分类 */
+    public boolean delete(Integer categoryId) {
+        Integer userId = ThreadLocalUtil.getThreadLocal("id");
+        return categoryMapper.delete(userId, categoryId) > 0;
     }
 }

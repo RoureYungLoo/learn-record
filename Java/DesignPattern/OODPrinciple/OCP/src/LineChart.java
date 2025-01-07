@@ -1,5 +1,5 @@
-public class PieChart {
+public class LineChart {
     public void display() {
-        System.out.println("绘制饼状图");
+        System.out.println("绘制折线图");
     }
 }

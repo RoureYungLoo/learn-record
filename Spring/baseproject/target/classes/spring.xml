@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 被代理的对象 -->
+<!--    <bean id="orderService" class="org.xxx.service.impl.OrderServiceImpl"/>-->
+
+    <!-- 通知 -->
+<!--    <bean id="logAdvice" class="org.xxx.advice.LogAdvice"/>-->
+<!--    <bean id="logAdvice2" class="org.xxx.advice.LogAdvice2"/>-->
+
+<!--     方式一： 使用spring自带的aop 【start】 -->
+<!--     切入点 -->
+<!--        <bean id="pointCut" class="org.springframework.aop.support.JdkRegexpMethodPointcut">-->
+<!--            <property name="pattern" value="org.xxx.service.impl.*.*"/>-->
+<!--        </bean>-->
+
+<!--     通知 -->
+<!--        <bean id="advisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">-->
+<!--            <property name="pointcut" ref="pointCut"/> &lt;!&ndash; 切点 &ndash;&gt;-->
+<!--            <property name="advice" ref="logAdvice"/> &lt;!&ndash; 通知 &ndash;&gt;-->
+<!--        </bean>-->
+
+<!--     创建自动代理对象创建器 -->
+<!--        <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">-->
+<!--     哪些bean创建自动代理 -->
+<!--            <property name="beanNames">-->
+<!--                <list>-->
+<!--                    <value>*Service</value>-->
+<!--                </list>-->
+<!--            </property>-->
+
+<!--     需要执行哪些通知 -->
+<!--            <property name="interceptorNames">-->
+<!--                <list>-->
+<!--                    <value>logAdvice</value>-->
+<!--                </list>-->
+<!--            </property>-->
+<!--        </bean>-->
+    <!-- 使用spring自带的aop 【end】 -->
+
+<!--&lt;!&ndash;     方式二： 使用aspectj aop 【start】 &ndash;&gt;-->
+<!--        <aop:config>-->
+<!--            <aop:aspect ref="logAdvice2">-->
+<!--                <aop:pointcut id="point" expression="execution(* org.xxx.service.impl.*.*(..))"/>-->
+<!--                <aop:before method="beforeAdvice" pointcut-ref="point"/>-->
+<!--                <aop:after method="afterAdvice" pointcut-ref="point"/>-->
+<!--&lt;!&ndash;     returning：配置当前方法中用来接收返回值的参数名 &ndash;&gt;-->
+<!--                <aop:after-returning method="afterReturningAdvice" returning="returnVal" pointcut-ref="point"/>-->
+<!--&lt;!&ndash;     throwing: 配置当前方法中用来接收当前异常的参数名 &ndash;&gt;-->
+<!--                <aop:after-throwing method="throwAdvice" pointcut-ref="point" throwing="exception"/>-->
+<!--                <aop:around method="aroundAdvice" pointcut-ref="point"/>-->
+<!--            </aop:aspect>-->
+<!--        </aop:config>-->
+
+    <!-- 方式二： 使用aspectj aop 【end】 -->
+
+
+    <!-- 方式三： 使用aspectj aop 【start】 -->
+    <!-- 使用注解方式配置 -->
+    <!-- 扫描包配置 -->
+    <context:component-scan base-package="org.xxx"/>
+    <!-- 开启aspectj自动代理 -->
+    <aop:aspectj-autoproxy/>
+    <!-- 方式三： 使用aspectj aop 【end】 -->
+</beans>

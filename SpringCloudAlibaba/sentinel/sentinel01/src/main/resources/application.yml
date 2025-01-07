@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sentinel01
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080 # dashboard地址
+server:
+  port: 8085
+
+

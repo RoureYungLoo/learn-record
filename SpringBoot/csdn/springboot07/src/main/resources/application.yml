@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springboot07
+  thymeleaf:
+    cache: false #\u5F00\u53D1\u671F\u95F4\u5173\u95ED thymeleaf \u7F13\u5B58
+    prefix: classpath:templates/
+    suffix: .html

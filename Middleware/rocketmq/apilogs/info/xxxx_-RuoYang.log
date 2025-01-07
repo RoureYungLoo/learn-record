@@ -1,0 +1,8 @@
+2024-09-19 15:39:10,069 ERROR [main] o.e.App  错误信息，不会影响系统运行
+2024-09-19 15:39:10,072 WARN [main] o.e.App  警告信息，可能会发生问题
+2024-09-19 15:39:10,072 INFO [main] o.e.App  运行信息，数据连接，网络连接，IO操作等
+2024-09-19 15:40:00,428 INFO [main] o.e.ProducerExample Send message successfully, messageId=01005056C0000861C806FD6F5000000000
+2024-09-19 15:40:13,921 INFO [RocketmqMessageConsumption-0-29] o.e.PushConsumerExample Consume message successfully, messageId=01005056C0000861C806FD6F5000000000
+2024-09-19 15:40:13,921 INFO [RocketmqMessageConsumption-0-31] o.e.PushConsumerExample Consume message successfully, messageId=01005056C0000807B806FD681500000000
+2024-09-19 15:40:13,921 INFO [RocketmqMessageConsumption-0-30] o.e.PushConsumerExample Consume message successfully, messageId=01005056C00008596006FD687D00000000
+2024-09-19 15:40:13,921 INFO [RocketmqMessageConsumption-0-28] o.e.PushConsumerExample Consume message successfully, messageId=01005056C00008018006FD6B8D00000000

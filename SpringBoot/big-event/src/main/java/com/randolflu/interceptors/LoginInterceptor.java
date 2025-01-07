@@ -13,6 +13,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import java.util.Enumeration;
@@ -27,18 +28,19 @@ public class LoginInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
         String token = request.getHeader("Authorization");
-        System.out.println("token: "+token);
-        assert token != null : "no token";
+        System.out.println("token: " + token);
+//        assert token != null : "no token";
         try {
             Map<String, Object> claims = EncryptUtils.JWTDecode(token, Keys.JwtTestKey);
             ThreadLocalUtil.set(claims);  //存储到 ThreadLocal
 
-             //从redis中获取key
+            //从redis中获取key
             ValueOperations<String, String> redis = stringRedisTemplate.opsForValue();
             String key = RedisUtil.wrapKey("token", String.valueOf(ThreadLocalUtil.getThreadLocal("id"))); // "token:userid"
             String s = redis.get(key);
-            System.out.println(key+":"+s);
-            if (s == null) {
+
+            System.out.println(key + ":" + s);
+            if (s == null || !StringUtils.hasText(token)) {
                 throw new RuntimeException();
             }
             return true;  //jwt 认证成功

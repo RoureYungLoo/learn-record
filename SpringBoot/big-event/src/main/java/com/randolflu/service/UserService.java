@@ -13,7 +13,7 @@ public interface UserService {
 
     User getUserInfo(String token);
 
-    void update(User user);
+    boolean update(User user);
 
     void updateAvatar(String avatarUrl);
 

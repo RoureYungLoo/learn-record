@@ -49,7 +49,7 @@ public class UserServiceImpl implements UserService {
 
             ValueOperations<String, String> redis = stringRedisTemplate.opsForValue();
             String key = RedisUtil.wrapKey("token",String.valueOf(loginUser.getId())); // "token:userid"
-            redis.set(key,"1",30, TimeUnit.MINUTES);
+            redis.set(key,"1",30, TimeUnit.DAYS);
             return token;
             //return "登录成功";
         }
@@ -68,8 +68,8 @@ public class UserServiceImpl implements UserService {
 
     /* 更新用户信息 */
     @Override
-    public void update(User user) {
-        userMapper.update(user);
+    public boolean update(User user) {
+        return userMapper.update(user)>0;
     }
 
     @Override

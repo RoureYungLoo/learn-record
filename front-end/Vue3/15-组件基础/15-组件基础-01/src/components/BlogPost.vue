@@ -6,7 +6,7 @@
 
 <script>
 	export default {
-		// 这个组件的attribute
+		// 这个组件的特殊 attributes
 		props: [
 			'title'
 		],

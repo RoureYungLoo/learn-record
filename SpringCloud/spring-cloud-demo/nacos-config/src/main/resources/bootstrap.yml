@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: nacosconfig
+  cloud:
+    nacos:
+      config: # nacos config center
+        server-addr: 10.10.10.112:8848
+        file-extension: yaml
+

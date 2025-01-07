@@ -1,5 +1,6 @@
 package com.randolflu.controller;
 
+import com.randolflu.constants.Msg;
 import com.randolflu.pojo.Article;
 import com.randolflu.pojo.PageBean;
 import com.randolflu.pojo.Result;
@@ -43,9 +44,9 @@ public class ArticleController {
     @PostMapping
     public Result add(@RequestBody @Validated Article article) {
         if (articleService.add(article)) {
-            return Result.success();
+            return Result.success(Msg.ADD_OK);
         } else {
-            return Result.error();
+            return Result.error(Msg.ADD_ERR);
         }
     }
 
@@ -75,9 +76,9 @@ public class ArticleController {
     @PutMapping
     public Result update(@RequestBody @Validated Article article) {
         if (articleService.update(article)) {
-            return Result.success();
+            return Result.success(Msg.UPDATE_OK);
         } else {
-            return Result.error();
+            return Result.error(Msg.UPDATE_ERR);
         }
     }
 

@@ -14,4 +14,10 @@ public class Msg {
     public static final String LOGIN_ERR_NO_USER = "用户不存在";
     public static final String LOGIN_ERR_PWD = "密码错误";
 
+    public static final String ADD_OK = "添加成功";
+    public static final String ADD_ERR = "添加失败";
+
+    public static final String UPDATE_OK = "更新成功";
+    public static final String UPDATE_ERR = "更新失败";
+
 }

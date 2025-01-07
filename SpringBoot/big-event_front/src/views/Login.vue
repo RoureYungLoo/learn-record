@@ -2,45 +2,69 @@
 import { ref, reactive } from "vue";
 import { User, Lock, Right, Back } from "@element-plus/icons-vue";
 import { userRegisterService, userLoginService } from "@/api/user.js";
-import { ElMessage } from 'element-plus'
+import { ElMessage, ElMessageBox } from "element-plus";
+import { useRouter } from "vue-router";
 
-const isRegister = ref(false);
+// 是否正在注册
+const isRegistering = ref(false);
+
+// 注册用户表单数据，和用户登录公用表单数据
 const registerData = ref({
   username: "",
   password: "",
   repassword: "",
 });
 
+const router = useRouter();
+
+const toLogin = () => {
+  isRegistering.value = false;
+  resetData();
+};
+const toRegister = () => {
+  isRegistering.value = true;
+  resetData();
+};
 // 自定义校验
 const validatePass = (rule, value, callback) => {
-  if (value === "") {
-    callback(new Error("必填项"));
-  }
-  if (value.length < 6 || value.length > 10) {
-    callback(new Error("长度必须为5~10"));
-  }
-  console.log(isRegister.value);
-  if (isRegister.value && registerData.value.repassword.length > 0) {
-    if (value !== registerData.value.repassword) {
-      callback(new Error("密码输入不一致"));
-    }
-  }
+  // if (value === "") {
+  //   callback(new Error("必填项"));
+  // }
+  // if (value.length < 6 || value.length > 10) {
+  //   callback(new Error("长度必须为5~10"));
+  // }
+  // console.log(isRegistering.value);
+  // if (isRegistering.value && registerData.value.repassword.length > 0) {
+  //   if (value !== registerData.value.repassword) {
+  //     callback(new Error("密码输入不一致"));
+  //   }
+  // }
 };
 
-const validatePass2 = (rule, value, callback) => {
-  if (value === "") {
-    callback(new Error("必填项"));
-  }
-
-  if (value.length < 6 || value.length > 18) {
-    callback(new Error("长度必须为6~18"));
-  }
-
-  if (value !== registerData.value.password) {
-    callback(new Error("密码输入不一致"));
+const validatePwd = (rule, value, callback) => {
+  let reg =
+    /^(?=.*\d)(?=.*[a-zA-Z])(?=.*[~!@#$%^&*.])[\da-zA-Z~!@#$%^&*.]{8,}$/;
+  if (!reg.test(value)) {
+    console.log("通用");
+    callback(new Error("密码必须是8位以上、必须含有字母、数字、特殊符号"));
   } else {
-    callback();
+    registerData.value.password === registerData.value.repassword
+      ? callback()
+      : callback("密码输入不一致");
   }
+};
+const validatePass2 = (rule, value, callback) => {
+  // if (value === "") {
+  //   callback(new Error("必填项"));
+  // }
+  // if (value.length < 6 || value.length > 18) {
+  //   callback(new Error("长度必须为6~18"));
+  // }
+  // if (value !== registerData.value.password) {
+  //   callback(new Error("密码输入不一致"));
+  // } else {
+  //   callback();
+  // }
 };
 
 // 校验
@@ -50,40 +74,66 @@ const rules = reactive({
     { min: 5, max: 10, message: "长度必须为5~10", trigger: "blur" },
   ],
   password: [
-    // { required: true, message: "必填项", trigger: "blur" },
-    // { min: 6, max: 18, message: "长度必须为6~18", trigger: "blur" },
-    { validator: validatePass, trigger: "blur" },
+    { required: true, message: "必填项", trigger: ["change", "blur"] },
+    { min: 5, max: 18, message: "长度必须为5~18", trigger: "blur" },
+    { validator: validatePwd, trigger: ["change"] },
     // { validator: validatePass, trigger: "change" },
   ],
-  repassword: [{ validator: validatePass2, trigger: "blur" }],
+  repassword: [
+    {
+      validator: validatePwd,
+      trigger: ["change"],
+    },
+    { required: true, message: "必填项", trigger: ["change", "blur"] },
+    { min: 5, max: 18, message: "长度必须为5~18", trigger: "blur" },
+  ],
   //   repassword: [{ validator: validatePass2, trigger: "change" }],
 });
 
 const registerHandler = async () => {
   // console.log(registerData.value);
   let res = await userRegisterService(registerData.value);
-  ElMessage.success(res.msg ? res.msg : "success")
+  if (res) {
+    ElMessageBox.alert(res.msg, "提示", {
+      confirmButtonText: "OK",
+      callback: (action) => {
+        toLogin();
+      },
+    });
+  }
+
   // console.log(res);
   // if (res.code === 0) {
   // alert(res.msg ? res.msg : "success");
   // } else {
   // alert(res.msg);
   // }
-
 };
+
+// 使用token, 登录成功需要维护token状态
+import { useTokenStore } from "@/stores/token.js";
+const tokenStore = useTokenStore();
+// tokenStore.token
+// tokenStore.setToken()
 
 const loginHandler = async () => {
   // console.log(registerData.value);
   let res = await userLoginService(registerData.value);
-  ElMessage.success(res.msg ? res.msg : "登录成功")
+  if (res) {
+    ElMessage.success(res.msg ? res.msg : "登录成功");
+    tokenStore.setToken(res.data);
+  }
 
   // console.log(res);
+  console.log(tokenStore.token);
 
   // if (res.code === 0) {
   // alert(res.msg ? res.msg : "登录成功");
   // } else {
   // alert(res.msg);
   // }
+
+  router.push("/");
 };
 
 const resetData = () => {
@@ -92,14 +142,6 @@ const resetData = () => {
     password: "",
     repassword: "",
   };
-};
-const toLogin = () => {
-  isRegister.value = false;
-  resetData();
-};
-const toRegister = () => {
-  isRegister.value = true;
-  resetData();
 };
 </script>
 
@@ -111,7 +153,7 @@ const toRegister = () => {
           <el-col :span="8" style="width: 1000px">
             <!-- 注册 -->
             <el-form
-              v-if="isRegister"
+              v-if="isRegistering"
               :model="registerData"
               label-width="1"
               style="min-width: 200px; max-width: 400px"

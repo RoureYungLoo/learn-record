@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: CONSUMER
+  cloud:
+    nacos:
+      server-addr: 192.168.42.133:8848
+
+server:
+  port: 8021
+
+

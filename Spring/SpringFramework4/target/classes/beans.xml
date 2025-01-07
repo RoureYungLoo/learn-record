@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+    "
+
+       xmlns:p="http://www.springframework.org/schema/c"
+
+>
+    <!--    default-init-method="init"-->
+    <!--    default-destroy-method="destroy"-->
+    <!-- 相当于对所有的Bean设置默认的 init-method 和 destroy-method -->
+
+    <!--    <bean id="helloWorld" class="org.example.domain.HelloWorld" init-method="init" destroy-method="destroy">-->
+    <!--    <bean id="helloWorld" class="org.example.domain.HelloWorld">-->
+    <!--        <property name="message" value="I am an object!"/>-->
+    <!--    </bean>-->
+
+    <!--    <bean id="student" class="org.example.domain.Student"/>-->
+
+    <!--    <bean class="" name="" scope="" lazy-init="" init-method="" destroy-method=""-->
+
+    <!--    <bean id="helloWorldInit" class="org.example.domain.HelloWorldInit"/>-->
+
+    <!-- Bean 继承 -->
+    <!--    <bean id="baseBean" class="org.example.domain.BaseBean">-->
+    <!--        <property name="message1" value="this is message one in baseBean"/>-->
+    <!--        <property name="message2" value="this is message two in baseBean"/>-->
+    <!--    </bean>-->
+    <!--    <bean id="subBean" class="org.example.domain.SubBean" parent="baseBean">-->
+    <!--        <property name="message2" value="this is message two in subBean"/>-->
+    <!--        <property name="message3" value="this is message three in subBean"/>-->
+    <!--    </bean>-->
+
+    <!-- Bean 模板 -->
+    <!--    <bean id="beanTemplate" abstract="true">-->
+    <!--        <property name="message1" value="message one in abstract bean"/>-->
+    <!--        <property name="message2" value="message two in abstract bean"/>-->
+    <!--        <property name="message3" value="message three in abstract bean"/>-->
+    <!--    </bean>-->
+
+    <!--    <bean id="subBean2" class="org.example.domain.SubBean" parent="beanTemplate">-->
+    <!--        <property name="message2" value="message two in subBean2"/>-->
+    <!--    </bean>-->
+
+    <!-- 构造注入 -->
+    <!--    <bean id="textEditor" class="org.example.domain.TextEditor">-->
+    <!--        <constructor-arg ref="spellCheck"/>-->
+    <!--    </bean>-->
+    <!--    <bean id="spellCheck" class="org.example.domain.SpellCheck"/>-->
+
+    <!--    <bean id="foo" class="org.example.domain.Foo">-->
+    <!-- 参数类型相同，按顺序 -->
+    <!--                <constructor-arg ref="p1"/>-->
+    <!--                <constructor-arg ref="p2"/>-->
+    <!--        <constructor-arg name="param1" ref="p1"/>-->
+    <!--        <constructor-arg name="param2" ref="p2"/>-->
+    <!--参数类型不同，按类型 -->
+    <!--        <constructor-arg type="java.lang.String" value="I am Foo"/>
+            <constructor-arg type="java.lang.Long" value="1700000000"/>
+            <constructor-arg type="int" value="5"/>-->
+    <!--参数类型不同，按索引[推荐的方法] -->
+    <!--        <constructor-arg index="0" value="我是Foo"/>-->
+    <!--        <constructor-arg index="2" value="3"/>-->
+    <!--        <constructor-arg index="1" value="17555555555"/>-->
+
+    <!--    </bean>-->
+    <!--    <bean id="p1" class="org.example.domain.Bar"/>-->
+    <!--    <bean id="p2" class="org.example.domain.Bar"/>-->
+
+    <!-- setter 注入 -->
+    <!--    <bean id="textEditor" class="org.example.domain.TextEditor">-->
+    <!--        <property name="spellCheck" ref="spellCheck"/>-->
+    <!--    </bean>-->
+    <!-- setter P命名空间 注入 -->
+    <!--    <bean id="textEditor" class="org.example.domain.TextEditor" p:spellCheck-ref="spellCheck"/>-->
+    <!-- 构造注入简化： C命名空间 注入 -->
+    <!--    <bean id="textEditor" class="org.example.domain.TextEditor" c:spellCheck-ref="spellCheck"/>-->
+    <!--    <bean id="spellCheck" class="org.example.domain.SpellCheck"/>-->
+
+    <!-- 注入内部Bean -->
+    <!--    <bean id="textEditor" class="org.example.domain.TextEditor">-->
+    <!--        <property name="spellCheck">-->
+    <!--            <bean class="org.example.domain.SpellCheck"/>-->
+    <!--        </property>-->
+    <!--    </bean>-->
+
+    <!-- 注入集合 -->
+    <!--    <bean id="collection" class="org.example.domain.JavaCollection">-->
+    <!--        <property name="nicknames">-->
+    <!-- 注入 array -->
+    <!--            <array>-->
+    <!--                <value>张三</value>-->
+    <!--                <value>法外狂徒</value>-->
+    <!--                <value>三哥</value>-->
+    <!--            </array>-->
+    <!--        </property>-->
+    <!--        <property name="langs">-->
+    <!-- 注入 List -->
+    <!--            <list>-->
+    <!--                <value>C</value>-->
+    <!--                <value>C++</value>-->
+
+    <!--            </list>-->
+    <!--        </property>-->
+    <!--        <property name="hobbies">-->
+    <!-- 注入 Set -->
+    <!--            <set>-->
+    <!--                <value>Fishing</value>-->
+    <!--                <value>Running</value>-->
+    <!--                <value>Swimming</value>-->
+    <!--            </set>-->
+    <!--        </property>-->
+    <!--        <property name="addrMap">-->
+    <!-- 注入 Map -->
+    <!--            <map>-->
+    <!--                <entry key="zhengzhou" value="郑州"/>-->
+    <!--                <entry key="shanghai" value="上海"/>-->
+    <!--                <entry key="nanjing" value="南京"/>-->
+    <!--            </map>-->
+    <!--        </property>-->
+    <!--        <property name="cateProps">-->
+    <!-- 注入 Properties -->
+    <!--            <props>-->
+    <!--                <prop key="fruit">水果</prop>-->
+    <!--                <prop key="animal">动物</prop>-->
+    <!--                <prop key="plant">植物</prop>-->
+    <!--            </props>-->
+    <!--        </property>-->
+    <!-- 注入 空字符串 -->
+    <!--        <property name="username" value=""/>-->
+    <!-- 注入 null -->
+    <!--        <property name="username" >-->
+    <!--            <null/>-->
+    <!--        </property>-->
+    <!--</bean>-->
+
+    <!--自动装配 byName-->
+    <!--    <bean id="textEditor2" class="org.example.domain.TextEditor2" autowire="byName">-->
+    <!--        <property name="name" value="文本编辑器"/>-->
+    <!--    </bean>-->
+    <!--    <bean id="spellCheckxxx" class="org.example.domain.SpellCheck"/>-->
+
+    <!--自动装配 byType-->
+    <!--    <bean id="textEditor2" class="org.example.domain.TextEditor2" autowire="byType">-->
+    <!--        <property name="name" value="文本编辑器"/>-->
+    <!--    </bean>-->
+    <!--        <bean class="org.example.domain.SpellCheck"/>-->
+
+    <!-- 开启基于注解的自动装配 -->
+    <context:annotation-config/>
+
+    <!--    <bean id="textEditor2" class="org.example.domain.TextEditor2">-->
+    <!--        <property name="name" value="文本编辑器"/>-->
+    <!--        <property name="spellCheck" ref="spellCheck"/>-->
+    <!--    </bean>-->
+    <!--    <bean id="spellCheck" class="org.example.domain.SpellCheck"/>-->
+
+    <!--    <bean id="userService" class="org.example.domain.UserService"/>-->
+    <!--    <bean id="userDao1" class="org.example.domain.UserDao">-->
+    <!--        <property name="version" value="1.0"/>-->
+    <!--    </bean>-->
+    <!--    <bean id="userDao2" class="org.example.domain.UserDao">-->
+    <!--        <property name="version" value="2.0"/>-->
+    <!--    </bean>-->
+    <!--    <bean class="org.example.domain.SpellCheck"/>-->
+
+    <!--    <bean id="textEditor" class="org.example.domain.TextEditor"/>-->
+    <!--    <bean id="spellCheck" class="org.example.domain.SpellCheck"/>-->
+
+    <!--    <bean id="day" class="org.example.domain.Day"/>-->
+    <!--    <bean id="year" class="org.example.domain.Year"/>-->
+
+    <!--    <bean id="startListener" class="org.example.listener.CtxStartListener"/>-->
+    <!--    <bean id="stopListener" class="org.example.listener.CtxStopListener"/>-->
+    <!--    <bean class="org.example.domain.Day" id="day" init-method="init" destroy-method="destroy"/>-->
+
+    <!--    <bean class="org.example.event.CustomEventPublisher" id="publisher"/>-->
+    <!--    <bean class="org.example.event.CustomEventHandler" id="handler"/>-->
+
+    <!--切面配置-->
+    <!--    <aop:config>-->
+    <!--        &lt;!&ndash; 切面 aspectOne &ndash;&gt;-->
+    <!--        <aop:aspect id="aspectOne" ref="logging">-->
+    <!--            &lt;!&ndash; 切点表达式 pointcutOne &ndash;&gt;-->
+    <!--            <aop:pointcut id="pointcutOne" expression="execution(* org.example.domain.Student.getName(..))" />-->
+
+    <!--            <aop:before method="beforeAdvice" pointcut-ref="pointcutOne" arg-names="joinPoint"/> &lt;!&ndash;前置通知&ndash;&gt;-->
+    <!--            <aop:after method="afterAdvice" pointcut-ref="pointcutOne" arg-names="joinPoint"/> &lt;!&ndash;后置通知&ndash;&gt;-->
+    <!--            <aop:around method="aroundAdvice" pointcut-ref="pointcutOne" /> &lt;!&ndash;环绕通知&ndash;&gt;-->
+    <!--            <aop:after-throwing method="afterThrowingAdvice" pointcut-ref="pointcutOne" throwing="ex"/> &lt;!&ndash;异常通知&ndash;&gt;-->
+    <!--            <aop:after-returning method="afterReturnAdvice" pointcut-ref="pointcutOne" returning="retVal"/> &lt;!&ndash;返回后通知&ndash;&gt;-->
+
+    <!--        </aop:aspect>-->
+    <!--        <aop:aspect id="aspectTwo" ref="logging">-->
+    <!--            <aop:pointcut id="pointCutTwo" expression="execution(* org.example.domain.Student.throwAnException(..))"/>-->
+    <!--            <aop:after-throwing method="afterThrowingAdvice" pointcut-ref="pointCutTwo" throwing="ex"/>-->
+    <!--        </aop:aspect>-->
+    <!--    </aop:config>-->
+
+    <!-- 定义切面类 -->
+    <!--        <bean id="logging" class="org.example.aop.Logging"/>-->
+
+    <!-- 定义学生Bean -->
+    <!--    <bean id="student" class="org.example.domain.Student">-->
+    <!--        <property name="name" value="张三"/>-->
+    <!--        <property name="height" value="165"/>-->
+    <!--        <property name="id" value="202400001"/>-->
+    <!--    </bean>-->
+
+    <!-- 定义切面Bean -->
+    <!--    <bean id="logging" class="org.example.aop.LoggingWithAnnotation"/>-->
+
+    <!-- 开启注解AOP支持 -->
+    <!--    <aop:aspectj-autoproxy/>-->
+
+    <!-- 定义数据源Bean -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="url" value="jdbc:mysql://192.168.42.135:3306/test"/>
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="username" value="root"/>
+        <property name="password" value="MySQL123!"/>
+    </bean>
+
+    <!-- 定义JdbcTemplate Bean -->
+    <bean class="org.springframework.jdbc.core.JdbcTemplate" id="jdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 事务管理器Bean -->
+    <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" id="transactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 开启组件扫描 -->
+<!--    <context:component-scan base-package="org.example.dao,org.example.service"/>-->
+    <context:component-scan base-package="org.example.dao,org.example"/>
+
+    <!-- 开启MVC注解驱动 -->
+    <mvc:annotation-driven />
+
+    <!-- 声明式事务通知 -->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="update"/>
+        </tx:attributes>
+    </tx:advice>
+    <!-- 声明式事务 -->
+    <aop:config>
+        <!-- 切点表达式 -->
+        <aop:pointcut id="update" expression="execution(* org.example.dao.StudentDaoImpl.update(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="update"/>
+    </aop:config>
+
+    <!-- 内部资源视图解析器 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+</beans>

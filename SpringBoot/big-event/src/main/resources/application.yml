@@ -3,7 +3,7 @@
 spring:
   datasource: # 数据源配置
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.254.133:3306/big_event
+    url: jdbc:mysql://192.168.42.133:3306/big_event
     username: root
     password: mysql123456
   servlet:
@@ -12,7 +12,7 @@ spring:
       max-request-size: 50MB
   data:
     redis: # redis 配置
-      host: 192.168.254.133
+      host: 192.168.42.133
       port: 6379
 server:
   port: 80
@@ -22,3 +22,4 @@ server:
 mybatis:
   configuration:
     map-underscore-to-camel-case: true # 下划线转驼峰
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
