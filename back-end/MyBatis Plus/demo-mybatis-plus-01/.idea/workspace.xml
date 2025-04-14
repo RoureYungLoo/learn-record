@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e368723-05d2-45d8-a2fd-5cdf2c675593" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-consumer-order83/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-consumer-order83/src/main/java/com/xxx/nacosconsumerorder83/NacosConsumerOrder83Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-consumer-order83/src/main/java/com/xxx/nacosconsumerorder83/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-consumer-order83/src/main/java/com/xxx/nacosconsumerorder83/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-consumer-order83/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-consumer-order83/src/test/java/com/xxx/nacosconsumerorder83/NacosConsumerOrder83ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9001/src/test/java/com/xxx/nacosproviderpayment9003/NacosProviderPayment9001ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9003/src/main/java/com/xxx/nacosproviderpayment9003/NacosProviderPayment9003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9003/src/main/java/com/xxx/nacosproviderpayment9003/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9003/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9003/src/test/java/com/xxx/nacosproviderpayment9003/NacosProviderPayment9001ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9004/src/main/java/com/xxx/nacosproviderpayment9004/NacosProviderPayment9004Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9004/src/main/java/com/xxx/nacosproviderpayment9004/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9004/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-provider-payment9004/src/test/java/com/xxx/nacosproviderpayment9004/NacosProviderPayment9004ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/SpringCloudAlibaba整合Nacos整合Seata.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/java/com/xxx/accountservice/AccountServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/java/com/xxx/accountservice/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/java/com/xxx/accountservice/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/java/com/xxx/accountservice/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/java/com/xxx/accountservice/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/java/com/xxx/accountservice/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/java/com/xxx/accountservice/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/main/resources/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/account-service/src/test/java/com/xxx/accountservice/AccountServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/business-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/business-service/src/main/java/com/xxx/businessservice/BusinessServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/business-service/src/main/java/com/xxx/businessservice/service/BusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/business-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/business-service/src/test/java/com/xxx/businessservice/BusinessServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/common-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/common-service/src/main/java/com/xxx/commonservice/AccoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/common-service/src/main/java/com/xxx/commonservice/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/common-service/src/main/java/com/xxx/commonservice/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/feign/AccountServiceFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/feign/StorageServiceFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/java/com/xxx/orderservice/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/main/resources/mapper/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/order-service/src/test/java/com/xxx/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/java/com/xxx/storageservice/StorageServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/java/com/xxx/storageservice/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/java/com/xxx/storageservice/dao/StorageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/java/com/xxx/storageservice/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/java/com/xxx/storageservice/domain/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/java/com/xxx/storageservice/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/java/com/xxx/storageservice/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/main/resources/mapper/StorageDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/seata/seata/storage-service/src/test/java/com/xxx/storageservice/StorageServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/demomybatisplus01/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/randolflu/demomybatisplus01/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis-plus/demo-mybatis-plus-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis-plus/demo-mybatis-plus-01/src/main/java/com/randolflu/demomybatisplus01/DemoMybatisPlus01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis-plus/demo-mybatis-plus-01/src/main/java/com/randolflu/demomybatisplus01/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis-plus/demo-mybatis-plus-01/src/main/java/com/randolflu/demomybatisplus01/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis-plus/demo-mybatis-plus-01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis-plus/demo-mybatis-plus-01/src/test/java/com/randolflu/demomybatisplus01/DemoMybatisPlus01ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/baseproject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/BaseProjectApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/advice/LogAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/advice/LogAdvice2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/advice/LogAdvice3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/beans/BeanA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/beans/BeanB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/proxy/CGLIBProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/proxy/JdkProxySubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/java/org/xxx/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/resources/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/resources/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/src/test/java/org/xxx/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/BaseProjectApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/advice/LogAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/advice/LogAdvice2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/advice/LogAdvice3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/proxy/CGLIBProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/proxy/JdkProxySubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/org/xxx/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/log4j-core-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/log4j-slf4j2-impl-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-spring5-3.0.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/baseproject-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/BaseProjectApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/advice/LogAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/advice/LogAdvice2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/advice/LogAdvice3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/beans/BeanA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/beans/BeanB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/proxy/CGLIBProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/proxy/JdkProxySubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/org/xxx/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/baseproject/target/test-classes/org/xxx/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-config/src/main/java/com/example/nacosconfig/config/StuConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/nacos-config/src/main/java/com/example/nacosconfig/config/StuConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringCloud/spring-cloud-demo/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Program Files\apache-maven-3.9.9\m2" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="userSettingsFile" value="E:\Program Files\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2tcPjcA56tX6tECVs1eT1cNhz33" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.insert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.select.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectBatchIds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectByMap.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList10.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList11.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList12.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList6.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList7.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList8.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.selectList9.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.testAllEq.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoMybatisPlus01ApplicationTests.testCondition.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-mybatis-plus-01 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-mybatis-plus-01 [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.DemoMybatisPlus01ApplicationTests.testAllEq">
+    <configuration name="DemoMybatisPlus01ApplicationTests.selectList10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-mybatis-plus-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.randolflu.demomybatisplus01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.randolflu.demomybatisplus01" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.demomybatisplus01.DemoMybatisPlus01ApplicationTests" />
+      <option name="METHOD_NAME" value="selectList10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMybatisPlus01ApplicationTests.selectList11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-mybatis-plus-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.randolflu.demomybatisplus01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.randolflu.demomybatisplus01" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.demomybatisplus01.DemoMybatisPlus01ApplicationTests" />
+      <option name="METHOD_NAME" value="selectList11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMybatisPlus01ApplicationTests.selectList12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-mybatis-plus-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.randolflu.demomybatisplus01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.randolflu.demomybatisplus01" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.demomybatisplus01.DemoMybatisPlus01ApplicationTests" />
+      <option name="METHOD_NAME" value="selectList12" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMybatisPlus01ApplicationTests.testAllEq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-mybatis-plus-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.randolflu.demomybatisplus01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.randolflu.demomybatisplus01" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.demomybatisplus01.DemoMybatisPlus01ApplicationTests" />
+      <option name="METHOD_NAME" value="testAllEq" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMybatisPlus01ApplicationTests.testCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-mybatis-plus-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.randolflu.demomybatisplus01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.randolflu.demomybatisplus01" />
+      <option name="MAIN_CLASS_NAME" value="com.randolflu.demomybatisplus01.DemoMybatisPlus01ApplicationTests" />
+      <option name="METHOD_NAME" value="testCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMybatisPlus01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo-mybatis-plus-01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.randolflu.demomybatisplus01.DemoMybatisPlus01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoMybatisPlus01ApplicationTests.testAllEq" />
+        <item itemvalue="JUnit.DemoMybatisPlus01ApplicationTests.selectList12" />
+        <item itemvalue="JUnit.DemoMybatisPlus01ApplicationTests.testCondition" />
+        <item itemvalue="JUnit.DemoMybatisPlus01ApplicationTests.selectList11" />
+        <item itemvalue="JUnit.DemoMybatisPlus01ApplicationTests.selectList10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e368723-05d2-45d8-a2fd-5cdf2c675593" name="Changes" comment="" />
+      <created>1740648527515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740648527515</updated>
+      <workItem from="1740648528671" duration="3395000" />
+      <workItem from="1740653064134" duration="399000" />
+      <workItem from="1740653494248" duration="5200000" />
+      <workItem from="1740875639956" duration="1178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

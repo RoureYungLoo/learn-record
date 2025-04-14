@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: business-service
+
+server:
+  port: 8084

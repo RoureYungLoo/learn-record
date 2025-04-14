@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 import java.io.Serializable;
 
 @Component
-@RefreshScope
-@ConfigurationProperties(prefix = "student")
+@RefreshScope // 从配置中心刷新配置
+@ConfigurationProperties(prefix = "student") // 属性配置
 public class StuConfig implements Serializable {
     public static final long serialVersionID = 1L;
     private String name;

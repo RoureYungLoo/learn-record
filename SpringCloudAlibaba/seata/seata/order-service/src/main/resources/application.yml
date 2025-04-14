@@ -1,0 +1,48 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.10.10.112:8848
+#        username:
+#        password:
+        group: SEATA_GROUOP
+        namespace: f971a08d-b509-4f28-9f2e-bc01cc2841ee
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://dev.ruoyang.com:3306/seata_order?useUnicode=true&characterEncoding=utf-8&useSSL=NO&serverTimezone=Asia/Shanghai
+    username: root
+    password: MySQL123!
+
+#    alibaba:
+#      seata:
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+seata:
+  tx-service-group: my_test_tx_group #这里要特别注意和nacos中配置的要保持一致
+  registry:
+    type: nacos
+    nacos:
+      server-addr: ${spring.cloud.nacos.discovery.server-addr}
+#      username:
+#      password:
+      group: ${spring.cloud.nacos.discovery.group}
+      namespace: ${spring.cloud.nacos.discovery.namespace}
+#        tx-service-group:
+  config:
+    type: nacos
+    nacos:
+      server-addr: ${spring.cloud.nacos.discovery.server-addr}
+#      username: ${springclo}
+#      password:
+      group: ${spring.cloud.nacos.discovery.group}
+      namespace: ${spring.cloud.nacos.discovery.namespace}
+  service:
+    vgroup-mapping:
+      my_test_tx_group: default
+
+

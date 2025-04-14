@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: demo-mybatis-plus-02
+  profiles:
+    active: dev

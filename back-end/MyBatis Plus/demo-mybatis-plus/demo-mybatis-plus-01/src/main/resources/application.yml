@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demo-mybatis-plus-01
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.10.10.148:3306/mybatis_plus?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    username: root
+    password: MySQL123!
+server:
+  port: 8080
+
+logging:
+  level:
+    root: warn
+    com.randolflu.demomybatisplus01.dao: trace
+  pattern:
+    console: '%p%m%n'
