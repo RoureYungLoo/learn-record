@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>函数表达式</title>
+</head>
+
+<body>
+    <script>
+        let log = console.log
+
+        /* 函数声明 */
+        function sayHi() {
+            console.log("hello js");
+        }
+
+        /* 函数表达式 ,函数定义出现在等号的右边 */
+        let sayHello = function () {
+            log("hello expression")
+        }
+
+        log(sayHi)
+        log(sayHello)
+
+        /* 回调函数 */
+        function sayOk() {
+            log("我很好")
+        }
+
+        function sayBad() {
+            log("我不好")
+        }
+        //参数是回调函数
+        function ask(question, cbOK, cbCancel) {
+            if (confirm(question)) {
+                cbOK()
+            } else {
+                cbCancel()
+            }
+        }
+
+        ask("你好吗", sayOk, sayBad)
+
+        /* 匿名函数 */
+        ask(
+            "are you ok?",
+            function () {
+                log("I am ok")
+            },
+            function () {
+                log("I am not ok")
+            }
+        )
+
+        // 函数声明，在声明之前的位置可以调用
+        function sum(...params) {
+            let total = 0
+            for (const element of params) {
+                total += element
+            }
+            return total
+        }
+
+        // 函数表达式，在声明之前的位置不可以调用
+        let sum2 = function (...params) {
+            let total = 0
+            for (const element of params) {
+                total += element
+            }
+            return total
+        }
+
+        /* 应用场景：根据条件不同，需要定义不同的函数，在外部使用 */
+        function func1() {
+            let age = 17
+            if (age < 18) {
+                function welcome() {
+                    log("你是未成年")
+                }
+            } else {
+                function welcome() {
+                    log("你是成年人")
+                }
+            }
+        }
+        //func1()
+        //welcome() // 报错welcome is not defined
+
+        /* 解决 */
+        let welcome2
+        function func2() {
+            let age = 17
+            // if (age < 18) {
+            //     welcome2 = function () {
+            //         log("你是未成年")
+            //     }
+            // } else {
+            //     welcome2 = function () {
+            //         log("你是成年人")
+            //     }
+            // }
+
+            // 简化
+            welcome2 = (age < 18) ?
+                function () { log("你是未成年") } :
+                function () { log("你是成年人") }
+
+        }
+        func2()
+        welcome2()
+
+    </script>
+</body>
+
+</html>

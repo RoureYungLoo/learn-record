@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04-变量</title>
+</head>
+
+<body>
+    <script>
+
+        let msg //声明变量
+        msg = "hello" //变量初始化
+        msg = "world" //变量赋值
+
+        let nickname = "xiaoming" //声明时初始化
+
+        let name, age, gender //一次声明多个变量
+
+        let country = "cn",
+            provice = "henan",
+            city = "zhengzhou"; // 一次声明并初始化多个变量
+
+        // 不推荐使用 var 声明变量
+
+        let hello = "hello"
+
+        name = hello // 变量赋值
+
+        // let msg //变量不能重复声明，会报错
+
+        /* 变量命名规范
+        1. 包含字母、数字、下划线(_)、美元符($)
+        2. 不能以数字开头
+        3. 区分大小写
+        4. 不能是关键字、保留字
+        5. 推荐小驼峰命名，见名知意
+        */
+
+        gender = "男" // 严格模式下，使用未声明的变量会报错
+        alert(gender)
+
+        /* 常量: 声明时必须初始化且只读的变量 */
+        const PI = 3.14
+        const RED = "#F00"
+
+        /* 练习 1 */
+        let admin, name2
+        name2="John"
+        admin=name2
+        alert(admin)
+
+        /* 练习 2 */
+        let planetEarth
+        let currentUserName
+
+        /* 练习3 : 请修改变量名，让它们符合规范*/
+        const birthday = "1998.01.01" // ===> BIRTHDAY
+        const agee = getAge(birthday) // ===> agee
+
+    </script>
+</body>
+
+</html>

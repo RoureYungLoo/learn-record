@@ -1,156 +1,160 @@
 <!DOCTYPE html>
 <html lang="zh">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>事件处理</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件处理</title>
 
-		<!-- 引入Vue3 -->
-		<script src="../vue3-global.js"></script>
-		<!-- 引入element-plus样式文件 -->
-		<link rel="stylesheet" href="../element-plus.css"" />
-		<!-- <script src=" //cdn.jsdelivr.net/npm/vue@3">
-		</script> -->
-		<!-- 引入element-plus组件库 -->
-		<script src="../element-plus.js"></script>
+    <!-- 引入Vue3 -->
+    <script src="../vue3-global.js"></script>
+    <!-- 引入element-plus样式文件 -->
+    <link rel="stylesheet" href="../element-plus.css"/>
+    <!-- <script src=" //cdn.jsdelivr.net/npm/vue@3">
+</script> -->
+    <!-- 引入element-plus组件库 -->
+    <script src="../element-plus.js"></script>
 
-	</head>
-	<body>
-		<div id="app">
-			<div class="mb-4">
-				<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-				<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-				<!-- 内联事件处理器 inline handler -->
-				<el-button type="primary" v-on:click="count++">点击我&nbsp;{{ count }}</el-button>
-				<el-button type="primary" v-on:click="handler">点击我&nbsp;{{ count }}</el-button>
-				<el-button type="success" @click="greet">点击我</el-button><br>
-				<el-button type="danger" @click="say('Hello Vue js')">点击我</el-button><br>
+</head>
+<body>
+<div id="app">
+    <div class="mb-4">
+        <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+        <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+        <!-- 内联事件处理器 inline handler -->
+        <el-button type="primary" v-on:click="count++">点击我&nbsp;{{ count }}</el-button>
+        <el-button type="primary" v-on:click="handler">点击我&nbsp;{{ count }}</el-button>
+        <el-button type="success" @click="greet">点击我</el-button>
+        <br>
+        <el-button type="danger" @click="say('Hello Vue js')">点击我</el-button>
+        <br>
 
-				<!-- 事件传参 -->
-				<el-button type="warning" @click="warn('现在还不能提交表单',$event)">提交</el-button>
-				<el-button type="info" @click="(event)=>warn('现在还不能提交表单',event)">提交</el-button><br>
+        <!-- 事件传参 -->
+        <el-button type="warning" @click="warn('现在还不能提交表单',$event)">提交</el-button>
+        <el-button type="info" @click="(event)=>warn('现在还不能提交表单',event)">提交</el-button>
+        <br>
 
-				<!-- 事件修饰符 -->
-				<el-link @click.stop="doThis" href="" type="primary">跳转</el-link><br>
-				<el-form @submit.prevent="onSubmit">
-					<input type="submit" value="提交" />
-				</el-form>
-				<a @click.stop.prevent="doThat">跳转</a>
-				<form action="" @submit.prevent>表单</form>
-				<div @click.self="doThat">...</div>
+        <!-- 事件修饰符 -->
+        <el-link @click.stop="doThis" href="" type="primary">跳转</el-link>
+        <br>
+        <el-form @submit.prevent="onSubmit">
+            <input type="submit" value="提交"/>
+        </el-form>
+        <a @click.stop.prevent="doThat">跳转</a>
+        <form action="" @submit.prevent>表单</form>
+        <div @click.self="doThat">...</div>
 
-				<div @click.capture="doThis">capture捕获模式</div>
-				<a @click.once="doThat">最多触发一次</a>
-				<div @scroll.passive="onScroll">onScroll</div>
-			</div>
+        <div @click.capture="doThis">capture捕获模式</div>
+        <a @click.once="doThat">最多触发一次</a>
+        <div @scroll.passive="onScroll">onScroll</div>
+    </div>
 
-			<!-- 按键修饰符 -->
-			<input type="text" @keydown.enter="submit(1)" @keyup.enter="submit(2)"><br>
-			<input type="text" @keyup.page-down="submit(1)" @keydown.page-down="submit(2)"><br>
+    <!-- 按键修饰符 -->
+    <input type="text" @keydown.enter="submit(1)" @keyup.enter="submit(2)"><br>
+    <input type="text" @keyup.page-down="submit(1)" @keydown.page-down="submit(2)"><br>
 
-			<input type="text" @keyup.ctrl="submit(2)"><br>
-			<input type="text" @keyup.alt="submit(2)"><br />
-			<input type="text" @keyup.meta="submit(2)"><br>
-			<input type="text" @keyup.shift="submit(2)"><br>
+    <input type="text" @keyup.ctrl="submit(2)"><br>
+    <input type="text" @keyup.alt="submit(2)"><br/>
+    <input type="text" @keyup.meta="submit(2)"><br>
+    <input type="text" @keyup.shift="submit(2)"><br>
 
-			<!-- 系统按键修饰符只有【按下】 -->
-			<input type="text" @keydown.ctrl="submit(1)"><br>
-			<input type="text" @keydown.alt="submit(1)"><br />
-			<input type="text" @keydown.meta="submit(1)"><br>
-			<input type="text" @keydown.shift="submit(1)"><br>
+    <!-- 系统按键修饰符只有【按下】 -->
+    <input type="text" @keydown.ctrl="submit(1)"><br>
+    <input type="text" @keydown.alt="submit(1)"><br/>
+    <input type="text" @keydown.meta="submit(1)"><br>
+    <input type="text" @keydown.shift="submit(1)"><br>
 
-			<input type="text" value="Alt+Enter清空内容" @keyup.alt.enter="clear">
-			<div @click.ctrl="doSomething">ctrl+单击</div>
-			<!-- 精准控制 -->
-			<div @click.ctrl.exact="doSomething">精准控制：ctrl+单击</div>
-			<el-button @click.exact="onClick">点击</el-button>
+    <input type="text" value="Alt+Enter清空内容" @keyup.alt.enter="clear">
+    <div @click.ctrl="doSomething">ctrl+单击</div>
+    <!-- 精准控制 -->
+    <div @click.ctrl.exact="doSomething">精准控制：ctrl+单击</div>
+    <el-button @click.exact="onClick">点击</el-button>
 
-			<div @click.left="onClickLeft">单击</div>
-			<div @dblclick.left="onDbClickLeft">双击</div>
-			<div @dblclick.right="onDbClickRight">双击</div>
-			<div @click.middle="onClickMiddle">中键</div>
-		</div>
+    <div @click.left="onClickLeft">单击</div>
+    <div @dblclick.left="onDbClickLeft">双击</div>
+    <div @dblclick.right="onDbClickRight">双击</div>
+    <div @click.middle="onClickMiddle">中键</div>
+</div>
 
-		<script>
-			const {
-				createApp
-			} = Vue
+<script>
+    const {
+        createApp
+    } = Vue
 
-			const app = createApp({
-				data() {
-					return {
-						count: 0,
-						name: "Vue js",
-					}
-				},
-				methods: {
-					handler() {
-						this.count++
-					},
-					greet(event) {
-						alert(`Hello ${this.name}`)
-						if (event) { // event是DOM原生事件
-							alert(event.target.tagName)
-						}
-					},
-					say(msg) {
-						alert(msg)
-					},
-					warn(msg, event) {
-						if (event) {
-							event.preventDefault()
-							console.log("---")
-						}
-						alert(msg)
-					},
-					doThis() {
-						console.log("单击事件将停止传递")
-					},
-					onSubmit() {
-						console.log("提交事件将不再重新加载页面")
-					},
-					doThat() {
-						console.log("I am doing that...")
-					},
-					onScroll() {
-						console.log("I am scrolling")
-					},
+    const app = createApp({
+        data() {
+            return {
+                count: 0,
+                name: "Vue js",
+            }
+        },
+        methods: {
+            handler() {
+                this.count++
+            },
+            greet(event) {
+                alert(`Hello ${this.name}`)
+                if (event) { // event是DOM原生事件
+                    alert(event.target.tagName)
+                }
+            },
+            say(msg) {
+                alert(msg)
+            },
+            warn(msg, event) {
+                if (event) {
+                    event.preventDefault()
+                    console.log("---")
+                }
+                alert(msg)
+            },
+            doThis() {
+                console.log("单击事件将停止传递")
+            },
+            onSubmit() {
+                console.log("提交事件将不再重新加载页面")
+            },
+            doThat() {
+                console.log("I am doing that...")
+            },
+            onScroll() {
+                console.log("I am scrolling")
+            },
 
-					submit(param) {
-						if (param === 1) {
-							console.log("按下")
-						}
-						if (param === 2) {
-							console.log("松开")
-						}
-					},
-					clear() {
-						console.log("清空内容")
-					},
-					doSomething() {
-						console.log("ctrl+单击")
-					},
-					onClick() {
-						console.log("没有按下任何系统按键")
-					},
-					onClickLeft() {
-						console.log("onClickLeft")
-					},
-					onDbClickLeft() {
-						console.log("onDbClickLeft")
-					},
-					onClickMiddle() {
-						console.log("onClickMiddle")
-					},
-					onDbClickRight() {
-						console.log("onDbClickRight")
-					}
+            submit(param) {
+                if (param === 1) {
+                    console.log("按下")
+                }
+                if (param === 2) {
+                    console.log("松开")
+                }
+            },
+            clear() {
+                console.log("清空内容")
+            },
+            doSomething() {
+                console.log("ctrl+单击")
+            },
+            onClick() {
+                console.log("没有按下任何系统按键")
+            },
+            onClickLeft() {
+                console.log("onClickLeft")
+            },
+            onDbClickLeft() {
+                console.log("onDbClickLeft")
+            },
+            onClickMiddle() {
+                console.log("onClickMiddle")
+            },
+            onDbClickRight() {
+                console.log("onDbClickRight")
+            }
 
-				}
-			})
+        }
+    })
 
-			app.use(ElementPlus)
-			app.mount("#app")
-		</script>
-	</body>
+    app.use(ElementPlus)
+    app.mount("#app")
+</script>
+</body>
 </html>

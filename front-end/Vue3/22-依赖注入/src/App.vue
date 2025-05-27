@@ -2,68 +2,85 @@
 
 import {provide, readonly, ref} from "vue";
 import User from "@/views/User.vue";
-import {key1} from "@/utils/keys.js";
+import {key1, key4, keyCount} from "@/utils/keys.js";
 
-// const stu = ref({
-//   name:"tom",
-//   age:22
-// })
-//
-// const changeStu = ()=>{
-//   stu.value.name="jerry"
-//   stu.value.age=33
-// }
-// // provide('key',stu)
-// provide('key',{
-//   stu,
-//   changeStu
-// })
-//
-// const storm = ref("storm")
-// const changeStm = ()=>{
-//   storm.value="STORM"
-// }
-// provide("stm",readonly({
-//   storm,
-//   changeStm
-// }))
+// 准备响应式ref数据
+const stu = ref({
+  name: "tom",
+  age: 22
+})
+
+// 在供给方组件中提供响应式数据更新方法
+const changeStu = () => {
+  stu.value.name = "jerry" + Math.floor(Math.random() * 10)
+  stu.value.age += 1
+}
+// provide('key',stu)
+provide('key', {
+  stu,
+  changeStu
+})
+
+const sites = ['shanghai', 'zhengzhou', 'hangzhou', 'shenzhen', 'suzhou']
+const locationn = ref("beijing")
+const updateLocation = () => {
+  locationn.value = sites[Math.floor(Math.random() * sites.length)]
+}
+provide("loc", {locationn, updateLocation})
+
+
+const storm = ref("storm")
+const changeStm = () => {
+  storm.value = "STORM"
+}
+// 注入只读响应式数据
+provide("stm", readonly({
+  storm,
+  changeStm
+}))
 
 provide(key1, {
   name: 'key1',
   age: 123
 })
+
+provide("name", "zhangsan")
+
+/* 注入响应式,
+尽可能将任何对响应式状态的变更都保持在【供给方】组件中 */
+const count = ref(0)
+provide(keyCount, count)
+
+provide('readonly-count', readonly(count))
+
+/* 使用symbol作为注入名 */
+provide(key4, {
+  name: 'lisi',
+  age: 23,
+  addr: "zhengzhou",
+  hobby: ['swim', 'sing', 'running'],
+  orders: [
+    {
+      id: Math.floor(Math.random() * 1000000),
+      price: Math.floor(Math.random() * 4000),
+    },
+    {
+      id: Math.floor(Math.random() * 1000000),
+      price: Math.floor(Math.random() * 1000),
+    }
+  ]
+})
 </script>
 
 <template>
   <h2 @click="changeStu">App</h2>
+  <div>
+    {{ count }}
+    <button @click="count++">+1</button>
+  </div>
   <User/>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>

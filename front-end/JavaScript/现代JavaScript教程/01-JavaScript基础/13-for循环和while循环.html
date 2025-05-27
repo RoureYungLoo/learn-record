@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for循环和while循环</title>
+</head>
+
+<body>
+    <script>
+        let log = console.log
+        /* while */
+        let counter = 0
+        while (counter < 10) {
+            console.log(counter)
+            counter++
+        }
+
+        while (counter) { //while (counter != 0) {
+            log(counter)
+            counter -= 2
+        }
+
+        /* do while */
+        do {
+            counter++
+            log(counter)
+        } while (counter < 10);
+
+        /* for */
+        for (let index = 0; index < 10; index++) {
+            log(++index) // 内部变量 index 作用域为本 for 循环
+        }
+
+        // for (; ;) {
+        // log("无限循环")
+        // }
+
+        for (; counter < 10;) {
+            counter++
+            log(counter)
+        }
+
+        for (; counter > 0; --counter) {
+            if (counter === 4) break //终止循环
+            // if(counter===4) continue // 开启下一轮循环
+            log(counter)
+        }
+
+        /* break */
+        let sum = 0
+        while (true) {
+            let value = Math.floor(Math.random() * 10 + 1)
+            if (value == 5) {
+                log("break")
+                break
+            }
+            sum += value
+        }
+        log(sum)
+
+        /* continue ,有利于减少嵌套 */
+        for (let i = 0; i < 10; i++) {
+            if (i % 2 == 0) continue
+            log(i);
+
+            /* 禁止 break /continue 与 三元运算符一起使用 */
+            // (i == 5) ? continue : log(i);
+            // (i == 5) ? break : log(i)
+        }
+
+        /* 带标签的 break / continue ，【跳出多层循环】，标签必须在break/continue的外层上部 */
+        outer:
+        for (let i = 0; i < 3; i++) {
+            for (let j = 0; j < 3; j++) {
+                log(`坐标(${i},${j})`)
+                let input = prompt(`坐标(${i},${j})`)
+                if (input == null || input == "") {
+                    // break ;
+                    // break outer;  //break outer 向上寻找名为 outer 的标签并跳出当前循环。
+                    // continue;
+                    continue outer;
+                }
+            }
+        }
+
+        alert("跳出循环")
+
+
+
+    </script>
+</body>
+
+</html>

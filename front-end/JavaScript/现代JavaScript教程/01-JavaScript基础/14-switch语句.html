@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch语句</title>
+</head>
+
+<body>
+    <script>
+        let log = console.log
+
+        /* switch */
+        let x = +"1"
+
+        switch (x) {
+            case "1": //比较使用严格相等 ===
+                log("string 1")
+                break;
+            case 1:
+                log("number 1")
+                break
+            default:
+                log("others")
+                break;
+        }
+
+        /* 如果没有 break，程序将不经过任何检查就会继续执行下一个 case */
+        let counter = 2 + 0
+        switch (counter) {
+            case 1:
+                log("counter1", counter)
+                break;
+            case 2:
+                log("counter2", counter)
+                break;
+            case 3:
+                log("counter3", counter)
+                break;
+            case 4:
+                log("counter4", counter)
+                break;
+            default:
+                log("others")
+        }
+
+        let age = 13
+        let b = 7
+        switch (age) {
+            case b + 6:
+                log("13岁了")
+                break
+            default:
+                log("others")
+        }
+
+        /* case 分组 */
+        age = 9
+        switch (age) {
+            case 4:
+            case 5:
+                log("case 分组1")
+                break
+            case 6:
+            case 7:
+            case 8:
+                log("case 分组2")
+                break
+            case 9:
+            case 10:
+                log("case 分组3")
+                break
+            default:
+        }
+
+        /* case 是严格相等  */
+        age = +"23"
+        switch (age) {
+            case "23":
+                log("string 23")
+                break
+            case 23:
+                log("number 23")
+                break
+            default:
+                log("others")
+        }
+
+        /* 任务 */
+        let browser = "Chrome"
+        switch (browser) {
+            case "Edge":
+                log("Edge")
+                break;
+            case "Chrome":
+            case "FireFox":
+            case "Safari":
+            case "Opera":
+                log("支持这些浏览器")
+                break
+            default:
+                log("不支持的浏览器")
+                break;
+        }
+
+        if (browser === "Edge") {
+            log("支持Edge")
+        } else if (
+            browser === "Chrome" ||
+            browser === "FireFox" ||
+            browser === "Safari" ||
+            browser === "Opera"
+        ) {
+            log("支持这些浏览器")
+        } else {
+            log("不支持的浏览器")
+        }
+
+        age = parseInt(Math.random() * 50 + 1)
+        if (age < 10) {
+            log("age < 10")
+        } else if (age < 25) {
+            log("10 <= age < 25")
+        } else if (age < 35) {
+            log("25 <= age < 35")
+        } else {
+            log("age >= 35")
+        }
+
+        let flag = true
+        switch (flag) {
+            case (age < 10):
+                log("age < 10")
+                break;
+            case (age < 25 && age >= 10):
+                log("10 <= age < 25")
+                break;
+            case (age < 35 && age >= 25):
+                log("25 <= age < 35")
+                break;
+            default:
+                log("age >= 35")
+                break;
+        }
+
+    </script>
+</body>
+
+</html>

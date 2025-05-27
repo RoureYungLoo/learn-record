@@ -17,12 +17,13 @@ app.component(
 				msg: "全局注册组件"
 			}
 		},
-		template: `<div><h1>{{msg}}</h1></div>`
+		template: `<div><h3>{{msg}}</h3></div>`
 	}
 )
 
 /* 全局注册组件 */
 app.component('ComponentA',ComponentA)
+	// .component("ComponentB",ComponentB)
 // app.component('ComponentB',ComponentB)
 // app.component('ComponentC',ComponentC)
 

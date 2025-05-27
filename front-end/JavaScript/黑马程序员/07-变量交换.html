@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="age1" value="10">
+    <input type="text" id="age2" value="20">
+    <button onclick="swap()">swap</button>
+    <h1>??</h1>
+    <script>
+        function swap() {
+            let age1 = document.querySelector("#age1").value
+            let age2 = document.querySelector("#age2").value
+            let tmp
+
+            tmp = age1
+            age1 = age2
+            age2 = tmp
+
+            document.getElementsByTagName("h1")[0].innerText = `age1=${age1}, age2=${age2}`
+        }
+    </script>
+</body>
+
+</html>

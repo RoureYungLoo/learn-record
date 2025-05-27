@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>条件分支</title>
+</head>
+
+<body>
+    <script>
+        let year = 2015
+        year = "2015"
+
+        /* if 单分支 */
+        if (year == 2015) {
+            console.log("20");
+            console.log("15");
+        }
+
+        /* 假值 0、""、null、undefined、NaN */
+        /* if 双分支 */
+        if (0 || "" || null || undefined || NaN) {
+            console.log("条件为true");
+        } else {
+            console.log("条件为false");
+        }
+
+        /* if 多分支 */
+        let age = Math.random() * 100
+        console.log("age", age);
+        if (age < 10) {
+            console.log("age < 10");
+        } else if (age < 50) {
+            console.log("age >=10, age < 50");
+        } else {
+            console.log("age >= 50");
+        }
+
+        /* 条件运算符 比较运算符 三元运算符*/
+        let count = age
+        let msg = count > 50 ? "大于50" : "小于50"
+        console.log(msg);
+
+        /* 比较运算符嵌套 */
+        msg = (age < 30) ? "age < 30" :
+            (age < 60) ? "30 <= age < 60" :
+                (age < 100) ? "60 <= age < 100" : "非法age"
+        console.log(msg);
+
+        /* 比较运算符特殊用法 */
+        age > 50 ? console.log("age > 50") : console.log("age < 50")
+
+        /* 任务 */
+        age = "0"
+        if (age) {
+            console.log("条件为真");
+            console.log(Boolean("0")); //true
+            console.log(Boolean(0)); //false
+        }
+
+        let jsName = prompt("js的全称是什么？", "")
+        if (jsName === "ECMAScript") {
+            console.log("答对了")
+        } else if (jsName === "JavaScript") {
+            console.log("还有别的名字吗？")
+        } else {
+            console.log("答错了，是ECMAScript")
+        }
+
+        let num = +prompt("输入一个数字", "")
+        switch (true) {
+            case (num > 0):
+                console.log("1")
+                break
+            case (num < 0):
+                console.log("-1")
+                break
+            case (num == 0):
+                console.log("0")
+                break
+        }
+
+        let res, a = 1, b = 2
+        if (a + b < 4) {
+            res = "Blow"
+        } else {
+            res = "Over"
+        }
+        console.log(res);
+        (a + b < 4) ? res = "blow" : res = "over"
+        console.log(res);
+
+        msg = undefined
+        let login = prompt("输入职位", "")
+        if (login == "职员") {
+            msg = "牛马"
+        } else if (login == "主管") {
+            msg = "驴"
+        } else if (login == "") {
+            msg = "空白"
+        } else {
+            msg = "啥也没有"
+        }
+        // console.log(msg);
+
+        (login == "职员") ? msg = "牛马" :
+            (login == "主管") ? msg = "驴" :
+                (login == "") ? msg = "空白" : msg = "啥也没有"
+
+        console.log(msg);
+
+
+    </script>
+</body>
+
+</html>

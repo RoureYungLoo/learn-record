@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>值的比较</title>
+</head>
+
+<body>
+    <script>
+        /* 比较结果是Boolean类型 */
+        console.log(2 > 1);
+        console.log(2 == 1);
+        console.log(2 != 1);
+
+        let res = 5 > 4;
+        console.log(res);
+
+        /* 字符串比较 (字典序还是Unicode序)*/
+        console.log("Z" > "A");
+        console.log("Glow" > "Glee");
+        console.log("Bee" > "Be");
+
+        /* 不同类型比较：先转为number类型，再比较 */
+        console.log("2" > 1);
+        console.log("01" == 1);
+        console.log(true == 1);
+        console.log(false == 0);
+
+        let a = 0, b = '0'
+        console.log(a == b);
+        console.log(a === b); //false
+        console.log(Boolean(a) == Boolean(b)); //false
+        console.log(Boolean(a) === Boolean(b)); //false
+
+        /* 严格相等 */
+        console.log(0 == false);
+        console.log(0 === false);
+        console.log('' == false);
+        console.log('' === false);
+        console.log('' !== false);
+
+        /* null和undefined */
+        console.log(null == undefined); //true
+        console.log(null === undefined);
+        console.log(1 > null);
+        console.log(1 > undefined);
+        console.log(parseInt(undefined)); //NaN
+
+        /* null和0 */
+        console.log(null > 0);
+        console.log(null == 0);
+        console.log(null >= 0);
+
+        /* undefined和0 */
+        console.log(undefined > 0);
+        console.log(undefined < 0);
+        console.log(undefined == 0);
+
+        /* 避免问题，尽量使用严格相等 */
+
+        /* 任务 */
+        console.log(5 > 4);//true
+        console.log("apple" > "pineapple");//false
+        console.log("2" > "12"); // false
+        console.log(undefined == null); //true
+        console.log(undefined === null); //false
+        console.log(null == "\n0\n");//false
+        console.log(null === +"\n0\n");
+    </script>
+</body>
+
+</html>

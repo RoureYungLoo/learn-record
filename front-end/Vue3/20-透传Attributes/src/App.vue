@@ -1,44 +1,37 @@
 <script setup>
 import MyButton from './components/MyButton.vue'
+import CustomLayout from "@/components/CustomLayout.vue";
+
+const styleObj = {
+  color: "#00aa00",
+  height: "50px",
+  lineHeight: "50px",
+}
+
+const attrObj = {
+  attr1: "value1",
+  attr2: "value2"
+}
 
 const onClickk = () => {
-  console.log("  父组件点击事件 ")
+  console.log("MyButton组件 点击事件触发 ")
 }
 </script>
 
 <template>
-
-
-  <main>
-    <MyButton class="large" @click="onClickk"/>
-  </main>
+  <!--透传class属性样式-->
+  <!--    <MyButton class="large" ></MyButton>-->
+  <!--透传 style 属性样式-->
+  <!--    <MyButton class="large" :style="styleObj"></MyButton>-->
+  <!-- 透传事件监听器 -->
+  <!--  <MyButton @click="onClickk"></MyButton>-->
+  <!-- 透传 attribute属性 -->
+  <!--  <MyButton v-bind="attrObj" @click="onClickk"></MyButton>-->
+  <!-- 深层透传 -->
+  <!--    <MyButton :style="styleObj" v-bind="attrObj" class="large" @click="onClickk"/>-->
+  <CustomLayout v-bind="attrObj"></CustomLayout>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>

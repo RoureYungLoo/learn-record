@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运算符</title>
+</head>
+
+<body>
+    <script>
+        /* 一元运算符 */
+        console.log(+5);
+        console.log(-5);
+
+        /* 二元运算符 */
+        console.log(1 == 2);
+        console.log(36 + 7);
+        console.log(36 - 7);
+        console.log(36 * 7);
+        console.log(36 / 7);
+        console.log(36 % 7);
+        console.log(36 ** 7);
+
+        console.log(1 + 2 + 3 + 4 + "abc" + 1 + 2 + 3 + 4);
+        console.log("12" + "34");
+        console.log(+"12" + +"34");
+
+        /* 三元运算符 */
+        console.log(1 > 2 ? '真' : '假');
+
+        /* 运算符优先级 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence#table */
+
+        /* 赋值运算符 */
+        let age = 10;
+
+        /* 原地赋值 */
+        console.log(age *= 2);
+        console.log(age /= 2);
+        console.log(age %= 2);
+        console.log(age += 2);
+
+        console.log(age |= 6);
+        console.log(age &= 6);
+
+        /* 链式赋值 */
+        let a = b = c = 100;
+        console.log(a, b, c);
+
+        /* 自增自减，先自增，先自减，后自增，后自减 */
+        age = 10;
+        console.log(++age);
+        console.log(--age);
+        console.log(age++);
+        console.log(age--);
+
+        /* 位运算符 */
+        console.log(age & 2);
+        console.log(age | 2);
+        console.log(age ^ 2);
+        console.log(~age);
+        console.log(age << 2);
+        console.log(age >> 2);
+        console.log(age >>> 2);
+
+        /* 逗号运算符 每个表达式都计算，只返回最后一个表达式的值 */
+        age = (1 + 2, 3 + 4, 5 + 6)
+        console.log(age);
+        for (a = 1, b = 3, c = a * b; a < 5; a++) {
+            console.log(a);
+        }
+
+        /* 任务1 */
+        let aa = 1, bb = 1
+        let cc = ++aa
+        let dd = bb++
+        console.log(cc);
+        console.log(dd);
+
+        /* 任务2 */
+        let xx = 1 + (aa *= 2)
+        console.log(xx);
+
+        /* 任务3 */
+        console.log("" + 1 + 0);
+        console.log("" - 1 + 0);
+        console.log(true + false);
+        console.log(6 / "3");
+        console.log("2" * "3");
+        console.log(4 + 5 + "px");
+        console.log("$" + 4 + 5);
+        console.log("4" - 2);
+        console.log("4px" - 2);
+        console.log(" -9 " + 5);
+        console.log(" -9 " - 5);
+        console.log(null + 1);
+        console.log(undefined + 1);
+        console.log(" \t \n" + 2);
+
+        /* 任务4 */
+        let ipt1 = +prompt("num1", 1)
+        let ipt2 = +prompt("num2", 2)
+        alert(ipt1 + ipt2)
+    </script>
+</body>
+
+</html>

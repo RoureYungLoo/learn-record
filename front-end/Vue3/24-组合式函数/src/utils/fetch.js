@@ -6,12 +6,11 @@ export function useFetch(url) {
 
     // fetch(url).then(
     //     (res) => res.json()
-    // ).then(
-    //     (json) => (data.value = json)
-    // ).catch(
-    //     (err) => (error.value = err)
+    // ).then((json) => data.value = json
+    // ).catch((err) => error.value = err
     // )
 
+    // 接收响应式参数
     const fetchData = () => {
         data.value = null
         error.value = null

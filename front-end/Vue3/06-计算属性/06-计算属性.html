@@ -9,59 +9,63 @@
 </head>
 
 <body>
-    <div id="app">
-        <p>Books:</p>
-        <span>{{author.books.length >0?'Yes':'No'}}</span><br>
-        <span>{{publishedBookMessages}}</span>
-        <p>{{gender}}</p>
-        <H3 @click="changename">{{fullName}}</H3>
-    </div>
-    <script>
-        const { createApp } = Vue
-        const app = createApp({
-            data() {
-                return {
-                    gender: "12",
-                    author: {
-                        name: "John Doe",
-                        books: [
-                            "Vue 2",
-                            "Vue 3",
-                            "Vue 4"
-                        ]
-                    },
-                    firstName: "AA",
-                    lastName: "BB",
-                }
-            },
-            computed: {
-                publishedBookMessages() {
-                    return this.author.books.length > 0 ? 'Yes' : 'No'
+<div id="app">
+    <p>Books:</p>
+    <span>{{ author.books.length > 0 ? 'Yes' : 'No' }}</span><br>
+    <span>{{ publishedBookMessages }}</span>
+    <p>{{ gender }}</p>
+    <H3 @click="changename">{{ fullName }}</H3>
+</div>
+<script>
+    const {createApp} = Vue
+    const app = createApp({
+        data() {
+            return {
+                gender: "12",
+                author: {
+                    name: "John Doe",
+                    books: [
+                        "Vue 2",
+                        "Vue 3",
+                        "Vue 4"
+                    ]
                 },
-                fullName: {
-                    get() {
-                        return this.firstName + ' ' + this.lastName
-                    },
-                    set(newValue) {
-                        [this.lastName, this.firstName] = newValue.split(' ')
-                    },
-                }
-
-
+                firstName: "AA",
+                lastName: "BB",
+            }
+        },
+        computed: {
+            publishedBookMessages() {
+                return this.author.books.length > 0 ? 'Yes' : 'No'
             },
-            methods: {
-                calculateBookMessages() {
-                    return this.author.books.length > 0 ? 'Yes' : 'No'
-
+            fullName: {
+                get() {
+                    return this.firstName + ' ' + this.lastName
                 },
-
+                set(newValue) {
+                    [this.lastName, this.firstName] = newValue.split(' ')
+                },
             }
 
-        })
-        app.mount("#app")
+
+        },
+        methods: {
+            calculateBookMessages() {
+                return this.author.books.length > 0 ? 'Yes' : 'No'
+
+            },
+            changename() {
+                // [this.firstName, this.lastName] = [this.lastName, this.firstName]
+                this.fullName = "James Gosling"
+            }
+
+        }
+
+    })
+    app.mount("#app")
 
 
-    </script>
+</script>
 
 </body>
 

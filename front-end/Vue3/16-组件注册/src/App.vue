@@ -9,11 +9,13 @@ import ComponentB from './components/ComponentB.vue';
 
 <script >
 import ComponentB from './components/ComponentB.vue';
+import ComponentC from './components/ComponentC.vue';
 export default {
 	components:{ // 使用components选项局部注册组件ComponentB
 		// ComponentB: ComponentB  等价于 ComponentB ,这是ES6语法
 		CPB: ComponentB,
 		// 组件名：组件对象
+    ComponentC
 	},
 	setup() {
 		// ...
@@ -27,7 +29,7 @@ export default {
 	<ComponentA></ComponentA> <!-- 这个在main.js中全局注册过了 -->
 	<!-- <ComponentB></ComponentB> -->
 	<CPB></CPB>
-	<!-- <ComponentC></ComponentC> -->
+	 <ComponentC></ComponentC>
 </template>
 
 <style scoped>

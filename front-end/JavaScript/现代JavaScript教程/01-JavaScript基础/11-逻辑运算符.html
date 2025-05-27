@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>逻辑运算符</title>
+</head>
+
+<body>
+    <script>
+
+        /* 逻辑或 短路或 */
+        console.log(true || false);
+        console.log(false || false);
+        console.log(true || true);
+        console.log(true || false);
+
+        if (1 || 0) {
+            console.log("1||0");
+        }
+
+        let hour = 9
+        if (hour < 10 || hour > 18) {
+            console.log("不在上班时间");
+        }
+
+        /* 返回第一个值为真的操作数, 没有真值就返回最后一个操作数 */
+        console.log(1 || 0);
+        console.log(null || 1);
+        console.log(null || 0 || 1);
+        console.log(undefined || null || 0 || "apple");
+
+        //获取变量列表或者表达式中的第一个真值
+        let firstName = ""
+        let lastName = ""
+        let nickName = "超人"
+        console.log(firstName || lastName || nickName || "匿名");
+        //短路求值
+        true || console.log("不会打印");
+        false || console.log("会打印");
+
+        /* 逻辑与 短路与 */
+        console.log(true && true);   // true
+        console.log(false && true);  // false
+        console.log(true && false);  // false
+        console.log(false && false); // false
+
+        hour = 12
+        let minite = 30
+        if (hour == 12 && minite == 30) {
+            console.log("12:30");
+        }
+
+        if (1 && 0) {
+            console.log("条件为真");
+        } else {
+            console.log("条件为假");
+        }
+
+        //与运算寻找第一个值为假的操作数, 没有假值就返回最后一个操作数
+        console.log(1 && 0);
+        console.log(1 && 5);
+
+        console.log(null && 5);
+        console.log(0 && "appple");
+
+        console.log(1 && 2 && null && 3);
+        console.log(1 && 2 && "" && 3);
+        console.log(1 && 2 && 3);
+
+        /* && 优先级比 || 高 */
+        // console.log(a && b || c && d);
+        let log = console.log
+
+        /* 不推荐使用 && || 替代 if */
+        let x = 1;
+        (x > 0) && log("x>0");
+        (x < 0) || log("x>0")
+
+        /* 非 */
+        log(!0)
+        log(!undefined)
+        //转化为Boolean类型
+        log(!!"a string")
+        log(!!null)
+        log(!!" ")
+        log(!!"")
+
+        /* 任务 */
+        log(null || 2 || undefined)
+        log(log("one") || 2 || log("two"))
+        log(1 && null && 2)
+        log(log(1) && log(2))
+        // alert( alert(1) && alert(2) );
+        log(null || 2 && 3 || 4)
+
+        let age = 55
+        if (age >= 14 && age <= 90) {
+            log("age在[14,90]区间")
+        }
+
+        age = 93
+        if (!(age >= 14) || age > 90) {
+            log("age不在区间[14, 90]内")
+        }
+
+        /* 哪个log会被执行？ */
+        if (-1 || 0) log("log1")
+        if (-1 && 0) log("log2")
+        if (null || -1 && 1) log("log3")
+
+        /* 登录校验 */
+        let username, password
+        username = prompt("username")
+        if (username == null || username == "") {
+            log("取消输入用户名")
+        } else if (username == "Admin") {
+            password = prompt("password")
+            if (password == "TheMaster") {
+                log("Welcome")
+            } else if (password == null || password == "") {
+                log("取消输入密码")
+            } else {
+                log("密码错误")
+            }
+        } else {
+            log("未知用户")
+        }
+    </script>
+</body>
+
+</html>

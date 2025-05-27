@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>模板语法</title>
+    <!--    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>-->
+    <script src="vue.global.js"></script>
+</head>
+
+<body>
+<div id="app">
+    <!-- 文本插值 双大花括号语法-->
+    <span>Message: {{ msg }}</span>
+
+    <!-- 原始HTML v-html指令 -->
+    <p>Using text interpolation: {{ rawHtml }}</p>
+    <p>Using v-html directive: <span v-html="rawHtml"></span></p>
+
+    <!-- 属性绑定 v-bind:attr -->
+    <div v-bind:id="dynamicId">v-bind:id="dynamicId", id = {{ dynamicId }}</div>
+    <div :id="dynamicId">:id="dynamicId", id = {{ dynamicId }}</div>
+
+    <!-- 同名简写 Vue 3.4+ 等价于 v-bind:id="id" -->
+    <div v-bind:id>v-bind:id, id = {{ id }}</div>
+    <div :id>:id, id = {{ id }}</div>
+
+    <!-- 布尔类型 -->
+    <button v-bind:disabled="isButtonDisabled"> Button</button>
+    <button :disabled="isButtonDisabled"> Button</button>
+
+    <button v-bind:disabled="disabled">Button</button>
+    <button :disabled>Button</button>
+
+    <!-- 动态绑定多个属性 -->
+    <div v-bind="objAttrs">动态绑定多个属性</div>
+    <div :="objAttrs2">动态绑定多个属性(简写）</div>
+
+    <!-- JavaScript表达式 -->
+    <div>{{ number + 1 }}</div>
+    <div> {{ ok ? "yes" : "no" }}</div>
+    <div>{{ msg.split('').reverse().join('') }}</div>
+    <div :id="`list-${id}`">id</div>
+    <!-- 这是一个语句，而非表达式 -->
+    <!--        {{ var a = 1 }}-->
+    <!-- 条件控制也不支持，请使用三元表达式 -->
+    <!--        {{ if (ok) { return message } }}-->
+
+    <time :title="toTitleDate(date)" :datetime="date">
+        new Date(): {{ date }} --> {{ format(date) }}
+    </time>
+
+    <!-- 指令： 带有”v-“前缀的特殊attribute -->
+    <p v-if="seen">v-if 指令</p><br>
+
+    <!-- 指令参数：[指令]:[指令参数]    v-bind:href -->
+    <a v-bind:href="url">超链接</a><br>
+    <!-- 简写 -->
+    <a :href="url">百度</a><br>
+    <!-- 同名简写 -->
+    <a :href>谷歌</a><br>
+
+    <!-- v-on:click [指令]:[指令参数] -->
+    <a v-on:click="dosomething">点击</a><br>
+    <a @click="dosomething2">点击</a><br>
+
+    <!-- 动态参数 -->
+    <!-- 动态参数 用于属性绑定-->
+    <a v-bind:[attrname]="urlEmpty" @click="changeAttr()">动态指令参数</a><br>
+    <a :[attrname]="urlEmpty" @click="changeAttr()">动态指令参数</a><br>
+    <button :[attrname]="urlEmpty" @click="changeAttr()">改变属性</button>
+    <br><br>
+
+    <!-- 动态参数 用于事件绑定-->
+    <button v-on:[eventname]="eventHandler">动态指令参数</button>
+    <br>
+    <button @[eventname]="eventHandler">动态指令参数</button>
+    <br>
+    <button @click="changeEvent" @mouseenter="eventHandler">改变事件监听器类型</button>
+    <br>
+
+    <!--  复杂动态参数推荐使用计算属性  -->
+    <!-- 模板字符串中的属性名会被浏览器转为小写，在SFC中无此限制 -->
+
+    <!-- 指令修饰符 -->
+    <form @submit.prevent="onsubmit" action="/login">
+        <input type="text" id="name" name="name" placeholder="用户名">
+        <input type="text" id="pwd" name="pwd" placeholder="密码">
+        <input type="submit" value="提交">
+    </form>
+
+    <!-- 完整的指令语法  -->
+    <form v-on:submit.prevent="onsubmit"></form>
+    <!-- [v-xxx]:[args].[modifies]="value" -->
+
+</div>
+<script>
+    const {createApp} = Vue
+
+    const app = createApp({
+        data() {
+            return {
+                msg: "模板语法 template syntax",
+                rawHtml: '"<span style="color: red">This should be red.</span>"',
+                dynamicId: 777,
+                id: "simplify",
+                isButtonDisabled: "",
+                disabled: 0,
+                objAttrs: { // 动态绑定多个属性
+                    id: "container",
+                    class: "wrapper",
+                    style: "background-color:lightgrey",
+                    title: "动态绑定悬浮文本",
+                    attr1: "attr1",
+                    attr2: "attr2",
+                },
+                objAttrs2: {
+                    style: "display:inline-block;" +
+                        "background: #cfc;" +
+                        "height:40px;" +
+                        "line-height:40px;" +
+                        "padding: 0 10px"
+                },
+                number: 100,
+                ok: 1,
+                date: new Date(),
+                seen: 0,
+                url: "http://www.baidu.com",
+                href: "https://www.google.com.cn/同名简写",
+                urlEmpty: "#",
+                attrname: "href",
+                eventname: "click",
+                attrNames: ['id', 'name', 'title', 'attr1', 'attr2'],
+                eventNames: ['click', 'mouseenter', 'mouseleave'],
+
+            }
+        },
+        methods: {
+            format(date) {
+                return date.toLocaleString()
+            },
+            toTitleDate(date) {
+                return "title: " + date.toLocaleString()
+            },
+            dosomething2() {
+                confirm("Are you OK?")
+            },
+            changeAttr() {
+                let index = parseInt(Math.random() * this.attrNames.length)
+                this.attrname = this.attrNames[index]
+            },
+            changeEvent() {
+                let index = parseInt(Math.random() * this.eventNames.length)
+                this.eventname = this.eventNames[index]
+                console.log("changeEvent: ", this.eventname)
+            },
+            eventHandler(e) {
+                console.log(`${e.type} event has been emitted`)
+            },
+            dosomething() {
+            },
+            onsubmit(e) {
+                console.log("用户点击提交")
+                console.log(e.target[0].value, e.target[1].value)
+            },
+        }
+
+    })
+
+    app.mount("#app")
+</script>
+</body>
+
+</html>

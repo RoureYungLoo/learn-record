@@ -14,9 +14,9 @@
 			ButtonCounter,
 			Blog,
 			AlertBox,
-			Tab1,
-			Tab2,
-			Tab3,
+			Tab1, // 注册的组件名 是Tab1
+			Tab2,// 注册的组件名 是Tab2
+			Tab3,// 注册的组件名 是Tab3
 		},
 		data() {
 			return {
@@ -36,7 +36,7 @@
 	<MyHello />
 	<MyHello />
 	<my-hello></my-hello> -->
-	<!-- <ButtonCounter></ButtonCounter> -->
+	<!-- <ButtonCounterCounter></ButtonCounterCounter> -->
 	<Blog />
 
 	<!-- 父组件里使用子组件 -->
@@ -47,6 +47,7 @@
 	<!-- 动态组件 -->
 	<button v-for="tab in Tabs" :key="tab" @click="curTab=tab">{{tab}}</button>
 	<component :is="curTab"></component>
+
 
 
 </template>

@@ -1,13 +1,18 @@
 <template>
-<!--<button class="btn" @click="func">点击我</button>-->
+  <!--  <button class="btn">点击我</button>-->
+  <!--  <button class="btn" @click="nativeClickHandler">点击我</button>-->
 
-<!--  <BaseButton/>-->
+  <!--    <BaseButton/>-->
 
-<div class="div-wrapper">
-  <button class="btn" v-bind="$attrs" @click="func">点击我</button>
+  <!-- 将所有透传的属性应用在内部button上,而不是根元素div上 -->
+  <div class="div-wrapper">
+    <button class="btn" v-bind="$attrs" @click="nativeClickHandler">点击我</button>
+  </div>
 
-</div>
 
+  透传的属性{{ attrs }}<br>
+  透传的监听器{{ attrs.onClick }}<br>
+  调用{{ attrs.onClick() }}
 
 </template>
 
@@ -19,15 +24,15 @@ import BaseButton from './BaseButton.vue'
 import {useAttrs} from "vue";
 
 defineOptions({
-  inheritAttrs:false
+  inheritAttrs: false // 禁用继承
 })
 
 const attrs = useAttrs()
 
-console.log(attrs)
+console.log("透传的属性", attrs)
 
-const func = () => {
-  console.log(" 子组件点击事件 ")
+const nativeClickHandler = () => {
+  console.log("原生 button click事件触发")
 }
 
 

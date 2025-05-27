@@ -1,6 +1,7 @@
 import {onMounted, onUnmounted} from "vue";
 
-export function useEventListener(target,event,callback){
-    onMounted(()=>window.addEventListener(event,callback))
-    onUnmounted(()=>window.removeEventListener(event,callback))
+/* 将添加、移除事件监听器的逻辑封装成组合式函数 */
+export function useEventListener(target, event, callback) {
+    onMounted(() => target.addEventListener(event, callback))
+    onUnmounted(() => target.removeEventListener(event, callback))
 }

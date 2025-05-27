@@ -17,20 +17,21 @@ import {useFetch} from "@/utils/fetch.js";
 
 // const data = ref(null)
 // const error = ref(null)
-//
-// fetch('http://localhost:8080')
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
 //     .then((res) => res.json())
 //     .then((json) => (data.value = json))
 //     .catch((err) => (error.value = err))
 
 const url = ref("https://jsonplaceholder.typicode.com/todos/1")
 
-// const {data, error} = useFetch('http://localhost:8080')
+// 组合式函数接收字符串
+// const {data, error} = useFetch('https://jsonplaceholder.typicode.com/todos/1')
+// 组合式函数接收响应式参数
 const {data, error} = useFetch(url)
 
-const changeUrl = () => {
-  url.value = "https://jsonplaceholder.typicode.com/todos/2"
-}
+// const changeUrl = () => {
+//   url.value = "https://jsonplaceholder.typicode.com/todos/2"
+// }
 </script>
 
 <style scoped>

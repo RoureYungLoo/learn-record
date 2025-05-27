@@ -9,7 +9,9 @@
 <body>
     <div id="app">
 		<div>
-			<input type="text" ref="input">
+			<input type="text" ref="aaa">
+            <button @click="onClickInput">点击查看</button>
+
 		</div>
 		<div>
 			<ul>
@@ -20,7 +22,7 @@
 		</div>
 		<div>
 			<!-- <input type="text" value="123456" :ref="(el) => {console.log(el.value)}"> -->
-			<input type="text" value="4444" :ref="show">
+			<input type="text"  v-model="msg" value="4444" :ref="show">
 		</div>
     </div>
 
@@ -28,7 +30,7 @@
         const {createApp} = Vue
 		const app = createApp({
 			mounted(){
-				this.$refs.input.focus()
+				this.$refs.aaa.focus()
 				// console.log(this.$refs.items)
 			},
 			data(){
@@ -36,12 +38,16 @@
 						list:[
 							"A","B","C","D","E"
 						],
+                    msg:"msg",
 				}
 			},
 			methods:{
 				show(param){
-					console.log(param)
-				}
+					console.log(param.value)
+				},
+                onClickInput(){
+                    console.log(this.$refs.aaa.value);
+                }
 			}
 		})
 		app.mount("#app")

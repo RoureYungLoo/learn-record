@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>空值合并</title>
+</head>
+
+<body>
+    <script>
+        let log = console.log
+        /**
+         *  defined <==> 不是 null 也不是 undefined 
+         * 
+         *  a ?? b  等价于  ( a !== null && a !== undefined ) ? a : b
+         * 
+         * */
+
+        /* 提供默认值 */
+        let user
+
+        user = "zhangsan"
+
+        log(user ?? "匿名用户")
+
+        let firstName
+        let lastName = false
+        let nickName = 0
+
+        /* 找出第一个已定义的值 */
+        log(firstName ?? lastName ?? nickName ?? "超人")
+
+        let height = 0
+        log(height ?? 100)
+        log(height || 100)
+
+        /* 优先级  ?? || 相同 */
+        let width = null
+        height = null
+
+        let area = (height ?? 100) * (width ?? 50)
+        log(area)
+        area = height ?? 100 * width ?? 50
+        log(area)
+
+        /* ?? && || 同时使用时要指定优先级 */
+        // let x = 1 && 2 ?? 3 //operations cannot be mixed without parentheses.
+        let y = 1 && (2 ?? 3)
+
+        /* ?? || && 同时使用需要添加括号 */
+
+    </script>
+</body>
+
+</html>

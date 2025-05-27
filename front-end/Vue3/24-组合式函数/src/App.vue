@@ -1,12 +1,12 @@
 <script setup>
 
-import Home from "@/components/Home.vue";
+import MouseTracker from "@/components/MouseTracker.vue";
 import User from "@/views/User.vue";
 import Loading from "@/views/Loading.vue";
 </script>
 
 <template>
-  <Home/>
+  <MouseTracker/>
   <User/>
   <Loading/>
 </template>

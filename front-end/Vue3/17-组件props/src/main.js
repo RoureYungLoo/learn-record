@@ -1,6 +1,10 @@
 import './assets/main.css'
 
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import App from './App.vue'
+import dayjs from 'dayjs'
 
-createApp(App).mount('#app')
+var app = createApp(App);
+app.use(dayjs)
+
+app.mount('#app')

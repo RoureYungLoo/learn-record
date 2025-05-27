@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="511a6743-eb0b-494e-b711-c8acbdfffe39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/HTML_CSS_JS_exercise/woshipm/效果图/bandicam 2025-05-12 08-46-58-681.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/HTML_CSS_JS_exercise/woshipm/效果图/bandicam 2025-05-22 10-05-41-595.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/HTML_CSS_JS_exercise/woshipm/效果图/bandicam 2025-05-22 10-11-26-786.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/HTML_CSS_JS_exercise/woshipm/效果图/bandicam 2025-05-22 10-18-22-513.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/HTML_CSS_JS_exercise/woshipm/效果图/bandicam 2025-05-22 10-18-54-520.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/HTML_CSS_JS_exercise/woshipm/效果图/bandicam 2025-05-22 10-20-28-586.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/HTML_CSS_JS_exercise/woshipm/效果图/bandicam 2025-05-22 10-22-35-589.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/HTML_CSS_JS_exercise/woshipm/效果图/bandicam 2025-05-22 10-23-32-699.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-开始-快速上手/使用script标签/2-ES Module版本.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-开始-快速上手/使用script标签/3-ES Module版本-模块拆分.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/02-开始-快速上手/使用script标签/my-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/04-基础-模板语法/vue.global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/响应式基础/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/计算属性/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/src/components/MyComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/类和样式绑定/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/08-条件渲染/条件渲染/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/src/components/MyComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/列表渲染/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/事件处理/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/11-表单输入绑定/表单输入绑定/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/src/components/ArticleVue.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/12-生命周期/生命周期/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/13-监听器/监听器/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/src/components/Child.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/模版引用/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/AlertBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/BlogPost.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/ButtonCounter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/SwitchTab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/Tab1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/Tab2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/Tab3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/Tab4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/Tab5.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/components/Tab6.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-02/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/button-option-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/vue.esm-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/components/ComponentB.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/components/ComponentC.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/components/ComponentD.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/js/Person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/Cancel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/CustomLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/components/ConditionSlot.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/components/FancyList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/components/MouseTracker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/components/ScopeSlot.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/Vue3/vue.global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/01-vue-start-intro/intro-01.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/01-vue-start-intro/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/TheWelcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/WelcomeItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/02-vue-quictstart/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/03-vue-create-app/App.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/03-vue-create-app/App2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/04-vue-template-syntax/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/05-响应式基础.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/05-响应式基础/05-响应式基础.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/06-计算属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/06-计算属性/06-计算属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/07-类和样式绑定/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/09-列表渲染/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/10-事件处理/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/14-模板引用/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-01/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/15-组件基础-01/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/15-组件基础/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/16-组件注册/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/16-组件注册/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/16-组件注册/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/16-组件注册/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/components/ComponentA.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/components/ComponentA.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/17-组件props/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/18-组件事件/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/18-组件事件/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/18-组件事件/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/18-组件事件/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/18-组件事件/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/18-组件事件/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/18-组件事件/src/components/Child.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/18-组件事件/src/components/Child.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/src/components/Child2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/src/components/Child2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/src/components/Child3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/19-组件v-model/src/components/Child3.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/BaseButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/BaseButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/MyButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/MyButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/20-透传Attributes/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/components/BaseLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/components/BaseLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/components/FancyButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/Vue3/21-插槽/src/components/FancyButton.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Program Files\apache-maven-3.9.9" />
+        <option name="localRepository" value="D:\m2" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2x5tdJXRKeREH3JJbNMzHixKSn6" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodeSpace/learn-record/SpringBoot/spirngboot-tutorials/springboot-01-helloworld",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="511a6743-eb0b-494e-b711-c8acbdfffe39" name="Changes" comment="" />
+      <created>1746883143728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746883143728</updated>
+      <workItem from="1746883144754" duration="616000" />
+      <workItem from="1747239848756" duration="87000" />
+      <workItem from="1747283726750" duration="15000" />
+      <workItem from="1747321830850" duration="15000" />
+      <workItem from="1747924659626" duration="117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

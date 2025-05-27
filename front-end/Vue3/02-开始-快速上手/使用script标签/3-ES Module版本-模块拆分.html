@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDN引入Vue</title>
+    <!--    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>-->
+    <script type="importmap">
+        {
+            "imports":{
+                "vue":"https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+            }
+        }
+    </script>
+</head>
+
+<body>
+<div id="app">{{ message }}</div>
+
+<script type="module">
+    // const {createApp, ref} = Vue
+    // import {createApp, ref} from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+    import {createApp, ref} from 'vue'
+
+    import MyComponent from './my-component.js'
+
+    /* 创建APP */
+    const app = createApp(MyComponent)
+    /* 挂载 */
+    app.mount("#app")
+</script>
+
+</body>
+
+</html>

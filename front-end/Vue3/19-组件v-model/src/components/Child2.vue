@@ -3,8 +3,8 @@
 /* 子组件 双向绑定model */
 // const model = defineModel()
 const model = defineModel({
-  // required: true,
-  default:20
+  // required: true,   // 是否必须
+  default:20    // 默认值
 })
 
 const update = () => {
@@ -23,5 +23,8 @@ const update = () => {
 .child {
   background-color: #b3e19d;
   width: 300px;
+}
+button{
+  background-color: transparent;
 }
 </style>

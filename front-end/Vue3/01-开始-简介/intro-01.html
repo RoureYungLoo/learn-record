@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>简介</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+</head>
+<body>
+  <div id="app">
+    <button @click="count++">
+      Count is: {{ count }}
+    </button>
+  </div>
+
+  <script type="module">
+    const {createApp} = Vue
+    // import {createApp} from 'vue'
+
+    createApp({
+      data() {
+        return {
+          count: 0
+        }
+      }
+    }).mount("#app")
+  </script>
+</body>
+</html>
+
+

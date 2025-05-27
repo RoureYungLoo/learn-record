@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>函数</title>
+</head>
+
+<body>
+    <script>
+        let log = console.log
+
+        /* 函数声明 */
+        function showMsg() {
+            console.log("hello function");
+        }
+
+        function showMsg2(name) {
+            console.log(`hello function ${name}`);
+        }
+
+        function showMsg3(...names) {
+            /* 局部变量 */
+            let msg = "local msg"
+
+            console.log(`hello function ${names}`);
+        }
+
+        showMsg()
+        showMsg2("lisi")
+        showMsg3("zhangsan", "lisi", 12, 333)
+
+        // log(msg) //msg is not defined
+
+        /* 外部变量：函数外部的变量，相对于某个函数而言 */
+        let username = "zhangsan"
+        function edit(param) {
+            param = param + Math.random() * 100
+            log(param)
+        }
+        edit(username)
+        /* 全局变量： 任何函数之外声明的变量，在任意函数中都能访问到*/
+
+        /* 参数 */
+        function showMsg4(from, text) {
+            log(from + ": " + text)
+        }
+        showMsg4("Ann", "Hello")
+        showMsg4("Ann", "怎么了")
+
+        // 形参叫做 params
+        function showMsg5(param1, param2) {
+            log("param1:", param1, ", param2", param2)
+        }
+        let a = b = 120
+        // showMsg5(argument1, argument2)
+        showMsg5(a, b) //实参叫做 arguments
+
+        /* 形参默认值 */
+        // function showMsg6(from, text = "你好啊") {
+        function showMsg6(from, text = Date.now()) {
+            log(`${from}: ${text}`)
+        }
+        showMsg6("Bob")
+        showMsg6("Bob", "我是Bob")
+
+        /* 指定默认值 */
+        if (username === undefined) {
+            username = "默认用户名"
+        }
+        let grade
+        grade = grade || "0分"
+        let price
+        price = price ?? 100
+
+        /* 返回值 */
+        function sum(a, b) {
+            return a + b
+        }
+        let res = sum(1, 2)
+        log(res)
+
+        function checkAge(age) {
+            if (age >= 18) {
+                return true
+            } else {
+                return confirm("获取权限？")
+            }
+        }
+        // let age = prompt("多大了", 18)
+        let age = 18
+        if (checkAge(age)) {
+            log("allowed")
+        } else {
+            log("denied")
+        }
+
+        /* 无返回值、return、return undefined */
+        function doNothing() {
+            // return
+            // return undefined
+        }
+        log(doNothing())
+        log(doNothing() === undefined)
+
+        /* return不能换行 */
+        function getSum() {
+            return (
+                (1 + 2 + 3 + 4 + 5)
+            )
+        }
+        log(getSum())
+
+        /* 函数命名规范：见名知意、动宾短语 */
+        function getCategory() { }
+        function caculatePrice() { }
+        function createData() { }
+        function checkPerms() { }
+        /* 一个函数应该只关注一个功能点、行为点 */
+
+        /* 函数具有自描述性 */
+        function show素数(n) {
+            netx素数:
+            for (let i = 2; i < n; i++) {
+                for (let j = 2; j < i; j++) {
+                    if (i % j == 0) continue netx素数
+                }
+                log("素数：", i)
+            }
+        }
+        show素数(50)
+        function show素数2(n) {
+            for (let i = 2; i < n; i++) {
+                if (!is素数(i)) continue
+                log("素数v2：", i)
+            }
+        }
+
+        function is素数(params) {
+            for (let i = 2; i < params; i++) {
+                if (params % i == 0) return false;
+            }
+            return true
+        }
+        show素数2(10000)
+
+        /* 任务2 */
+        function checkAge2(age) {
+            // return (age >= 18) ? true : confirm("1你父母允许吗");
+            // return (age >= 18) || confirm("2你父母允许吗？")
+        }
+        log(checkAge2(17))
+
+        function min(a, b) {
+            return a > b ? b : a
+        }
+        log(min(2, 4))
+        log(min(-2, -4))
+
+        function pow(a, x) {
+            if (x < 1) return 1
+            if (x >= 1) {
+                // return a * Math.pow(a, x - 1)
+                return a * pow(a, x - 1)
+            }
+        }
+        log(pow(3, 4))
+
+    </script>
+</body>
+
+</html>

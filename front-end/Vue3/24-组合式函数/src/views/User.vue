@@ -1,13 +1,19 @@
 <template>
-<h3>{{x}},{{y}}</h3>
+  <div>
+    <h3> UserVue {{ x }},{{ y }}</h3>
+  </div>
 </template>
 
 <script setup>
-import {useMouse} from "@/utils/mouse.js";
+import {useMouse2} from "@/utils/mouse.js";
 
-const {x,y}=useMouse()
+/* 使用自定义组合式函数 */
+// const {x, y} = useMouse()
+const {x, y} = useMouse2()
 </script>
 
 <style scoped>
-
+div{
+  background-color: lightpink;
+}
 </style>
