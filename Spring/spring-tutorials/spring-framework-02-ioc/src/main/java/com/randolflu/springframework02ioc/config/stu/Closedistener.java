@@ -7,6 +7,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
+/* 事件机制 */
 @Component
 @Order(1)
 public class Closedistener implements ApplicationListener<ContextClosedEvent> {

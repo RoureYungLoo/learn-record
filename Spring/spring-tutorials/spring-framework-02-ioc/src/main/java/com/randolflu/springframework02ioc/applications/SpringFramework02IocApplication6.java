@@ -39,7 +39,9 @@ public class SpringFramework02IocApplication6 {
 //        BeanFactory beanFactory = containerInfo.getBeanFactory();
 //        System.out.println(beanFactory.getClass().getName());
 
-        context.close();
+//        context.close();
+
+        context.registerShutdownHook();
 
     }
 

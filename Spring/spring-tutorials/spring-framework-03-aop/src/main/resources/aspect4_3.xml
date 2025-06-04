@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- AOP配置 -->
+    <aop:config>
+        <!--切点表达式-->
+        <aop:pointcut id="pointcut2" expression="execution(* get*(..))"/>
+        <aop:pointcut id="exceptionAspect"
+                      expression="execution(* com.randolflu.springframework03aop.aspect4.*.*(..))"/>
+
+        <!-- 配置Advisor -->
+        <aop:advisor advice-ref="logAspect" pointcut-ref="pointcut2"/>
+        <aop:advisor advice-ref="exceptionAdvice" pointcut-ref="exceptionAspect"/>
+    </aop:config>
+
+    <!-- 注入自定义的 AOP advisor Bean -->
+    <bean id="logAspect" class="com.randolflu.springframework03aop.aspect4.LogAspect3Interceptor"/>
+    <bean id="exceptionAdvice" class="com.randolflu.springframework03aop.aspect4.CustomThrowAdvice"/>
+
+    <!-- 注入 Order Bean -->
+    <bean id="order3" class="com.randolflu.springframework03aop.aspect4.Order">
+        <property name="id" value="101"/>
+        <property name="customerId" value="201"/>
+        <property name="goodsId" value="301"/>
+    </bean>
+
+</beans>

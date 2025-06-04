@@ -27,6 +27,11 @@ public class User {
 
     @Override
     public String toString() {
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         return "User{" +
                 "age=" + age +
                 ", who='" + who + '\'' +

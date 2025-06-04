@@ -2,37 +2,48 @@ package com.xxx.springboot05webmvc.controller;
 
 import com.xxx.springboot05webmvc.dto.LoginDto;
 import com.xxx.springboot05webmvc.dto.RegisterDto;
+import com.xxx.springboot05webmvc.entity.User;
+import com.xxx.springboot05webmvc.service.UserService;
+import com.xxx.springboot05webmvc.utils.Result;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.enums.ParameterIn;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/users")
+//@Tag(name = "用户模块")
 public class UserController {
 
-    //    @RequestMapping(method = RequestMethod.GET, value = "/get")
-    @GetMapping("/get")
-    public String get() {
+    @Autowired
+    private UserService userService;
+
+//    @Operation(summary = "根据ID查询")
+//    @Parameter(name = "id", description = "用户ID", in = ParameterIn.PATH, required = true)
+    @GetMapping("/{id}")
+    public String queryUserById(@PathVariable("id") Long id) {
         return "Hello GET";
     }
 
-    //    @RequestMapping(method = RequestMethod.POST, value = "/post")
-    @PostMapping("/post")
-    public String post() {
-        return "Hello POST";
+//    @Operation(summary = "保存用户")
+    @PostMapping
+    public Result saveUser(@RequestBody User user) {
+        userService.save(user);
+        return Result.success();
     }
 
-    //    @RequestMapping(method = RequestMethod.PUT, value = "/put")
     @PutMapping("/put")
     public String put() {
         return "Hello PUT";
     }
 
-    //    @RequestMapping(method = RequestMethod.DELETE, value = "/delete")
     @DeleteMapping("/delete")
     public String delete() {
         return "Hello DELETE";
     }
 
-    //    @RequestMapping(method = RequestMethod.PATCH, value = "/patch")
     @PatchMapping("/patch")
     public String patch() {
         return "Hello PATCH";

@@ -1,6 +1,6 @@
 package com.xxx.structural.proxy_pattern.two;
 
-/* 真实主题角色 */
+/* 真实主题角色, 真实对象, 被代理的类 */
 public class RealSearcher implements Searcher {
     @Override
     public String DoSearch(String userId, String keyword) {

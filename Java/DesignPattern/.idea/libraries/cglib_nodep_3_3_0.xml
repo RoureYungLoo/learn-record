@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="cglib-nodep-3.3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk_17.0.12/lib/cglib-nodep-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/cglib-nodep-3.3.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk_17.0.12/lib/cglib-nodep-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk_17.0.12/lib/cglib-nodep-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk_17.0.12/lib/cglib-3.3.0.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!-- 注入 Order Bean -->
+    <bean id="order" class="com.randolflu.springframework03aop.aspect4.Order">
+        <property name="id" value="10001"/>
+        <property name="customerId" value="20001"/>
+        <property name="goodsId" value="30001"/>
+    </bean>
+
+    <aop:config>
+        <!-- 配置切面 -->
+        <aop:aspect id="logAspect" ref="logAspect">
+            <aop:pointcut id="pointcut1" expression="execution(* com.randolflu.springframework03aop.aspect4.Order.*(..))"/>
+            <aop:before pointcut-ref="pointcut1" method="beforeAdvice"/>
+            <aop:after pointcut-ref="pointcut1" method="afterAdvice"/>
+            <aop:after-throwing pointcut-ref="pointcut1" method="afterThrowingAdvice" throwing="ex"/>
+            <aop:after-returning pointcut-ref="pointcut1" method="afterReturningAdvice" returning="retValue"/>
+            <aop:around pointcut-ref="pointcut1" method="aroundAdvice"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!-- 切面 Bean -->
+    <bean id="logAspect" class="com.randolflu.springframework03aop.aspect4.LogAspect"/>
+
+</beans>

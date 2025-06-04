@@ -1,12 +1,15 @@
 package com.xxx.structural.proxy_pattern.one;
 
-/* 代理主题角色 */
+/* 代理主题角色, 代理类 */
 public class Proxy extends Subject {
 
-    private RealSubject realSubject = new RealSubject();
+    private RealSubject realSubject;
 
-    public void PreRequest() {
-        System.out.println(" --- pre request ----");
+    public Proxy() {
+    }
+
+    public Proxy(RealSubject realSubject) {
+        this.realSubject = realSubject;
     }
 
     @Override
@@ -19,6 +22,10 @@ public class Proxy extends Subject {
     }
 
     public void PostRequest() {
-        System.out.println(" --- post request ----");
+        System.out.println(" --- [代理类] postRequest() ----");
+    }
+
+    public void PreRequest() {
+        System.out.println(" --- [代理类] preRequest ----");
     }
 }
