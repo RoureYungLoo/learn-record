@@ -4,20 +4,10 @@
 
 <template>
   <h3>当前角色: {{$route.params.roleId}}</h3>
-<!--  <RouterLink to="/user/lisi/role/admin">Role</RouterLink>-->
 
 </template>
 
 <style scoped>
-
-.router-link-active {
-  font-weight: bold;
-}
-
-.router-link-exact-active {
-  color: red;
-}
-
 a {
   text-decoration: none;
 }

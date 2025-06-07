@@ -19,16 +19,6 @@
 </template>
 
 <style scoped>
-.router-link-active {
-  font-weight: bold;
-}
-
-.router-link-exact-active {
-  color: red;
-  font-size: 36px;
-}
-
-
 /* 激活路由链接 */
 .current-link-active {
   color: deeppink;
