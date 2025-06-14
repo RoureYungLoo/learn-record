@@ -5,14 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dafd8aa-22c0-4e1b-9d50-74b7d3a134dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaScript/现代JavaScript教程/03-Object基础知识/.idea/03-Object基础知识.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pina教程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled1/.idea/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/stores/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/views/Third.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/views/Todos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pina教程.md" beforeDir="false" afterPath="$PROJECT_DIR$/Pina教程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/components/TheWelcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/components/WelcomeItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/stores/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/stores/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/views/AboutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/views/HomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -54,7 +82,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "D:\\Program Files\\JetBrains\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -72,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749890123862</updated>
-      <workItem from="1749890124831" duration="808000" />
+      <workItem from="1749890124831" duration="9951000" />
     </task>
     <servers />
   </component>

@@ -1,12 +1,45 @@
-import { ref, computed } from 'vue'
-import { defineStore } from 'pinia'
+import {ref, computed, defineComponent} from 'vue'
+import {defineStore, mapActions, mapState, mapStores} from 'pinia'
 
-export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0)
-  const doubleCount = computed(() => count.value * 2)
-  function increment() {
-    count.value++
-  }
+/* 组合式API */
+// export const useCountStore = defineStore('counter', () => {
+//     const count = ref(0)
+//
+//     const double = computed(() => count.value * 2)
+//
+//     function increment() {
+//         count.value++
+//     }
+//
+//     function decrement() {
+//         count.valuep--
+//     }
+//
+//     return {count, double, increment, decrement}
+// })
 
-  return { count, doubleCount, increment }
-})
+
+/* 选项式API */
+export const useCountStore = defineStore(
+    'counter',
+    {
+        state: () => {
+            return {count: 0}
+        },
+        getters: {
+            double: (state) => state.count * 2
+        },
+        actions: {
+            increment() {
+                this.count++
+            },
+            decrement() {
+                this.count--
+            },
+            shrink() {
+                this.count = Math.floor(this.count * 0.5)
+            }
+        }
+    }
+)
+

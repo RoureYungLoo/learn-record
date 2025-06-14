@@ -1,15 +1,25 @@
+<script setup>
+
+import {useCountStore} from "@/stores/counter.js";
+
+const counter = useCountStore();
+const subOne = () => {
+  counter.decrement()
+}
+</script>
+
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="container">
+    <h2>About</h2>
+    <a-button type="primary" @click="subOne">-1</a-button>
+
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped>
+.container {
+  border: 1px solid black;
+  padding: 10px;
 }
 </style>
