@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16b6495b-6bc8-44b1-ad59-9380bbf0b480" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/randolflu/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/randolflu/Tank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/randolflu/TimeMethodInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/Facade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/SubSystemA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/SubSystemB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/SubSystemC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/AbstractEncryptFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/CipherMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/Client3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/EncryptFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/FileReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/FileWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/NewCipherMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/NewEncryptFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/encrypt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/plain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/CipherMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/ClientTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/EncryptFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/FileReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/FileWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/des.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/src.2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/src.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/src.txt.backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/LogMethodInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/Tank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Fireable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/ProxyTankInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Tank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/DemoStaticProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_extends/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_extends/ProxyTank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_extends/Tank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Fireable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/ProxyTank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Tank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/static_proxt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/MsgSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/NewProxySearcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/ProxySearcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/SubSystemA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/SubSystemB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/SubSystemC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/AbstractEncryptFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/CipherMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/Client3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/EncryptFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/FileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/NewCipherMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/NewEncryptFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/encrypt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/plain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/CipherMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/ClientTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/EncryptFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/FileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/des.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/src.2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/src.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/src.txt.backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/LogMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Fireable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/ProxyTankInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/DemoStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_extends/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_extends/ProxyTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_extends/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Fireable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/ProxyTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/static_proxt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/MsgSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/NewProxySearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/ProxySearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/randolflu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/randolflu/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/applications/EventApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/applications/LifeCycleMainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/applications/ProfileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/applications/ProfileApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/config/stu/MyBeanProcessorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/config/stu/MyEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/config/stu/MyEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/config/stu/MyEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/datasource/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/datasource/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/datasource/DataSourceDev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/datasource/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/demo_property_source/DemoPropertySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/demo_property_source/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/demo_property_source/PersonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/entity/HelloBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/lifecycle/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/lifecycle/DevConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/lifecycle/HelloLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/lifecycle/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/processor/MyBeanProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/task/config/AsyncConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/task/config/ScheduleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/task/schedule/DemoScheduleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/task/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/task/threadpool/DemoAsyncTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/resources/beans-task.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/resources/person.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/proxy_pattern/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/proxy_pattern/HelloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/proxy_pattern/JdkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/proxy_pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/proxy_pattern/ProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspect3/MyMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspect4/AspectJ4Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspect4/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspect4/CustomThrowAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspect4/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspect4/LogAspect2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspect4/LogAspect3Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspect4/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj/AspectJConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj/DefaultGoodBye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj/DemoAspectJApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj/GoodBye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj/HelloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj2/AspectJ2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj2/DefaultGoodBye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj2/GoodBye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj2/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj2/HelloAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj2/HelloPointcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj2/SayAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/java/com/randolflu/springframework03aop/aspectj2/SpringHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/resources/aspect3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/resources/aspect4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/resources/aspect4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-03-aop/src/main/resources/aspect4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/resources/sql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/resources/sql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/CSS/animate_css/animate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/CSS/canvas/canvas-01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/CSS/css动画/css-动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/CSS/css过渡/css-过渡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/25-自定义指令/src/components/MyComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/25-自定义指令/src/views/Essay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/src/plugins/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/src/plugins/myPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/26-插件/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/src/assets/animate.compat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/src/assets/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/src/assets/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/src/components/A.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/src/components/B.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/src/components/MyTransition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/27-内置组件-transition/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/components/TheWelcome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/components/WelcomeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/components/icons/IconCommunity.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/components/icons/IconDocumentation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/components/icons/IconEcosystem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/components/icons/IconSupport.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/components/icons/IconTooling.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/Vue3/28-内置组件-transition-group/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/CGLIB/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/CGLIB/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/CGLIB/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/CGLIB/target/classes/MyInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/CGLIB/target/classes/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/Proxy/Proxy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/Proxy/out/production/Proxy/_static_/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/Proxy/out/production/Proxy/dynamic/Executable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/Proxy/out/production/Proxy/dynamic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/Proxy/out/production/Proxy/dynamic/MyProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/Proxy/out/production/Proxy/dynamic/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/Proxy/src/_static_/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/Proxy/src/dynamic/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/behavioral/behavioral.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/behavioral.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/creational/creational.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/creational/creational.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/Proxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/Proxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/RealSubject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/AccessValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/AccessValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/ProxySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/RealSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/RealSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/AccessValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/AccessValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/ProxySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/RealSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/RealSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/Searcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DesignPattern/structural/structural.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DesignPattern/structural/structural.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/applications/SpringFramework02IocApplication6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/applications/SpringFramework02IocApplication6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/config/stu/Closedistener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/config/stu/Closedistener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring/spring-tutorials/spring-framework-02-ioc/src/main/java/com/randolflu/springframework02ioc/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/java/com/xxx/springboot05webmvc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/spirngboot-tutorials/springboot-05-webmvc/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/Vue3/25-自定义指令/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/Vue3/25-自定义指令/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/Vue3/25-自定义指令/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/Vue3/25-自定义指令/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/Vue3/25-自定义指令/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/Vue3/25-自定义指令/src/views/Home.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Program Files\apache-maven-3.9.9" />
+        <option name="localRepository" value="D:\m2" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2xvoRf37F07fK63tbCXrUUmXKhC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lenovo/Desktop/lingma-jetbrains-2.5.0.zip",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16b6495b-6bc8-44b1-ad59-9380bbf0b480" name="Changes" comment="" />
+      <created>1746883143728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746883143728</updated>
+      <workItem from="1746883144754" duration="616000" />
+      <workItem from="1748827903680" duration="1424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
