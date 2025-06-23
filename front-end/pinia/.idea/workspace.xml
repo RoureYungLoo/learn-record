@@ -4,18 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dafd8aa-22c0-4e1b-9d50-74b7d3a134dc" name="Changes" comment="tutorial: 01-quick-start">
-      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/learn-record2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinia-02-define-store/src/router/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinia-02-define-store/src/stores/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinia-02-define-store/src/stores/count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinia-02-define-store/src/stores/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinia-02-define-store/src/views/Count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinia-02-define-store/src/views/Home.vue" afterDir="false" />
+    <list default="true" id="0dafd8aa-22c0-4e1b-9d50-74b7d3a134dc" name="Changes" comment="tutorial: 02-define-store">
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS_JS_exercise/01-推荐作家.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/现代JavaScript教程/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/现代JavaScript教程/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/现代JavaScript教程/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/现代JavaScript教程/.idea/现代JavaScript教程.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/现代JavaScript教程/14-DOM/01-DOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/现代JavaScript教程/14-DOM/02-DOM树.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/现代JavaScript教程/14-DOM/04-获取元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/.idea/axios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-00-http-request/src/request/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-00-http-request/src/router/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-00-http-request/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-00-http-request/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-00-http-request/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-01-quick-start/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-01-quick-start/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/PreferenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Preference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-03-state/src/store/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-03-state/src/store/storeId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-03-state/src/store/storeId2.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-03-state/src/store/storeId3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-03-state/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-04-getter/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-04-getter/src/store/storeUseSetup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-04-getter/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-04-getter/src/views/UserOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-04-getter/src/views/UserSetup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-04-getter/src/views/UserSetup2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/store/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/store/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/views/CounterOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/views/CounterSetup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/src/views/SubScribe.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-05-action/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/router/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/stores/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/stores/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/stores/plugins/SecretPiniaPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/stores/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/stores/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/views/Counter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/views/Post.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/views/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-06-plugin/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinia-project-basement/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spirngboot-tutorials/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../axios/axios-demo/src/main/java/com/xxx/axiosdemo/AxiosDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../axios/axios-demo/src/main/java/com/xxx/axiosdemo/AxiosDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pina教程.md" beforeDir="false" afterPath="$PROJECT_DIR$/Pina教程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-01-quick-start/src/stores/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-01-quick-start/src/stores/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-02-define-store/src/stores/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-02-define-store/src/stores/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinia-02-define-store/src/stores/count.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinia-02-define-store/src/stores/count.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +100,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
       </list>
@@ -39,12 +115,21 @@
     &quot;assignee&quot;: &quot;RoureYungLoo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:RoureYungLoo/learn-record.git",
-    "accountId": "d754fae7-82dd-421b-86f4-6d50b93838c3"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:RoureYungLoo/learn-record.git&quot;,
+    &quot;accountId&quot;: &quot;d754fae7-82dd-421b-86f4-6d50b93838c3&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pinia-02-define-store/node_modules/pinia/dist/pinia.mjs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pinia-03-state/node_modules/pinia/dist/pinia.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pinia-05-action/node_modules/pinia/dist/pinia.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pinia-05-action/node_modules/vue/jsx.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pinia-06-plugin/node_modules/@vue/reactivity/dist/reactivity.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pinia-06-plugin/node_modules/@vue/runtime-core/dist/runtime-core.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pinia-06-plugin/node_modules/pinia/dist/pinia.d.ts" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -60,16 +145,17 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main.js.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/css-sources/animate_css&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeSpace/learn-record/front-end/pinia/pinia-06-plugin/src/stores&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\Program Files\\JetBrains\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -79,6 +165,18 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeSpace\learn-record\front-end\pinia\pinia-06-plugin\src\stores" />
+      <recent name="D:\CodeSpace\learn-record\front-end\pinia\pinia-05-action\src\views" />
+      <recent name="D:\CodeSpace\learn-record\front-end\pinia" />
+      <recent name="D:\CodeSpace\learn-record\front-end\pinia\pinia-04-getter\src\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeSpace\learn-record\front-end\pinia\pinia-06-plugin\src" />
+      <recent name="D:\CodeSpace\learn-record\front-end\pinia\pinia-05-action\src\store" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,7 +193,19 @@
       <option name="presentableId" value="Default" />
       <updated>1749890123862</updated>
       <workItem from="1749890124831" duration="11300000" />
-      <workItem from="1749993117137" duration="5829000" />
+      <workItem from="1749993117137" duration="6141000" />
+      <workItem from="1750036762722" duration="6857000" />
+      <workItem from="1750066410231" duration="1461000" />
+      <workItem from="1750067947919" duration="15000" />
+      <workItem from="1750067972895" duration="1523000" />
+      <workItem from="1750075949429" duration="21025000" />
+      <workItem from="1750150727946" duration="11946000" />
+      <workItem from="1750240615133" duration="159000" />
+      <workItem from="1750245535039" duration="281000" />
+      <workItem from="1750246045254" duration="5080000" />
+      <workItem from="1750316616781" duration="1567000" />
+      <workItem from="1750326025420" duration="8000" />
+      <workItem from="1750344622916" duration="4068000" />
     </task>
     <task id="LOCAL-00001" summary="tutorial: 01-quick-start">
       <option name="closed" value="true" />
@@ -105,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749909412283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tutorial: 02-define-store">
+      <option name="closed" value="true" />
+      <created>1750002840612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750002840612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tutorial: 01-quick-start" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorial: 01-quick-start" />
+    <MESSAGE value="tutorial: 02-define-store" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorial: 02-define-store" />
   </component>
 </project>

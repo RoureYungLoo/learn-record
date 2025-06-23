@@ -6,7 +6,7 @@ import {computed, inject, ref, toValue} from "vue";
 //
 // })
 
-
+/* 组合式API setup()函数 */
 const useCountStore = defineStore('count', function () {
   const count = ref(0)
   const name = ref(genStr())
@@ -30,7 +30,7 @@ const useCountStore = defineStore('count', function () {
   })
 
   return {
-    name, count, doubleCount,user,
+    name, count, doubleCount, user,
     increment, decrement, getNewName
   }
 })

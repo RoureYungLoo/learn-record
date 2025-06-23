@@ -1,7 +1,7 @@
 import {ref, computed, defineComponent} from 'vue'
 import {defineStore, mapActions, mapState, mapStores} from 'pinia'
 
-/* 组合式API */
+/* 组合式 API setup()函数 */
 // export const useCountStore = defineStore('counter', () => {
 //     const count = ref(0)
 //

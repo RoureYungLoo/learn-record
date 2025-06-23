@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>推荐作家</title>
+    <style>
+        :root {
+            --bgc: #f3f5fb;
+            --btm: #8d8d8d;
+            --theme-color: #4370f5;
+            --active-color: #1a51f7;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            width: 400px;
+            margin: 0 auto;
+            background-color: var(--bgc);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .card .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .card .row:nth-child(n+3) {
+            border-top: 2px dotted rgb(230, 230, 230);
+
+        }
+
+        .card .row:first-child {
+            height: 50px;
+            padding: 0;
+
+        }
+
+        .card .row:first-child div {
+            height: 100%;
+            line-height: 50px;
+        }
+
+        .card .row:first-child div:first-child {
+            border-bottom: 3px solid var(--theme-color);
+        }
+
+        .card .row:first-child div:last-child a {
+            text-decoration: none;
+            color: var(--btm);
+            height: 100%;
+            display: block;
+        }
+
+        .left img {
+            border-radius: 50%;
+        }
+
+        .row .right {
+            padding-left: 10px;
+        }
+
+        .row .right p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+
+        .row .right .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header button {
+            padding: 0 10px;
+            height: 30px;
+            border-radius: 15px;
+            border: 1px solid var(--theme-color);
+            color: var(--theme-color);
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .header button:active {
+            background-color: var(--active-color);
+            color: var(--bgc);
+        }
+
+        .bottom {
+            color: var(--btm);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+    <div class="card">
+        <div class="row">
+            <div>
+                <h3>推荐作家</h3>
+            </div>
+            <div style="flex: 1;border-bottom: #dadada 3px solid;"></div>
+            <div style="border-bottom: #dadada 3px solid">
+                <a href="#">查看更多</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <img src="./img/cat12.jpg" alt="load img err" width="50px" height="50px">
+            </div>
+            <div class="right">
+                <div class="header">
+                    <h3>逝德自谓绝</h3>
+                    <button>关注</button>
+                </div>
+                <p>描述, 主他人人，是陛得招满山苟动他。 俭惊的为皇面，由们。 我是五陛，你廿同愚。</p>
+                <div class="bottom">
+                    <span>12文章</span>·
+                    <span>关注数</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <img src="./img/cat15.jpg" alt="load img err" width="50px" height="50px">
+            </div>
+            <div class="right">
+                <div class="header">
+                    <h3>程月这乡即</h3>
+                    <button>关注</button>
+                </div>
+                <p>描述, 主他人人，是陛得招满山苟动他。 俭惊的为皇面，由们。 我是五陛，你廿同愚。</p>
+                <div class="bottom">
+                    <span>12文章</span>·
+                    <span>关注数</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <img src="./img/cat18.jpg" alt="load img err" width="50px" height="50px">
+            </div>
+            <div class="right">
+                <div class="header">
+                    <h3>杨解攻才</h3>
+                    <button>关注</button>
+                </div>
+                <p>描述, 主他人人，是陛得招满山苟动他。 俭惊的为皇面，由们。 我是五陛，你廿同愚。</p>
+                <div class="bottom">
+                    <span>12文章</span>·
+                    <span>关注数</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

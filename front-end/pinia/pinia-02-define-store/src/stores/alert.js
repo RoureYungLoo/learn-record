@@ -23,11 +23,9 @@ const useAlertStore = defineStore('alert', {
     double() {
       this.msg = this.msg.repeat(2)
     },
-    reverse(){
-      this.msg=[...this.msg].reverse().join('')
+    reverse() {
+      this.msg = [...this.msg].reverse().join('')
     }
-
-
   }
 });
 

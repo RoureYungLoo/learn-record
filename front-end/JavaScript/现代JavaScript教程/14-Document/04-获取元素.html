@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>获取元素</title>
+</head>
+<body>
+<h1 id="hello">hello html</h1>
+
+<input type="text" name="" id="username">
+
+<p data-order-state="paid" data-user-addr="郑州" data-order-total-price="1000元">paid</p>
+<!--<p data-order-state="finished">paid</p>-->
+<script>
+  let h1 = document.querySelector('h1');
+  // h1.outerHTML="<h1>hello html bold 1</h1>"
+  // h1.outerHTML="<h1>hello html bold 2 </h1>"
+  // h1.outerHTML="<h1>hello html bold 3</h1>"
+  // console.log(h1);
+
+  setInterval(() => {
+    // hello.hidden = !hello.hidden
+  }, 500)
+
+
+  document.body.myData = {
+    name: 'zhengzhou',
+    schools: [
+      "河南大学",
+      "信息工程大学"
+    ],
+    info() {
+      console.log(JSON.stringify(this))
+    }
+
+  }
+
+  document.body.shoMyData = function () {
+    console.log(document.body.myData)
+  }
+
+  document.body.shoMyData()
+  document.body.myData.info()
+
+  Element.prototype.myHello = function () {
+    console.log("myHello")
+  }
+  console.log(Element.prototype);
+
+  console.log(username.attributes);
+
+  username.value=0
+  // setInterval(()=>{
+  //   username.value++
+  // },1000)
+
+
+  // 特性 => 属性
+  username.setAttribute('value', 'text');
+  // alert(username.value); // text
+
+  // 这个操作无效，属性 => 特性
+  username.value = 'newValue';
+  console.log(username.getAttribute('value')) // text（没有被更新！）
+
+  let p = document.querySelector('p');
+  console.log(p)
+  console.log(p.dataset);
+</script>
+</body>
+</html>

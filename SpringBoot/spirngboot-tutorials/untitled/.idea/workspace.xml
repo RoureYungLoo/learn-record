@@ -4,11 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f5523f0-3adb-4e73-9f88-b343b7930321" name="Changes" comment="" />
+    <list default="true" id="9f5523f0-3adb-4e73-9f88-b343b7930321" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../front-end/HTML_CSS_JS_exercise/01-推荐作家.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/JavaScript/现代JavaScript教程/14-DOM/01-DOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/JavaScript/现代JavaScript教程/14-DOM/02-DOM树.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/JavaScript/现代JavaScript教程/14-DOM/04-获取元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/axios/axios-01-quick-start/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/axios/axios-01-quick-start/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/PreferenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Preference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-03-state/src/store/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-03-state/src/store/storeId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-03-state/src/store/storeId2.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-03-state/src/store/storeId3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-03-state/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-04-getter/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-04-getter/src/store/storeUseSetup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-04-getter/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-04-getter/src/views/UserOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-04-getter/src/views/UserSetup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-04-getter/src/views/UserSetup2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/store/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/store/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/views/CounterOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/views/CounterSetup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/src/views/SubScribe.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-05-action/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/router/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/stores/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/stores/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/stores/plugins/SecretPiniaPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/stores/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/views/Counter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/views/Post.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-06-plugin/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-project-basement/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/pinia/Pina教程.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/pinia/Pina教程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/pinia/pinia-02-define-store/src/stores/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-02-define-store/src/stores/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/pinia/pinia-02-define-store/src/stores/count.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/pinia/pinia-02-define-store/src/stores/count.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,20 +94,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/Desktop/lingma-jetbrains-2.5.0.zip&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodeSpace/learn-record/SpringBoot/spirngboot-tutorials/untitled",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,6 +132,7 @@
       <workItem from="1747022178718" duration="57000" />
       <workItem from="1747022831478" duration="22000" />
       <workItem from="1747022864522" duration="3000" />
+      <workItem from="1750172953349" duration="136000" />
     </task>
     <servers />
   </component>

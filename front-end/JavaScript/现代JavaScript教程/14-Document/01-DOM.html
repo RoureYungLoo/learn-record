@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM</title>
+</head>
+<body>
+<button onclick="alert('alert')">alert</button>
+<button onclick="showWindowSize()">视窗大小</button>
+<p id="size"></p>
+<button onclick="changeBgc()">修改背景</button>
+<p id="color"></p>
+<button onclick="goBaidu()">前往百度</button>
+<script>
+  console.log(window)
+
+  function showWindowSize() {
+    let innerSize = `${window.innerWidth} X ${window.innerHeight}`
+    let outerSize = `${window.outerWidth} X ${window.outerHeight}`
+    let size = `innerSize: ${innerSize} outerSize: ${outerSize}`
+    console.log(size)
+    document.querySelector('#size').innerText = size
+  }
+
+  function changeBgc() {
+    setInterval(() => {
+      let color = getRandomColor();
+      window.document.body.style.background = color;
+      document.querySelector('#color').innerText = color
+    }, 1000)
+  }
+
+  function getRandomColor() {
+    // 生成0-255之间的随机整数
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    const toHex = (c) => c.toString(16).padStart(2, '0');
+    return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+  }
+
+  console.log(window.navigator)
+  console.log(window.location)
+
+  function goBaidu() {
+    alert(window.location.href)
+    if (confirm("前往百度?")) {
+      window.location.href = "https://www.baidu.com"
+    }
+  }
+
+</script>
+</body>
+</html>
