@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>遍历DOM</title>
+  <script>
+    function logTopNode() {
+      console.log(document.documentElement);
+      console.log(document.body); // null
+      console.log(document.head);
+    }
+
+    // logTopNode()
+
+  </script>
+</head>
+
+<body>first
+<div>div1</div>
+<div>div2</div>
+<div>div3</div>
+
+<ul>
+  <li>
+    <b>Information</b>
+  </li>
+</ul>
+
+<table>
+  <thead>
+  <tr>
+    <th>标题1</th>
+    <th>标题2</th>
+    <th>标题3</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>td1</td>
+    <td>td2</td>
+    <td>td3</td>
+  </tr>
+  <tr id="tr">
+    <td>td4</td>
+    <td id="td5">td5</td>
+    <td>td6</td>
+  </tr>
+  </tbody>
+  <tfoot>
+  <tr>
+    <td>尾部1</td>
+    <td>尾部2</td>
+    <td>尾部3</td>
+  </tr>
+  </tfoot>
+</table>
+<script>
+  function logTopNode2() {
+    console.log(document.documentElement);
+    console.log(document.body);
+    console.log(document.head);
+  }
+
+  // logTopNode2()
+
+  function logChild() {
+    let body = document.body
+    console.log(body.firstChild)
+    console.log(body.lastChild)
+    console.log(body.childNodes)
+    for (let childNode of body.childNodes) {
+      console.log(childNode)
+    }
+    console.log(Array.from(body.childNodes));
+
+  }
+
+  // logChild()
+
+  function logSibling() {
+    console.log(document.body.parentNode)
+    console.log(document.head.nextSibling)
+    console.log(document.body.previousSibling)
+  }
+
+  // logSibling()
+
+  function logTable() {
+    let table = document.querySelector('table');
+    console.log(table.rows)
+    console.log(table.tHead)
+    console.log(table.tFoot)
+    console.log(table.tBodies)
+  }
+
+  // logTable()
+
+  function logChildElement() {
+    let body = document.body
+    console.log(body.children)
+    console.log(body.firstElementChild)
+    console.log(body.lastElementChild)
+    console.log(body.childElementCount)
+  }
+
+  // logChildElement()
+
+  function showTableInfo() {
+    const tr = document.querySelector('#tr');
+    const td5 = document.querySelector('#td5');
+
+    console.log(`第${tr.rowIndex+1}行`);
+    console.log(`第${tr.sectionRowIndex+1}列`);
+    console.log(tr.cells);
+  }
+
+  showTableInfo()
+</script>
+last
+</body>
+
+</html>

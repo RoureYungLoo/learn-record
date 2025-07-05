@@ -1,4 +1,5 @@
-export default
+import {createStore} from "vuex";
+
 const store = createStore({
   state() {
     return {
@@ -11,3 +12,4 @@ const store = createStore({
     }
   }
 })
+export default store

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9809bc41-a020-4948-8584-a295931e8589" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/OODPrinciple/CRP/CRP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/OODPrinciple/DI/DI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/OODPrinciple/ISP/ISP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/OODPrinciple/LKP/LKP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/OODPrinciple/LSP/LSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/OODPrinciple/OCP/OCP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/OODPrinciple/SRP/SRP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/behavioral.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/account.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test1/MovieTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test2/AbstractStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test2/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test2/ConcreteStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test2/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test3/AbstractDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test3/ChildDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test3/MovieTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test3/StudentDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/strategy_pattern/test3/VipDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test1/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test1/ConcreteClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test2/AbstractBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test2/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test2/CCBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test2/CurrentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test2/PropertiesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/behavioral/src/template_method_pattern/test2/SavingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/creational/creational.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/five/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/five/ConcreteComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/five/ConcreteDecoratorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/five/ConcreteDecoratorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/five/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/four/Approver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/four/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/four/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/four/Deleter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/four/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/four/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/four/PurchaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/BlackBorderListBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/BlackBorderTextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/BlackBorderWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/ListBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/ScrollBarBlackBorderListBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/ScrollBarBlackBorderTextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/ScrollBarBlackBorderWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/ScrollBarListBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/ScrollBarTextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/ScrollBarWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/one/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/three/BlackBorderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/three/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/three/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/three/ComponentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/three/ListBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/three/ScrollBarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/three/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/three/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/two/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/two/ConcreteComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/two/ConcreteDecoratorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/two/ConcreteDecoratorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/src/com/xxx/structural/decorator_pattern/two/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DesignPattern/structural/structural.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/AxiosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/Vuex4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-01-quick-start/src/store/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/src/store/count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-02-state/vue.esm-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/src/store/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/src/views/Todo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-03-getter/vue.esm-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/vue.esm-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/java/com/xxx/entity/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/java/com/xxx/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/java/com/xxx/mapper/BrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/java/com/xxx/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/resources/com/xxx/mapper/BrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/resources/com/xxx/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/main/resources/tb_brand.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/test/java/BrandMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/src/test/java/com/xxx/mapper/UserMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/com/xxx/entity/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/com/xxx/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/com/xxx/mapper/BrandMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/com/xxx/mapper/BrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/com/xxx/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/com/xxx/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/classes/tb_brand.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/test-classes/BrandMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-base/target/test-classes/com/xxx/mapper/UserMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/src/main/java/com/xxx/MybatisDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/src/main/java/com/xxx/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/src/main/java/com/xxx/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/src/main/java/com/xxx/pojo/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/src/main/resources/com/xxx/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/src/main/resources/mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/classes/com/xxx/MybatisDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/classes/com/xxx/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/classes/com/xxx/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/classes/com/xxx/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/classes/com/xxx/pojo/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/classes/mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/mybatis-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/axios/axios-demo/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Program Files\apache-maven-3.9.9" />
+        <option name="localRepository" value="D:\m2" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ydpZ9ZcsBjOYg1pqif8pIJi066" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodeSpace/learn-record/MyBatis/mybatis-springboot-tutorials/mybatis-01-helloworld",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.luruoyang" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9809bc41-a020-4948-8584-a295931e8589" name="Changes" comment="" />
+      <created>1746883143728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746883143728</updated>
+      <workItem from="1746883144754" duration="616000" />
+      <workItem from="1750174360033" duration="813000" />
+      <workItem from="1750778470289" duration="429000" />
+      <workItem from="1750811389529" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

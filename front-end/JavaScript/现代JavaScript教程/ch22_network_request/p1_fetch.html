@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fetch</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <button class="btn btn-primary" onclick="loadImg3()">loadImg</button>
+  <img id="img" width="300"/>
+</div>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script>
+  let url = "https://v2.xxapi.cn/api/heisi"
+  let loadImg = async function () {
+    let res = await fetch(url)
+    let json = await res.json()
+    console.log(json)
+  }
+
+  loadImg()
+
+  let loadImg2 = function () {
+    fetch(url)
+      .then(res => {
+        console.log(res.headers.get('content-type'))
+        return res.blob()
+      })
+      .then(blob => {
+        const imgUrl = URL.createObjectURL(blob);
+        img.src = imgUrl
+      })
+  }
+
+  let loadImg3 = function () {
+    fetch(url)
+      .then(res => {
+        console.log(res.headers.get('content-type'))
+        return res.json()
+      })
+      .then(json => {
+        console.log(json)
+        img.src = json.data
+      })
+  }
+
+  let loadImg4 = function (url) {
+    fetch(url)
+      .then((res) => {
+        res.headers.entries()
+        return res.blob()
+      })
+      .then(blob => {
+        let imgUrl = URL.createObjectURL(blob);
+        img.src = imgUrl
+        // setTimeout(img.style.display = "none", 2000)
+      })
+  }
+  loadImg4(url+"?return=302")
+</script>
+</body>
+</html>

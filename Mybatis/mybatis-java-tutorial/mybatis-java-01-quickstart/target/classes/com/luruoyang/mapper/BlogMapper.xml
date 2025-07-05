@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luruoyang.mapper.BlogMapper">
+    <!-- 通过XML定义SQL语句 -->
+    <select id="selectBlog" resultType="com.luruoyang.entity.Blog">
+        select *
+        from tb_blog
+        where id = #{blogId}
+    </select>
+</mapper>

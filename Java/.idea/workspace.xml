@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf00bb3e-ec81-47b3-9a21-5e036a4819c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java-exception/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-exception/src/main/java/com/luruoyang/JavaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/java/com/luruoyang/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/java/com/luruoyang/JdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/java/com/luruoyang/JdbcTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/java/com/luruoyang/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/java/com/luruoyang/JdbcUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-jdbc/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/HTML_CSS_JS_exercise/01-推荐作家.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/JavaScript/现代JavaScript教程/14-Document/01-DOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/JavaScript/现代JavaScript教程/14-Document/02-DOM树.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/JavaScript/现代JavaScript教程/14-Document/04-获取元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/JavaScript/现代JavaScript教程/14-Document/07-修改文档.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-00-http-request/src/request/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-00-http-request/src/router/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-00-http-request/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-00-http-request/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-00-http-request/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-01-quick-start/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-01-quick-start/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/PreferenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Preference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-03-state/src/store/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-03-state/src/store/storeId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-03-state/src/store/storeId2.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-03-state/src/store/storeId3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-03-state/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-04-getter/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-04-getter/src/store/storeUseSetup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-04-getter/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-04-getter/src/views/UserOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-04-getter/src/views/UserSetup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-04-getter/src/views/UserSetup2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/store/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/store/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/views/CounterOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/views/CounterSetup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/src/views/SubScribe.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-05-action/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/router/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/stores/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/stores/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/stores/plugins/SecretPiniaPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/stores/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/stores/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/views/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/views/Counter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/views/Post.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/views/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-06-plugin/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-project-basement/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/CRP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/src/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/src/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/src/OracleDBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/src/refactor/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/src/refactor/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/src/refactor/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/src/refactor/MySQLDBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/CRP/src/refactor/OracleDBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/DI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/ExcelDataConvertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/TXTDataConvertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/refactor/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/refactor/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/refactor/DataConvertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/refactor/ExcelDataConvertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/refactor/TXTDataConvertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/DI/src/refactor/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/ISP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/ConcreteClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/CustomerDataDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/refactor/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/refactor/ChartHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/refactor/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/refactor/ConcreteClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/refactor/DataHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/refactor/ReportHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/ISP/src/refactor/XMLTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LKP/LKP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/LSP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/out/production/LSP/CommonCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/out/production/LSP/EmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/out/production/LSP/VIPCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/out/production/LSP/refactor/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/out/production/LSP/refactor/CommonCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/out/production/LSP/refactor/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/out/production/LSP/refactor/EmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/out/production/LSP/refactor/VIPCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/src/CommonCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/src/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/src/VIPCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/src/refactor/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/src/refactor/CommonCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/src/refactor/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/src/refactor/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/LSP/src/refactor/VIPCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/OCP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/BarChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/ChartDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/LineChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/PieChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/refactor/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/refactor/chart/AbstractChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/refactor/chart/BarChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/refactor/chart/ChartDisplay2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/out/production/OCP/refactor/chart/PieChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/BarChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/ChartDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/LineChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/PieChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/refactor/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/refactor/chart/AbstractChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/refactor/chart/BarChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/refactor/chart/ChartDisplay2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/OCP/src/refactor/chart/PieChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/SRP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/out/production/SRP/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/out/production/SRP/CustomerDataChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/out/production/SRP/refactor/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/out/production/SRP/refactor/CustomerDataChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/out/production/SRP/refactor/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/src/CustomerDataChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/src/refactor/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/src/refactor/CustomerDataChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/SRP/src/refactor/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/CRP/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/CRP/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/CRP/OracleDBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/CRP/refactor/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/CRP/refactor/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/CRP/refactor/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/CRP/refactor/OracleDBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/ExcelDataConvertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/TXTDataConvertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/refactor/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/refactor/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/refactor/DataConvertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/refactor/ExcelDataConvertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/refactor/TXTDataConvertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/DI/refactor/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/ConcreteClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/CustomerDataDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/refactor/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/refactor/ChartHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/refactor/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/refactor/ConcreteClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/refactor/DataHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/refactor/ReportHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/OODPrinciple/out/production/ISP/refactor/XMLTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/behavioral/behavioral.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/creational.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level1/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level1/Chart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProductA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProductB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/Chart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/ChartFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/HistogramChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/LineChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/PieChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/out/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/XMLUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/AbstractProductA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/AbstractProductB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/ConcreteFactory1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/ConcreteFactory2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/ConcreteProductA1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/ConcreteProductA2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/ConcreteProductB1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/ConcreteProductB2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/ButtonFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/ComboBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/ComboFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringButtonFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringComboBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringComboFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringTextFieldFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringTextFiled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerButtonFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerComboBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerComboFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerTextField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerTextFieldFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/TextField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/TextFieldFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/v1Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/ComboBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SkinFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SpringButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SpringComboBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SpringSkinFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SpringTextField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SummerButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SummerComboBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SummerSkinFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SummerTextField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/TextField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/config.xml.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/v2Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/one/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/one/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/one/ConcreteBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/one/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/one/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/three/ActorBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/three/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/three/DevilBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/two/Actor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/two/ActorBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/two/ActorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/two/AngelBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/two/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/two/DevilBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/builder_pattern/two/HeroBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/ConcreteFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/ConcreteProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/exercise/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/exercise/GIFLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/exercise/GIFLoaderFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/exercise/ImgLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/exercise/ImgLoaderFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/exercise/JPGLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/exercise/JPGLoaderFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v1/DataBaseLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v1/FileLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v1/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v1/LoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v1/NetLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/DataBaseLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/DataBaseLoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/FileLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/FileLoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/LoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/NetLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/NetLoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v2/XMLUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v3/DataBaseLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v3/DataBaseLoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v3/FileLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v3/FileLoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v3/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v3/LoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/factory_method_pattern/logger/v3/XMLUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/ConcretePrototypeA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/ConcretePrototypeB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/ConcretePrototypeA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/ConcretePrototypeB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/PrototypeManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/doc/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/doc/FAR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/doc/OfficialDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/doc/PrototypeManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/four/doc/SRS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/three/Attachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/three/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/three/WeeklyLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/two/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/prototype_pattern/two/WeeklyLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/AbstractProductA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/AbstractProductB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/ConcreteFactory1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/ConcreteFactory2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/ConcreteProductA1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/ConcreteProductA2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/ConcreteProductB1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/ConcreteProductB2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/ButtonFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/ComboBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/ComboFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringButtonFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringComboBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringComboFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringTextFieldFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SpringTextFiled.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerButtonFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerComboBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerComboFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/SummerTextFieldFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/TextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/TextFieldFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v1/v1Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/ComboBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SkinFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SpringButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SpringComboBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SpringSkinFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SpringTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SummerButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SummerComboBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SummerSkinFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/SummerTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/TextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/config.xml.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/abstract_factory_pattern/gui_skins_v2/v2Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/one/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/one/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/one/ConcreteBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/one/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/one/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/three/ActorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/three/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/three/DevilBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/two/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/two/ActorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/two/ActorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/two/AngelBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/two/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/two/DevilBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/builder_pattern/two/HeroBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/ConcreteFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/ConcreteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/exercise/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/exercise/GIFLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/exercise/GIFLoaderFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/exercise/ImgLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/exercise/ImgLoaderFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/exercise/JPGLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/exercise/JPGLoaderFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v1/DataBaseLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v1/FileLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v1/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v1/LoggerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v1/NetLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/DataBaseLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/DataBaseLoggerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/FileLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/FileLoggerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/LoggerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/NetLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/NetLoggerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v2/XMLUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v3/DataBaseLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v3/DataBaseLoggerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v3/FileLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v3/FileLoggerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v3/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v3/LoggerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/factory_method_pattern/logger/v3/XMLUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/ConcretePrototypeA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/ConcretePrototypeB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/ConcretePrototypeA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/ConcretePrototypeB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/PrototypeManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/doc/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/doc/FAR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/doc/OfficialDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/doc/PrototypeManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/four/doc/SRS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/three/Attachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/three/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/three/WeeklyLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/two/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/prototype_pattern/two/WeeklyLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/exercise/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/exercise/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/exercise/exception/UnSupportedShapeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/exercise/shape/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/exercise/shape/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/exercise/shape/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/exercise/shape/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level1/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level1/Chart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProductA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProductB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/simplify/ConcreteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/simplify/ConcreteProductA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/simplify/ConcreteProductB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level2/simplify/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/Chart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/ChartFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/HistogramChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/LineChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/PieChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/simple_factory_pattern/level3/XMLUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/singleton_pattern/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/singleton_pattern/LoadBalancer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/singleton_pattern/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/singleton_pattern/TaskManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/singleton_pattern/eager/EagerSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/singleton_pattern/iodh/Singleton$HolderClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/singleton_pattern/iodh/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/creational/singleton_pattern/lazy/LazySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/one/Adaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/one/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/one/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/one/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/two/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/two/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/two/OperationAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/two/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/creational/com/design_pattern/structural/adapter_pattern/two/ScoreOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/randolflu/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/randolflu/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/randolflu/TimeMethodInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/AbstractServiceClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/ConcreteServiceClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/ServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/one/Adaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/one/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/one/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/one/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/three/Adaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/three/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/three/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/three/double_adapter/Adaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/three/double_adapter/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/three/double_adapter/ConcreteAdaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/three/double_adapter/ConcreteTarget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/three/double_adapter/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/two/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/two/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/two/OperationAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/two/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/adapter_pattern/two/ScoreOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/BMPImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/GIFImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/JPGImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/PNGImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/linux/BMPLinuxImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/linux/GIFLinuxImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/linux/JPGLinuxImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/linux/PNGLinuxImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/unix/BMPUnixImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/unix/GIFUnixImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/unix/JPGUnixImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/unix/PNGUnixImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/windows/BMPWindowsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/windows/GIFWindowsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/windows/JPGWindowsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/one/windows/PNGWindowsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/ImageImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/image/BMPImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/image/GIFImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/image/JPGImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/image/PNGImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/os/LinuxImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/os/UnixImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/three/os/WindowsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/two/Abstraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/two/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/two/ConcreteImplementorA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/two/ConcreteImplementorB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/two/Implementor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/bridge_pattern/two/RefinedAbstraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/Facade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/SubSystemA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/SubSystemB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/one/SubSystemC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/AbstractEncryptFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/CipherMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/Client3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/EncryptFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/FileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/FileWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/NewCipherMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/NewEncryptFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/encrypt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/three/plain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/CipherMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/ClientTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/EncryptFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/FileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/FileWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/des.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/src.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/facade_pattern/two/src.txt.backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/LogMethodInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Fireable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/ProxyTankInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/dynamic_proxy2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/Proxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/RealSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/one/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/DemoStaticProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_extends/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_extends/ProxyTank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_extends/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Fireable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/ProxyTank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/static_proxy/static_proxt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/AccessValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/MsgSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/NewProxySearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/ProxySearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/RealSearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/structural/proxy_pattern/two/Searcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/com/xxx/utils/XMLUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/base/Test.java/production/structural/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/exercise/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/exercise/ShapeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/exercise/exception/UnSupportedShapeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/exercise/shape/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/exercise/shape/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/exercise/shape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/exercise/shape/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level1/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level1/Chart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProductA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/ConcreteProductB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/simplify/ConcreteProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/simplify/ConcreteProductA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/simplify/ConcreteProductB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level2/simplify/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level3/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level3/Chart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level3/ChartFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level3/HistogramChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level3/LineChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level3/PieChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/simple_factory_pattern/level3/XMLUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/singleton_pattern/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/singleton_pattern/LoadBalancer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/singleton_pattern/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/singleton_pattern/TaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/singleton_pattern/eager/EagerSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/singleton_pattern/iodh/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/creational/singleton_pattern/lazy/LazySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/creational/src/com/design_pattern/utils/XMLUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/AbstractServiceClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/ConcreteServiceClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/ServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/one/Adaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/one/Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/one/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/one/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/three/Adaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/three/Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/three/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/three/double_adapter/Adaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/three/double_adapter/Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/three/double_adapter/ConcreteAdaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/three/double_adapter/ConcreteTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/three/double_adapter/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/two/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/two/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/two/OperationAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/two/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/adapter_pattern/two/ScoreOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/BMPImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/GIFImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/JPGImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/PNGImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/linux/BMPLinuxImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/linux/GIFLinuxImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/linux/JPGLinuxImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/linux/PNGLinuxImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/unix/BMPUnixImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/unix/GIFUnixImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/unix/JPGUnixImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/unix/PNGUnixImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/windows/BMPWindowsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/windows/GIFWindowsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/windows/JPGWindowsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/one/windows/PNGWindowsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/ImageImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/image/BMPImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/image/GIFImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/image/JPGImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/image/PNGImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/os/LinuxImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/os/UnixImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/three/os/WindowsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/two/Abstraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/two/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/two/ConcreteImplementorA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/two/ConcreteImplementorB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/two/Implementor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/bridge_pattern/two/RefinedAbstraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/Facade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/SubSystemA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/SubSystemB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/one/SubSystemC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/AbstractEncryptFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/CipherMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/Client3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/EncryptFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/FileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/NewCipherMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/NewEncryptFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/encrypt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/three/plain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/CipherMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/ClientTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/EncryptFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/FileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/des.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/src.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/facade_pattern/two/src.txt.backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/LogMethodInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/cglib/Tank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Fireable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/ProxyTankInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/dynamic_proxy/jdk/Tank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Proxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/RealSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/one/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/DemoStaticProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_extends/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_extends/ProxyTank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_extends/Tank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Fireable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/ProxyTank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/by_implementation/Tank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/static_proxy/static_proxt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/AccessValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/MsgSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/NewProxySearcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/ProxySearcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/RealSearcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/structural/proxy_pattern/two/Searcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/com/xxx/utils/XMLUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/src/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structural/structural.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-java/logging/tinylog-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-java/logging/tinylog-demo/application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-java/logging/tinylog-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-java/logging/tinylog-demo/src/main/java/com/xxx/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-java/logging/tinylog-demo/src/main/resources/tinylog.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-java/logging/tinylog-demo/target/classes/com/xxx/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-java/logging/tinylog-demo/target/classes/tinylog.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collection/src/com/randolflu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collection/src/com/randolflu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/spirngboot-tutorials/untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/spirngboot-tutorials/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/AxiosDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/AxiosDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/axios/axios-demo/src/main/java/com/xxx/axiosdemo/pojo/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/pinia/Pina教程.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/pinia/Pina教程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/pinia/pinia-01-quick-start/src/stores/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-01-quick-start/src/stores/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/pinia/pinia-02-define-store/src/stores/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-02-define-store/src/stores/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/pinia/pinia-02-define-store/src/stores/count.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/pinia/pinia-02-define-store/src/stores/count.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk_17.0.12/lib/src.zip!/java.base/java/lang/Class.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Program Files\apache-maven-3.9.9" />
+        <option name="localRepository" value="D:\m2" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ylNiy7JB8zHhREX7RNEmzKRilA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JavaException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JdbcTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JdbcTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JdbcUtilsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTest.testInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTest.testSelect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTest.testUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTest2.login.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTest2.testDelete.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTest2.testInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTest2.testInsert2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeSpace/learn-record/Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.and.region&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.luruoyang" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luruoyang" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JdbcUtilsTest">
+    <configuration name="JdbcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.JdbcTest" />
+      <module name="java-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.JdbcTest2" />
+      <module name="java-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcUtilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.JdbcUtilsTest" />
+      <module name="java-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTest2.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luruoyang" />
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.JdbcTest2" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTest2.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luruoyang" />
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.JdbcTest2" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JdbcUtilsTest" />
+        <item itemvalue="Application.JdbcTest" />
+        <item itemvalue="Application.JdbcTest2" />
+        <item itemvalue="JUnit.JdbcTest2.testDelete" />
+        <item itemvalue="JUnit.JdbcTest2.login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf00bb3e-ec81-47b3-9a21-5e036a4819c7" name="Changes" comment="" />
+      <created>1746883143728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746883143728</updated>
+      <workItem from="1746883144754" duration="616000" />
+      <workItem from="1750405332050" duration="1486000" />
+      <workItem from="1750486902968" duration="6647000" />
+      <workItem from="1750494728514" duration="278000" />
+      <workItem from="1750495015865" duration="65000" />
+      <workItem from="1750495091733" duration="8096000" />
+      <workItem from="1750521272077" duration="113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

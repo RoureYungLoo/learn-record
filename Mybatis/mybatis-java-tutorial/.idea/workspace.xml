@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb6ee061-d9b1-4248-a86f-3103e36f0567" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatis-java-01-quickstart/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-02-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/java/com/luruoyang/entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/java/com/luruoyang/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/java/com/luruoyang/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/java/com/luruoyang/mapper/AuthorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/java/com/luruoyang/mapper/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/java/com/luruoyang/mapper/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/java/com/luruoyang/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/resources/com/luruoyang/mapper/AuthorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/resources/com/luruoyang/mapper/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/resources/com/luruoyang/mapper/PersonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/resources/com/luruoyang/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/test/java/com/luruoyang/AuthorMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/test/java/com/luruoyang/PersonMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-java-03-mapper/src/test/java/com/luruoyang/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/src/store/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/src/views/Counter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/src/views/Counteroption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/vue.esm-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/src/views/AboutVersion2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/src/views/AboutVersion3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-06-module/vue.esm-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-java-01-quickstart/sql/quickstart.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-java-01-quickstart/sql/quickstart.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-java-01-quickstart/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-java-01-quickstart/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/vuex4/vuex-04-mutation/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-04-mutation/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-05-action/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/vuex4/vuex-project-template/src/store/store.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Mapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk_17.0.12/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../m2/org/mybatis/mybatis/3.5.16/mybatis-3.5.16.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../m2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar!/lombok/NonNull.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../m2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar!/lombok/extern/slf4j/Slf4j.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Program Files\apache-maven-3.9.9" />
+        <option name="localRepository" value="D:\m2" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2yyfGXQh7jhOYM4eGEz77xwFi7K" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test01.executor": "Run",
+    "JUnit.AuthorMapperTest.testDeleteAuthor.executor": "Run",
+    "JUnit.AuthorMapperTest.testFindByColumn.executor": "Run",
+    "JUnit.AuthorMapperTest.testFindByColumnWithResultTypeMap.executor": "Run",
+    "JUnit.AuthorMapperTest.testInsertAuthorList.executor": "Run",
+    "JUnit.AuthorMapperTest.testSelectAuthorById.executor": "Run",
+    "JUnit.AuthorMapperTest.testSelectById.executor": "Run",
+    "JUnit.AuthorMapperTest.testSqlFragsTableName.executor": "Run",
+    "JUnit.AuthorMapperTest.testUpdateAuthor.executor": "Run",
+    "JUnit.PersonMapperTest.testInsertAuthor.executor": "Run",
+    "JUnit.PersonMapperTest.testSelect.executor": "Run",
+    "JUnit.UserMapperTest.testFindUserById.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodeSpace/learn-record/MyBatis/mybatis-java-tutorial/mybatis-java-03-mapper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Code Search",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.luruoyang.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeSpace\learn-record\MyBatis\mybatis-java-tutorial\mybatis-java-03-mapper\src\main\resources\com\luruoyang\mapper" />
+      <recent name="D:\CodeSpace\learn-record\MyBatis\mybatis-java-tutorial\mybatis-java-03-mapper\src\main\resources" />
+      <recent name="D:\CodeSpace\learn-record\MyBatis\mybatis-java-tutorial\mybatis-java-01-quickstart\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeSpace\learn-record\MyBatis\mybatis-java-tutorial\mybatis-java-01-quickstart\src\main\resources\com\luruoyang\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserMapperTest.testFindUserById">
+    <configuration name="AuthorMapperTest.testFindByColumn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-java-03-mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luruoyang" />
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.AuthorMapperTest" />
+      <option name="METHOD_NAME" value="testFindByColumn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorMapperTest.testFindByColumnWithResultTypeMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-java-03-mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luruoyang" />
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.AuthorMapperTest" />
+      <option name="METHOD_NAME" value="testFindByColumnWithResultTypeMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorMapperTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-java-03-mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luruoyang" />
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.AuthorMapperTest" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorMapperTest.testSqlFragsTableName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-java-03-mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luruoyang" />
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.AuthorMapperTest" />
+      <option name="METHOD_NAME" value="testSqlFragsTableName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testFindUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-java-03-mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luruoyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luruoyang" />
+      <option name="MAIN_CLASS_NAME" value="com.luruoyang.UserMapperTest" />
+      <option name="METHOD_NAME" value="testFindUserById(java.lang.Long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMapperTest.testFindUserById" />
+        <item itemvalue="JUnit.AuthorMapperTest.testFindByColumn" />
+        <item itemvalue="JUnit.AuthorMapperTest.testFindByColumnWithResultTypeMap" />
+        <item itemvalue="JUnit.AuthorMapperTest.testSelectById" />
+        <item itemvalue="JUnit.AuthorMapperTest.testSqlFragsTableName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb6ee061-d9b1-4248-a86f-3103e36f0567" name="Changes" comment="" />
+      <created>1746883143728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746883143728</updated>
+      <workItem from="1746883144754" duration="616000" />
+      <workItem from="1750811639536" duration="704000" />
+      <workItem from="1750819424863" duration="342000" />
+      <workItem from="1750868087479" duration="4238000" />
+      <workItem from="1750950634766" duration="4494000" />
+      <workItem from="1750984011672" duration="1407000" />
+      <workItem from="1751040402005" duration="5393000" />
+      <workItem from="1751128650374" duration="100000" />
+      <workItem from="1751128752267" duration="40000" />
+      <workItem from="1751128804794" duration="5728000" />
+      <workItem from="1751134546577" duration="62000" />
+      <workItem from="1751134616452" duration="1369000" />
+      <workItem from="1751285249516" duration="1928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-java-01-quickstart/src/main/java/com/luruoyang/Test01.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

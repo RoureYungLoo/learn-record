@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3908827c-06ec-45d8-b178-f401d12c0f22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CRP/src/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRP/src/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRP/src/OracleDBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRP/src/refactor/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRP/src/refactor/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRP/src/refactor/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRP/src/refactor/MySQLDBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRP/src/refactor/OracleDBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/ExcelDataConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/TXTDataConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/refactor/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/refactor/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/refactor/DataConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/refactor/ExcelDataConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/refactor/TXTDataConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DI/src/refactor/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/ConcreteClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/CustomerDataDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/refactor/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/refactor/ChartHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/refactor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/refactor/ConcreteClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/refactor/DataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/refactor/ReportHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISP/src/refactor/XMLTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/out/production/LSP/CommonCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/out/production/LSP/EmailSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/out/production/LSP/VIPCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/out/production/LSP/refactor/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/out/production/LSP/refactor/CommonCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/out/production/LSP/refactor/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/out/production/LSP/refactor/EmailSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/out/production/LSP/refactor/VIPCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/src/CommonCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/src/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/src/VIPCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/src/refactor/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/src/refactor/CommonCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/src/refactor/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/src/refactor/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSP/src/refactor/VIPCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/BarChart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/ChartDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/LineChart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/PieChart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/refactor/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/refactor/chart/AbstractChart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/refactor/chart/BarChart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/refactor/chart/ChartDisplay2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/out/production/OCP/refactor/chart/PieChart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/src/refactor/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/src/refactor/chart/AbstractChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/src/refactor/chart/BarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/src/refactor/chart/ChartDisplay2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCP/src/refactor/chart/PieChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DI/CustomerDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DI/ExcelDataConvertor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DI/TXTDataConvertor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DI/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ISP/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ISP/ConcreteClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ISP/CustomerDataDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ISP/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/Sentinel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/Sentinel/src/main/java/MyDegradeRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/Sentinel/src/main/java/MyFlowRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/Sentinel/src/main/java/MyRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/Sentinel/src/main/java/SentinelHelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/Sentinel/src/main/resources/sentinel.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/Sentinel/target/classes/sentinel.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/rocketmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/rocketmq/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/rocketmq/src/main/java/org/example/ProducerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/rocketmq/src/main/java/org/example/PushConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Middleware/rocketmq/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/controller/open/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/common/constant/ApiRouterConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/common/constant/CacheConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/common/constant/CommonConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/common/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/common/exception/CommonExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/common/req/PageReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/common/resp/PageRespDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/common/resp/RestResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/config/CacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/config/CorsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/config/ESConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/core/constant/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/dao/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/dao/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/dao/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/java/com/randolflu/mynovel/dao/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/templates/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/templates/entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/templates/entity.kt.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/templates/entity.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/templates/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/templates/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/main/resources/templates/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/mynovel/src/test/java/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/rocketmq/spring.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/rocketmq/src/main/java/com/example/rocketmq/controller/RocketMQController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/rocketmq/src/main/java/com/example/rocketmq/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/rocketmq/src/main/java/com/example/rocketmq/service/MQConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/rocketmq/src/main/java/com/example/rocketmq/service/MQProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringBoot/rocketmq/src/main/java/com/example/rocketmq/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/sentinel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/sentinel/sentinel01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/sentinel/sentinel01/src/main/java/com/xxx/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/sentinel/sentinel01/src/main/java/com/xxx/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/sentinel/sentinel01/src/main/java/com/xxx/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/sentinel/sentinel01/src/main/java/com/xxx/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/sentinel/sentinel01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Consumer/src/main/java/com/example/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Consumer/src/main/java/com/example/consumer/client/ProviderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Consumer/src/main/java/com/example/consumer/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Consumer/src/test/java/com/example/consumer/ConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/HELP.assets/image-20240918152117448.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/HELP.assets/image-20240918152230876.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/HELP.assets/image-20240918152348435.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/HELP.assets/image-20240918152359196.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Producer/src/main/java/com/example/ProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Producer/src/main/java/com/example/controller/ProducerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/Producer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/clientA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/clientA/src/main/java/com/example/ClientAApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/clientA/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/clientA/src/test/java/com/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringCloudAlibaba/tutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCP/src/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OCP/src/BarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCP/src/ChartDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/OCP/src/ChartDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCP/src/LineChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OCP/src/LineChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCP/src/PieChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OCP/src/PieChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRP/src/CustomerDataChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/SRP/src/CustomerDataChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRP/src/refactor/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/SRP/src/refactor/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRP/src/refactor/CustomerDataChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/SRP/src/refactor/CustomerDataChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRP/src/refactor/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/SRP/src/refactor/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java8-source/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java8-source/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java8-source/src/sun/awt/UNIXToolkit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java8-source/src/sun/awt/UNIXToolkit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java8-source/src/sun/font/FontConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java8-source/src/sun/font/FontConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/Springboot01Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/Springboot01Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/controller/SimpleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/controller/SimpleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/exception/BookIdMismatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/exception/BookIdMismatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/exception/BookNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/exception/BookNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/exception/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/exception/RestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/java/com/xxx/springboot01/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/test/java/com/xxx/springboot01/SpringBootBootstrapLiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/test/java/com/xxx/springboot01/SpringBootBootstrapLiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/test/java/com/xxx/springboot01/Springboot01ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/baeldung-tutorial/springboot01/src/test/java/com/xxx/springboot01/Springboot01ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/constants/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/constants/Msg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/controller/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/controller/FileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/java/com/randolflu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/constants/Msg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/constants/Msg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/controller/FileUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/controller/FileUpload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/interceptors/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/interceptors/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/mapper/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/pojo/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/pojo/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/pojo/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event/target/classes/com/randolflu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/big-event_front/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/cainiaojc-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/cainiaojc-tutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/cainiaojc-tutorial/src/main/java/com/xxx/cainiaojctutorial/CainiaojcTutorialApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/cainiaojc-tutorial/src/main/java/com/xxx/cainiaojctutorial/CainiaojcTutorialApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/cainiaojc-tutorial/src/test/java/com/xxx/cainiaojctutorial/CainiaojcTutorialApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringBoot/cainiaojc-tutorial/src/test/java/com/xxx/cainiaojctutorial/CainiaojcTutorialApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/Vue3/17-组件props/src/components/ComponentA.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/Vue3/17-组件props/src/components/ComponentA.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../Program Files/apache-maven-3.9.9" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2mNVyh9cbKA4BoTxLGDf965JfYO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ISP/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="refactor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App (2)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="refactor.App" />
+      <module name="ISP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="refactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="refactor.App" />
+      <module name="CRP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="refactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="refactor.App" />
+      <module name="DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="refactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="ISP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="DI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3908827c-06ec-45d8-b178-f401d12c0f22" name="Changes" comment="" />
+      <created>1726917276816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726917276816</updated>
+      <workItem from="1726917278243" duration="5681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CRP/src/refactor/OracleDBUtil.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

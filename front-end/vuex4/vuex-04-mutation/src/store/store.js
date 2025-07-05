@@ -15,6 +15,7 @@ const store = createStore({
   },
   /* commit mutation, store.commit('mutationName') */
   /*  mutation 必须是同步函数, 否则会导致devtools出现幻觉 */
+  /* mutation 都是同步事务 */
   mutations: {
     increment(state) {
       state.count++
