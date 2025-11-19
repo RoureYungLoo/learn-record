@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-boot-05-actuator
+management:
+  endpoints:
+    enabled-by-default: true # 开启所有 endpoints
+    web:
+      exposure:
+        include: beans,env,health,info,metrics # 开启这几个endpoints, 可以使用通配符*
+        exclude: caches,flyway # 关闭这几个endpoints, 可以使用通配符*
+    jmx:
+      exposure:
+        include: beans,info,metrics # 默认值为通配符*
+        exclude: caches,env # 默认值为空
+  endpoint:
+    health:
+      enabled: true # 开启 health endpoint
