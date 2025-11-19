@@ -277,4 +277,58 @@ alter table tb_test1
 alter table tb_test1
     drop column birth;
 
+select *
+from tb_student;
 -- 实用SQL语句
+
+replace into tb_student(id, class_id, name, gender, score) VALUE
+    (2, 2, '李四4', '1', 89);
+
+replace into tb_student(id, class_id, name, gender, score)
+values (2, 2, '李四4', '1', 89),
+       (3, 2, '王五5', '1', 89);
+
+insert into tb_student(id, class_id, name, gender, score)
+values (4, 2, '李四4', '1', 89)
+on duplicate key update name  = '赵六',
+                        gender='2',
+                        score = 60;
+select *
+from tb_student;
+insert ignore into tb_student
+values (5, 2, '孙五', '2', 78);
+
+-- create table select
+create table tb_student_bk
+select *
+from tb_student s
+where s.id >= 2;
+
+select *
+from tb_student_bk;
+
+drop table if exists statistics;
+create table if not exists statistics
+(
+    id       bigint not null auto_increment,
+    class_id bigint not null,
+    average  double not null,
+    primary key (id)
+);
+
+insert into statistics (class_id, average)
+select class_id, avg(score)
+from tb_student
+group by class_id;
+
+select *
+from statistics;
+
+create index idx_class_id on tb_student (id);
+
+explain
+select *
+from tb_student
+         force index (idx_class_id)
+where class_id = 1
+order by id desc;
