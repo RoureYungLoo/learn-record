@@ -1150,18 +1150,20 @@ select *
 from person p
          left join tb_order o on p.id = o.person_id;
 -- VIEW 视图
-
+-- 创建视图
 create view view_person_order as
 select p.id as pid,
        p.*
 from person p
 where p.id > 2025111221041002;
-
+-- 查询所有
 select *
 from view_person_order;
+-- 删除视图
 drop view if exists view_person_order;
 
--- 连接表可以创建视图吗
+-- 连接表可以创建视图吗[可以]
+-- 创建视图
 create view view_person_left_join_order as
 select p.id,
        p.first_name,
@@ -1177,10 +1179,12 @@ from person p
          left join tb_order o on p.id = o.person_id
 where p.id >= 2025111221041002;
 
+-- 查询所有
 select *
 from view_person_left_join_order;
 
-alter view view_person_left_join_order as
+-- 修改视图
+    alter view view_person_left_join_order as
     select p.id,
            p.first_name,
            p.last_name,
@@ -1195,84 +1199,98 @@ alter view view_person_left_join_order as
     from person p
              left join tb_order o on p.id = o.person_id
     where p.id >= 2025111221041002;
-
+-- 插入数据
 insert into person
 values (null, '六', '张', '北京', '188456578239', 'zhaoliu@qq.com');
-
+-- 插入数据
 insert into tb_order
 values (null, 'order_3f40h899', 2025111221041005, null);
-
+-- 去重查询[后面列的组合重复, 才算一个重复]
 select distinct first_name, address
 from person
 limit 0,3;
+-- 去重查询
 select distinct first_name, address
 from person
 limit 3 offset 1;
-
+-- 查询所有
 select *
 from view_person_left_join_order;
 
--- date
-select now();
-select curdate();
-select curtime();
-select date(now());
-select extract(year from now());
-select extract(second from now());
-select date_add(curdate(), interval 3 day);
-select date_sub(curdate(), interval 3 day);
-select datediff('2025-11-11', '2025-11-19');
+-- date函数
+select now(); -- 当前日期和时间
+select curdate(); -- 当前日期
+select curtime(); -- 当前时间
+select date(now()); -- 获取当前日期
+select extract(year from now()); -- 提取时间
+select extract(day from now()); -- 提取天
+select extract(second from now()); -- 提取秒
+select date_add(curdate(), interval 3 day); -- 三天后
+select date_sub(curdate(), interval 3 day); -- 三天前
+select datediff('2025-11-11', '2025-11-19'); -- 计算天数差
 select date_format(curtime(), '%Y-%m-%d %H:%m:%s');
+-- 格式化时间
 
+-- 查看建表语句
 show create table tb_order;
+-- 修改表结构, 添加列
 alter table tb_order
     add column create_time datetime not null default now();
-
+-- 1天前
 select date_sub(curdate(), interval 1 day);
+-- 查询所有
 select *
 from tb_order;
+-- 查询所有
 select *
 from tb_order o
 where o.create_time between
           '2025-11-13 00:00:00'
           and '2025-11-14 23:59::00';
-
+-- 查询所有
 select *
 from tb_order o
 where o.create_time between
           date_sub(curdate(), interval 1 day)
           and curdate();
 -- null
+-- 查看建表语句
 show create table person;
+-- 查询所有
 select *
 from person;
+-- 插入数据
 insert into person
 values (null, '云', null, '苏州', '18834569845', 'zhaoyun@qq.com'),
        (null, null, '张', '杭州', '18834561234', 'zhangfei@qq.com');
-
+-- 查询所有
 select *
 from person
 where first_name is null;
+-- 查询所有
 select *
 from person
 where last_name is null;
-
+-- 更新表数据
 update person p
 set p.address = '杭州'
 where p.address = '合肥';
-
+-- 查询所有
 select *
 from person p;
+-- 更新表数据
 update person p
 set p.address = null
 where p.address = '北京';
-
+-- 查询所有
 select *
 from person p
 where p.address is not null;
 
 -- null 函数
+-- 删除表
 drop table if exists product;
+-- 创建表
 create table if not exists product
 (
     id         bigint primary key auto_increment,
@@ -1281,23 +1299,26 @@ create table if not exists product
     stock      int,
     sold_count int
 ) auto_increment = 202511161121001;
+-- 查看建表语句
 show create table product;
+-- 查询所有
 select *
 from product;
-
+-- 插入数据
 insert into product
 values (null, 'iPhone 15', 4799, 16, 13),
        (null, 'OPPO FindX9', 3799, 23, null),
        (null, 'VIVO X300', 3699, 9, 23);
-
+-- 查询
 select p.name as '产品名', p.unit_price * (p.stock + p.sold_count) as '商品总价'
 from product p;
 
 -- ifnull(), coalesce()
+-- 跳过null值
 select p.name                                             as '产品名',
        p.unit_price * (p.stock + ifnull(p.sold_count, 0)) as '商品总价'
 from product p;
-
+-- 跳过null值
 select p.name                                               as '产品名',
        p.unit_price * (p.stock + coalesce(p.sold_count, 0)) as '商品总价'
 from product p;
@@ -1306,39 +1327,52 @@ select coalesce(null, null, '1', 2, 4);
 
 -- sql函数
 -- avg(), count(), first(), last(), max(), min(), sum()
+-- first() last() MySQL不支持
+-- 查询所有
 select *
 from access_log;
+-- 查询平均值, 没有分组默认所有记录为一组
 select avg(al.count)
 from access_log al;
+-- 子查询
 select *
 from access_log al
 where count > (select avg(al2.count) from access_log al2);
 
--- count
+-- count, 计数查询
+-- 查询所有
 select *
 from access_log al;
+-- 查询一个
 select *
 from access_log al
 where site_id = 10001001011;
+-- 查询数量
 select count(*)
 from access_log
 where site_id = 10001001011;
+-- 查询总数
 select count(*)
 from access_log;
+-- distinct 查询
 select count(distinct al.site_id, count)
 from access_log al;
+-- 查询复合列的数量
 select count(al.site_id, al.count)
 from access_log al;
 
 -- first() , MySQL不支持, 需要使用 LIMIT 1
 select first(al.count)
 from access_log al;
+-- 限制数量
 select *
 from access_log al
 limit 1;
+-- 限制数量
 select *
 from websites
 limit 1;
+-- 限制数量
 select *
 from websites
 limit 1 offset 0;
@@ -1350,14 +1384,19 @@ limit 1;
 -- max()
 select *
 from websites w;
+-- 查询最大值
 select max(w.alexa)
 from websites w;
+-- 查询最小值
 select min(w.alexa)
 from websites w;
+-- 查询平均值
 select avg(w.alexa)
 from websites w;
+-- 求和
 select sum(w.alexa)
 from websites w;
+-- 查询所有
 select *
 from access_log al;
 -- 查询每个网站的访问量
@@ -1367,13 +1406,13 @@ group by al.site_id;
 -- 查询每月每个网站的访问量
 select al.date, al.site_id, w.name, sum(al.count)
 from access_log al
-         left join websites w on al.site_id = w.id
+         left join websites w on al.site_id = w.id -- 连接查询
 group by al.date, al.site_id;
 
 -- 查询每个网站每个月份的访问量
 select w.name, al.date, sum(al.count)
 from access_log al
-         left join websites w on al.site_id = w.id
+         left join websites w on al.site_id = w.id -- 连接查询
 group by al.site_id, al.date;
 
 -- group by
@@ -1381,35 +1420,37 @@ group by al.site_id, al.date;
 select site_id, sum(count)
 from access_log
 group by site_id;
+-- 分组统计, 求和
 select w.name, sum(al.count)
 from websites w
          left join access_log al on w.id = al.site_id
 where al.site_id is not null
 group by w.name;
-
+-- 分组统计求和
 select w.name, sum(al.count) as total
 from websites w
          left join access_log al on w.id = al.site_id
 where al.site_id is not null
 group by w.name;
-
+-- 查询所有
 select *
 from access_log;
+-- 查询所有
 select *
 from websites;
-
+-- 连接查询
 select *
 from access_log al
          left join websites w on al.site_id = w.id;
 
 -- having
+-- 分组过滤
 select w.name, w.url, sum(al.count) as total
 from access_log al
-         left join websites w
-                   on al.site_id = w.id
+         left join websites w on al.site_id = w.id
 group by al.site_id
 having total between 400 and 800;
-
+-- 分组过滤
 select w.name, w.url, sum(al.count) as total
 from access_log al
          left join websites w
@@ -1419,6 +1460,7 @@ group by al.site_id
 having total between 400 and 800;
 
 -- exists
+-- 判断是否存在, 存在则为true
 select exists(select * from access_log);
 
 -- 怎么执行的???
@@ -1427,24 +1469,25 @@ from access_log al,
      websites w
 where w.id = al.site_id
   and count < 300;
-
+-- 子查询
 select w.name, w.url
 from websites w
 where exists(select count
              from access_log al
              where w.id = al.site_id
                and count < 300);
-
+-- 子查询
 select w.name, w.url
 from websites w
 where not exists(select count
                  from access_log al
                  where w.id = al.site_id
                    and count > 200);
-
+-- 查询所有
 select *
 from websites;
 -- uppercase(), lowercase()
+-- 大小写转换
 select ucase(name),
        lcase(name),
        UCASE(url),
@@ -1454,25 +1497,31 @@ from websites w;
 -- mid(), substr(), substring()
 select *
 from websites;
+-- 字符串截取
 select mid(w.url, 1, 6)
 from websites w;
+-- 字符串截取
 select substr(w.url, 1, 5)
 from websites w;
+-- 字符串截取
 select substring(w.url, 1, 5)
 from websites w;
 
 -- length()
+-- 求字符串长度
 select w.name, length(w.name), w.url, length(w.url)
 from websites w;
 -- round()
+-- 四舍五入
 select round(avg(count), 2)
 from access_log al;
 
-select round(17 / 7, 2);
+select round(17 / 7, 1);
 select round(17 / 7, 0);
 select round(9 / 2, 0);
-select round(4.4, 0);
+select round(4.4, 1);
 -- now()
+-- 取时间中的某个时间类型
 select year(now()),
        month(now()),
        day(now()),
@@ -1482,10 +1531,13 @@ select year(now()),
        microsecond(now());
 
 -- format()
+-- 格式化，保留几位小数
 select format(123, 6);
+-- 日期格式化
 select date_format(now(), '%Y-%m-%d');
-
+-- 删除表
 drop table if exists tb_user;
+-- 创建表
 create table if not exists tb_user
 (
     id          bigint primary key auto_increment,
@@ -1500,10 +1552,12 @@ create table if not exists tb_user
     update_time datetime
 );
 
+-- 查询所有
 select *
 from tb_user;
 
 -- 向tb_user中插入10条数据
+-- 插入数据
 insert into tb_user (name, age, deleted, phone, email, create_user, create_time, update_user, update_time)
 values ('张三', 25, 0, '13800138001', 'zhangsan@example.com', 1, now(), 1, now()),
        ('李四', 30, 0, '13800138002', 'lisi@example.com', 1, now(), 1, now()),
@@ -1516,63 +1570,69 @@ values ('张三', 25, 0, '13800138001', 'zhangsan@example.com', 1, now(), 1, now
        ('郑一', 26, 0, '13800138009', 'zhengyi@example.com', 1, now(), 1, now()),
        ('王二', 33, 0, '13800138010', 'wanger@example.com', 1, now(), 1, now());
 
+-- 查询所有
 select *
 from tb_user u
 where u.id > 5
   and u.deleted = 0;
-
+-- 修改表结构，添加列
 alter table tb_user
     add column avatar varchar(255);
-
+-- 查询列
 select u.name as '姓名', u.phone as '手机'
 from tb_user u;
-
+-- 查询列
 select u.name as '姓名', u.age as '年龄'
 from tb_user u
 where u.age between 30 and 50;
-
+-- 删除数据库
 drop database if exists test_db;
+-- 创建数据库
 create database if not exists test_db;
-
+-- 查询所有
 select count(*)
 from customer;
+-- 查看执行计划
 explain
 select *
 from customer c
 where c.name like 'a1%';
+-- 创建索引
 create index idx_customer_name on customer (name);
+-- 删除索引
 alter table customer
     drop index idx_customer_name;
-
+-- 创建视图
 create view view_customer as
 select c.name, c.entry_date
 from customer c;
-
+-- 查询所有
 select *
 from view_customer;
-
+-- 查询所有
 select *
 from person;
-
+-- 根据条件删除
 delete
 from person p
 where p.address is null;
-
+-- 根据条件删除
 delete
 from tb_user u
 where u.deleted = 1;
-
+-- 查询所有
 select *
 from tb_user;
-
+-- 删除表
 drop table if exists test_table;
 
 -- 查找重复的人名
+-- 分组过滤查询
 select c.name, count(c.name) as counts
 from customer c
 group by c.name
 having counts > 1;
-
+-- 查看执行计划
 explain
 select *
 from customer c
@@ -1581,24 +1641,25 @@ where c.name in (select c.name
                  group by c.name
                  having count(c.name) > 1)
 order by c.name;
-
+-- 分组查询, 过滤
 select c.name, count(c.name)
 from customer c
 group by c.name
 having count(c.name) > 1;
 
 -- 向 customer 中添加5条数据
+-- 添加数据
 insert into customer (name)
 values ('宋江'),
        ('卢俊义'),
        ('吴用'),
        ('公孙胜'),
        ('关胜');
-
+-- 查询所有, 排序
 select *
 from customer c
 order by c.create_time desc;
-
+-- UNION查询, 模拟全外连接
 select *
 from student s
          left join enrollment e on s.student_id = e.student_id
@@ -1606,35 +1667,40 @@ union
 select *
 from student s
          right join enrollment e on s.student_id = e.student_id;
-
+-- 内连接查询
 select *
 from person p
          inner join tb_order o on p.id = o.person_id;
 -- 左表所有数据匹配右表数据，匹配不到结果为 <null>
+-- 左外连接
 select *
 from person p
          left join tb_order o on p.id = o.person_id;
 
 -- 右表所有数据匹配左表数据，匹配不到结果为 <null>
+-- 右外连接
 select *
 from person p
          right join tb_order o on p.id = o.person_id;
 
+-- 内连接
 select *
 from student s
          inner join
      enrollment e on s.student_id = e.student_id;
 -- 左表所有数据匹配右表数据，匹配不到结果为 <null>
+-- 左外连接
 select *
 from student s
          left join enrollment e on s.student_id = e.student_id;
 
 -- 右表所有数据匹配左表数据，匹配不到结果为 <null>
+-- 右外连接
 select *
 from student s
          right join enrollment e on s.student_id = e.student_id;
 
--- full join
+-- full join 全外连接
 select *
 from student s
          left join enrollment e on s.student_id = e.student_id
@@ -1646,7 +1712,7 @@ from student s
 -- 查询重名的人
 select count(c.name) as num1, count(distinct c.name) as num2
 from customer c;
-
+-- 查询所有
 select *
 from student;
 select *
@@ -1656,21 +1722,22 @@ from websites;
 select w.name, w.alexa as ags
 into student
 from websites w;
-
+-- 查询列
 select w.country
 from websites w;
 select a.country
 from apps a;
-
+-- UNION 模拟全外连接
 select w.country
 from websites w
 union
 -- all -- all 表示不去重
 select a.country
 from apps a;
-
+-- 查询所有
 select *
 from student;
+-- 更新表, 更新表数据
 update student
 set age = 99
 where age >= 25;
