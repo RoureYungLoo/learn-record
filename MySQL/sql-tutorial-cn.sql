@@ -1283,3 +1283,138 @@ where y.id % 2 != 0;
 select *
 from tb_y;
 
+select *
+from dependents ds
+where ds.employee_id = 105;
+
+delete
+from dependents ds
+where ds.employee_id = 105
+  and ds.first_name = 'Fred';
+
+delete
+from dependents ds
+where ds.dependent_id in (1, 2, 3);
+
+truncate tb_x;
+truncate tb_y;
+truncate table tb_a;
+truncate table tb_b;
+truncate table tb_a,tb_b,tb_x,tb_y;
+create table items
+(
+    id int auto_increment primary key
+);
+insert into items(id) value (default);
+select *
+from items;
+
+delimiter //
+-- 创建存储过程
+create procedure load_data(in param_in int)
+begin
+    declare i int;
+    set i = 0;
+    repeat
+        insert into items(id) values (default);
+        set i = i + 1;
+    until i >= param_in end repeat;
+end;
+//
+
+delimiter ;
+call load_data(2000000);
+select *
+from items
+order by id desc;
+
+-- SQL Data Type
+drop table if exists data_type;
+create table if not exists data_type
+(
+    id character,
+    id char,
+    id varchar(5),
+    id bigint,
+    id double,
+    id decimal,
+    id datetime,
+    id date
+);
+
+drop table if exists courses;
+create table if not exists courses
+(
+    id          bigint primary key auto_increment,
+    name        varchar(50)   not null,
+    description text,
+    duration    decimal(4, 2) not null
+);
+
+select *
+from candidates;
+drop table if exists candidates;
+create table if not exists candidates
+(
+    candidate_id bigint primary key auto_increment,
+    first_name   varchar(255) not null,
+    last_name    varchar(255) not null,
+    email        varchar(255) not null,
+    phone        varchar(255) not null
+);
+
+insert into candidates(candidate_id, first_name, last_name, email, phone)
+values (default, 'Jhob', 'Doe', 'email', '18823453456');
+
+select *
+from interviews;
+drop table if exists interviews;
+create table if not exists interviews
+(
+    interview_id   bigint primary key auto_increment,
+    hiring_manager varchar(255) not null,
+    interview_date timestamp
+);
+insert into interviews
+values (default, 'HM1', null);
+
+update interviews ivs
+set ivs.interview_date = now()
+where ivs.interview_date is null;
+
+alter table interviews
+    modify column interview_date timestamp not null;
+
+drop table if exists emergency_contacts;
+create table if not exists emergency_contacts
+(
+    id           bigint primary key auto_increment,
+    first_name   varchar(255) not null,
+    last_name    varchar(255) not null,
+    relationship varchar(50)  not null,
+    empolyeee_id int          not null
+);
+
+drop table if exists project;
+create table if not exists project
+(
+    -- project_id   bigint primary key auto_increment,
+    project_id   bigint,
+    project_name varchar(255) not null,
+    start_date   date         not null,
+    end_date     date         not null,
+    primary key (project_id)
+);
+
+drop table if exists project_assign;
+create table if not exists project_assign
+(
+    assign_id   bigint,
+    project_id  bigint,
+    employee_id bigint,
+    assign_date date not null,
+    -- primary key (project_id, employee_id)
+    constraint pk_project_id_employee_id primary key (project_id, employee_id)
+);
+
+-- 主键
