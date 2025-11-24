@@ -1323,7 +1323,7 @@ end;
 //
 
 delimiter ;
-call load_data(2000000);
+call load_data(20000);
 select *
 from items
 order by id desc;
@@ -1418,3 +1418,147 @@ create table if not exists project_assign
 );
 
 -- 主键
+show databases;
+use randolflu;
+show tables;
+
+drop table if exists project_milestones;
+create table if not exists project_milestones
+(
+    milestone_id   bigint,
+    project_id     bigint       not null,
+    milestone_name varchar(255) not null,
+    constraint project_milestone_pk primary key (milestone_id)
+);
+-- MySQL不支持
+alter table project_milestones
+    drop constraint project_milestone_pk;
+
+alter table project_milestones
+    drop primary key;
+
+alter table project_milestones
+    add constraint pk_milestone_id primary key (milestone_id);
+
+alter table project_milestones
+    add primary key (milestone_id);
+
+-- MYSQL不支持 IDENTITY
+drop table if exists ranks;
+create table if not exists ranks
+(
+    rank_id   bigint generated always as IDENTITY primary key,
+    rank_name varchar(255) not null
+);
+
+drop table if exists leave_requests;
+create table if not exists leave_requests
+(
+    id bigint
+);
+/* You can't delete all columns with ALTER TABLE; use DROP TABLE instead */
+alter table leave_requests
+    drop column id;
+
+alter table leave_requests
+    add column employee_id bigint      not null,
+    add column start_date  date        not null,
+    add column end_date    date        not null,
+    add column leave_type  varchar(50) not null;
+
+describe leave_requests;
+
+alter table leave_requests
+    add status         varchar(25),
+    add requested_date date;
+
+alter table leave_requests
+    drop column status,
+    drop column requested_date;
+
+drop table if exists people;
+create table if not exists people
+(
+    person_id     bigint primary key,
+    first_name    varchar(255) not null,
+    last_name     varchar(255) not null,
+    date_of_birth date         not null,
+    phone         varchar(25),
+    email         varchar(255)
+
+);
+describe people;
+alter table people
+    drop phone,
+    drop email;
+
+/*
+外键和主键
+外键是另外一个表的主键
+父表/主键表：主键所在的表
+子表/外键表：外键所在的表
+*/
+desc project; -- 主表
+describe project_milestones; -- 子表
+
+drop table if exists project;
+create table if not exists project
+(
+    project_id   bigint primary key auto_increment,
+    project_name varchar(255) not null,
+    start_date   date         not null,
+    end_date     date         not null
+);
+
+drop table if exists project_milestone;
+create table if not exists project_milestone
+(
+    milestone_id bigint primary key auto_increment,
+    milestone    varchar(255),
+    start_date   date   not null,
+    end_date     date   not null,
+    project_id   bigint not null,
+    constraint fk_project_id foreign key (project_id) references project (project_id) on update cascade on delete cascade
+);
+insert into project(project_name, start_date, end_date)
+values ('Super App', '2025-01-01', '2027-12-31'),
+       ('Tiny App', '2024-06-01', '2026-7-31');
+select *
+from project;
+
+insert into project_milestone(milestone, start_date, end_date, project_id)
+values ('Initiation', '2025-01-01', '2025-01-31', 1);
+
+select *
+from project p
+         inner join project_milestone pm on p.project_id = pm.project_id;
+
+drop table if exists project_task;
+create table if not exists project_task
+(
+    task_id      bigint primary key auto_increment,
+    title        varchar(255) not null,
+    completed    bool         not null default false,
+    start_date   date         not null,
+    end_date     date         not null,
+    milestone_id int
+);
+desc project_task;
+alter table project_task
+    modify column milestone_id bigint;
+alter table project_task
+    add constraint fk_milestone_id foreign key (milestone_id)
+        references project_milestone (milestone_id)
+        on delete cascade
+        on update cascade;
+
+alter table project_task
+    drop constraint fk_milestone_id;
+/*
+删除操作
+    restrict：子表有数据，主表不能删除子表外键列对应的行
+    set null: 子表有数据，主表删除数据后，子表数据外键值设置为 NULL
+    set default：子表有数据，主表删除数据后，子表数据外键值设置为外键列类型的默认值
+    cascade：子表有数据，主表删除数据后，子表会同步删除数据
+*/
+
