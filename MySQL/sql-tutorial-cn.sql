@@ -33,7 +33,7 @@ CREATE TABLE if not exists locations
 drop table if exists jobs;
 CREATE TABLE if not exists jobs
 (
-    job_id     INT(11) AUTO_INCREMENT PRIMARY KEY,
+    job_id     bigint(11) AUTO_INCREMENT PRIMARY KEY,
     job_title  VARCHAR(35) NOT NULL,
     min_salary DECIMAL(8, 2) DEFAULT NULL,
     max_salary DECIMAL(8, 2) DEFAULT NULL
@@ -1562,3 +1562,199 @@ alter table project_task
     cascade：子表有数据，主表删除数据后，子表会同步删除数据
 */
 
+drop table if exists headhunter;
+create table if not exists headhunter
+(
+    id         bigint primary key auto_increment,
+    first_name varchar(255) not null,
+    last_name  varchar(255) not null,
+    email      varchar(255) not null unique
+);
+
+insert into headhunter(first_name, last_name, email)
+VALUES ('si', 'li', 'lisi@qq.com'),
+       ('san', 'zhangsan', 'zhansan@qq.com');
+
+drop table if exists users;
+create table if not exists users
+(
+    id       bigint primary key auto_increment,
+    username varchar(25) not null,
+    password text        not null,
+    phone    varchar(20),
+    constraint uk_username unique (username)
+);
+
+insert into users(username, password, phone) value
+    ('lisi', '123456', '18823459843');
+
+alter table users
+    add constraint uk_phone unique (phone);
+
+alter table users
+    add constraint uk_uname_phone unique (username, phone);
+
+alter table users
+    add column id_card varchar(50) not null unique;
+
+desc users;
+
+alter table users
+    drop constraint uk_phone,
+    drop constraint uk_uname_phone,
+    drop constraint uk_username;
+
+drop table if exists offers;
+create table if not exists offers
+(
+    offer_id   bigint primary key auto_increment,
+    offer_date date           not null,
+    job_id     int            not null,
+    candidate  varchar(255)   not null,
+    salary     decimal(19, 2) not null check ( salary >= 0 ),
+    foreign key (job_id) references jobs (job_id) on delete cascade
+);
+
+insert into offers(offer_date, job_id, candidate, salary)
+    value ('2024-09-10', 1, 'Lisi', 1000);
+
+desc offers;
+select *
+from offers;
+
+drop table if exists job_postings;
+create table if not exists job_postings
+(
+    id           bigint primary key auto_increment,
+    job_title    varchar(255) not null,
+    description  text,
+    min_salary   dec(10, 2)   not null,
+    max_salary   dec(10, 2)   not null,
+    posting_date date,
+    closing_date date,
+    -- check ( min_salary > 0 and min_salary <= max_salary ),
+    -- check ( closing_date >= job_postings.posting_date )
+    constraint ck_salary check ( min_salary > 0 and min_salary <= max_salary ),
+    constraint ck_date check ( closing_date <= posting_date )
+);
+
+desc job_postings;
+
+drop table if exists hires;
+create table if not exists hires
+(
+    hire_id    bigint primary key auto_increment,
+    offer_id   bigint not null,
+    hire_date  date   not null,
+    start_date date   not null,
+    constraint ck_start_hire_date check ( start_date >= hire_date )
+);
+select *
+from offers;
+insert into hires(offer_id, hire_date, start_date)
+    value (2, '2025-11-23', '2025-11-24');
+select *
+from hires;
+
+drop table if exists travel_requests;
+create table if not exists travel_requests
+(
+    request_id  bigint,
+    employee_id int,
+    destination varchar(255),
+    end_date    date,
+    purpose     text,
+    status      varchar(20),
+    note        text
+);
+
+desc travel_requests;
+
+alter table travel_requests
+    add column start_date date;
+alter table travel_requests
+    modify column start_date date not null;
+
+alter table travel_requests
+    drop column note;
+
+alter table travel_requests
+    modify column purpose varchar(255) not null;
+
+alter table travel_requests
+    rename column status to approval_status;
+
+alter table travel_requests
+    add constraint ck_dates check ( end_date >= start_date );
+
+alter table travel_requests
+    drop constraint ck_dates;
+
+alter table travel_requests
+    add constraint pk_request_id primary key (request_id);
+
+alter table travel_requests
+    drop constraint pk_request_id;
+
+alter table travel_requests
+    drop index pk_request_id;
+
+alter table travel_requests
+    drop primary key;
+
+alter table travel_requests
+    add constraint fk_employee_id foreign key (employee_id) references employees (employee_id);
+
+alter table travel_requests
+    drop constraint fk_employee_id;
+
+alter table travel_requests rename to requests;
+
+create view view_employee_contacts as
+select e.first_name,
+       e.last_name,
+       e.email,
+       e.phone_number,
+       concat(ds.first_name, ' ', ds.last_name) 'relation_name'
+from employees e
+         inner join dependents ds on e.employee_id = ds.employee_id;
+
+select *
+from view_employee_contacts;
+
+desc view_employee_contacts;
+
+create view view_demployee_department as
+select concat(e.first_name, ' ', e.last_name) 'empName',
+       d.department_name                      'deptName'
+from employees e
+         inner join departments d on e.department_id = d.department_id;
+
+select *
+from view_demployee_department;
+
+create view view_emp_job_salary(first_name, last_name, jobName, salary) as
+select first_name, last_name, job_title 'jobName', salary
+from employees e
+         inner join jobs j on e.job_id = j.job_id;
+
+select *
+from view_emp_job_salary;
+
+create or replace view payroll(姓, 名, 部门, 职位, 工资)
+as
+select first_name      姓,
+       last_name       名,
+       department_name 部门,
+       job_title       职位,
+       salary          工资
+from employees e
+         inner join jobs j on e.job_id = j.job_id
+         inner join departments d on e.department_id = d.department_id;
+
+select *
+from payroll;
+
+drop view if exists payroll;
+
+/* trigger */
