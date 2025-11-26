@@ -1757,4 +1757,227 @@ from payroll;
 
 drop view if exists payroll;
 
-/* trigger */
+/* trigger，有点类似 监听器，看门狗，handler等， */
+
+drop table if exists salary_changes;
+create table if not exists salary_changes
+(
+    employee_id bigint auto_increment,
+    changed_at  timestamp default current_timestamp,
+    old_salary  decimal(10, 2),
+    new_salary  decimal(10, 2),
+    primary key (employee_id, changed_at)
+);
+
+delimiter //
+create trigger if not exists log_salary_changes
+    before update
+    on employees
+    for each row
+begin
+    if NEW.salary != OLD.salary then
+        insert into salary_changes(employee_id, old_salary, new_salary)
+        values (NEW.employee_id, OLD.salary, NEW.salary);
+    end if;
+end
+//
+delimiter ;
+
+select *
+from employees e
+where e.employee_id = 102;
+update employees e
+set e.salary = e.salary * .105
+where e.employee_id = 102;
+select *
+from salary_changes;
+
+delimiter //
+create trigger if not exists log_salary_changes_new
+    before update
+    on employees
+    for each row
+begin
+    if NEW.salary != OLD.salary then
+        insert into salary_changes(employee_id,
+                                   old_salary,
+                                   new_salary,
+                                   changed_at)
+        values (NEW.employee_id, OLD.salary, NEW.salary, date_add(now(), interval 1 minute));
+    end if;
+end
+//
+delimiter ;
+
+update employees e
+set e.salary = e.salary * 1.05
+where e.employee_id = 102;
+
+drop trigger if exists log_salary_changes;
+drop trigger if exists log_salary_changes_new;
+
+/* case */
+select 1;
+
+select concat(e.first_name, ' ', e.last_name) as Name,
+       case year(now()) - year(e.hire_date)
+           when 0 then '刚入职'
+           when 1 then '1周年'
+           when 2 then '2周年'
+           when 3 then '3周年'
+           when 4 then '4周年'
+           when 5 then '5周年'
+           when 6 then '6周年'
+           when 7 then '7周年'
+           when 8 then '8周年'
+           when 9 then '9周年'
+           when 10 then '10周年'
+           when 11 then '11周年'
+           when 12 then '12周年'
+           -- else
+           --    concat(year(now()) - year(e.hire_date), '周年')
+           end
+                                              as zhounian
+from employees e;
+
+select year(e.hire_date) - year(now())
+from employees e;
+
+with result as (select concat(e.first_name, ' ', e.last_name) as Name,
+                       case year(now()) - year(e.hire_date)
+                           when 0 then '刚入职'
+                           when 1 then '1周年'
+                           when 2 then '2周年'
+                           when 3 then '3周年'
+                           when 4 then '4周年'
+                           when 5 then '5周年'
+                           when 6 then '6周年'
+                           when 7 then '7周年'
+                           when 8 then '8周年'
+                           when 9 then '9周年'
+                           when 10 then '10周年'
+                           when 11 then '11周年'
+                           when 12 then '12周年'
+                           -- else
+                           --    concat(year(now()) - year(e.hire_date), '周年')
+                           end
+                                                              as zhounian
+                from employees e)
+select *
+from result
+where result.zhounian is not null;
+
+select concat(e.first_name, ' ', e.last_name) as Name,
+       case
+           when e.salary < 5000 then '低工资'
+           when e.salary >= 5000 and e.salary <= 10000 then '中等工资'
+           when e.salary <= 20000 then '高工资'
+           else
+               '暴发户'
+           end                                as '工资水平'
+
+from employees e
+order by e.salary desc;
+
+/* 短路求值 */
+select coalesce(null, 1);
+select coalesce(null, null, null, 3);
+select coalesce(null, null, null, null);
+select 1 / 0; /* <null> */
+select coalesce(1, 1 / 0);
+
+drop table if exists bonuses;
+create table if not exists bonuses
+(
+    employee_id bigint primary key,
+    amount      decimal(10, 2) null
+);
+
+delimiter //
+create procedure if not exists init_bonus_data(in n int)
+begin
+    declare i int default 0;
+    truncate bonuses;
+    repeat
+        insert into bonuses(employee_id, amount)
+            value (100 + i,
+                   case i % 2
+                       when 0 then NULL
+                       when 1 then i * 500
+                       end
+            );
+        set i = i + 1;
+    until i > n
+        end repeat;
+end;
+//
+delimiter ;
+
+call init_bonus_data(5);
+drop procedure if exists init_bonus_data;
+select *
+from bonuses;
+
+select concat(e.first_name, ' ', e.last_name) as Name,
+       e.salary                               as Salary,
+       e.salary + coalesce(b.amount, 0)       as TotalSalry
+from employees e
+         inner join bonuses b on e.employee_id = b.employee_id;
+
+select concat(e.first_name, ' ', e.last_name) as Name,
+       e.salary                               as 'Salary',
+       e.salary +
+       case
+           when b.amount is not null then b.amount
+           else 0 end                         as 'TotalSalary'
+from employees e
+         inner join bonuses b on e.employee_id = b.employee_id;
+
+select coalesce(arg1, arg2, arg3) as 'res';
+select case
+           when arg1 is not null then arg1
+           when arg2 is not null then arg2
+           else arg3
+           end as 'res';
+
+select nullif(1, 1);
+select nullif(1, 2); /* 参数相等返回 null, 否则返回 arg1 */
+select case
+           when arg1 = arg2 then null
+           else arg1 end as res;
+select nullif(null, null);
+select nullif(1, null);
+select nullif(1 / 0, null);
+
+drop table if exists articles;
+create table if not exists articles
+(
+    article_id bigint primary key,
+    title      varchar(255) not null,
+    excerpt    varchar(255),
+    body       text
+);
+
+INSERT INTO articles (article_id, title, excerpt, body)
+VALUES (1,
+        'SQL NULLIF function',
+        '',
+        'This tutorial shows you how to use the SQL NULLIF function'),
+       (2,
+        'SQL tutorial',
+        'Learn how to use SQL at sqltutorial.org',
+        'You will learn SQL with practical examples'),
+       (3,
+        'SQL query',
+        NULL,
+        'You will learn how to use SELECT statement to query data from tables');
+
+select *
+from articles;
+select a.article_id, a.title, a.excerpt
+from articles a;
+
+select a.article_id,
+       a.title,
+       coalesce(nullif(a.excerpt, ''), left(a.body, 50)) as subTitle
+from articles a;
