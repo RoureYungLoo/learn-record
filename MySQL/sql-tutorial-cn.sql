@@ -1981,3 +1981,124 @@ select a.article_id,
        a.title,
        coalesce(nullif(a.excerpt, ''), left(a.body, 50)) as subTitle
 from articles a;
+
+/* 子查询 : 先执行内部查询, 然后执行外部查询*/
+
+select concat(e.first_name, ' ', e.last_name) as Name, e.salary
+from employees e
+where e.salary =
+      (select max(salary)
+       from employees);
+
+select concat(e.first_name, ' ', e.last_name) as Name, e.salary
+from employees e
+where e.salary > (select avg(salary) from employees)
+order by e.salary desc;
+
+select concat(e.first_name, ' ', e.last_name) as Name
+from employees e
+where e.employee_id in
+      (select employee_id
+       from employees
+                inner join jobs on employees.job_id = jobs.job_id
+       where job_title like concat('%', 'Sales', '%'));
+
+select *
+from employees e
+where e.job_id in (select j.job_id
+                   from jobs j
+                   where j.job_title like concat('%', 'Sales', '%'));
+
+select e.first_name,
+       e.last_name,
+       e.salary,
+       (select round(avg(salary), 2) as avg_salary
+        from employees)
+from employees e
+order by salary desc;
+
+select round(avg(deptTotalSalary), 0) as deptAvgSalary
+from (select department_id, sum(salary) as deptTotalSalary
+      from employees
+      group by department_id) a;
+
+select e.first_name, e.last_name, e.salary, r.avgSalary
+from employees e
+         inner join
+     (select round(avg(salary), 2) as avgSalary
+      from employees) r on e.salary > r.avgSalary
+order by e.salary desc;
+
+/* 相关子查询: 重复执行, 外部查询的每一行都会执行一次内部子查询 */
+
+select *
+from employees e
+where e.department_id in
+      (select e.department_id as deptAvgSalay
+       from employees e
+       group by e.department_id)
+having e.salary > round(avg(e.salary), 2);
+
+/* 查找薪资大于所在部门的平均薪资的员工 */
+select e1.first_name, e1.last_name, salary
+from employees e1
+where salary > (select avg(salary)
+                from employees e2
+                where e1.department_id = e2.department_id)
+order by department_id;
+
+select e.first_name, e.last_name
+from employees e
+where exists(select dependent_id
+             from dependents d
+             where e.employee_id = d.employee_id);
+
+select *
+from employees e
+where not exists(select 1
+                 from dependents d
+                 where e.employee_id = d.employee_id);
+
+/* 这可能造成数据有偏差 */
+select exists(select null);
+
+SELECT max(salary) as maxSalary, min(salary) as minSalary
+FROM employees
+where department_id = 3;
+
+select e.first_name, e.last_name, e.salary
+from employees e
+where salary > all (select salary
+                    from employees
+                    where department_id = 3)
+order by salary;
+
+select e.first_name, e.last_name, e.salary
+from employees e
+where e.salary >= all (select salary
+                       from employees
+                       where department_id = 3);
+
+select e.first_name, e.last_name, e.salary
+from employees e
+where e.salary < all (select tmp.deptAvgSalary
+                      from (select department_id,
+                                   avg(salary) as deptAvgSalary
+                            from employees
+                            group by department_id) tmp)
+order by e.salary;
+
+select e.first_name, e.last_name, e.salary
+from employees e
+where e.salary <= all
+      (select tmp.deptMaxSalary
+       from (select e1.department_id, max(e1.salary) as deptMaxSalary from employees e1 group by e1.department_id) tmp);
+
+select e.salary, e.first_name, e.last_name
+from employees e
+where e.salary <> all (select tmp.minSalary
+                       from (select e1.department_id, min(e1.salary) minSalary
+                             from employees e1
+                             group by e1.department_id) tmp);
+
+/* any */
