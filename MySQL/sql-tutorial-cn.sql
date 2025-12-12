@@ -2102,3 +2102,34 @@ where e.salary <> all (select tmp.minSalary
                              group by e1.department_id) tmp);
 
 /* any */
+select e.salary
+from employees e
+where e.department_id = 2;
+
+select concat(e.first_name, ' ', e.last_name) as empName, e.salary, e.department_id
+from employees e
+where e.salary = any (select salary from employees where department_id = 2);
+
+select concat(e.first_name, ' ', e.last_name) as empName, e.salary, e.department_id
+from employees e
+where e.salary <> any (select salary from employees where department_id = 2);
+
+select concat(e.first_name, ' ', e.last_name) as empName, e.salary, e.department_id
+from employees e
+where e.salary > any (select salary from employees where department_id = 2)
+order by e.salary;
+
+select concat(e.first_name, ' ', e.last_name) as empName, e.salary, e.department_id
+from employees e
+where e.salary >= any (select salary from employees where department_id = 2)
+order by e.salary;
+
+select concat(e.first_name, ' ', e.last_name) as empName, e.salary, e.department_id
+from employees e
+where e.salary < any (select salary from employees where department_id = 2)
+order by e.salary desc;
+
+select concat(e.first_name, ' ', e.last_name) as empName, e.salary, e.department_id
+from employees e
+where e.salary <= any (select salary from employees where department_id = 2)
+order by e.salary desc;
