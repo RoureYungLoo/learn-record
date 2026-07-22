@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/mythread.dir/mythread.cpp.o -o mythread 

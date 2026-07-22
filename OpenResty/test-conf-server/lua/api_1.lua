@@ -1,1 +1,0 @@
-ngx.print('api1')
